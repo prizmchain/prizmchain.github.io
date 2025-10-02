@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PicoBrain Support</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+        }
+
+        h1 {
+            color: #667eea;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 16px;
+        }
+
+        .section {
+            margin: 30px 0;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 24px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        .contact-box {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+
+        .contact-box p {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        .contact-box a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+
+        .faq-item {
+            margin: 20px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .faq-item h3 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .faq-item p {
+            color: #555;
+            line-height: 1.8;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            color: #999;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">🧠</div>
+            <h1>PicoBrain Support</h1>
+            <p class="subtitle">We're here to help!</p>
+        </div>
+
+        <div class="section">
+            <h2>📧 Contact Us</h2>
+            <div class="contact-box">
+                <p><strong>Email Support:</strong></p>
+                <p><a href="mailto:support@picobrain.app">support@picobrain.app</a></p>
+                <p style="margin-top: 20px; font-size: 14px; color: #666;">
+                    We typically respond within 24-48 hours. Please include your device model and iOS version when reporting issues.
+                </p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>❓ Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <h3>How do I reset my progress?</h3>
+                <p>Go to <strong>Settings → Data → Reset Data</strong>. Note: This action cannot be undone!</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Games not loading properly?</h3>
+                <p>Try these steps:</p>
+                <p>1. Force close the app and restart it<br>
+                2. Restart your device<br>
+                3. Make sure you have the latest version from the App Store<br>
+                4. If the issue persists, contact us at the email above</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How does the daily challenge system work?</h3>
+                <p>Each game uses a unique "seed" that changes daily. This means everyone gets the same puzzles on the same day, making it fair and competitive!</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Can I play offline?</h3>
+                <p>Yes! All games work completely offline. No internet connection required.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How do I change the language?</h3>
+                <p>PicoBrain automatically uses your device's language setting. Currently supports English and Korean.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How can I turn off ads?</h3>
+                <p>Ads appear after completing games to support the app's development. We've designed them to be non-intrusive and appear only after you've finished playing.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🐛 Report a Bug</h2>
+            <div class="contact-box">
+                <p>Found a bug? Please email us with:</p>
+                <p>• Your device model (e.g., iPhone 14 Pro)<br>
+                • iOS version (e.g., iOS 17.1)<br>
+                • Description of the issue<br>
+                • Steps to reproduce the problem<br>
+                • Screenshots (if applicable)</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>💡 Feature Requests</h2>
+            <div class="contact-box">
+                <p>Have an idea to make PicoBrain better? We'd love to hear it! Send your suggestions to <a href="mailto:support@picobrain.app">support@picobrain.app</a></p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>PicoBrain © 2025 | Daily Brain Training Games</p>
+            <p style="margin-top: 10px;">Made with 🧠 and ❤️</p>
+        </div>
+    </div>
+</body>
+</html>
