@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookStamp - 나만의 독서 기록 앱</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #1A0F08 0%, #2C1810 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            color: #8B4513;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+
+        .icon {
+            text-align: center;
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            margin: 30px 0;
+        }
+
+        .section h2 {
+            color: #5C3D2E;
+            border-left: 4px solid #D4AF37;
+            padding-left: 15px;
+            margin-bottom: 15px;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .feature-card {
+            background: #F8F5F0;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #D4AF37;
+        }
+
+        .feature-card h3 {
+            color: #8B4513;
+            margin-bottom: 10px;
+        }
+
+        .feature-card p {
+            color: #666;
+            font-size: 0.95em;
+        }
+
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .tech-badge {
+            background: #8B4513;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            text-align: center;
+            color: #999;
+        }
+
+        .cta {
+            background: linear-gradient(135deg, #8B4513, #5C3D2E);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 30px 0;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon">📚</div>
+        <h1>BookStamp</h1>
+        <p class="subtitle">당신만의 고서 서재를 만들어보세요</p>
+
+        <div class="section">
+            <h2>📖 프로젝트 소개</h2>
+            <p>
+                BookStamp는 독서 기록을 아름답고 직관적으로 관리할 수 있는 모바일 애플리케이션입니다.
+                고풍스러운 책장 디자인과 함께 당신의 독서 여정을 기록하고,
+                읽은 책들을 시각적으로 아름답게 보관할 수 있습니다.
+            </p>
+        </div>
+
+        <div class="cta">
+            🎯 알라딘 OpenAPI를 활용한 책 검색 서비스 개발 중
+        </div>
+
+        <div class="section">
+            <h2>✨ 주요 기능</h2>
+            <div class="features">
+                <div class="feature-card">
+                    <h3>🔍 스마트 검색</h3>
+                    <p>알라딘 API와 Google Books API를 활용한 빠르고 정확한 책 검색</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📚 비주얼 서재</h3>
+                    <p>고풍스러운 책장에 책을 배치하는 아름다운 UI/UX</p>
+                </div>
+                <div class="feature-card">
+                    <h3>📝 독서 기록</h3>
+                    <p>책에 대한 메모와 독서 횟수를 기록하고 관리</p>
+                </div>
+                <div class="feature-card">
+                    <h3>🎨 표지 자동 수집</h3>
+                    <p>책 검색 시 표지 이미지 자동 다운로드 및 저장</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🛠 기술 스택</h2>
+            <div class="tech-stack">
+                <span class="tech-badge">React Native</span>
+                <span class="tech-badge">Expo</span>
+                <span class="tech-badge">TypeScript</span>
+                <span class="tech-badge">SQLite</span>
+                <span class="tech-badge">알라딘 OpenAPI</span>
+                <span class="tech-badge">Google Books API</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🎯 개발 목적</h2>
+            <p>
+                독서를 좋아하는 사람들이 자신의 독서 기록을 아름답고 의미있게 보관할 수 있도록 돕고자 합니다.
+                단순한 리스트가 아닌, 시각적으로 만족스러운 나만의 서재를 디지털 공간에 구현하는 것이 목표입니다.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>📱 플랫폼</h2>
+            <p>
+                • iOS (App Store 출시 예정)<br>
+                • Android (Google Play 출시 예정)
+            </p>
+        </div>
+
+        <div class="footer">
+            <p>© 2024 BookStamp - 개발 진행 중</p>
+            <p style="margin-top: 10px;">알라딘 OpenAPI를 활용하여 더 나은 독서 경험을 제공합니다</p>
+        </div>
+    </div>
+</body>
+</html>
