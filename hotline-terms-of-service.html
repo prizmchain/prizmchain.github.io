@@ -1,0 +1,364 @@
+<!DOCTYPE html>                                                                                                                                                                 
+  <html lang="en">
+  <head>                                                                                                                                                                          
+    <meta charset="UTF-8">         
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">                                                                                                        
+    <title>Hotline - Terms of Service</title>                                                                                                                                     
+    <style>                                                                                                                                                                       
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        line-height: 1.8;
+        color: #333;
+        background: linear-gradient(135deg, #1A1A1A 0%, #330000 100%);
+        min-height: 100vh;
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 900px;
+        margin: 0 auto;
+        background: white;
+        border-radius: 20px;
+        padding: 40px;
+        box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      }
+
+      .header {
+        text-align: center;
+        margin-bottom: 40px;
+      }
+
+      .logo {
+        width: 80px;
+        height: 80px;
+        background: linear-gradient(135deg, #FF3B30 0%, #8B0000 100%);
+        border-radius: 20px;
+        margin: 0 auto 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
+      }
+
+      h1 {
+        color: #FF3B30;
+        font-size: 32px;
+        margin-bottom: 10px;
+      }
+
+      .last-updated {
+        color: #999;
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        color: #333;
+        font-size: 24px;
+        margin: 30px 0 15px 0;
+        padding-bottom: 10px;
+        border-bottom: 2px solid #FF3B30;
+      }
+
+      h3 {
+        color: #FF3B30;
+        font-size: 20px;
+        margin: 25px 0 10px 0;
+      }
+
+      p {
+        margin: 15px 0;
+        color: #555;
+      }
+
+      ul {
+        margin: 15px 0;
+        padding-left: 30px;
+      }
+
+      li {
+        margin: 10px 0;
+        color: #555;
+      }
+
+      .section {
+        background: #f8f9fa;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px 0;
+      }
+
+      .contact-box {
+        background: #fff0f0;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px 0;
+        border-left: 4px solid #FF3B30;
+      }
+
+      .contact-box a {
+        color: #FF3B30;
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      .contact-box a:hover {
+        text-decoration: underline;
+      }
+
+      .footer {
+        text-align: center;
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid #e0e0e0;
+        color: #999;
+        font-size: 14px;
+      }
+
+      strong {
+        color: #FF3B30;
+      }
+
+      .warning-box {
+        background: #fff3e0;
+        border-left: 4px solid #ff9800;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 5px;
+      }
+
+      .warning-box h3 {
+        color: #ff9800;
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">🚨</div>
+        <h1>Terms of Service</h1>
+        <p style="font-size: 18px; color: #FF3B30; font-weight: 600;">Hotline - Agent Alert</p>
+        <p class="last-updated">Last Updated: February 20, 2026</p>
+      </div>
+
+      <h2>1. Acceptance of Terms</h2>
+      <p>By downloading, installing, or using Hotline ("the App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not
+  use the App.</p>
+
+      <h2>2. License to Use</h2>
+      <p>We grant you a limited, non-exclusive, non-transferable, revocable license to use Hotline for personal and commercial purposes, subject to these Terms.</p>
+
+      <h3>You May:</h3>
+      <ul>
+        <li>Monitor your AI agents and trading bots via webhook integration</li>
+        <li>Receive push notifications when your bots go silent or trigger alerts</li>
+        <li>Use the Kill Switch to send emergency stop commands to your bots</li>
+        <li>View real-time alert logs within the app</li>
+        <li>Use the provided API to integrate with any bot or automated process</li>
+      </ul>
+
+      <h3>You May NOT:</h3>
+      <ul>
+        <li>Copy, modify, or distribute the App</li>
+        <li>Reverse engineer or decompile the App</li>
+        <li>Use the App for illegal purposes</li>
+        <li>Attempt to hack or compromise the App's security or backend infrastructure</li>
+        <li>Resell the App or its features</li>
+        <li>Abuse the webhook API (e.g., excessive requests, spamming)</li>
+        <li>Use the App to monitor systems you do not own or have authorization to manage</li>
+      </ul>
+
+      <h2>3. Description of Service</h2>
+      <p>Hotline is a Dead Man's Switch and monitoring tool for AI agents and crypto trading bots. The App provides:</p>
+      <ul>
+        <li><strong>Webhook API:</strong> Your bot sends periodic heartbeat pings to Hotline</li>
+        <li><strong>Dead Man's Switch:</strong> Automatic detection when your bot stops responding</li>
+        <li><strong>Push Notifications:</strong> Real-time alerts via Apple Push Notification service (APNs)</li>
+        <li><strong>Kill Switch:</strong> One-tap emergency shutdown command sent to your bot</li>
+        <li><strong>Alert Logs:</strong> History of info, warning, critical, and kill events</li>
+      </ul>
+
+      <h2>4. Account and Authentication</h2>
+      <p>Hotline uses anonymous authentication:</p>
+      <ul>
+        <li>No email, password, or personal information is required</li>
+        <li>A random anonymous session is created when you first use the App</li>
+        <li>Your session is tied to your device — if you uninstall the App, your session is lost</li>
+        <li>You are responsible for keeping your API key secure</li>
+      </ul>
+
+      <h2>5. API Usage</h2>
+      <div class="warning-box">
+        <h3>⚠️  Important: API Key Security</h3>
+        <p>Your API key is used to authenticate webhook requests from your bot to Hotline. By using the API, you acknowledge:</p>
+        <ul>
+          <li>You are responsible for keeping your API key confidential</li>
+          <li>Do NOT share your API key publicly or in source code repositories</li>
+          <li>You can regenerate your API key at any time in the App settings</li>
+          <li>We are not responsible for unauthorized access caused by leaked API keys</li>
+        </ul>
+      </div>
+
+      <h3>5.1 Fair Use</h3>
+      <ul>
+        <li>The webhook API is intended for bot monitoring and heartbeat pings</li>
+        <li>Excessive or abusive API usage may result in rate limiting or suspension</li>
+        <li>The API should not be used to send spam or irrelevant notifications</li>
+      </ul>
+
+      <h2>6. Kill Switch</h2>
+      <p>The Kill Switch feature sends a stop command to your bot's configured endpoint:</p>
+      <ul>
+        <li>You are solely responsible for configuring the correct bot stop URL</li>
+        <li>We are not responsible for the behavior of your bot after receiving a kill command</li>
+        <li>The Kill Switch is a best-effort feature — delivery depends on your bot's availability and network conditions</li>
+        <li>We do not guarantee that the kill command will successfully stop your bot</li>
+      </ul>
+
+      <h2>7. Push Notifications</h2>
+      <ul>
+        <li>Push notifications are delivered via Apple Push Notification service (APNs)</li>
+        <li>Delivery depends on network conditions, iOS settings, and device state</li>
+        <li>We do not guarantee real-time or 100% delivery of notifications</li>
+        <li>Critical Alerts (if enabled) may bypass Do Not Disturb mode</li>
+        <li>You can disable notifications at any time in iOS Settings</li>
+      </ul>
+
+      <h2>8. Ownership of Data</h2>
+      <p><strong>You retain full ownership</strong> of all data associated with your account, including:</p>
+      <ul>
+        <li>Bot alert logs and messages</li>
+        <li>Device configuration and settings</li>
+        <li>API keys generated for your account</li>
+      </ul>
+      <p>We do NOT claim any rights to your data. You may request deletion at any time.</p>
+
+      <h2>9. Privacy and Data Storage</h2>
+      <p>Hotline collects minimal data to function:</p>
+      <ul>
+        <li><strong>Anonymous User ID:</strong> A random UUID — not linked to your identity</li>
+        <li><strong>Device Push Token:</strong> Used solely to deliver push notifications</li>
+        <li><strong>Bot Logs:</strong> Alert messages sent by your bot through the webhook API</li>
+        <li><strong>No Personal Information:</strong> We do not collect name, email, or phone number</li>
+      </ul>
+      <p>For full details, please read our <a href="privacy-policy.html">Privacy Policy</a>.</p>
+
+      <h2>10. Prohibited Uses</h2>
+      <p>You agree NOT to use Hotline for:</p>
+      <ul>
+        <li>Any illegal activities or purposes</li>
+        <li>Monitoring systems you do not own or have permission to manage</li>
+        <li>Sending malicious commands via the Kill Switch</li>
+        <li>Abusing the webhook API with excessive or spam requests</li>
+        <li>Interfering with the App's functionality or backend services</li>
+        <li>Any purpose that violates applicable laws or regulations</li>
+      </ul>
+
+      <h2>11. Third-Party Services</h2>
+      <p>Hotline integrates with the following services:</p>
+      <ul>
+        <li><strong>Supabase:</strong> Backend database, authentication, and serverless functions</li>
+        <li><strong>Apple Push Notification service (APNs):</strong> Push notification delivery</li>
+      </ul>
+      <p>Your use of these services is subject to their respective terms and privacy policies.</p>
+
+      <h2>12. Disclaimer of Warranties</h2>
+      <p>Hotline is provided "AS IS" and "AS AVAILABLE" without any warranties of any kind, either express or implied, including but not limited to:</p>
+      <ul>
+        <li>Merchantability</li>
+        <li>Fitness for a particular purpose</li>
+        <li>Non-infringement</li>
+        <li>Uninterrupted or error-free operation</li>
+        <li>Timely delivery of push notifications</li>
+        <li>Successful execution of Kill Switch commands</li>
+        <li>Detection of all bot failures or silent periods</li>
+      </ul>
+
+      <h2>13. Limitation of Liability</h2>
+      <div class="warning-box">
+        <h3>⚠️  Important: Financial Risk Disclaimer</h3>
+        <p>Hotline is a monitoring and alerting tool only. By using the App, you acknowledge:</p>
+        <ul>
+          <li>We are NOT responsible for any financial losses resulting from bot failures, missed alerts, or delayed notifications</li>
+          <li>We are NOT responsible for trading losses, liquidations, or any other financial consequences</li>
+          <li>You use Hotline as one layer of protection — it should NOT be your sole safeguard</li>
+          <li>You are solely responsible for your trading bots, AI agents, and automated systems</li>
+        </ul>
+      </div>
+      <p>To the maximum extent permitted by law:</p>
+      <ul>
+        <li>We are NOT liable for any indirect, incidental, special, or consequential damages</li>
+        <li>We are NOT liable for any financial losses related to bot monitoring</li>
+        <li>We are not responsible for missed notifications or failed kill commands</li>
+        <li>We are not responsible for loss of data</li>
+        <li>We are not responsible for device malfunction or iOS system errors</li>
+        <li>Our total liability shall not exceed USD $10</li>
+      </ul>
+
+      <h2>14. Changes to Terms</h2>
+      <p>We may modify these Terms at any time. We will notify you by:</p>
+      <ul>
+        <li>Updating the "Last Updated" date</li>
+        <li>Posting the new Terms at this URL</li>
+      </ul>
+      <p>Continued use of the App after changes constitutes acceptance of the new Terms.</p>
+
+      <h2>15. Termination</h2>
+      <p>We may suspend or terminate your access to Hotline if you:</p>
+      <ul>
+        <li>Violate these Terms</li>
+        <li>Engage in fraudulent activity</li>
+        <li>Abuse the App, API, or its features</li>
+        <li>Use the App for illegal purposes</li>
+      </ul>
+      <p>You may terminate your use at any time by uninstalling the App.</p>
+
+      <h2>16. Governing Law</h2>
+      <p>These Terms are governed by the laws of South Korea, without regard to conflict of law principles. Any disputes shall be resolved in the courts of South Korea.</p>
+
+      <h2>17. Contact Us</h2>
+      <div class="contact-box">
+        <p>For questions about these Terms of Service:</p>
+        <p><strong>Email:</strong> <a href="mailto:prizm_kr@hotmail.com">prizm_kr@hotmail.com</a></p>
+        <p><strong>Support:</strong> Available through App Store or email</p>
+      </div>
+
+      <div class="section">
+        <h3>Quick Summary</h3>
+        <p><strong>You Can:</strong></p>
+        <ul>
+          <li>Monitor your bots and receive push alerts</li>
+          <li>Use the Kill Switch to send emergency stop commands</li>
+          <li>Integrate any bot via the webhook API</li>
+          <li>Own and control all your data</li>
+        </ul>
+        <p><strong>You Cannot:</strong></p>
+        <ul>
+          <li>Reverse engineer the app</li>
+          <li>Use for illegal purposes or monitor others' systems</li>
+          <li>Abuse the API with spam or excessive requests</li>
+          <li>Resell the app or its features</li>
+        </ul>
+        <p><strong>Remember:</strong></p>
+        <ul>
+          <li>Keep your API key secure — do not share publicly</li>
+          <li>Hotline is a monitoring tool, not a guarantee against losses</li>
+          <li>Push notification delivery depends on network and iOS conditions</li>
+          <li>You are responsible for your bots and automated systems</li>
+          <li>You own all your data</li>
+        </ul>
+      </div>
+
+      <div class="footer">
+        <p>Hotline - Agent Alert &copy; 2026 Prizm | Dead Man's Switch for AI Agents</p>
+      </div>
+    </div>
+  </body>
+  </html>
