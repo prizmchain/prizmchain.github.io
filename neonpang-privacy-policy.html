@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeonPang - Privacy Policy</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --ink: #101522;
+      --muted: #5d6678;
+      --paper: #ffffff;
+      --line: #e6eaf2;
+      --soft: #f5f8ff;
+      --accent: #2f7cff;
+      --accent-2: #06c7d9;
+      --good: #16a879;
+      --warn: #f0a02f;
+      --danger: #e84f72;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.75;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(47, 124, 255, 0.22), transparent 32rem),
+        radial-gradient(circle at bottom right, rgba(6, 199, 217, 0.18), transparent 30rem),
+        #eef4ff;
+      min-height: 100vh;
+      padding: 24px;
+    }
+
+    .container {
+      width: min(920px, 100%);
+      margin: 0 auto;
+      background: var(--paper);
+      border: 1px solid rgba(230, 234, 242, 0.9);
+      border-radius: 24px;
+      box-shadow: 0 28px 80px rgba(28, 55, 110, 0.18);
+      overflow: hidden;
+    }
+
+    .hero {
+      padding: 48px 44px 36px;
+      background:
+        linear-gradient(135deg, rgba(47, 124, 255, 0.12), rgba(6, 199, 217, 0.08)),
+        #fbfdff;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand-row {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+
+    .logo {
+      width: 64px;
+      height: 64px;
+      border-radius: 18px;
+      background:
+        linear-gradient(135deg, #2f7cff 0%, #06c7d9 55%, #8cffd2 100%);
+      box-shadow: 0 16px 36px rgba(47, 124, 255, 0.28);
+      position: relative;
+      flex: 0 0 auto;
+    }
+
+    .logo::before,
+    .logo::after {
+      content: "";
+      position: absolute;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.92);
+    }
+
+    .logo::before {
+      width: 34px;
+      height: 12px;
+      left: 15px;
+      top: 18px;
+    }
+
+    .logo::after {
+      width: 12px;
+      height: 30px;
+      left: 26px;
+      top: 18px;
+    }
+
+    .app-name {
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: clamp(34px, 6vw, 56px);
+      line-height: 1.02;
+      letter-spacing: -0.04em;
+      margin-bottom: 14px;
+    }
+
+    .last-updated {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .content {
+      padding: 36px 44px 46px;
+    }
+
+    .notice {
+      border: 1px solid #cfe0ff;
+      background: #f2f7ff;
+      padding: 20px;
+      border-radius: 16px;
+      margin-bottom: 28px;
+    }
+
+    .notice h2 {
+      border: 0;
+      padding: 0;
+      margin: 0 0 8px;
+      color: var(--accent);
+      font-size: 20px;
+    }
+
+    h2 {
+      color: var(--ink);
+      font-size: 24px;
+      line-height: 1.25;
+      margin: 36px 0 14px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--line);
+    }
+
+    h3 {
+      color: var(--ink);
+      font-size: 18px;
+      margin: 24px 0 8px;
+    }
+
+    p {
+      margin: 12px 0;
+      color: var(--muted);
+    }
+
+    ul {
+      margin: 12px 0 12px 22px;
+      color: var(--muted);
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    strong {
+      color: var(--ink);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 650;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 20px;
+      margin: 22px 0;
+    }
+
+    .ad-box {
+      background: #fff8ec;
+      border: 1px solid #ffe0a6;
+      border-left: 5px solid var(--warn);
+      padding: 20px;
+      border-radius: 16px;
+      margin: 22px 0;
+    }
+
+    .ad-box h3 {
+      margin-top: 0;
+      color: #a96400;
+    }
+
+    .contact-box {
+      background: #eefaff;
+      border: 1px solid #c7f3ff;
+      border-left: 5px solid var(--accent-2);
+      padding: 20px;
+      border-radius: 16px;
+      margin: 22px 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      overflow: hidden;
+      border-radius: 14px;
+      margin: 18px 0;
+      border: 1px solid var(--line);
+    }
+
+    th {
+      background: #142033;
+      color: #fff;
+      text-align: left;
+      padding: 13px 14px;
+      font-size: 14px;
+    }
+
+    td {
+      padding: 13px 14px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      vertical-align: top;
+    }
+
+    tr:nth-child(even) td {
+      background: #fbfdff;
+    }
+
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 16px;
+    }
+
+    .summary-card {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 16px;
+      background: #fff;
+    }
+
+    .summary-card h3 {
+      margin: 0 0 8px;
+      font-size: 16px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 24px 44px 34px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 14px;
+      background: #fbfdff;
+    }
+
+    @media (max-width: 720px) {
+      body {
+        padding: 12px;
+      }
+
+      .container {
+        border-radius: 18px;
+      }
+
+      .hero,
+      .content,
+      .footer {
+        padding-left: 22px;
+        padding-right: 22px;
+      }
+
+      .summary-grid {
+        grid-template-columns: 1fr;
+      }
+
+      table,
+      thead,
+      tbody,
+      th,
+      td,
+      tr {
+        display: block;
+      }
+
+      thead {
+        display: none;
+      }
+
+      td {
+        border-top: 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      td::before {
+        content: attr(data-label);
+        display: block;
+        font-weight: 750;
+        color: var(--ink);
+        margin-bottom: 4px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <div class="brand-row">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <div class="app-name">NeonPang</div>
+          <p class="last-updated">Effective date: July 5, 2026</p>
+        </div>
+      </div>
+      <h1>Privacy Policy</h1>
+      <p>
+        NeonPang is a mobile block puzzle game published by PRIZM. This policy explains what information may be collected when you use the app and how that information is used.
+      </p>
+    </header>
+
+    <section class="content">
+      <div class="notice">
+        <h2>Privacy Summary</h2>
+        <p>
+          NeonPang does not require an account and does not ask for your name, email address, phone number, contacts, photos, health information, payment information, or precise location.
+        </p>
+        <p>
+          NeonPang uses Google AdMob to show interstitial and rewarded ads. Because advertising SDKs may collect ad-related and device-related data, this app discloses data collection in its App Store privacy information.
+        </p>
+      </div>
+
+      <h2>1. Information We Do Not Ask You to Provide</h2>
+      <p>NeonPang is designed to be played without registration. We do not ask you to provide:</p>
+      <ul>
+        <li>Your name, email address, phone number, or postal address</li>
+        <li>Account login credentials</li>
+        <li>Contacts or address book data</li>
+        <li>Photos, videos, audio recordings, or files from your device</li>
+        <li>Payment card or bank account information</li>
+        <li>Health, fitness, or sensitive personal information</li>
+        <li>Precise GPS location</li>
+      </ul>
+
+      <h2>2. Information That May Be Collected</h2>
+      <p>
+        NeonPang uses Google Mobile Ads SDK through Google AdMob. Google and its partners may collect certain data for ad delivery, ad measurement, fraud prevention, diagnostics, and performance.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Data Type</th>
+            <th>Examples</th>
+            <th>Purpose</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="Data Type"><strong>Approximate Location</strong></td>
+            <td data-label="Examples">Approximate location inferred from IP address</td>
+            <td data-label="Purpose">Third-party advertising and analytics</td>
+          </tr>
+          <tr>
+            <td data-label="Data Type"><strong>Device ID</strong></td>
+            <td data-label="Examples">Advertising identifier or other device-level identifiers</td>
+            <td data-label="Purpose">Third-party advertising, analytics, app functionality, fraud prevention, and SDK performance</td>
+          </tr>
+          <tr>
+            <td data-label="Data Type"><strong>Product Interaction</strong></td>
+            <td data-label="Examples">App launches, taps, ad views, ad interactions, and similar app interaction data</td>
+            <td data-label="Purpose">Third-party advertising, analytics, and app functionality</td>
+          </tr>
+          <tr>
+            <td data-label="Data Type"><strong>Advertising Data</strong></td>
+            <td data-label="Examples">Information about ads shown and ad interactions</td>
+            <td data-label="Purpose">Third-party advertising and analytics</td>
+          </tr>
+          <tr>
+            <td data-label="Data Type"><strong>Crash Data</strong></td>
+            <td data-label="Examples">Crash logs and technical crash information</td>
+            <td data-label="Purpose">Analytics and app functionality</td>
+          </tr>
+          <tr>
+            <td data-label="Data Type"><strong>Performance Data</strong></td>
+            <td data-label="Examples">Launch time, hang rate, energy usage, and other performance metrics</td>
+            <td data-label="Purpose">Analytics, app functionality, and third-party advertising performance</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="ad-box">
+        <h3>About Advertising</h3>
+        <p>
+          NeonPang is supported by ads. Ads may include interstitial ads after eligible game-over flows and rewarded ads when you choose to continue a run. Rewarded ads are optional.
+        </p>
+        <p>
+          Google AdMob may process data according to Google's own policies. You can learn more at
+          <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.
+        </p>
+      </div>
+
+      <h2>3. Local Game Data</h2>
+      <p>
+        NeonPang stores gameplay progress and settings locally on your device, such as score, best score, level progress, and saved game state. This local game data is used to provide the app's core gameplay features.
+      </p>
+      <ul>
+        <li>Local game data is stored on your device.</li>
+        <li>Deleting the app may delete local game data.</li>
+        <li>NeonPang does not require a user account or cloud login.</li>
+      </ul>
+
+      <h2>4. Third-Party Services</h2>
+      <h3>Google AdMob</h3>
+      <p>
+        NeonPang uses Google AdMob to serve ads. Google AdMob may collect and process device, ad, usage, diagnostic, performance, and approximate location data for purposes such as ad delivery, measurement, fraud prevention, diagnostics, and SDK performance.
+      </p>
+      <p>
+        Google Privacy Policy:
+        <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a>
+      </p>
+      <p>
+        Google AdMob:
+        <a href="https://admob.google.com/" target="_blank" rel="noopener">https://admob.google.com/</a>
+      </p>
+
+      <h2>5. Tracking and Advertising Choices</h2>
+      <p>
+        Depending on your region, device settings, and applicable law, you may be able to control personalized advertising, tracking permissions, or ad-related privacy settings through iOS.
+      </p>
+      <ul>
+        <li>Open iOS Settings.</li>
+        <li>Go to Privacy &amp; Security.</li>
+        <li>Review Tracking and Apple Advertising settings.</li>
+      </ul>
+      <p>
+        If a consent prompt is shown in the app in your region, you can use that prompt to manage available consent choices.
+      </p>
+
+      <h2>6. Children's Privacy</h2>
+      <p>
+        NeonPang is not directed to children under 13. We do not knowingly collect personal information directly from children. If you believe a child has provided personal information through the app, please contact us so we can review the issue.
+      </p>
+
+      <h2>7. Data Retention</h2>
+      <p>
+        Local gameplay data remains on your device until you delete it through the app, reset app data, or uninstall the app. Data processed by Google AdMob may be retained according to Google's policies.
+      </p>
+
+      <h2>8. Data Sharing</h2>
+      <p>
+        We do not sell personal information. Data processed by Google AdMob may be shared with Google and advertising partners for ad delivery, measurement, fraud prevention, diagnostics, and related purposes as described by Google.
+      </p>
+      <p>
+        We may also disclose information if required by law or necessary to protect rights, safety, security, or prevent abuse.
+      </p>
+
+      <h2>9. International Users</h2>
+      <p>
+        NeonPang may be available in multiple countries. Advertising and diagnostic data may be processed in countries other than your own, depending on Google's services and infrastructure.
+      </p>
+
+      <h2>10. Changes to This Privacy Policy</h2>
+      <p>
+        We may update this Privacy Policy from time to time. If we make changes, we will update the effective date at the top of this page.
+      </p>
+
+      <h2>11. Contact Us</h2>
+      <div class="contact-box">
+        <p>If you have questions about this Privacy Policy or NeonPang privacy practices, contact us:</p>
+        <p><strong>Email:</strong> <a href="mailto:prizm_kr@hotmail.com">prizm_kr@hotmail.com</a></p>
+      </div>
+
+      <div class="section">
+        <h2>App Store Privacy Label Summary</h2>
+        <div class="summary-grid">
+          <div class="summary-card">
+            <h3>Data Used to Track You</h3>
+            <ul>
+              <li>Approximate Location</li>
+              <li>Device ID</li>
+              <li>Product Interaction</li>
+              <li>Advertising Data</li>
+            </ul>
+          </div>
+          <div class="summary-card">
+            <h3>Data Linked to You</h3>
+            <ul>
+              <li>Approximate Location</li>
+              <li>Device ID</li>
+              <li>Product Interaction</li>
+              <li>Advertising Data</li>
+              <li>Performance Data</li>
+            </ul>
+          </div>
+          <div class="summary-card">
+            <h3>Data Not Linked to You</h3>
+            <ul>
+              <li>Crash Data</li>
+            </ul>
+          </div>
+          <div class="summary-card">
+            <h3>Not Collected by NeonPang</h3>
+            <ul>
+              <li>Contact information</li>
+              <li>Financial information</li>
+              <li>User content</li>
+              <li>Contacts</li>
+              <li>Precise location</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>NeonPang &copy; 2026 PRIZM</p>
+      <p>Fast block puzzle rounds with a neon twist.</p>
+    </footer>
+  </main>
+</body>
+</html>
