@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeonPang - Terms of Service</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --ink: #101522;
+      --muted: #5d6678;
+      --paper: #ffffff;
+      --line: #e6eaf2;
+      --soft: #f5f8ff;
+      --accent: #2f7cff;
+      --accent-2: #06c7d9;
+      --warn: #f0a02f;
+      --danger: #e84f72;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.75;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(47, 124, 255, 0.22), transparent 32rem),
+        radial-gradient(circle at bottom right, rgba(6, 199, 217, 0.18), transparent 30rem),
+        #eef4ff;
+      min-height: 100vh;
+      padding: 24px;
+    }
+
+    .container {
+      width: min(920px, 100%);
+      margin: 0 auto;
+      background: var(--paper);
+      border: 1px solid rgba(230, 234, 242, 0.9);
+      border-radius: 24px;
+      box-shadow: 0 28px 80px rgba(28, 55, 110, 0.18);
+      overflow: hidden;
+    }
+
+    .hero {
+      padding: 48px 44px 36px;
+      background:
+        linear-gradient(135deg, rgba(47, 124, 255, 0.12), rgba(6, 199, 217, 0.08)),
+        #fbfdff;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand-row {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+
+    .logo {
+      width: 64px;
+      height: 64px;
+      border-radius: 18px;
+      background:
+        linear-gradient(135deg, #2f7cff 0%, #06c7d9 55%, #8cffd2 100%);
+      box-shadow: 0 16px 36px rgba(47, 124, 255, 0.28);
+      position: relative;
+      flex: 0 0 auto;
+    }
+
+    .logo::before,
+    .logo::after {
+      content: "";
+      position: absolute;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.92);
+    }
+
+    .logo::before {
+      width: 34px;
+      height: 12px;
+      left: 15px;
+      top: 18px;
+    }
+
+    .logo::after {
+      width: 12px;
+      height: 30px;
+      left: 26px;
+      top: 18px;
+    }
+
+    .app-name {
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      color: var(--accent);
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: clamp(34px, 6vw, 56px);
+      line-height: 1.02;
+      letter-spacing: -0.04em;
+      margin-bottom: 14px;
+    }
+
+    .last-updated {
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .content {
+      padding: 36px 44px 46px;
+    }
+
+    h2 {
+      color: var(--ink);
+      font-size: 24px;
+      line-height: 1.25;
+      margin: 36px 0 14px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid var(--line);
+    }
+
+    h3 {
+      color: var(--ink);
+      font-size: 18px;
+      margin: 24px 0 8px;
+    }
+
+    p {
+      margin: 12px 0;
+      color: var(--muted);
+    }
+
+    ul {
+      margin: 12px 0 12px 22px;
+      color: var(--muted);
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    strong {
+      color: var(--ink);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 650;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      background: var(--soft);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 20px;
+      margin: 22px 0;
+    }
+
+    .warning-box {
+      background: #fff8ec;
+      border: 1px solid #ffe0a6;
+      border-left: 5px solid var(--warn);
+      padding: 20px;
+      border-radius: 16px;
+      margin: 22px 0;
+    }
+
+    .warning-box h3 {
+      margin-top: 0;
+      color: #a96400;
+    }
+
+    .contact-box {
+      background: #eefaff;
+      border: 1px solid #c7f3ff;
+      border-left: 5px solid var(--accent-2);
+      padding: 20px;
+      border-radius: 16px;
+      margin: 22px 0;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 24px 44px 34px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 14px;
+      background: #fbfdff;
+    }
+
+    @media (max-width: 720px) {
+      body {
+        padding: 12px;
+      }
+
+      .container {
+        border-radius: 18px;
+      }
+
+      .hero,
+      .content,
+      .footer {
+        padding-left: 22px;
+        padding-right: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <div class="brand-row">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <div class="app-name">NeonPang</div>
+          <p class="last-updated">Effective date: July 5, 2026</p>
+        </div>
+      </div>
+      <h1>Terms of Service</h1>
+      <p>
+        These Terms of Service govern your use of NeonPang, a mobile block puzzle game published by PRIZM.
+      </p>
+    </header>
+
+    <section class="content">
+      <h2>1. Acceptance of Terms</h2>
+      <p>
+        By downloading, installing, accessing, or using NeonPang ("the App"), you agree to these Terms of Service ("Terms"). If you do not agree to these Terms, do not use the App.
+      </p>
+
+      <h2>2. License to Use</h2>
+      <p>
+        We grant you a limited, non-exclusive, non-transferable, revocable license to use NeonPang for personal entertainment purposes, subject to these Terms and Apple's App Store terms.
+      </p>
+
+      <h3>You may:</h3>
+      <ul>
+        <li>Download and play NeonPang on supported iOS devices.</li>
+        <li>Use the App for personal, non-commercial entertainment.</li>
+        <li>Save local gameplay progress and settings on your device.</li>
+        <li>View optional rewarded ads to continue eligible gameplay sessions.</li>
+      </ul>
+
+      <h3>You may not:</h3>
+      <ul>
+        <li>Copy, modify, distribute, sell, rent, or sublicense the App.</li>
+        <li>Reverse engineer, decompile, or attempt to extract the App's source code.</li>
+        <li>Use cheats, bots, automation, exploits, or unauthorized tools.</li>
+        <li>Interfere with ads, ad measurement, security, or App functionality.</li>
+        <li>Use the App for unlawful, harmful, abusive, or fraudulent purposes.</li>
+        <li>Misrepresent your identity or attempt to bypass technical limitations.</li>
+      </ul>
+
+      <h2>3. Game Rules and Progress</h2>
+      <p>
+        NeonPang is a score-based puzzle game. Gameplay rules, difficulty, levels, scoring, rewards, ad frequency, and available features may change over time as we update and improve the App.
+      </p>
+      <ul>
+        <li>Scores and progress are provided for entertainment purposes only.</li>
+        <li>Local progress may be lost if the App is deleted, reset, or device storage is cleared.</li>
+        <li>We do not guarantee that any score, rank, save state, or gameplay result will be preserved forever.</li>
+      </ul>
+
+      <h2>4. Ads and Rewarded Ads</h2>
+      <div class="warning-box">
+        <h3>Advertising-Supported App</h3>
+        <p>
+          NeonPang is supported by ads. The App may show interstitial ads after eligible game-over flows and may offer rewarded ads when you choose to continue a run or receive an in-game benefit.
+        </p>
+      </div>
+      <ul>
+        <li>Rewarded ads are optional.</li>
+        <li>Ad availability is not guaranteed.</li>
+        <li>Rewards may only be granted after the ad provider confirms completion.</li>
+        <li>Ads are provided by third-party ad networks, including Google AdMob.</li>
+        <li>Ad content is served by third parties and may vary by region, device, and ad availability.</li>
+      </ul>
+
+      <h2>5. No In-App Purchases</h2>
+      <p>
+        NeonPang does not currently offer in-app purchases, subscriptions, or pay-to-win purchases. If this changes in the future, we will update these Terms and the App Store listing as required.
+      </p>
+
+      <h2>6. Privacy</h2>
+      <p>
+        Your use of NeonPang is also governed by our <a href="privacy-policy.html">Privacy Policy</a>. The Privacy Policy explains what data may be collected by the App and third-party services such as Google AdMob.
+      </p>
+
+      <h2>7. Third-Party Services</h2>
+      <p>
+        NeonPang may use third-party services, including Google AdMob, for advertising, measurement, fraud prevention, diagnostics, and performance. Your use of the App may be subject to those third-party services' terms and policies.
+      </p>
+      <ul>
+        <li>Google Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></li>
+        <li>Google AdMob: <a href="https://admob.google.com/" target="_blank" rel="noopener">https://admob.google.com/</a></li>
+        <li>Apple Media Services Terms: <a href="https://www.apple.com/legal/internet-services/itunes/" target="_blank" rel="noopener">https://www.apple.com/legal/internet-services/itunes/</a></li>
+      </ul>
+
+      <h2>8. Device, Network, and Availability</h2>
+      <p>
+        NeonPang may require a compatible device, supported iOS version, and network access for ads or certain services. We do not guarantee uninterrupted, error-free, or always-available operation.
+      </p>
+      <ul>
+        <li>Gameplay may be affected by device performance, storage, battery state, operating system behavior, or network conditions.</li>
+        <li>Ads may fail to load or may not be available in every region.</li>
+        <li>We may update, suspend, remove, or change features at any time.</li>
+      </ul>
+
+      <h2>9. Intellectual Property</h2>
+      <p>
+        NeonPang, including its gameplay implementation, visual design, code, name, graphics, sounds, text, and other materials, is owned by PRIZM or its licensors and is protected by applicable intellectual property laws.
+      </p>
+      <p>
+        These Terms do not grant you ownership of the App or any related intellectual property rights.
+      </p>
+
+      <h2>10. User Conduct</h2>
+      <p>You agree not to use NeonPang to:</p>
+      <ul>
+        <li>Violate any applicable law or regulation.</li>
+        <li>Interfere with the App, servers, networks, ads, or third-party services.</li>
+        <li>Attempt to gain unauthorized access to systems or data.</li>
+        <li>Manipulate ads, rewards, scoring, or gameplay through unauthorized means.</li>
+        <li>Use the App in a way that harms other users, PRIZM, Apple, Google, or third parties.</li>
+      </ul>
+
+      <h2>11. Disclaimer of Warranties</h2>
+      <p>
+        NeonPang is provided "AS IS" and "AS AVAILABLE" without warranties of any kind, whether express, implied, or statutory. To the maximum extent permitted by law, we disclaim all warranties, including warranties of merchantability, fitness for a particular purpose, non-infringement, uninterrupted operation, availability, accuracy, and error-free gameplay.
+      </p>
+
+      <h2>12. Limitation of Liability</h2>
+      <p>
+        To the maximum extent permitted by law, PRIZM will not be liable for indirect, incidental, special, consequential, exemplary, or punitive damages, including loss of data, loss of progress, loss of scores, device issues, network issues, ad unavailability, or inability to use the App.
+      </p>
+      <p>
+        Our total liability for any claim related to NeonPang will not exceed the amount you paid to use the App, if any, or the minimum amount permitted by applicable law.
+      </p>
+
+      <h2>13. Termination</h2>
+      <p>
+        You may stop using NeonPang at any time by deleting the App. We may suspend, restrict, or terminate access if you violate these Terms, misuse the App, interfere with ads or services, or use the App unlawfully.
+      </p>
+
+      <h2>14. Changes to These Terms</h2>
+      <p>
+        We may update these Terms from time to time. If we make changes, we will update the effective date at the top of this page. Continued use of the App after changes means you accept the updated Terms.
+      </p>
+
+      <h2>15. Governing Law</h2>
+      <p>
+        These Terms are governed by the laws of South Korea, without regard to conflict of law principles, unless applicable consumer protection laws require otherwise.
+      </p>
+
+      <h2>16. Contact Us</h2>
+      <div class="contact-box">
+        <p>For questions about these Terms of Service, contact us:</p>
+        <p><strong>Email:</strong> <a href="mailto:prizm_kr@hotmail.com">prizm_kr@hotmail.com</a></p>
+      </div>
+
+      <div class="section">
+        <h2>Quick Summary</h2>
+        <p><strong>You can:</strong></p>
+        <ul>
+          <li>Play NeonPang for personal entertainment.</li>
+          <li>Use optional rewarded ads when available.</li>
+          <li>Delete the App at any time.</li>
+        </ul>
+        <p><strong>You cannot:</strong></p>
+        <ul>
+          <li>Reverse engineer, copy, or resell the App.</li>
+          <li>Use cheats, bots, exploits, or automation.</li>
+          <li>Manipulate ads, rewards, or gameplay systems.</li>
+          <li>Use the App for illegal or harmful purposes.</li>
+        </ul>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>NeonPang &copy; 2026 PRIZM</p>
+      <p>Fast block puzzle rounds with a neon twist.</p>
+    </footer>
+  </main>
+</body>
+</html>
