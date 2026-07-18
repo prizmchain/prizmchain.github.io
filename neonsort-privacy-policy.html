@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="theme-color" content="#20242B" />
+  <meta name="description" content="Privacy Policy for NeonPang: Color Sort." />
+  <title>NeonPang: Color Sort — Privacy Policy</title>
+  <style>
+    :root {
+      --canvas: #171b21;
+      --panel: #20262d;
+      --panel-raised: #252d35;
+      --ink: #f3f6f7;
+      --muted: #a9b3ba;
+      --line: #3a4650;
+      --lime: #b8ff4d;
+      --cyan: #66e7ed;
+      --soft-lime: rgba(184, 255, 77, 0.1);
+      --soft-cyan: rgba(102, 231, 237, 0.08);
+      --shadow: rgba(0, 0, 0, 0.36);
+      --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      --sans: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+      --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 12% 8%, rgba(102, 231, 237, 0.08), transparent 27rem),
+        radial-gradient(circle at 92% 24%, rgba(184, 255, 77, 0.06), transparent 24rem),
+        var(--canvas);
+      font-family: var(--sans);
+      line-height: 1.72;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    a { color: var(--cyan); text-underline-offset: 0.18em; }
+    a:hover { color: var(--lime); }
+    .skip-link {
+      position: fixed;
+      z-index: 10;
+      top: 12px;
+      left: 12px;
+      padding: 10px 14px;
+      color: #111;
+      background: var(--lime);
+      border-radius: 6px;
+      transform: translateY(-180%);
+    }
+    .skip-link:focus { transform: translateY(0); }
+
+    .shell {
+      width: min(1120px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 28px 0 72px;
+    }
+    .masthead {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 22px;
+      align-items: center;
+      padding: 24px 0 30px;
+      border-bottom: 1px solid var(--line);
+    }
+    .mark {
+      position: relative;
+      width: 68px;
+      height: 68px;
+      border: 1px solid #56636d;
+      border-radius: 19px;
+      background: linear-gradient(145deg, #2b343d, #1b2026);
+      box-shadow: 0 14px 30px var(--shadow), inset 0 1px rgba(255, 255, 255, 0.05);
+    }
+    .mark::before,
+    .mark::after {
+      content: "";
+      position: absolute;
+      left: 17px;
+      width: 34px;
+      height: 13px;
+      border-radius: 999px;
+      transform: rotate(-18deg);
+    }
+    .mark::before { top: 18px; background: var(--cyan); box-shadow: 0 0 14px rgba(102, 231, 237, 0.45); }
+    .mark::after { bottom: 18px; background: var(--lime); box-shadow: 0 0 14px rgba(184, 255, 77, 0.38); }
+    .eyebrow {
+      margin: 0 0 4px;
+      color: var(--lime);
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+    .brand {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(1.6rem, 3vw, 2.35rem);
+      font-weight: 600;
+      letter-spacing: -0.025em;
+    }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 238px minmax(0, 1fr);
+      gap: 42px;
+      padding-top: 42px;
+    }
+    .rail { align-self: start; position: sticky; top: 24px; }
+    .rail-label {
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+    .rail nav { margin-top: 14px; }
+    .rail a {
+      display: block;
+      padding: 7px 0;
+      color: var(--muted);
+      font-size: 0.88rem;
+      text-decoration: none;
+    }
+    .rail a:hover { color: var(--ink); }
+    .rail-meta {
+      margin-top: 28px;
+      padding-top: 18px;
+      color: var(--muted);
+      border-top: 1px solid var(--line);
+      font-size: 0.8rem;
+    }
+
+    main {
+      min-width: 0;
+      padding: clamp(26px, 5vw, 58px);
+      background: linear-gradient(145deg, rgba(37, 45, 53, 0.98), rgba(29, 35, 42, 0.98));
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      box-shadow: 0 30px 70px var(--shadow);
+    }
+    h1, h2, h3 { line-height: 1.2; }
+    h1 {
+      max-width: 720px;
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(2.5rem, 7vw, 5.7rem);
+      font-weight: 500;
+      letter-spacing: -0.055em;
+    }
+    .effective {
+      margin: 16px 0 0;
+      color: var(--muted);
+      font-family: var(--mono);
+      font-size: 0.78rem;
+    }
+    .summary {
+      margin: 34px 0 48px;
+      padding: 22px 24px;
+      background: linear-gradient(90deg, var(--soft-lime), transparent 72%);
+      border-left: 3px solid var(--lime);
+      border-radius: 4px 14px 14px 4px;
+    }
+    .summary strong { color: var(--lime); }
+    section { scroll-margin-top: 28px; }
+    section + section { margin-top: 48px; }
+    h2 {
+      margin: 0 0 18px;
+      padding-bottom: 12px;
+      font-family: var(--serif);
+      font-size: clamp(1.65rem, 4vw, 2.35rem);
+      font-weight: 500;
+      letter-spacing: -0.025em;
+      border-bottom: 1px solid var(--line);
+    }
+    h3 { margin: 28px 0 10px; color: var(--cyan); font-size: 1.05rem; }
+    p, li { color: #c7d0d5; }
+    ul { padding-left: 1.25rem; }
+    li + li { margin-top: 7px; }
+    strong { color: var(--ink); }
+
+    .table-wrap { margin: 20px 0; overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; }
+    table { width: 100%; min-width: 640px; border-collapse: collapse; }
+    th, td { padding: 15px 16px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+    tr:last-child td { border-bottom: 0; }
+    th {
+      color: var(--lime);
+      background: rgba(0, 0, 0, 0.14);
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    td { color: #c7d0d5; font-size: 0.92rem; }
+    .tag {
+      display: inline-block;
+      white-space: nowrap;
+      padding: 3px 9px;
+      color: var(--cyan);
+      background: var(--soft-cyan);
+      border: 1px solid rgba(102, 231, 237, 0.25);
+      border-radius: 999px;
+      font-family: var(--mono);
+      font-size: 0.68rem;
+    }
+    .notice {
+      margin-top: 22px;
+      padding: 18px 20px;
+      background: rgba(255, 255, 255, 0.025);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+    }
+    .contact { padding: 22px; background: var(--soft-cyan); border: 1px solid rgba(102, 231, 237, 0.22); border-radius: 14px; }
+    footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      margin-top: 34px;
+      padding: 24px 2px 0;
+      color: var(--muted);
+      font-size: 0.78rem;
+    }
+
+    @media (max-width: 800px) {
+      .layout { grid-template-columns: 1fr; gap: 20px; }
+      .rail { position: static; }
+      .rail nav { display: none; }
+      .rail-meta { margin: 0; padding: 0; border: 0; }
+      main { border-radius: 18px; }
+    }
+    @media (max-width: 520px) {
+      .shell { width: min(100% - 20px, 1120px); padding-top: 12px; }
+      .masthead { gap: 14px; padding: 16px 4px 22px; }
+      .mark { width: 54px; height: 54px; border-radius: 15px; }
+      .mark::before, .mark::after { left: 13px; width: 28px; height: 10px; }
+      .mark::before { top: 15px; }
+      .mark::after { bottom: 15px; }
+      main { padding: 26px 20px; }
+      h1 { font-size: 2.65rem; }
+      footer { flex-direction: column; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    @media print {
+      :root { --canvas: #fff; --panel: #fff; --ink: #111; --muted: #555; --line: #ccc; }
+      body, main { color: #111; background: #fff; box-shadow: none; }
+      p, li, td { color: #222; }
+      .rail, .mark { display: none; }
+      .masthead { grid-template-columns: 1fr; }
+      .layout { display: block; }
+      main { padding: 0; border: 0; }
+      a { color: #111; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#policy">Skip to policy</a>
+
+  <div class="shell">
+    <header class="masthead">
+      <div class="mark" aria-hidden="true"></div>
+      <div>
+        <p class="eyebrow">Prizm / Legal</p>
+        <p class="brand">NeonPang: Color Sort</p>
+      </div>
+    </header>
+
+    <div class="layout">
+      <aside class="rail" aria-label="Policy navigation">
+        <span class="rail-label">Contents</span>
+        <nav>
+          <a href="#scope">1. Scope</a>
+          <a href="#data">2. Data we handle</a>
+          <a href="#use">3. How data is used</a>
+          <a href="#ads">4. Advertising and consent</a>
+          <a href="#purchases">5. Purchases</a>
+          <a href="#local">6. Local data</a>
+          <a href="#retention">7. Retention and deletion</a>
+          <a href="#rights">8. Your choices and rights</a>
+          <a href="#children">9. Children</a>
+          <a href="#security">10. Security and transfers</a>
+          <a href="#changes">11. Changes</a>
+          <a href="#contact">12. Contact</a>
+        </nav>
+        <div class="rail-meta">Effective July 18, 2026<br />Version 1.0</div>
+      </aside>
+
+      <main id="policy">
+        <header>
+          <p class="eyebrow">Privacy document 01</p>
+          <h1>Privacy Policy</h1>
+          <p class="effective">LAST UPDATED / JULY 18, 2026</p>
+        </header>
+
+        <div class="summary">
+          <strong>Plain-language summary.</strong> NeonPang: Color Sort does not require an account. Your puzzle state, coins, stars, settings, and local gameplay log remain on your device in this release. The App uses Google AdMob for advertising and RevenueCat with Apple for the one-time Remove Ads purchase. Those providers may process the data described below. We do not sell personal information directly.
+        </div>
+
+        <section id="scope">
+          <h2>1. Scope</h2>
+          <p>This Privacy Policy explains how Prizm ("Prizm," "we," "us," or "our") handles information when you use the iPhone game <strong>NeonPang: Color Sort</strong> (the "App"). It also explains how third-party services integrated into the App may process information.</p>
+          <p>The App is a color-sorting puzzle game with campaign levels, daily puzzles, mastery play, virtual coins, hints, tube assistance, cosmetic skins, advertising, and a one-time in-app purchase that removes advertising.</p>
+        </section>
+
+        <section id="data">
+          <h2>2. Data We Handle</h2>
+
+          <h3>2.1 Data stored locally on your device</h3>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Category</th><th>Examples</th><th>Storage</th></tr></thead>
+              <tbody>
+                <tr><td><strong>Game progress</strong></td><td>Current level and board, moves, stars, records, daily-puzzle state, mastery progress, achievements, unlocked skins, and selected skin.</td><td><span class="tag">Device only</span></td></tr>
+                <tr><td><strong>Virtual economy</strong></td><td>Coins, hint usage, undo credits, emergency-tube state, rewards, and related counters.</td><td><span class="tag">Device only</span></td></tr>
+                <tr><td><strong>Preferences</strong></td><td>Sound, haptics, language behavior, onboarding state, and other game settings.</td><td><span class="tag">Device only</span></td></tr>
+                <tr><td><strong>Local event log</strong></td><td>App opens, level events, feature usage, ad-flow events, an app-generated random install ID, session ID, app/build version, platform, timestamp, and an A/B cohort marker.</td><td><span class="tag">Device only in this release</span></td></tr>
+                <tr><td><strong>Cached configuration</strong></td><td>Remotely supplied gameplay and advertising-frequency settings cached so the App can continue to work offline.</td><td><span class="tag">Device cache</span></td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p>The current release does not send the local game event log to a Prizm analytics server. A future release that enables server-side analytics will require this Policy and the App Store privacy disclosures to be reviewed and updated before release.</p>
+
+          <h3>2.2 Data processed by third-party services</h3>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Service</th><th>Data that may be processed</th><th>Purpose</th></tr></thead>
+              <tbody>
+                <tr><td><strong>Google AdMob and Google UMP</strong></td><td>IP address and IP-derived approximate location; device or advertising identifiers where permitted; app launches, taps, ad impressions and video views; advertising data; consent choices; crash logs; and performance information such as launch time, hangs, or energy use.</td><td>Serve, limit, personalize, measure, secure, and improve advertising; prevent fraud; record privacy choices.</td></tr>
+                <tr><td><strong>Apple App Store</strong></td><td>Purchase transaction, Apple Account relationship, storefront, receipt, refund, and restoration information. Apple handles payment credentials.</td><td>Process and restore the Remove Ads purchase and meet legal, tax, fraud-prevention, and accounting duties.</td></tr>
+                <tr><td><strong>RevenueCat</strong></td><td>An automatically generated anonymous App User ID, app/device technical information, product identifiers, receipt and transaction data, purchase history, entitlement status, and storefront information.</td><td>Validate purchases, maintain the lifetime Remove Ads entitlement, prevent fraud, provide purchase analytics, and restore access.</td></tr>
+                <tr><td><strong>Cloudflare Pages</strong></td><td>A standard HTTPS request for a small configuration file. Like most web requests, it can include IP address and basic network/request metadata. The request does not contain your puzzle board, coins, purchase receipt, or local install ID.</td><td>Deliver non-personal remote configuration and keep the App's operating settings current.</td></tr>
+              </tbody>
+            </table>
+          </div>
+
+          <h3>2.3 Data we do not ask you to provide</h3>
+          <ul>
+            <li>No Prizm account, profile, name, email address, phone number, or password is required.</li>
+            <li>The App does not request precise GPS location, contacts, camera, photo library, microphone, HealthKit, or payment-card access.</li>
+            <li>The App does not include chat, public profiles, or user-generated content uploads.</li>
+            <li>Prizm does not receive your full payment-card number or Apple Account password.</li>
+          </ul>
+        </section>
+
+        <section id="use">
+          <h2>3. How Information Is Used</h2>
+          <ul>
+            <li><strong>App functionality:</strong> save progress, restore a game, deliver rewards, remember preferences, and unlock purchased functionality.</li>
+            <li><strong>Advertising:</strong> request and display banner, interstitial, and optional rewarded advertisements when advertising is allowed.</li>
+            <li><strong>Analytics and diagnostics:</strong> measure advertising performance, diagnose failures, understand technical performance, and improve the App and integrated SDKs.</li>
+            <li><strong>Security and fraud prevention:</strong> validate transactions, prevent invalid advertising activity, and protect services.</li>
+            <li><strong>Legal compliance:</strong> honor consent choices and comply with applicable privacy, consumer, tax, accounting, and platform obligations.</li>
+          </ul>
+        </section>
+
+        <section id="ads">
+          <h2>4. Advertising, Consent, and Tracking</h2>
+          <p>The free version of the App uses Google AdMob. Depending on your region, device settings, age-related treatment, and consent choices, advertisements may be personalized or non-personalized. Non-personalized advertising can still use contextual information such as the App's content and IP-derived approximate location.</p>
+          <p>For users in regions where consent is required, Google User Messaging Platform (UMP) may present a privacy message before advertisements are requested. You can accept, refuse, or manage available choices. Refusing consent does not block gameplay, although advertising availability or personalization may change.</p>
+          <p>On iOS, the App may ask for permission under App Tracking Transparency before an advertising identifier can be used for cross-app or cross-website tracking. You may refuse that permission and continue playing. Where Google requires a persistent privacy entry point, it appears under <strong>Game Hub → Privacy choices</strong>.</p>
+          <div class="notice">
+            <strong>Google disclosure.</strong> Third parties may use IP addresses, device identifiers, SDK storage, and similar technologies as a result of ad serving. Learn more at <a href="https://policies.google.com/technologies/partner-sites" rel="noopener noreferrer">How Google uses information from sites or apps that use its services</a> and review <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google's Privacy Policy</a>.
+          </div>
+        </section>
+
+        <section id="purchases">
+          <h2>5. In-App Purchases</h2>
+          <p>The App offers a one-time, non-consumable <strong>Remove Ads</strong> purchase. Apple processes the transaction. RevenueCat receives and validates transaction and entitlement information using an anonymous App User ID generated by its SDK; the App does not provide RevenueCat with your name or email address.</p>
+          <p>After verification, the App stores an ad-free status locally and checks the entitlement with RevenueCat. Purchase records may remain with Apple and RevenueCat so the purchase can be restored, refunded, audited, or protected against fraud. Review <a href="https://www.apple.com/legal/privacy/" rel="noopener noreferrer">Apple's Privacy Policy</a> and <a href="https://www.revenuecat.com/privacy" rel="noopener noreferrer">RevenueCat's Privacy Policy</a>.</p>
+        </section>
+
+        <section id="local">
+          <h2>6. Local Progress and Remote Configuration</h2>
+          <p>Your puzzle state, scores, coins, skins, settings, and local event log are stored in the App's local iOS storage. They are not synced to a Prizm account or cloud game account. Deleting the App can permanently remove this local progress.</p>
+          <p>The App retrieves a small public configuration document from Cloudflare Pages. That document controls operational values such as advertising cadence. The request does not upload your saved game or identify your specific game account because the App has no Prizm account system.</p>
+        </section>
+
+        <section id="retention">
+          <h2>7. Retention and Deletion</h2>
+          <ul>
+            <li><strong>Local game data:</strong> remains until changed, reset, or removed by uninstalling the App, subject to iOS backup and restore behavior.</li>
+            <li><strong>Local event log:</strong> automatically retains only a limited recent set of events and remains on the device in this release.</li>
+            <li><strong>Consent data:</strong> is retained by Google UMP according to the applicable message and can be revisited when a privacy-options entry point is required.</li>
+            <li><strong>Advertising data:</strong> is retained by Google and its advertising partners according to their policies, consent signals, and legal obligations.</li>
+            <li><strong>Purchase data:</strong> may be retained by Apple and RevenueCat for restoration, transaction history, fraud prevention, accounting, tax, and legal purposes.</li>
+          </ul>
+          <p>Because Prizm does not maintain a user account or a server-side profile for this release, we generally cannot locate third-party records using your name or email address. Requests concerning Google, Apple, or RevenueCat data may need to be directed to the relevant provider.</p>
+        </section>
+
+        <section id="rights">
+          <h2>8. Your Choices and Privacy Rights</h2>
+          <ul>
+            <li>Continue playing after refusing optional advertising consent.</li>
+            <li>Review available advertising privacy choices in Game Hub when Google requires the option.</li>
+            <li>Manage App Tracking Transparency permission in iOS Settings.</li>
+            <li>Purchase Remove Ads to disable banner, interstitial, and rewarded advertising in the App.</li>
+            <li>Delete local game data by uninstalling the App, understanding that local progress may be lost.</li>
+            <li>Contact us to ask about access, correction, deletion, objection, restriction, or portability rights that may apply in your jurisdiction.</li>
+            <li>Contact your local data-protection authority if you believe your privacy rights have been violated.</li>
+          </ul>
+          <p>Some rights are subject to legal exceptions and our ability to verify and locate the relevant data. We will not discriminate against you for exercising applicable privacy rights.</p>
+        </section>
+
+        <section id="children">
+          <h2>9. Children's Privacy</h2>
+          <p>The App is a general-audience puzzle game and is not specifically directed to children under 13. A child should use the App only with the authorization and supervision of a parent or legal guardian where required. We do not knowingly ask children to submit names, contact details, account profiles, or user-generated content to Prizm.</p>
+          <p>If you believe information from a child has been processed contrary to applicable law, contact us. Advertising providers may apply child-directed or age-related treatment where required by platform settings, law, or the provider's policies.</p>
+        </section>
+
+        <section id="security">
+          <h2>10. Security and International Transfers</h2>
+          <p>We use reasonable measures appropriate to the App, including iOS application storage and HTTPS connections. No electronic storage or transmission method is completely secure, so absolute security cannot be guaranteed.</p>
+          <p>Google, Apple, RevenueCat, and Cloudflare operate internationally. Information processed by them may be transferred to and handled in countries other than yours, subject to their contractual safeguards, privacy policies, and applicable law.</p>
+        </section>
+
+        <section id="changes">
+          <h2>11. Changes to This Policy</h2>
+          <p>We may update this Privacy Policy when the App, integrated services, or legal requirements change. We will revise the date at the top of this page and, when required, provide additional notice or request new consent. Materially different data practices will not be applied retroactively without an appropriate legal basis.</p>
+        </section>
+
+        <section id="contact">
+          <h2>12. Contact</h2>
+          <div class="contact">
+            <p><strong>Developer:</strong> Prizm</p>
+            <p><strong>App:</strong> NeonPang: Color Sort</p>
+            <p><strong>Email:</strong> <a href="mailto:prizm_kr@hotmail.com">prizm_kr@hotmail.com</a></p>
+            <p><strong>Support:</strong> Available through the App Store product page or email.</p>
+          </div>
+        </section>
+
+        <footer>
+          <span>© 2026 Prizm</span>
+          <a href="neonpang-color-sort-terms-of-service.html">Terms of Service</a>
+        </footer>
+      </main>
+    </div>
+  </div>
+</body>
+</html>
