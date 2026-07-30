@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#101010" />
+  <meta
+    name="description"
+    content="KeepToss makes photo cleanup simple: keep or toss, one decision at a time."
+  />
+  <title>KeepToss - Photo Cleaner</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: #f5f4ef;
+      background: #101010;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    a { color: inherit; text-underline-offset: 0.2em; }
+    main { width: min(1080px, calc(100% - 40px)); margin: 0 auto; }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 84px;
+      border-bottom: 1px solid #343432;
+    }
+    .brand { font-weight: 900; }
+    .legal { display: flex; gap: 18px; color: #aaa9a3; font-size: 0.85rem; }
+    .hero {
+      display: grid;
+      min-height: 74vh;
+      align-content: center;
+      padding: 64px 0;
+    }
+    .eyebrow { margin: 0 0 20px; color: #18c47d; font-size: 0.8rem; font-weight: 800; }
+    h1 {
+      max-width: 900px;
+      margin: 0;
+      font-size: clamp(4rem, 13vw, 9.5rem);
+      line-height: 0.88;
+    }
+    .lede {
+      max-width: 580px;
+      margin: 36px 0 0;
+      color: #bcbab3;
+      font-size: clamp(1.05rem, 2.5vw, 1.4rem);
+      line-height: 1.55;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border-top: 1px solid #343432;
+      border-bottom: 1px solid #343432;
+    }
+    .feature { min-height: 220px; padding: 30px; }
+    .feature + .feature { border-left: 1px solid #343432; }
+    .number { color: #18c47d; font-size: 0.75rem; font-weight: 900; }
+    h2 { margin: 50px 0 10px; font-size: 1.3rem; }
+    .feature p { margin: 0; color: #aaa9a3; line-height: 1.55; }
+    footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 34px 0 48px;
+      color: #777770;
+      font-size: 0.82rem;
+    }
+    @media (max-width: 720px) {
+      header { align-items: flex-start; flex-direction: column; justify-content: center; gap: 8px; }
+      .hero { min-height: 68vh; }
+      .features { grid-template-columns: 1fr; }
+      .feature { min-height: 180px; }
+      .feature + .feature { border-top: 1px solid #343432; border-left: 0; }
+      footer { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="brand">KeepToss</div>
+      <nav class="legal" aria-label="Legal and support">
+        <a href="https://prizmchain.github.io/keeptoss-support.html">Support</a>
+        <a href="https://prizmchain.github.io/keeptoss-privacy-policy.html">Privacy</a>
+        <a href="https://prizmchain.github.io/keeptoss-terms-of-service.html">Terms</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <p class="eyebrow">PRIVATE, ON-DEVICE PHOTO CLEANUP</p>
+      <h1>Keep it.<br />Toss it.</h1>
+      <p class="lede">
+        Clean your camera roll one clear decision at a time. Compare similar shots, review possible
+        duplicates and large videos, then confirm every deletion yourself.
+      </p>
+    </section>
+
+    <section class="features" aria-label="KeepToss features">
+      <article class="feature">
+        <span class="number">01</span>
+        <h2>Short review rounds</h2>
+        <p>Work through a manageable set instead of facing the entire library at once.</p>
+      </article>
+      <article class="feature">
+        <span class="number">02</span>
+        <h2>You make the call</h2>
+        <p>Suggestions stay suggestions. Nothing is removed before your final review.</p>
+      </article>
+      <article class="feature">
+        <span class="number">03</span>
+        <h2>Your photos stay private</h2>
+        <p>Photo analysis and text recognition run on your iPhone, without uploading your library.</p>
+      </article>
+    </section>
+
+    <footer>
+      <span>© 2026 PRIZM_KR</span>
+      <a href="mailto:prizm.dev.kr@gmail.com">prizm.dev.kr@gmail.com</a>
+    </footer>
+  </main>
+</body>
+</html>
