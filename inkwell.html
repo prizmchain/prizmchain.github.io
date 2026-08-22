@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Inkwell keeps Apple Pencil handwriting and audio on one timeline. Tap your handwriting to listen from that exact moment.">
+  <meta name="theme-color" content="#f3f5f8">
+  <meta property="og:title" content="Inkwell | Handwriting synced with audio">
+  <meta property="og:description" content="Write, record, and return to the exact moment an idea happened.">
+  <meta property="og:image" content="https://prizmchain.github.io/inkwell-assets/store-hero.webp">
+  <title>Inkwell | Handwriting synced with audio</title>
+  <!-- Design dials: variance 7, motion 5, density 3 -->
+  <style>
+    :root {
+      color-scheme: light dark;
+      --paper: #f3f5f8;
+      --surface: #ffffff;
+      --ink: #13223a;
+      --muted: #657188;
+      --line: #d8dee8;
+      --accent: #c84f4f;
+      --accent-ink: #ffffff;
+      --shadow: 0 24px 70px rgba(20, 34, 58, .14);
+      --max: 1180px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --paper: #0f1520;
+        --surface: #171f2d;
+        --ink: #edf2fa;
+        --muted: #a6b1c4;
+        --line: #2b3546;
+        --accent: #df6666;
+        --accent-ink: #111827;
+        --shadow: 0 24px 70px rgba(0, 0, 0, .35);
+      }
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.55;
+      text-rendering: optimizeLegibility;
+    }
+    img { display: block; max-width: 100%; }
+    a { color: inherit; }
+    button, a { -webkit-tap-highlight-color: transparent; }
+    .wrap { width: min(calc(100% - 40px), var(--max)); margin-inline: auto; }
+    .skip {
+      position: fixed; left: 16px; top: -80px; z-index: 100;
+      padding: 10px 14px; background: var(--surface); border: 1px solid var(--line);
+    }
+    .skip:focus { top: 16px; }
+    .nav {
+      position: sticky; top: 0; z-index: 40;
+      border-bottom: 1px solid color-mix(in srgb, var(--line) 75%, transparent);
+      background: color-mix(in srgb, var(--paper) 88%, transparent);
+      backdrop-filter: blur(18px);
+    }
+    .nav-inner { height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; font-weight: 780; letter-spacing: -.02em; }
+    .mark { width: 22px; height: 32px; border-radius: 6px 6px 12px 6px; background: var(--accent); transform: rotate(4deg); }
+    .nav-links { display: flex; align-items: center; gap: 26px; font-size: 14px; color: var(--muted); }
+    .nav-links a { text-decoration: none; }
+    .nav-links a:hover, .nav-links a:focus-visible { color: var(--ink); }
+    .button {
+      display: inline-flex; min-height: 48px; align-items: center; justify-content: center; gap: 9px;
+      padding: 0 20px; border-radius: 12px; border: 1px solid var(--accent);
+      background: var(--accent); color: var(--accent-ink); font-weight: 720; text-decoration: none;
+      transition: transform .2s ease, box-shadow .2s ease;
+    }
+    .button:hover { transform: translateY(-2px); box-shadow: 0 12px 26px rgba(200, 79, 79, .22); }
+    .button:focus-visible, .nav-links a:focus-visible, summary:focus-visible { outline: 3px solid color-mix(in srgb, var(--accent) 45%, transparent); outline-offset: 4px; }
+    .button.compact { min-height: 42px; padding-inline: 16px; font-size: 14px; }
+
+    .hero { min-height: calc(100svh - 72px); display: grid; align-items: center; padding: 72px 0 84px; overflow: hidden; }
+    .hero-grid { display: grid; grid-template-columns: minmax(0, .92fr) minmax(440px, 1.08fr); gap: clamp(48px, 8vw, 112px); align-items: center; }
+    .eyebrow { margin: 0 0 22px; color: var(--accent); font-size: 13px; font-weight: 760; letter-spacing: .13em; text-transform: uppercase; }
+    h1, h2, h3, p { margin-top: 0; }
+    h1 { margin-bottom: 28px; font-size: clamp(52px, 6.2vw, 88px); line-height: .97; letter-spacing: -.065em; max-width: 760px; }
+    .lede { margin-bottom: 32px; max-width: 600px; color: var(--muted); font-size: clamp(18px, 2vw, 22px); }
+    .hero-actions { display: flex; align-items: center; gap: 18px; flex-wrap: wrap; }
+    .microcopy { color: var(--muted); font-size: 13px; }
+    .hero-visual { position: relative; min-height: 660px; }
+    .lifestyle {
+      position: absolute; inset: 0 15% 8% 0; border-radius: 34px; overflow: hidden;
+      box-shadow: var(--shadow); background: var(--surface);
+    }
+    .lifestyle img { width: 100%; height: 100%; object-fit: cover; }
+    .screen-float {
+      position: absolute; width: 45%; right: 0; bottom: 0; border: 10px solid var(--surface);
+      border-radius: 24px; box-shadow: var(--shadow); transform: rotate(2.6deg); overflow: hidden;
+    }
+    .moment {
+      position: absolute; right: 2%; top: 7%; z-index: 2; width: 170px; padding: 16px 18px;
+      border: 1px solid var(--line); background: var(--surface); border-radius: 16px; box-shadow: var(--shadow);
+      font-size: 13px; color: var(--muted);
+    }
+    .moment strong { display: block; color: var(--ink); font-size: 16px; margin-bottom: 2px; }
+
+    .trust-bar { border-block: 1px solid var(--line); }
+    .trust-inner { min-height: 96px; display: grid; grid-template-columns: repeat(3, 1fr); align-items: center; }
+    .trust-item { padding: 12px 34px; border-right: 1px solid var(--line); }
+    .trust-item:first-child { padding-left: 0; }
+    .trust-item:last-child { border-right: 0; }
+    .trust-item strong { display: block; font-size: 15px; }
+    .trust-item span { color: var(--muted); font-size: 13px; }
+
+    section { padding: 128px 0; }
+    .section-kicker { color: var(--accent); font-size: 13px; font-weight: 760; letter-spacing: .12em; text-transform: uppercase; }
+    .section-title { max-width: 780px; margin: 10px 0 64px; font-size: clamp(38px, 5vw, 64px); line-height: 1.03; letter-spacing: -.05em; }
+    .steps { display: grid; grid-template-columns: 1.1fr .9fr 1.1fr; gap: 1px; background: var(--line); border: 1px solid var(--line); }
+    .step { min-height: 310px; padding: clamp(28px, 4vw, 50px); background: var(--surface); }
+    .step:nth-child(2) { transform: translateY(26px); }
+    .step-number { color: var(--accent); font-variant-numeric: tabular-nums; font-size: 14px; font-weight: 760; }
+    .step h3 { margin: 72px 0 16px; font-size: 26px; line-height: 1.1; letter-spacing: -.03em; }
+    .step p { color: var(--muted); }
+
+    .feature { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(48px, 8vw, 112px); align-items: center; margin-bottom: 150px; }
+    .feature:last-child { margin-bottom: 0; }
+    .feature.reverse .feature-copy { order: 2; }
+    .feature-copy { max-width: 500px; }
+    .feature-copy h2 { margin: 10px 0 22px; font-size: clamp(38px, 4.7vw, 62px); line-height: 1.02; letter-spacing: -.05em; }
+    .feature-copy p { color: var(--muted); font-size: 18px; }
+    .feature-list { padding: 0; margin: 30px 0 0; list-style: none; }
+    .feature-list li { position: relative; padding: 12px 0 12px 26px; border-top: 1px solid var(--line); }
+    .feature-list li::before { content: ""; position: absolute; left: 1px; top: 21px; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
+    .device {
+      position: relative; padding: 15px; border-radius: 30px; border: 1px solid var(--line);
+      background: #dce2eb; box-shadow: var(--shadow); transform: rotate(-1deg);
+    }
+    .device img { border-radius: 20px; }
+    .feature.reverse .device { transform: rotate(1.2deg); }
+
+    .privacy { padding: 0 0 128px; }
+    .privacy-panel {
+      display: grid; grid-template-columns: 1.15fr .85fr; gap: 48px; padding: clamp(36px, 7vw, 88px);
+      border: 1px solid var(--line); background: var(--surface);
+    }
+    .privacy-panel h2 { margin-bottom: 18px; font-size: clamp(36px, 5vw, 62px); line-height: 1; letter-spacing: -.05em; }
+    .privacy-panel p { max-width: 630px; color: var(--muted); font-size: 18px; }
+    .privacy-facts { display: grid; align-content: center; gap: 16px; }
+    .privacy-fact { padding: 18px 0; border-bottom: 1px solid var(--line); }
+    .privacy-fact strong { display: block; margin-bottom: 3px; }
+    .privacy-fact span { color: var(--muted); font-size: 14px; }
+
+    .faq { padding-top: 0; }
+    .faq-grid { display: grid; grid-template-columns: .7fr 1.3fr; gap: 80px; }
+    .faq h2 { font-size: clamp(38px, 5vw, 62px); line-height: 1; letter-spacing: -.05em; }
+    details { border-top: 1px solid var(--line); padding: 24px 0; }
+    details:last-child { border-bottom: 1px solid var(--line); }
+    summary { cursor: pointer; font-weight: 700; list-style: none; }
+    summary::-webkit-details-marker { display: none; }
+    summary::after { content: "+"; float: right; color: var(--accent); }
+    details[open] summary::after { content: "−"; }
+    details p { max-width: 680px; margin: 16px 0 0; color: var(--muted); }
+
+    .final-cta { padding: 112px 0; border-block: 1px solid var(--line); text-align: center; }
+    .final-cta h2 { max-width: 900px; margin: 0 auto 30px; font-size: clamp(44px, 7vw, 82px); line-height: .98; letter-spacing: -.06em; }
+    .final-cta p { color: var(--muted); margin-bottom: 30px; }
+    footer { padding: 48px 0; }
+    .footer-inner { display: flex; justify-content: space-between; align-items: flex-start; gap: 40px; }
+    .footer-links { display: flex; flex-wrap: wrap; gap: 22px; color: var(--muted); font-size: 14px; }
+    .footer-links a:hover { color: var(--ink); }
+    .copyright { margin-top: 10px; color: var(--muted); font-size: 13px; }
+
+    [data-reveal] { opacity: 0; transform: translateY(22px); transition: opacity .7s ease, transform .7s ease; }
+    [data-reveal].visible { opacity: 1; transform: none; }
+
+    @media (max-width: 900px) {
+      .nav-links a:not(.button) { display: none; }
+      .hero { min-height: auto; }
+      .hero-grid, .feature, .privacy-panel, .faq-grid { grid-template-columns: 1fr; }
+      .hero-visual { min-height: 620px; }
+      .lifestyle { inset-right: 9%; }
+      .steps { grid-template-columns: 1fr; }
+      .step, .step:nth-child(2) { min-height: 230px; transform: none; }
+      .step h3 { margin-top: 44px; }
+      .feature.reverse .feature-copy { order: initial; }
+      .feature { margin-bottom: 104px; }
+      .privacy-facts { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 620px) {
+      .wrap { width: min(calc(100% - 28px), var(--max)); }
+      .nav-inner { height: 64px; }
+      .nav .button { min-height: 40px; padding-inline: 13px; }
+      .hero { padding-top: 56px; }
+      h1 { font-size: clamp(46px, 15vw, 66px); }
+      .hero-visual { min-height: 470px; }
+      .lifestyle { inset: 0 5% 10% 0; border-radius: 22px; }
+      .screen-float { width: 48%; border-width: 6px; border-radius: 16px; }
+      .moment { top: auto; bottom: 4%; right: 4%; width: 150px; }
+      .trust-inner { grid-template-columns: 1fr; padding: 10px 0; }
+      .trust-item, .trust-item:first-child { padding: 14px 0; border-right: 0; border-bottom: 1px solid var(--line); }
+      .trust-item:last-child { border-bottom: 0; }
+      section { padding: 92px 0; }
+      .section-title { margin-bottom: 42px; }
+      .device { padding: 8px; border-radius: 18px; }
+      .device img { border-radius: 12px; }
+      .privacy { padding-bottom: 92px; }
+      .privacy-facts { grid-template-columns: 1fr; }
+      .footer-inner { flex-direction: column; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+      [data-reveal] { opacity: 1; transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top" aria-label="Inkwell home"><span class="mark" aria-hidden="true"></span>Inkwell</a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#how">How it works</a>
+        <a href="#features">Features</a>
+        <a href="#privacy">Privacy</a>
+        <a class="button compact" href="https://apps.apple.com/app/id6757148842">Get Inkwell</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div data-reveal>
+          <p class="eyebrow">Built for iPad and Apple Pencil</p>
+          <h1>Write through the moment. Return to it later.</h1>
+          <p class="lede">Inkwell keeps every handwritten stroke connected to the audio around it. Tap your notes and hear exactly what was happening then.</p>
+          <div class="hero-actions">
+            <a class="button" href="https://apps.apple.com/app/id6757148842" aria-label="Get Inkwell on the App Store">Get Inkwell</a>
+            <span class="microcopy">Free to start. Pro is one purchase.</span>
+          </div>
+        </div>
+        <div class="hero-visual" data-reveal>
+          <div class="lifestyle"><img src="inkwell-assets/lecture-ipad.webp" alt="Student writing lecture notes on an iPad" width="1600" height="1067"></div>
+          <div class="screen-float"><img src="inkwell-assets/app-editor.webp" alt="Inkwell note editor with synchronized audio controls" width="930" height="1240"></div>
+          <div class="moment"><strong>02:12</strong>One tap returns to this part of the lecture.</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="trust-bar" aria-label="Product facts">
+      <div class="wrap trust-inner">
+        <div class="trust-item"><strong>iPad only</strong><span>A focused canvas designed for Pencil.</span></div>
+        <div class="trust-item"><strong>Stored on your device</strong><span>Your notes stay local by default.</span></div>
+        <div class="trust-item"><strong>No monthly subscription</strong><span>Unlock Pro with one purchase.</span></div>
+      </div>
+    </div>
+
+    <section id="how">
+      <div class="wrap">
+        <p class="section-kicker">How it works</p>
+        <h2 class="section-title">A simpler loop for classes, meetings, and ideas.</h2>
+        <div class="steps">
+          <article class="step" data-reveal><span class="step-number">01</span><h3>Write naturally</h3><p>Use Apple Pencil, multiple pages, familiar pen tools, and paper templates.</p></article>
+          <article class="step" data-reveal><span class="step-number">02</span><h3>Record in context</h3><p>Audio and strokes share a timeline, including pauses and page changes.</p></article>
+          <article class="step" data-reveal><span class="step-number">03</span><h3>Return precisely</h3><p>Tap a handwritten stroke to continue listening from that moment.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="wrap">
+        <article class="feature">
+          <div class="feature-copy" data-reveal>
+            <p class="section-kicker">One timeline</p>
+            <h2>Keep pages and recordings connected.</h2>
+            <p>Move through a long lecture without losing the relationship between what you heard and what you wrote.</p>
+            <ul class="feature-list">
+              <li>Multiple pages in each note</li>
+              <li>Multiple recording segments</li>
+              <li>Stroke-based audio replay</li>
+            </ul>
+          </div>
+          <div class="device" data-reveal><img src="inkwell-assets/app-editor.webp" alt="A two-page Inkwell note with audio playback" width="930" height="1240" loading="lazy"></div>
+        </article>
+        <article class="feature reverse">
+          <div class="feature-copy" data-reveal>
+            <p class="section-kicker">Share the work</p>
+            <h2>Export the result or replay the process.</h2>
+            <p>Send selected pages as a PDF, or turn the writing process into a real MP4 time-lapse that plays anywhere.</p>
+            <ul class="feature-list">
+              <li>Single and multi-page PDF export</li>
+              <li>True MP4 time-lapse export</li>
+              <li>Local .inkwell backup with recordings</li>
+            </ul>
+          </div>
+          <div class="device" data-reveal><img src="inkwell-assets/app-home.webp" alt="Inkwell note library with folders and an audio note" width="930" height="1240" loading="lazy"></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="privacy" id="privacy">
+      <div class="wrap privacy-panel" data-reveal>
+        <div>
+          <p class="section-kicker">Clear by design</p>
+          <h2>Your notebook should make honest promises.</h2>
+          <p>Inkwell stores notes on your device and clearly labels what this release can do. It does not claim cloud sync, handwriting recognition, or PDF annotation.</p>
+        </div>
+        <div class="privacy-facts">
+          <div class="privacy-fact"><strong>Local storage</strong><span>Notes remain on the iPad unless you export them.</span></div>
+          <div class="privacy-fact"><strong>Portable backup</strong><span>Save notes and audio together in one .inkwell file.</span></div>
+          <div class="privacy-fact"><strong>Transparent purchase</strong><span>One-time Pro unlock with no recurring fee.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq" id="support">
+      <div class="wrap faq-grid">
+        <div><p class="section-kicker">Support</p><h2>Good to know.</h2></div>
+        <div>
+          <details><summary>Does Inkwell work on iPhone?</summary><p>No. Inkwell is intentionally designed for iPad and the larger Apple Pencil canvas.</p></details>
+          <details><summary>Can I import and annotate a PDF?</summary><p>Not in the current version. You can export one or multiple note pages as PDF.</p></details>
+          <details><summary>Is Pro a subscription?</summary><p>No. Pro is a one-time in-app purchase. The App Store shows the local price for your region.</p></details>
+          <details><summary>How do I get help?</summary><p>Email <a href="mailto:hiyeong.noh@gmail.com">hiyeong.noh@gmail.com</a>. Include your Inkwell version and iPadOS version so we can help faster.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="wrap" data-reveal>
+        <h2>Hear the context your notes cannot hold alone.</h2>
+        <p>Start writing and recording on iPad.</p>
+        <a class="button" href="https://apps.apple.com/app/id6757148842">Get Inkwell</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-inner">
+      <div><a class="brand" href="#top"><span class="mark" aria-hidden="true"></span>Inkwell</a><p class="copyright">© 2026 PRIZM. All rights reserved.</p></div>
+      <div class="footer-links">
+        <a href="https://prizmchain.github.io/inkwell-privacy-policy.html">Privacy Policy</a>
+        <a href="https://prizmchain.github.io/inkwell-terms-of-service.html">Terms of Service</a>
+        <a href="mailto:hiyeong.noh@gmail.com">Support</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reducedMotion || !('IntersectionObserver' in window)) {
+      document.querySelectorAll('[data-reveal]').forEach((element) => element.classList.add('visible'));
+    } else {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: .14 });
+      document.querySelectorAll('[data-reveal]').forEach((element) => observer.observe(element));
+    }
+  </script>
+</body>
+</html>
