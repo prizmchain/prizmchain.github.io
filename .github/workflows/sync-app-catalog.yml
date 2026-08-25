@@ -1,0 +1,33 @@
+name: Sync App Store catalog
+
+on:
+  schedule:
+    - cron: "15 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Refresh Apple catalog
+        run: npm run sync
+      - name: Verify site
+        run: npm test
+      - name: Commit catalog changes
+        run: |
+          if git diff --quiet && [ -z "$(git status --porcelain)" ]; then
+            echo "Catalog is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/apps.json assets/apps-data.js assets/icons
+          git commit -m "chore: sync App Store catalog"
+          git push

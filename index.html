@@ -1,37 +1,115 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PRIZM_KR | Official Developer Website</title>
-  <meta name="description" content="PRIZM_KR official developer website. Apps, policies, and support information.">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f2f0e8">
+  <meta name="description" content="PRIZM makes focused iPhone apps for the small, specific moments that deserve better software.">
+  <meta property="og:title" content="PRIZM — Small apps. Specific moments.">
+  <meta property="og:description" content="An independent app studio in Seoul. Explore every PRIZM app on the App Store.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://prizmchain.github.io/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+  <title>PRIZM — Independent iPhone apps</title>
 </head>
-<body style="font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 16px;">
-  <h1>PRIZM_KR</h1>
-  <p><strong>Welcome to the official developer website of PRIZM_KR.</strong></p>
+<body>
+  <a class="skip-link" href="#apps">Skip to apps</a>
 
-  <section>
-    <h2>About Us</h2>
-    <p>PRIZM_KR is an independent developer based in South Korea, focused on creating practical and intuitive mobile apps.</p>
-  </section>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="PRIZM home">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>PRIZM</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#apps">All apps</a>
+      <a href="#studio">Studio</a>
+    </nav>
+    <span class="header-note">Seoul · iOS</span>
+  </header>
 
-  <section>
-    <h2>Business Information</h2>
-    <ul>
-      <li><strong>Business Name:</strong> PRIZM_KR</li>
-      <li><strong>Business Registration Number:</strong> 228-42-01285</li>
-      <li><strong>Address:</strong> Seoul, Republic of Korea</li>
-      <li><strong>Contact Email:</strong> prizm.dev.kr@gmail.com</li>
-    </ul>
-  </section>
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot"></span> Independent app studio</p>
+        <h1 id="hero-title">Small apps.<br><em>Specific</em> moments.</h1>
+        <p class="hero-intro">We make focused iPhone tools that solve one real problem well—then get out of your way.</p>
+        <a class="text-link" href="#apps">Browse the full shelf <span aria-hidden="true">↓</span></a>
+      </div>
 
-  <section>
-    <h2>Privacy Policy</h2>
-    <p>You can read our privacy policy <a href="./privacy-policy.html">here</a>.</p>
-  </section>
+      <div class="hero-index" aria-label="Studio facts">
+        <div class="index-number"><span data-app-count>—</span></div>
+        <p>apps live<br>on the App Store</p>
+        <div class="index-rule"></div>
+        <p class="index-small">Built by one developer<br>in Seoul, South Korea.</p>
+      </div>
 
-  <footer style="margin-top: 40px; font-size: 0.9em; color: #777;">
-    <p>© 2025 PRIZM_KR. All rights reserved.</p>
+      <div class="floating-icons" id="floating-icons" aria-hidden="true"></div>
+    </section>
+
+    <section class="featured" id="featured" aria-labelledby="featured-title">
+      <div class="section-label">
+        <span>Featured now</span>
+        <span>01</span>
+      </div>
+      <article class="featured-card" id="featured-card" aria-live="polite">
+        <div class="featured-loading">Loading today’s featured app…</div>
+      </article>
+    </section>
+
+    <section class="catalog" id="apps" aria-labelledby="catalog-title">
+      <div class="catalog-heading">
+        <div>
+          <p class="eyebrow">The complete shelf</p>
+          <h2 id="catalog-title">Every app,<br>one studio.</h2>
+        </div>
+        <div class="catalog-tools">
+          <label class="search-box">
+            <span class="sr-only">Search apps</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
+            <input id="app-search" type="search" placeholder="Find an app" autocomplete="off">
+          </label>
+          <div class="filters" id="genre-filters" aria-label="Filter apps by category"></div>
+        </div>
+      </div>
+
+      <div class="app-grid" id="app-grid" aria-live="polite"></div>
+      <p class="empty-state" id="empty-state" hidden>No app found. Try another word.</p>
+    </section>
+
+    <section class="studio" id="studio" aria-labelledby="studio-title">
+      <div class="studio-statement">
+        <p class="eyebrow">Why so many?</p>
+        <h2 id="studio-title">Because useful software doesn’t have to become a platform.</h2>
+      </div>
+      <div class="studio-copy">
+        <p>PRIZM is an independent developer studio based in Seoul. Each app starts with a narrow frustration and ships as a direct, thoughtful answer.</p>
+        <dl>
+          <div><dt>Business</dt><dd>PRIZM_KR</dd></div>
+          <div><dt>Based in</dt><dd>Seoul, Republic of Korea</dd></div>
+          <div><dt>Contact</dt><dd><a href="mailto:prizm.dev.kr@gmail.com">prizm.dev.kr@gmail.com</a></dd></div>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-wordmark" aria-hidden="true">PRIZM</div>
+    <div class="footer-meta">
+      <span>© <span id="current-year"></span> PRIZM_KR</span>
+      <a href="https://apps.apple.com/us/developer/noh-hiyeong/id1839727056">Developer page</a>
+      <a href="mailto:prizm.dev.kr@gmail.com">Support</a>
+    </div>
   </footer>
+
+  <noscript>
+    <div class="noscript">JavaScript is required to show the live catalog. <a href="https://apps.apple.com/us/developer/noh-hiyeong/id1839727056">See every PRIZM app on the App Store.</a></div>
+  </noscript>
+
+  <script src="assets/site-config.js"></script>
+  <script src="assets/apps-data.js"></script>
+  <script src="assets/app.js"></script>
 </body>
 </html>

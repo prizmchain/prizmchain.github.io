@@ -1,0 +1,9 @@
+{
+  "name": "prizm-app-hub",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "sync": "node scripts/sync-apps.mjs",
+    "test": "node scripts/check-site.mjs"
+  }
+}
