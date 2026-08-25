@@ -4,8 +4,10 @@
   const apps = catalog.apps || [];
   const grid = document.querySelector('#app-grid');
   const search = document.querySelector('#app-search');
+  const searchStatus = document.querySelector('#search-result-status');
   const filters = document.querySelector('#genre-filters');
   const empty = document.querySelector('#empty-state');
+  const searchEngine = window.PRIZM_APP_SEARCH;
   let activeGenre = 'All';
 
   const cleanText = (value = '') => value.replace(/\s+/g, ' ').trim();
@@ -59,7 +61,7 @@
   };
 
   const cardMarkup = (app, index) => `
-    <article class="app-card" style="--delay:${Math.min(index, 12) * 35}ms">
+    <article class="app-card" data-app-id="${app.id}" style="--delay:${Math.min(index, 12) * 35}ms">
       <a href="${appUrl(app, 'catalog')}" data-app-id="${app.id}" data-placement="catalog" aria-label="View ${cleanText(app.name)} on the App Store">
         <div class="card-top">
           ${iconMarkup(app)}
@@ -74,16 +76,16 @@
     </article>
   `;
 
-  const renderGrid = () => {
-    const query = search.value.trim().toLowerCase();
-    const visible = apps.filter((app) => {
-      const matchesGenre = activeGenre === 'All' || app.genre === activeGenre;
-      const haystack = `${app.name} ${app.genre} ${app.description}`.toLowerCase();
-      return matchesGenre && haystack.includes(query);
-    });
+  const applySearch = () => {
+    const visibleIds = new Set(apps
+      .filter((app) => searchEngine.matches(app, search.value, activeGenre))
+      .map((app) => String(app.id)));
 
-    grid.innerHTML = visible.map(cardMarkup).join('');
-    empty.hidden = visible.length > 0;
+    grid.querySelectorAll('.app-card').forEach((card) => {
+      card.hidden = !visibleIds.has(card.dataset.appId);
+    });
+    empty.hidden = visibleIds.size > 0;
+    searchStatus.textContent = `${visibleIds.size} app${visibleIds.size === 1 ? '' : 's'} found`;
   };
 
   const renderFilters = () => {
@@ -103,18 +105,21 @@
 
   document.querySelectorAll('[data-app-count]').forEach((node) => { node.textContent = apps.length; });
   document.querySelector('#current-year').textContent = new Date().getFullYear();
+  search.value = new URLSearchParams(location.search).get('q') || '';
   renderFeatured();
   renderFilters();
-  renderGrid();
+  grid.innerHTML = apps.map(cardMarkup).join('');
+  applySearch();
   renderFloatingIcons();
 
-  search.addEventListener('input', renderGrid);
+  search.addEventListener('input', applySearch);
+  search.addEventListener('search', applySearch);
   filters.addEventListener('click', (event) => {
     const button = event.target.closest('[data-genre]');
     if (!button) return;
     activeGenre = button.dataset.genre;
     filters.querySelectorAll('button').forEach((item) => item.setAttribute('aria-pressed', String(item === button)));
-    renderGrid();
+    applySearch();
   });
 
   document.addEventListener('click', (event) => {
