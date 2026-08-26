@@ -1,8 +1,20 @@
 window.PRIZM_APP_CATALOG = {
   "artistId": 1839727056,
-  "generatedAt": "2026-08-25T03:04:11.695Z",
+  "generatedAt": "2026-08-26T03:27:01.776Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6761908470,
+      "slug": "vaultx-offline-password-vault",
+      "name": "VaultX Offline Password Vault",
+      "genre": "Productivity",
+      "version": "1.1.0",
+      "description": "VaultX is a private, offline-first credential vault for passwords, payment cards, recovery codes, secure notes, crypto wallet details, identity records, and other sensitive information.\n\nYour vault is encrypted on your device. VaultX does not require an account and does not operate a password-storage server. Optional iCloud sync keeps encrypted vault data available across your Apple devices.\n\nCORE FEATURES\n- AES-256-GCM encrypted local vault\n- Face ID and device authentication\n- Password and passphrase generator\n- iOS AutoFill extension for apps and Safari\n- Search, categories, and favorites\n- Encrypted backup and restore\n- Clipboard auto-clear\n\nPREMIUM — ONE-TIME PURCHASE\n- Unlimited credential records\n- TOTP authenticator codes\n- Decoy vault\n- Breach monitoring\n- Emergency recovery tools\n- Encrypted iCloud sync\n\nNo subscription. Your credentials stay under your control.",
+      "releaseDate": "2026-08-25T19:13:08Z",
+      "url": "https://apps.apple.com/us/app/vaultx-offline-password-vault/id6761908470",
+      "icon": "assets/icons/6761908470.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/5e/3d/1c5e3d64-47e0-8519-efce-8ba06cb82502/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6782553911,
       "slug": "planmark-room-scanner",
@@ -230,18 +242,6 @@ window.PRIZM_APP_CATALOG = {
       "url": "https://apps.apple.com/us/app/later-screenshots-links/id6752585188",
       "icon": "assets/icons/6752585188.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/63/d2/fd63d2f9-2e0f-7e9f-cefd-282650088009/AppIcon-0-0-1x_U007emarketing-0-4-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6761908470,
-      "slug": "vaultx-offline-password-vault",
-      "name": "VaultX Offline Password Vault",
-      "genre": "Productivity",
-      "version": "1.0",
-      "description": "VaultX is an offline password vault and secure encrypted safe. Your passwords, cards, crypto wallets, and identity documents stay on your device only. No cloud. No server. No subscription.\n\nAES-256-GCM encryption with zero-knowledge architecture. PBKDF2-SHA256 with 310,000 iterations. 100 percent local storage. Your data never leaves your device unless you opt into iCloud Sync.\n\n12 VAULT CATEGORIES\nPasswords and logins. Credit and debit cards. Crypto wallets and seed phrases. Identity documents. SSH keys and API tokens. Secure notes. Recovery codes. Wi-Fi credentials. Software licenses. Bank accounts. Memberships. Medical and insurance info.\n\nFREE FEATURES\nAES-256-GCM encryption. Full local storage. Face ID and Touch ID. iOS AutoFill for apps and Safari. Password generator with custom rules. Clipboard auto-clear. Dark mode.\n\nPREMIUM ONE-TIME 9.99 NO SUBSCRIPTION\nTOTP and 2FA authenticator built in. Decoy Mode opens a fake empty vault under a separate PIN. iCloud Sync with end-to-end encryption. HIBP breach monitoring against 500 million compromised passwords. Unlimited entries.\n\nWHY LOCAL FIRST\nCloud password managers get breached. LastPass 2022 exposed vault data for millions. VaultX has no server to attack. Your data exists only on your device.\n\nONE-TIME PURCHASE OWN IT FOREVER\n9.99 once. All premium features. All future updates. No monthly fees. No renewals. No hidden costs. Ever.\n\nTECHNICAL\nCipher AES-256-GCM. Key derivation PBKDF2-SHA256 310000 iterations or Argon2id. Zero-knowledge client-side only. Native iOS AutoFill. iOS 16 and above.\n\nVaultX. Your secrets stay yours.\n\nTerms of Use: https://prizmchain.github.io/vaultx-terms-of-service.html                                   \nPrivacy Policy: https://prizmchain.github.io/vaultx-privacy-policy.html",
-      "releaseDate": "2026-04-14T11:36:26Z",
-      "url": "https://apps.apple.com/us/app/vaultx-offline-password-vault/id6761908470",
-      "icon": "assets/icons/6761908470.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b4/5a/b4/b45ab44e-d48c-71ce-d2bf-26684625277b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6759965167,
