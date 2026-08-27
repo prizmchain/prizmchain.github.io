@@ -1,8 +1,68 @@
 {
   "artistId": 1839727056,
-  "generatedAt": "2026-08-26T03:27:01.776Z",
+  "generatedAt": "2026-08-27T12:55:01.080Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6755321981,
+      "slug": "recordingo",
+      "name": "RecordinGo",
+      "genre": "Productivity",
+      "version": "1.4",
+      "description": "Stop scrubbing through long recordings to find one important moment.\n\nRecordinGo combines high-quality audio recording, on-device transcription, search, organization, and editing in one professional recorder. Search a transcript for any word, then jump directly to the moment it was spoken.\n\nKey features\n\n- High-quality WAV and background recording\n- On-device transcription for supported languages\n- Transcript search with timestamp navigation\n- Projects, bookmarks, and tags\n- Trim, cut, fades, and non-destructive editing\n- Face ID or Touch ID app lock\n- Recordings and app data stored on your device\n\nThe free tier includes recordings up to one hour and up to 10 projects.\n\nRecordinGo Pro is a one-time purchase that removes recording and project limits and adds AIFF and M4A, up to 96 kHz/24-bit audio, stereo recording with external audio interfaces, scheduled recording, voice activity detection, batch export, playback speed, and loop playback.\n\nThe optional FX Pack adds a 10-band EQ and compressor. A Pro + FX bundle is also available, with any discount calculated from current App Store prices.\n\nNo subscription. No ads. No account.\n\nSupport: prizm_kr@hotmail.com",
+      "releaseDate": "2026-08-26T20:05:39Z",
+      "url": "https://apps.apple.com/us/app/recordingo/id6755321981",
+      "icon": "assets/icons/6755321981.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cc/3c/d7/cc3cd7ce-9714-6ce8-cebd-04b10a0aeb7f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": 6791563807,
+      "slug": "bloomway-color-paths",
+      "name": "Bloomway: Color Paths",
+      "genre": "Games",
+      "version": "1.0",
+      "description": "Follow the paths. Match the seeds. Make the whole garden bloom.\n\nBloomway is a cozy color-routing puzzle with a simple rule that creates thoughtful choices: seeds can move only between connected pods, and only into an empty pod or onto the same color. Guide every color to its matching flower while keeping helper pods clear.\n\nWHY BLOOMWAY FEELS DIFFERENT\n- A connected-path board instead of unrestricted tube sorting\n- 200 handcrafted campaign levels with a smooth learning curve\n- Daily gardens, streak gifts, and weekly goals\n- Hidden seeds, sleeping pods, and changing capacities\n- Replay-proven hints, Undo, Restart, and a temporary helper pod\n- Warm clay visuals, clear patterns, sound, haptics, and accessible color cues\n- Garden themes unlocked with coins\n- Endless Mastery Paths after level 200\n- One-time option to remove ads permanently\n\nPlay for a quiet minute or settle in for a clever route. Every finished flower gives the board a satisfying little bloom.",
+      "releaseDate": "2026-08-26T10:06:44Z",
+      "url": "https://apps.apple.com/us/app/bloomway-color-paths/id6791563807",
+      "icon": "assets/icons/6791563807.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/81/46/c0/8146c0fb-feed-50df-3014-35252d8033a3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": 6789324545,
+      "slug": "bedside-audio",
+      "name": "Bedside Audio",
+      "genre": "Health & Fitness",
+      "version": "1.2",
+      "description": "Did you snore last night?\n\nBedside Audio turns an overnight recording into a focused morning review. Instead of searching through hours of audio, hear selected snore-like clips, see when they happened, and compare how your nights change over time.\n\nONE TAP AT BEDTIME\n• Place your iPhone beside the bed, start recording, and lock the screen.\n• Bedside Audio continues recording in the background.\n• In the morning, see detected clip count, snore time included in the score, relative peak level, and your nightly score.\n\nHEAR THE EVIDENCE\n• Replay selected clips directly from the timeline.\n• Jump to marked moments without scrubbing through a full-night file.\n• Review uncertain clips and correct sounds that were classified incorrectly.\n\nBUILD YOUR BASELINE\n• Compare nightly scores and snore load as your history grows.\n• Notice quieter and louder nights with a clear seven-night view.\n• Keep dated results available on your iPhone.\n\nPRIVATE BY DESIGN\n• No account required.\n• No automatic cloud upload.\n• Analysis, results, and selected replay clips stay on this iPhone unless you choose to share them.\n• Delete individual nights whenever you want.\n\nTry your first night free. Continue with one lifetime purchase. No subscription.\n\nBedside Audio is a wellness and awareness tool. It does not diagnose, monitor, or treat sleep apnea or any medical condition. Detection can vary with phone placement, room noise, and other people nearby.\n\nTerms of Use: https://prizmchain.github.io/bedside-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/bedside-privacy-policy.html",
+      "releaseDate": "2026-08-26T09:47:29Z",
+      "url": "https://apps.apple.com/us/app/bedside-audio/id6789324545",
+      "icon": "assets/icons/6789324545.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e0/6a/fa/e06afaf8-8572-24f0-80f0-a6cc6ad68849/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": 6757148842,
+      "slug": "inkwell-audio-sync-notes",
+      "name": "Inkwell: Audio Sync Notes",
+      "genre": "Productivity",
+      "version": "1.2.1",
+      "description": "Inkwell connects Apple Pencil handwriting and audio on one timeline.\n\n• Record audio while taking handwritten notes\n• Tap handwriting to play from that moment\n• Navigate multiple pages and recording segments\n• Share the writing process as a real MP4 time-lapse\n• Export single- or multi-page PDFs\n• Organize with folders, note locks, pens, and paper templates\n• Back up notes and recordings in one .inkwell file\n• One-time Pro purchase with no monthly subscription\n\nYour notes are stored on your device. PDF import and annotation are not features of this version.",
+      "releaseDate": "2026-08-26T07:35:03Z",
+      "url": "https://apps.apple.com/us/app/inkwell-audio-sync-notes/id6757148842",
+      "icon": "assets/icons/6757148842.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/08/f0/8008f0f5-11cd-a648-da3e-6eff9a3dc0ce/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": 6802110971,
+      "slug": "signet",
+      "name": "Signet.",
+      "genre": "Graphics & Design",
+      "version": "1.0.0",
+      "description": "Create a reusable personal signature and sign received PDFs or images without uploading your documents. Open a file from Files or the iOS share sheet, place and resize your signature, then export a flattened copy.\n\nFREE\n• Create, preview, and practice signatures\n• Preview signature placement in a document\n\nUNLIMITED DOCUMENTS — ONE-TIME PURCHASE\n• Copy and share your reusable signature\n• Export signatures as PNG or SVG\n• Complete and export signed PDFs and images\n• No subscription or recurring charge\n\nAll document processing happens on your device. Signet. does not verify identity, create certificate-backed digital signatures, or guarantee legal validity.\n\nTerms of Use\nhttps://prizmchain.github.io/signet-terms-of-service.html\n\nPrivacy Policy\nhttps://prizmchain.github.io/signet-privacy-policy.html",
+      "releaseDate": "2026-08-26T07:23:58Z",
+      "url": "https://apps.apple.com/us/app/signet/id6802110971",
+      "icon": "assets/icons/6802110971.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/cd/af/f9cdaf2d-2cea-f0f8-17d0-af8caedc63e4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6761908470,
       "slug": "vaultx-offline-password-vault",
@@ -86,18 +146,6 @@
       "url": "https://apps.apple.com/us/app/lightprint-light-meter/id6780172538",
       "icon": "assets/icons/6780172538.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b5/54/55/b5545509-a5d3-1e51-4359-debc21aa3e51/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6789324545,
-      "slug": "bedside-audio",
-      "name": "Bedside Audio",
-      "genre": "Health & Fitness",
-      "version": "1.1",
-      "description": "Did you snore last night?\n\nBedside Audio turns an overnight recording into a focused morning review. Instead of searching through hours of audio, hear selected snore-like clips, see when they happened, and compare how your nights change over time.\n\nONE TAP AT BEDTIME\n• Place your iPhone beside the bed, start recording, and lock the screen.\n• Bedside Audio continues recording in the background.\n• In the morning, see detected clip count, snore time included in the score, relative peak level, and your nightly score.\n\nHEAR THE EVIDENCE\n• Replay selected clips directly from the timeline.\n• Jump to marked moments without scrubbing through a full-night file.\n• Review uncertain clips and correct sounds that were classified incorrectly.\n\nBUILD YOUR BASELINE\n• Compare nightly scores and snore load as your history grows.\n• Notice quieter and louder nights with a clear seven-night view.\n• Keep dated results available on your iPhone.\n\nPRIVATE BY DESIGN\n• No account required.\n• No automatic cloud upload.\n• Analysis, results, and selected replay clips stay on this iPhone unless you choose to share them.\n• Delete individual nights whenever you want.\n\nTry your first night free. Continue with one lifetime purchase. No subscription.\n\nBedside Audio is a wellness and awareness tool. It does not diagnose, monitor, or treat sleep apnea or any medical condition. Detection can vary with phone placement, room noise, and other people nearby.\n\nTerms of Use: https://prizmchain.github.io/bedside-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/bedside-privacy-policy.html",
-      "releaseDate": "2026-08-16T21:57:38Z",
-      "url": "https://apps.apple.com/us/app/bedside-audio/id6789324545",
-      "icon": "assets/icons/6789324545.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c9/5b/73/c95b7365-0553-f08d-46f0-66ce49b50019/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6758996727,
@@ -280,18 +328,6 @@
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/48/68/a0/4868a0fd-82ad-274d-bc66-8163b9981ec4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
-      "id": 6757148842,
-      "slug": "inkwell-audio-sync-notes",
-      "name": "Inkwell: Audio Sync Notes",
-      "genre": "Productivity",
-      "version": "1.2",
-      "description": "Turn your iPad into a digital notebook that captures both your handwriting and voice.\n\n  Inkwell is a handwriting app designed for students, professionals, and anyone who loves the feel of pen on paper. Write naturally with Apple Pencil while recording lectures,\n  meetings, or your own thoughts. Your audio syncs perfectly with your handwriting, so you can tap any word to hear exactly what was being said when you wrote it.\n\n  Watch your notes come to life with Time-Lapse playback. See every stroke recreated in a beautiful video you can share with friends or on social media.\n\n  FREE FEATURES:\n  - 10 notes with 3 pages each\n  - 5-minute audio recording per note\n  - 2 pen styles (Basic, Fine Liner)\n  - 4 background templates\n  - 1 Time-Lapse export\n  - Biometric lock for privacy\n  - Export single-page PDF\n\n  INKWELL PRO (One-Time Purchase):\n  - Unlimited notes and pages\n  - Unlimited recording time\n  - Audio playback with handwriting sync\n  - Multi-page PDF export\n  - 8+ premium pen styles including Brush, Calligraphy, Fountain, Watercolor, and Neon\n  - 15+ background templates including Cornell, Music Staff, Isometric, and Planner\n  - Unlimited Time-Lapse exports\n\n  No subscriptions. Pay once, own forever.\n\n  Perfect for:\n  - Students recording lectures\n  - Professionals in meetings\n  - Artists and calligraphers\n  - Journal keepers\n  - Anyone who thinks better with a pen\n\n  Terms of Use: https://prizmchain.github.io/inkwell-terms-of-service.html\n  Privacy Policy: https://prizmchain.github.io/inkwell-privacy-policy.html",
-      "releaseDate": "2026-02-22T21:27:06Z",
-      "url": "https://apps.apple.com/us/app/inkwell-audio-sync-notes/id6757148842",
-      "icon": "assets/icons/6757148842.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e2/3e/e2/e23ee202-5797-41d4-0091-8994c5e36544/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
-    },
-    {
       "id": 6755945637,
       "slug": "popspot-location-reminders",
       "name": "PopSpot - Location Reminders",
@@ -302,18 +338,6 @@
       "url": "https://apps.apple.com/us/app/popspot-location-reminders/id6755945637",
       "icon": "assets/icons/6755945637.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/49/ab/95/49ab9545-de00-b994-9691-e1ee0f28c964/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6755321981,
-      "slug": "recordingo",
-      "name": "RecordinGo",
-      "genre": "Productivity",
-      "version": "1.3",
-      "description": "No subscriptions. No ads. Just professional recording.\n\n  Tired of voice recorders that charge you monthly? RecordinGo is different. Pay once, own forever - with studio-quality features that rival subscription apps.\n\n  One-time purchase - No recurring fees, ever\n  Speech-to-text transcription - Search your recordings instantly\n  Studio-quality audio - Up to 96kHz, 24-bit\n  100% private - All recordings stay on your device\n\n  NEW IN VERSION 1.2\n  Search your recordings like never before. Automatically transcribe up to 1 hour of audio in 7 languages. Find any word and jump to that exact moment.\n\n  KEY FEATURES (FREE)\n\n  Smart Transcription & Search\n  Transcribe recordings to text in 7 languages (English, Korean, Japanese, Chinese, German, Spanish, French). Search for any word and jump directly to that moment. Perfect for\n   meetings, lectures, and interviews.\n\n  Recording\n  Record up to 1 hour per session in crystal-clear WAV format. Create up to 10 projects to organize your recordings.\n\n  Basic Editing\n  Trim your recordings and add bookmarks to important moments.\n\n  Smart Organization\n  Projects, bookmarks, and tags - find any recording in seconds.\n\n  Privacy First\n  Face ID protection. All recordings stored locally on your device. No cloud upload required.\n\n  PRO UPGRADE (One-Time Purchase)\n\n  Unlimited Recording\n  No more 1-hour limit. Record as long as you need - up to 24 hours per session.\n\n  Unlimited Projects\n  Create as many project folders as you want.\n\n  Professional Formats\n  Record in AIFF and M4A with custom sample rates up to 96kHz and 24-bit depth.\n\n  Stereo Recording\n  Record in stereo with external audio interfaces.\n\n  Advanced Editing\n  Cut, split, and merge audio files with non-destructive editing.\n\n  DSP Effects\n  Professional audio processing: normalize, gain adjustment, and noise gate for background noise removal.\n\n  Voice Activity Detection\n  Automatically pause recording when silence is detected. Perfect for interviews and lectures.\n\n  Batch Export\n  Export multiple recordings at once with format conversion.\n\n  Speed Control\n  Adjust playback speed from 0.5x to 2.0x with pitch preservation.\n\n  Loop Playback\n  Loop selected regions for practice and detailed analysis.\n\n  FX PACK (Separate Purchase)\n\n  10-Band Equalizer\n  Professional EQ with precise frequency control.\n\n  Dynamic Compressor\n  Studio-grade compression with threshold, ratio, attack, and release controls.\n\n  PERFECT FOR\n  Business Professionals - Journalists - Students - Podcasters - Musicians - Content Creators - Language Learners\n\n  No subscriptions. No trials. No hidden fees.\n  Just pay once and record forever.\n\n  Questions? Contact us at prizm_kr@hotmail.com",
-      "releaseDate": "2025-12-14T21:01:29Z",
-      "url": "https://apps.apple.com/us/app/recordingo/id6755321981",
-      "icon": "assets/icons/6755321981.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a1/f7/1d/a1f71d71-bdb9-0300-939b-d67e105b0ba0/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6755726235,
