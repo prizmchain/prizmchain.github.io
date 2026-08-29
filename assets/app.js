@@ -8,6 +8,7 @@
   const filters = document.querySelector('#genre-filters');
   const empty = document.querySelector('#empty-state');
   const searchEngine = window.PRIZM_APP_SEARCH;
+  const featureEngine = window.PRIZM_FEATURED;
   let activeGenre = 'All';
 
   const cleanText = (value = '') => value.replace(/\s+/g, ' ').trim();
@@ -19,7 +20,7 @@
 
   const appUrl = (app, placement) => {
     const url = new URL(app.url);
-    const campaign = config.campaign || 'prizm-hub';
+    const campaign = config.apps?.[String(app.id)]?.campaign || config.defaultCampaign || 'prizm-hub';
     url.searchParams.set('ct', `${campaign}-${placement}`);
     return url.toString();
   };
@@ -29,9 +30,18 @@
   `;
 
   const requestedApp = new URLSearchParams(location.search).get('app');
-  const featured = apps.find((app) => String(app.id) === requestedApp || app.slug === requestedApp)
-    || apps.find((app) => app.id === config.featuredAppId)
-    || apps[0];
+  const requestedFeatured = apps.find((app) => String(app.id) === requestedApp || app.slug === requestedApp);
+  const rotation = featureEngine?.pick(apps, config) || {
+    app: apps.find((app) => app.id === config.featuredAppId) || apps[0],
+    day: new Date().toISOString().slice(0, 10),
+    reason: 'legacy_fallback',
+    weight: 1,
+  };
+  const featured = requestedFeatured || rotation.app;
+  const featuredSelection = requestedFeatured
+    ? { ...rotation, app: requestedFeatured, reason: 'query_override' }
+    : rotation;
+  const featuredConfig = featured ? (config.apps?.[String(featured.id)] || {}) : {};
 
   const renderFeatured = () => {
     const target = document.querySelector('#featured-card');
@@ -45,19 +55,28 @@
         <div class="featured-orbit orbit-one"></div>
         <div class="featured-orbit orbit-two"></div>
         ${iconMarkup(featured, 'featured-icon')}
-        <span class="featured-stamp">Made for iPhone</span>
+        <span class="featured-stamp">${cleanText(featuredConfig.featuredStamp || config.defaultFeaturedStamp || 'On the App Store')}</span>
       </div>
       <div class="featured-copy">
         <p class="featured-genre">${cleanText(featured.genre)} · Version ${cleanText(featured.version)}</p>
         <h2>${cleanText(featured.name)}</h2>
-        <p class="featured-line">${cleanText(config.featuredLabel || shortDescription(featured.description))}</p>
-        <p class="featured-description">${cleanText(config.featuredCopy || shortDescription(featured.description))}</p>
+        <p class="featured-line">${cleanText(featuredConfig.featuredLabel || shortDescription(featured.description))}</p>
+        <p class="featured-description">${cleanText(featuredConfig.featuredCopy || shortDescription(featured.description))}</p>
         <a class="store-button" href="${appUrl(featured, 'featured')}" data-app-id="${featured.id}" data-placement="featured">
           <span><small>Download on the</small>App Store</span>
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"></path></svg>
         </a>
       </div>
     `;
+
+    window.dataLayer?.push({
+      event: 'featured_app_impression',
+      app_id: String(featured.id),
+      campaign: featuredConfig.campaign || config.defaultCampaign || 'prizm-hub',
+      rotation_day: featuredSelection.day,
+      selection_source: featuredSelection.reason,
+      selection_weight: featuredSelection.weight,
+    });
   };
 
   const cardMarkup = (app, index) => `
@@ -129,7 +148,11 @@
       event: 'app_store_click',
       app_id: link.dataset.appId,
       placement: link.dataset.placement,
-      campaign: config.campaign || 'prizm-hub'
+      campaign: config.apps?.[String(link.dataset.appId)]?.campaign || config.defaultCampaign || 'prizm-hub',
+      ...(link.dataset.placement === 'featured' ? {
+        rotation_day: featuredSelection.day,
+        selection_source: featuredSelection.reason,
+      } : {})
     });
   });
 

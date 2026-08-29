@@ -22,6 +22,28 @@ for (const app of catalog.apps) {
 
 const browser = { window: {} };
 browser.window.window = browser.window;
+runInNewContext(await readFile(resolve(root, 'assets/site-config.js'), 'utf8'), browser);
+const siteConfig = browser.window.PRIZM_SITE_CONFIG;
+if (siteConfig.apps?.['6758237365']?.campaign === siteConfig.apps?.['6761184037']?.campaign) throw new Error('Per-app campaigns must not be shared.');
+if (!/IslandMates/i.test(siteConfig.apps?.['6761184037']?.featuredCopy || '') && !/shared pet/i.test(siteConfig.apps?.['6761184037']?.featuredCopy || '')) throw new Error('IslandMates featured copy is missing.');
+if (!siteConfig.featuredRotation?.enabled) throw new Error('Daily featured rotation is disabled.');
+if (!html.includes('assets/featured.js')) throw new Error('Featured rotation module is not loaded.');
+runInNewContext(await readFile(resolve(root, 'assets/featured.js'), 'utf8'), browser);
+const featureEngine = browser.window.PRIZM_FEATURED;
+const firstDate = new Date('2026-08-29T12:00:00.000Z');
+const sameDayMorning = featureEngine.pick(catalog.apps, siteConfig, { date: new Date('2026-08-29T00:01:00.000Z') });
+const sameDayEvening = featureEngine.pick(catalog.apps, siteConfig, { date: new Date('2026-08-29T23:59:00.000Z') });
+if (sameDayMorning.app?.id !== sameDayEvening.app?.id) throw new Error('Featured app must stay stable for the whole UTC day.');
+const today = featureEngine.pick(catalog.apps, siteConfig, { date: firstDate });
+const tomorrow = featureEngine.pick(catalog.apps, siteConfig, { date: new Date('2026-08-30T12:00:00.000Z') });
+if (!today.app || !tomorrow.app) throw new Error('Featured rotation returned no app.');
+if (today.app.id === tomorrow.app.id && catalog.apps.length > 1) throw new Error('Featured rotation repeated on consecutive days.');
+const excludedId = today.app.id;
+const withoutToday = featureEngine.pick(catalog.apps, {
+  ...siteConfig,
+  featuredRotation: { ...siteConfig.featuredRotation, excludedAppIds: [excludedId] },
+}, { date: firstDate });
+if (withoutToday.app?.id === excludedId) throw new Error('Featured exclusion list was ignored.');
 runInNewContext(await readFile(resolve(root, 'assets/search.js'), 'utf8'), browser);
 const { matches } = browser.window.PRIZM_APP_SEARCH;
 const lookupResults = catalog.apps.filter((app) => matches(app, 'lookup', 'All'));
