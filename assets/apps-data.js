@@ -1,6 +1,6 @@
 window.PRIZM_APP_CATALOG = {
   "artistId": 1839727056,
-  "generatedAt": "2026-08-27T12:55:01.080Z",
+  "generatedAt": "2026-08-30T08:20:45.021Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
     {
@@ -8,12 +8,12 @@ window.PRIZM_APP_CATALOG = {
       "slug": "recordingo",
       "name": "RecordinGo",
       "genre": "Productivity",
-      "version": "1.4",
+      "version": "1.5",
       "description": "Stop scrubbing through long recordings to find one important moment.\n\nRecordinGo combines high-quality audio recording, on-device transcription, search, organization, and editing in one professional recorder. Search a transcript for any word, then jump directly to the moment it was spoken.\n\nKey features\n\n- High-quality WAV and background recording\n- On-device transcription for supported languages\n- Transcript search with timestamp navigation\n- Projects, bookmarks, and tags\n- Trim, cut, fades, and non-destructive editing\n- Face ID or Touch ID app lock\n- Recordings and app data stored on your device\n\nThe free tier includes recordings up to one hour and up to 10 projects.\n\nRecordinGo Pro is a one-time purchase that removes recording and project limits and adds AIFF and M4A, up to 96 kHz/24-bit audio, stereo recording with external audio interfaces, scheduled recording, voice activity detection, batch export, playback speed, and loop playback.\n\nThe optional FX Pack adds a 10-band EQ and compressor. A Pro + FX bundle is also available, with any discount calculated from current App Store prices.\n\nNo subscription. No ads. No account.\n\nSupport: prizm_kr@hotmail.com",
-      "releaseDate": "2026-08-26T20:05:39Z",
+      "releaseDate": "2026-08-29T16:10:31Z",
       "url": "https://apps.apple.com/us/app/recordingo/id6755321981",
       "icon": "assets/icons/6755321981.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cc/3c/d7/cc3cd7ce-9714-6ce8-cebd-04b10a0aeb7f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/93/91/35939157-7226-ee73-4561-6b1d1d1666fc/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6791563807,
