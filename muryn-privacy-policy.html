@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071017">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Muryn Privacy Policy — how local app data and optional Muryn Pro purchase information are handled.">
+  <link rel="canonical" href="https://prizmchain.github.io/muryn-privacy-policy.html">
+  <title>Privacy Policy — Muryn</title>
+  <style>
+    :root {
+      --ink: #eef2ec;
+      --muted: #a5b2b2;
+      --dim: #748286;
+      --night: #071017;
+      --deep: #0b1720;
+      --panel: rgba(16, 31, 40, .78);
+      --line: rgba(205, 222, 218, .14);
+      --mist: #b9d5d0;
+      --ember: #e8b873;
+      --ember-soft: rgba(232, 184, 115, .13);
+      --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      --sans: "Avenir Next", Avenir, "Gill Sans", system-ui, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-width: 320px;
+      overflow-x: hidden;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 82% 8%, rgba(76, 111, 121, .24), transparent 30rem),
+        radial-gradient(circle at 10% 34%, rgba(32, 68, 78, .28), transparent 34rem),
+        linear-gradient(155deg, #081119 0%, #071017 48%, #040a0e 100%);
+      font: 400 16px/1.75 var(--sans);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: .22;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.18'/%3E%3C/svg%3E");
+      mix-blend-mode: soft-light;
+    }
+
+    a { color: var(--mist); text-underline-offset: .22em; }
+    a:hover { color: #e3f0ed; }
+    :focus-visible { outline: 2px solid var(--ember); outline-offset: 4px; border-radius: 3px; }
+
+    .skip-link {
+      position: fixed;
+      z-index: 10;
+      top: 12px;
+      left: 12px;
+      transform: translateY(-160%);
+      padding: .65rem 1rem;
+      color: var(--night);
+      background: var(--ember);
+      border-radius: 999px;
+      font-weight: 700;
+    }
+    .skip-link:focus { transform: translateY(0); }
+
+    .shell { width: min(1120px, calc(100% - 40px)); margin-inline: auto; }
+
+    .topbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 84px;
+      border-bottom: 1px solid var(--line);
+    }
+
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: .8rem;
+      color: var(--ink);
+      text-decoration: none;
+      font: 600 1.05rem/1 var(--serif);
+      letter-spacing: .08em;
+    }
+
+    .brand-mark {
+      position: relative;
+      width: 31px;
+      height: 31px;
+      border: 1px solid rgba(232, 184, 115, .72);
+      border-radius: 50%;
+      box-shadow: inset 8px 0 0 rgba(232, 184, 115, .1);
+    }
+    .brand-mark::after {
+      content: "";
+      position: absolute;
+      right: -2px;
+      bottom: 5px;
+      width: 18px;
+      height: 1px;
+      background: var(--ember);
+      transform: rotate(-18deg);
+      box-shadow: 0 4px 0 rgba(185, 213, 208, .45);
+    }
+
+    nav { display: flex; gap: 1.5rem; }
+    nav a {
+      color: var(--muted);
+      font-size: .78rem;
+      font-weight: 650;
+      letter-spacing: .13em;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+    nav a[aria-current="page"], nav a:hover { color: var(--ember); }
+
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 1.55fr) minmax(250px, .65fr);
+      gap: clamp(3rem, 8vw, 7rem);
+      align-items: end;
+      padding: clamp(5rem, 12vw, 9rem) 0 clamp(4rem, 9vw, 7rem);
+    }
+
+    .kicker, .section-label {
+      margin: 0 0 1.1rem;
+      color: var(--ember);
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+    }
+
+    h1, h2, h3 { font-family: var(--serif); font-weight: 500; }
+    h1 {
+      max-width: 780px;
+      margin: 0;
+      font-size: clamp(3.4rem, 8.3vw, 7.4rem);
+      line-height: .92;
+      letter-spacing: -.055em;
+    }
+    h1 em { color: var(--mist); font-weight: 400; }
+
+    .lede {
+      max-width: 690px;
+      margin: 2rem 0 0;
+      color: var(--muted);
+      font-size: clamp(1.03rem, 2vw, 1.25rem);
+      line-height: 1.65;
+    }
+
+    .document-meta {
+      margin: 0;
+      padding: 1.5rem 0 0;
+      border-top: 1px solid var(--line);
+    }
+    .document-meta div { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; padding: .4rem 0; }
+    .document-meta dt { color: var(--dim); font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; }
+    .document-meta dd { margin: 0; color: var(--ink); font-size: .9rem; }
+
+    .signal {
+      position: relative;
+      height: 86px;
+      border-top: 1px solid var(--line);
+      border-bottom: 1px solid var(--line);
+      overflow: hidden;
+    }
+    .signal::before {
+      content: "";
+      position: absolute;
+      inset: 50% 0 auto;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--dim) 15%, var(--ember) 50%, var(--dim) 85%, transparent);
+      box-shadow:
+        6vw -7px 0 rgba(185, 213, 208, .22),
+        14vw 5px 0 rgba(185, 213, 208, .16),
+        28vw -12px 0 rgba(232, 184, 115, .2),
+        62vw 9px 0 rgba(185, 213, 208, .16),
+        78vw -5px 0 rgba(232, 184, 115, .18);
+    }
+
+    .summary {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      border-bottom: 1px solid var(--line);
+    }
+    .hero > *, .summary article, .layout > * { min-width: 0; }
+    .summary article { padding: 2.25rem 2rem 2.5rem 0; }
+    .summary article + article { padding-left: 2rem; border-left: 1px solid var(--line); }
+    .summary span { color: var(--ember); font: 500 2.5rem/1 var(--serif); }
+    .summary h2 { margin: 1rem 0 .55rem; font-size: 1.22rem; }
+    .summary p { margin: 0; color: var(--muted); font-size: .91rem; }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 230px minmax(0, 720px);
+      gap: clamp(3rem, 9vw, 8rem);
+      justify-content: space-between;
+      padding-block: clamp(4rem, 9vw, 7rem);
+    }
+
+    .toc { align-self: start; position: sticky; top: 2rem; }
+    .toc p { margin: 0 0 1.2rem; color: var(--dim); font-size: .7rem; letter-spacing: .16em; text-transform: uppercase; }
+    .toc ol { margin: 0; padding: 0; list-style: none; counter-reset: toc; }
+    .toc li { counter-increment: toc; margin: 0 0 .8rem; }
+    .toc a { color: var(--muted); font-size: .82rem; text-decoration: none; }
+    .toc a::before { content: counter(toc, decimal-leading-zero) "  "; color: var(--dim); font-variant-numeric: tabular-nums; }
+    .toc a:hover { color: var(--ink); }
+
+    .prose section { scroll-margin-top: 2rem; padding: 0 0 3.6rem; }
+    .prose section + section { padding-top: 3.5rem; border-top: 1px solid var(--line); }
+    .prose h2 { margin: .2rem 0 1.45rem; font-size: clamp(1.85rem, 4vw, 2.7rem); line-height: 1.08; letter-spacing: -.025em; }
+    .prose h3 { margin: 2rem 0 .7rem; color: var(--mist); font-size: 1.15rem; }
+    .prose p, .prose li { color: var(--muted); }
+    .prose p { margin: 0 0 1.15rem; }
+    .prose ul { margin: 1.2rem 0; padding-left: 1.25rem; }
+    .prose li { margin: .55rem 0; padding-left: .35rem; }
+    .prose strong { color: var(--ink); font-weight: 650; }
+
+    .note {
+      margin: 2rem 0;
+      padding: 1.35rem 1.5rem;
+      background: var(--ember-soft);
+      border: 1px solid rgba(232, 184, 115, .28);
+      border-radius: 4px;
+    }
+    .note p:last-child { margin-bottom: 0; }
+
+    .data-table { width: 100%; margin: 1.5rem 0 2rem; border-collapse: collapse; font-size: .9rem; }
+    .data-table th { color: var(--dim); font-size: .68rem; letter-spacing: .13em; text-align: left; text-transform: uppercase; }
+    .data-table th, .data-table td { padding: 1rem .75rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+    .data-table td { color: var(--muted); }
+    .data-table td:first-child { width: 31%; color: var(--ink); }
+
+    .contact-card {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 2rem;
+      align-items: center;
+      margin-top: 1rem;
+      padding: 2rem;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      backdrop-filter: blur(12px);
+    }
+    .contact-card p { margin: 0; }
+    .contact-card a { white-space: nowrap; color: var(--ember); font-weight: 650; }
+
+    footer {
+      display: flex;
+      justify-content: space-between;
+      gap: 2rem;
+      padding: 2rem 0 3rem;
+      color: var(--dim);
+      border-top: 1px solid var(--line);
+      font-size: .76rem;
+      letter-spacing: .06em;
+    }
+    footer p { margin: 0; }
+
+    @media (max-width: 800px) {
+      .hero { grid-template-columns: 1fr; gap: 3rem; }
+      .document-meta { max-width: 420px; }
+      .summary { grid-template-columns: 1fr; }
+      .summary article, .summary article + article { padding: 1.7rem 0; border-left: 0; }
+      .summary article + article { border-top: 1px solid var(--line); }
+      .layout { grid-template-columns: 1fr; gap: 3rem; }
+      .toc { position: static; padding-bottom: 2rem; border-bottom: 1px solid var(--line); }
+      .toc ol { columns: 2; }
+    }
+
+    @media (max-width: 540px) {
+      .shell { width: min(calc(100% - 28px), 1120px); }
+      .topbar { flex-direction: column; align-items: flex-start; gap: 1.2rem; padding: 1.25rem 0; }
+      nav { width: 100%; flex-direction: row; justify-content: space-between; gap: .75rem; }
+      h1 { font-size: clamp(3rem, 17vw, 4.5rem); }
+      h1 em { display: block; }
+      .hero { padding-top: 4rem; }
+      .toc ol { columns: 1; }
+      .data-table, .data-table tbody, .data-table tr, .data-table td { display: block; width: 100%; }
+      .data-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+      .data-table tr { padding: .8rem 0; border-bottom: 1px solid var(--line); }
+      .data-table td, .data-table td:first-child { width: 100%; padding: .25rem 0; border: 0; }
+      .contact-card { grid-template-columns: 1fr; gap: .8rem; }
+      footer { flex-direction: column; gap: .6rem; }
+    }
+
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    @media (prefers-contrast: more) { :root { --muted: #d3dcda; --line: rgba(255,255,255,.35); } }
+    @media print {
+      :root { --ink: #101820; --muted: #34434a; --dim: #5c686d; --line: #ccd2d4; }
+      body { color: var(--ink); background: #fff; }
+      body::before, .signal, .toc { display: none; }
+      .topbar, .summary, footer { border-color: var(--line); }
+      .hero { padding: 3rem 0; }
+      .layout { display: block; padding-top: 3rem; }
+      .prose section { break-inside: avoid; }
+      a { color: inherit; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#policy">Skip to policy</a>
+
+  <header class="topbar shell">
+    <a class="brand" href="muryn/" aria-label="Muryn home"><span class="brand-mark" aria-hidden="true"></span><span>MURYN</span></a>
+    <nav aria-label="Legal documents">
+      <a aria-current="page" href="muryn-privacy-policy.html">Privacy</a>
+      <a href="muryn-terms-of-service.html">Terms</a>
+      <a href="muryn/support/">Support</a>
+    </nav>
+  </header>
+
+  <main id="policy">
+    <header class="hero shell">
+      <div>
+        <p class="kicker">Privacy policy</p>
+        <h1>Quiet by <em>design.</em></h1>
+        <p class="lede">Muryn keeps your Rest and Focus experience on your device. No account, no advertising, and no cross-app tracking.</p>
+      </div>
+      <dl class="document-meta">
+        <div><dt>Effective</dt><dd><time datetime="2026-08-31">August 31, 2026</time></dd></div>
+        <div><dt>Operator</dt><dd>PRIZM</dd></div>
+        <div><dt>Applies to</dt><dd>Muryn for iOS</dd></div>
+      </dl>
+    </header>
+
+    <div class="signal" aria-hidden="true"></div>
+
+    <section class="summary shell" aria-label="Privacy summary">
+      <article><span>01</span><h2>Your activity stays local</h2><p>Focus outcomes, routines, favorites, mixes, history, timers, and preferences remain on your device.</p></article>
+      <article><span>02</span><h2>No behavioral tracking</h2><p>Muryn contains no advertising SDK, cross-app tracking, or Muryn-operated behavioral analytics.</p></article>
+      <article><span>03</span><h2>Purchases stay minimal</h2><p>Apple and RevenueCat process limited information needed to offer, verify, and restore Muryn Pro.</p></article>
+    </section>
+
+    <div class="layout shell">
+      <aside class="toc" aria-label="Policy contents">
+        <p>In this policy</p>
+        <ol>
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#local-data">Local information</a></li>
+          <li><a href="#purchases">Purchases</a></li>
+          <li><a href="#permissions">Permissions</a></li>
+          <li><a href="#retention">Retention &amp; deletion</a></li>
+          <li><a href="#sharing">Sharing &amp; transfers</a></li>
+          <li><a href="#children">Children</a></li>
+          <li><a href="#security">Security</a></li>
+          <li><a href="#choices">Your choices</a></li>
+          <li><a href="#changes">Changes</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ol>
+      </aside>
+
+      <article class="prose">
+        <section id="overview">
+          <p class="section-label">01 · Overview</p>
+          <h2>A private, offline-first sound space.</h2>
+          <p>This Privacy Policy explains how PRIZM ("PRIZM," "we," or "us"), the operator of Muryn, handles information when you use the Muryn iOS app. Muryn is designed to provide layered ambient audio for Rest and Focus without a Muryn account or a Muryn-operated backend.</p>
+          <p>Core audio, artwork, timers, and saved experiences work locally after installation. Muryn does not sell personal information, show advertising, or track you across apps or websites.</p>
+          <div class="note"><p><strong>The short version:</strong> we do not receive your Rest or Focus activity. The only network service built into Muryn is the purchase system described below.</p></div>
+        </section>
+
+        <section id="local-data">
+          <p class="section-label">02 · Local information</p>
+          <h2>What Muryn stores on your device.</h2>
+          <p>Muryn uses Apple-provided local storage so the app can remember your choices. Depending on the features you use, this may include:</p>
+          <ul>
+            <li>favorites, saved custom mixes, selected sound layers, and volume settings;</li>
+            <li>a short recently played history and the last environment you played;</li>
+            <li>Focus routines, explicit session outcomes, optional "worked for me" feedback, and adjustments you choose to accept;</li>
+            <li>timer and fade preferences, onboarding state, and other app settings.</li>
+          </ul>
+          <p>This information is stored in Muryn's app container and is not transmitted to PRIZM. Muryn does not use it to create an advertising profile, calculate a health score, or infer a medical or cognitive condition.</p>
+
+          <table class="data-table">
+            <thead><tr><th>Information</th><th>Where it goes</th><th>Why</th></tr></thead>
+            <tbody>
+              <tr><td>Rest and Focus activity</td><td>Your device only</td><td>Restore sessions, history, and preferences</td></tr>
+              <tr><td>Favorites and mixes</td><td>Your device only</td><td>Save your sound environments</td></tr>
+              <tr><td>Contact or Health data</td><td>Not requested</td><td>Muryn does not need it</td></tr>
+              <tr><td>Purchase history</td><td>Apple and RevenueCat</td><td>Offer, verify, analyze in aggregate, and restore Muryn Pro</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="purchases">
+          <p class="section-label">03 · Purchases</p>
+          <h2>How Muryn Pro is verified.</h2>
+          <p>Muryn uses Apple's StoreKit and RevenueCat to offer and verify the optional Muryn Pro lifetime purchase. Apple processes your payment, Apple Account, billing information, and refund requests under Apple's own terms and privacy practices. PRIZM never receives your payment-card details.</p>
+          <p>RevenueCat receives an automatically generated anonymous app user ID, purchase and receipt information, and limited technical information required to operate its service. This is used for app functionality—including purchase validation, fraud prevention, entitlement delivery, and restoration—and aggregate purchase analytics. Muryn does not send RevenueCat your favorites, mixes, playback history, Focus outcomes, contact details, Health data, or advertising identifier.</p>
+          <p>Automatic device-identifier collection and RevenueCat diagnostics are disabled in Muryn. RevenueCat's handling and retention of information is described in its <a href="https://www.revenuecat.com/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>. Apple's handling of App Store transactions is described in <a href="https://www.apple.com/legal/privacy/data/en/appstore/" target="_blank" rel="noopener noreferrer">App Store &amp; Privacy</a>.</p>
+        </section>
+
+        <section id="permissions">
+          <p class="section-label">04 · Permissions and analytics</p>
+          <h2>What Muryn does not ask for.</h2>
+          <p>Muryn does not request access to your location, microphone, photos, contacts, Health data, or notifications. It has no social feed, user-upload service, advertising SDK, or cross-app tracking code.</p>
+          <p>PRIZM does not operate behavioral analytics or crash-reporting services inside Muryn. Apple may independently process App Store, device, or diagnostic information according to your Apple settings and Apple's policies; that processing is controlled by Apple, not Muryn.</p>
+        </section>
+
+        <section id="retention">
+          <p class="section-label">05 · Retention and deletion</p>
+          <h2>You control local data.</h2>
+          <p>Local Muryn information remains on your device until you delete it. In Muryn, open <strong>Settings</strong> and choose <strong>Delete local Muryn data</strong> to clear locally stored routines, outcomes, favorites, mixes, history, onboarding state, and preferences. Deleting the app also removes its app container according to iOS behavior.</p>
+          <p>Deleting local data does not cancel or erase a purchase held by Apple. Apple and RevenueCat retain transaction records according to their own legal obligations and retention policies. You can use <strong>Restore Purchases</strong> while signed in to the Apple Account that made the purchase.</p>
+        </section>
+
+        <section id="sharing">
+          <p class="section-label">06 · Sharing and transfers</p>
+          <h2>No sale of personal information.</h2>
+          <p>PRIZM does not sell or rent personal information. Limited purchase information is processed by Apple and RevenueCat for the purposes stated in this policy. Those providers may process information in countries other than your own and apply safeguards described in their respective policies.</p>
+          <p>We may disclose information if required by applicable law or a valid legal process. Because PRIZM does not receive your Muryn activity or account information, we generally do not possess that information to disclose.</p>
+        </section>
+
+        <section id="children">
+          <p class="section-label">07 · Children</p>
+          <h2>No profile to build.</h2>
+          <p>Muryn is not directed at collecting information from children and does not knowingly collect contact, location, Health, or other directly identifying information from any user. The limited purchase processing described above also applies when a purchase is made through an Apple Account managed by a parent or guardian.</p>
+        </section>
+
+        <section id="security">
+          <p class="section-label">08 · Security</p>
+          <h2>Protected by the iOS app boundary.</h2>
+          <p>Local information is kept inside Muryn's iOS app container and benefits from platform protections such as sandboxing and device data protection. No storage or transmission method can be guaranteed absolutely secure, but Muryn minimizes risk by not operating an account database or uploading your Rest and Focus activity.</p>
+        </section>
+
+        <section id="choices">
+          <p class="section-label">09 · Your choices</p>
+          <h2>Access, deletion, and questions.</h2>
+          <p>You can review and change your Muryn information directly in the app, clear all local Muryn data in Settings, or remove the app. For Apple transaction or refund information, use Apple's account and support tools. For a RevenueCat privacy request relating to Muryn, contact us with enough context to locate the relevant anonymous purchase record if available; never send payment-card details or passwords.</p>
+          <p>Depending on where you live, privacy law may give you additional rights. Nothing in this policy limits rights that cannot lawfully be limited.</p>
+        </section>
+
+        <section id="changes">
+          <p class="section-label">10 · Changes</p>
+          <h2>If the app changes, this page changes first.</h2>
+          <p>We may update this policy to reflect changes to Muryn, service providers, or legal requirements. We will post the revised policy at this URL and change the effective date above. If a change materially affects how the app handles information, we will provide additional notice where required before the changed behavior is released.</p>
+        </section>
+
+        <section id="contact">
+          <p class="section-label">11 · Contact</p>
+          <h2>Questions deserve a human answer.</h2>
+          <div class="contact-card">
+            <p>Contact PRIZM about this policy or Muryn's data practices.</p>
+            <a href="mailto:prizm_kr@hotmail.com">prizm_kr@hotmail.com</a>
+          </div>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer class="shell">
+    <p>Muryn · Focus deeply. Rest gently.</p>
+    <p>© 2026 PRIZM</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071017">
+  <meta name="color-scheme" content="dark">
+  <meta name="description" content="Muryn Terms of Service — the rules for using Muryn and the optional Muryn Pro lifetime purchase.">
+  <link rel="canonical" href="https://prizmchain.github.io/muryn-terms-of-service.html">
+  <title>Terms of Service — Muryn</title>
+  <style>
+    :root {
+      --ink: #eef2ec;
+      --muted: #a5b2b2;
+      --dim: #748286;
+      --night: #071017;
+      --panel: rgba(16, 31, 40, .78);
+      --line: rgba(205, 222, 218, .14);
+      --mist: #b9d5d0;
+      --ember: #e8b873;
+      --ember-soft: rgba(232, 184, 115, .13);
+      --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+      --sans: "Avenir Next", Avenir, "Gill Sans", system-ui, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      min-width: 320px;
+      overflow-x: hidden;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 78% 11%, rgba(78, 104, 122, .24), transparent 31rem),
+        radial-gradient(circle at 8% 39%, rgba(35, 72, 78, .27), transparent 34rem),
+        linear-gradient(155deg, #081119 0%, #071017 48%, #040a0e 100%);
+      font: 400 16px/1.75 var(--sans);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: .22;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 160 160' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.18'/%3E%3C/svg%3E");
+      mix-blend-mode: soft-light;
+    }
+
+    a { color: var(--mist); text-underline-offset: .22em; }
+    a:hover { color: #e3f0ed; }
+    :focus-visible { outline: 2px solid var(--ember); outline-offset: 4px; border-radius: 3px; }
+    .skip-link { position: fixed; z-index: 10; top: 12px; left: 12px; transform: translateY(-160%); padding: .65rem 1rem; color: var(--night); background: var(--ember); border-radius: 999px; font-weight: 700; }
+    .skip-link:focus { transform: translateY(0); }
+    .shell { width: min(1120px, calc(100% - 40px)); margin-inline: auto; }
+
+    .topbar { display: flex; align-items: center; justify-content: space-between; min-height: 84px; border-bottom: 1px solid var(--line); }
+    .brand { display: inline-flex; align-items: center; gap: .8rem; color: var(--ink); text-decoration: none; font: 600 1.05rem/1 var(--serif); letter-spacing: .08em; }
+    .brand-mark { position: relative; width: 31px; height: 31px; border: 1px solid rgba(232, 184, 115, .72); border-radius: 50%; box-shadow: inset 8px 0 0 rgba(232, 184, 115, .1); }
+    .brand-mark::after { content: ""; position: absolute; right: -2px; bottom: 5px; width: 18px; height: 1px; background: var(--ember); transform: rotate(-18deg); box-shadow: 0 4px 0 rgba(185, 213, 208, .45); }
+    nav { display: flex; gap: 1.5rem; }
+    nav a { color: var(--muted); font-size: .78rem; font-weight: 650; letter-spacing: .13em; text-decoration: none; text-transform: uppercase; }
+    nav a[aria-current="page"], nav a:hover { color: var(--ember); }
+
+    .hero { display: grid; grid-template-columns: minmax(0, 1.55fr) minmax(250px, .65fr); gap: clamp(3rem, 8vw, 7rem); align-items: end; padding: clamp(5rem, 12vw, 9rem) 0 clamp(4rem, 9vw, 7rem); }
+    .kicker, .section-label { margin: 0 0 1.1rem; color: var(--ember); font-size: .72rem; font-weight: 700; letter-spacing: .2em; text-transform: uppercase; }
+    h1, h2, h3 { font-family: var(--serif); font-weight: 500; }
+    h1 { max-width: 800px; margin: 0; font-size: clamp(3.4rem, 8.3vw, 7.4rem); line-height: .92; letter-spacing: -.055em; }
+    h1 em { color: var(--mist); font-weight: 400; }
+    .lede { max-width: 700px; margin: 2rem 0 0; color: var(--muted); font-size: clamp(1.03rem, 2vw, 1.25rem); line-height: 1.65; }
+    .document-meta { margin: 0; padding: 1.5rem 0 0; border-top: 1px solid var(--line); }
+    .document-meta div { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; padding: .4rem 0; }
+    .document-meta dt { color: var(--dim); font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; }
+    .document-meta dd { margin: 0; color: var(--ink); font-size: .9rem; }
+
+    .signal { position: relative; height: 86px; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); overflow: hidden; }
+    .signal::before { content: ""; position: absolute; inset: 50% 0 auto; height: 1px; background: linear-gradient(90deg, transparent, var(--dim) 15%, var(--ember) 50%, var(--dim) 85%, transparent); box-shadow: 6vw -7px 0 rgba(185,213,208,.22), 14vw 5px 0 rgba(185,213,208,.16), 28vw -12px 0 rgba(232,184,115,.2), 62vw 9px 0 rgba(185,213,208,.16), 78vw -5px 0 rgba(232,184,115,.18); }
+
+    .summary { display: grid; grid-template-columns: repeat(3, 1fr); border-bottom: 1px solid var(--line); }
+    .hero > *, .summary article, .layout > * { min-width: 0; }
+    .summary article { padding: 2.25rem 2rem 2.5rem 0; }
+    .summary article + article { padding-left: 2rem; border-left: 1px solid var(--line); }
+    .summary span { color: var(--ember); font: 500 2.5rem/1 var(--serif); }
+    .summary h2 { margin: 1rem 0 .55rem; font-size: 1.22rem; }
+    .summary p { margin: 0; color: var(--muted); font-size: .91rem; }
+
+    .layout { display: grid; grid-template-columns: 230px minmax(0, 720px); gap: clamp(3rem, 9vw, 8rem); justify-content: space-between; padding-block: clamp(4rem, 9vw, 7rem); }
+    .toc { align-self: start; position: sticky; top: 2rem; }
+    .toc p { margin: 0 0 1.2rem; color: var(--dim); font-size: .7rem; letter-spacing: .16em; text-transform: uppercase; }
+    .toc ol { margin: 0; padding: 0; list-style: none; counter-reset: toc; }
+    .toc li { counter-increment: toc; margin: 0 0 .8rem; }
+    .toc a { color: var(--muted); font-size: .82rem; text-decoration: none; }
+    .toc a::before { content: counter(toc, decimal-leading-zero) "  "; color: var(--dim); font-variant-numeric: tabular-nums; }
+    .toc a:hover { color: var(--ink); }
+
+    .prose section { scroll-margin-top: 2rem; padding: 0 0 3.6rem; }
+    .prose section + section { padding-top: 3.5rem; border-top: 1px solid var(--line); }
+    .prose h2 { margin: .2rem 0 1.45rem; font-size: clamp(1.85rem, 4vw, 2.7rem); line-height: 1.08; letter-spacing: -.025em; }
+    .prose h3 { margin: 2rem 0 .7rem; color: var(--mist); font-size: 1.15rem; }
+    .prose p, .prose li { color: var(--muted); }
+    .prose p { margin: 0 0 1.15rem; }
+    .prose ul { margin: 1.2rem 0; padding-left: 1.25rem; }
+    .prose li { margin: .55rem 0; padding-left: .35rem; }
+    .prose strong { color: var(--ink); font-weight: 650; }
+
+    .note { margin: 2rem 0; padding: 1.35rem 1.5rem; background: var(--ember-soft); border: 1px solid rgba(232,184,115,.28); border-radius: 4px; }
+    .note p:last-child { margin-bottom: 0; }
+    .terms-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; margin: 1.5rem 0 2rem; background: var(--line); border: 1px solid var(--line); }
+    .terms-grid article { padding: 1.4rem; background: rgba(7,16,23,.96); }
+    .terms-grid h3 { margin: 0 0 .55rem; color: var(--ink); font-size: 1rem; }
+    .terms-grid p { margin: 0; font-size: .88rem; }
+
+    .contact-card { display: grid; grid-template-columns: 1fr auto; gap: 2rem; align-items: center; margin-top: 1rem; padding: 2rem; background: var(--panel); border: 1px solid var(--line); border-radius: 6px; backdrop-filter: blur(12px); }
+    .contact-card p { margin: 0; }
+    .contact-card a { white-space: nowrap; color: var(--ember); font-weight: 650; }
+    footer { display: flex; justify-content: space-between; gap: 2rem; padding: 2rem 0 3rem; color: var(--dim); border-top: 1px solid var(--line); font-size: .76rem; letter-spacing: .06em; }
+    footer p { margin: 0; }
+
+    @media (max-width: 800px) {
+      .hero { grid-template-columns: 1fr; gap: 3rem; }
+      .document-meta { max-width: 420px; }
+      .summary { grid-template-columns: 1fr; }
+      .summary article, .summary article + article { padding: 1.7rem 0; border-left: 0; }
+      .summary article + article { border-top: 1px solid var(--line); }
+      .layout { grid-template-columns: 1fr; gap: 3rem; }
+      .toc { position: static; padding-bottom: 2rem; border-bottom: 1px solid var(--line); }
+      .toc ol { columns: 2; }
+    }
+    @media (max-width: 540px) {
+      .shell { width: min(calc(100% - 28px), 1120px); }
+      .topbar { flex-direction: column; align-items: flex-start; gap: 1.2rem; padding: 1.25rem 0; }
+      nav { width: 100%; flex-direction: row; justify-content: space-between; gap: .75rem; }
+      h1 { font-size: clamp(3rem, 17vw, 4.5rem); }
+      h1 em { display: block; }
+      .hero { padding-top: 4rem; }
+      .toc ol { columns: 1; }
+      .terms-grid { grid-template-columns: 1fr; }
+      .contact-card { grid-template-columns: 1fr; gap: .8rem; }
+      footer { flex-direction: column; gap: .6rem; }
+    }
+    @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+    @media (prefers-contrast: more) { :root { --muted: #d3dcda; --line: rgba(255,255,255,.35); } }
+    @media print {
+      :root { --ink: #101820; --muted: #34434a; --dim: #5c686d; --line: #ccd2d4; }
+      body { color: var(--ink); background: #fff; }
+      body::before, .signal, .toc { display: none; }
+      .topbar, .summary, footer { border-color: var(--line); }
+      .hero { padding: 3rem 0; }
+      .layout { display: block; padding-top: 3rem; }
+      .prose section { break-inside: avoid; }
+      .terms-grid article { background: #fff; }
+      a { color: inherit; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#terms">Skip to terms</a>
+
+  <header class="topbar shell">
+    <a class="brand" href="muryn/" aria-label="Muryn home"><span class="brand-mark" aria-hidden="true"></span><span>MURYN</span></a>
+    <nav aria-label="Legal documents">
+      <a href="muryn-privacy-policy.html">Privacy</a>
+      <a aria-current="page" href="muryn-terms-of-service.html">Terms</a>
+      <a href="muryn/support/">Support</a>
+    </nav>
+  </header>
+
+  <main id="terms">
+    <header class="hero shell">
+      <div>
+        <p class="kicker">Terms of service</p>
+        <h1>Clear terms.<br><em>Quiet use.</em></h1>
+        <p class="lede">These terms explain the license to use Muryn, the optional lifetime purchase, and the boundaries of an ambient-audio utility.</p>
+      </div>
+      <dl class="document-meta">
+        <div><dt>Effective</dt><dd><time datetime="2026-08-31">August 31, 2026</time></dd></div>
+        <div><dt>Provider</dt><dd>PRIZM</dd></div>
+        <div><dt>Applies to</dt><dd>Muryn for iOS</dd></div>
+      </dl>
+    </header>
+
+    <div class="signal" aria-hidden="true"></div>
+
+    <section class="summary shell" aria-label="Terms summary">
+      <article><span>01</span><h2>Licensed for personal use</h2><p>Use Muryn on Apple devices you own or control, subject to Apple's usage rules and these terms.</p></article>
+      <article><span>02</span><h2>One optional purchase</h2><p>Muryn Pro is a non-consumable lifetime purchase—not a weekly, monthly, or annual subscription.</p></article>
+      <article><span>03</span><h2>Not medical treatment</h2><p>Muryn provides ambient audio. It does not diagnose, treat, cure, or guarantee a health or productivity outcome.</p></article>
+    </section>
+
+    <div class="layout shell">
+      <aside class="toc" aria-label="Terms contents">
+        <p>In these terms</p>
+        <ol>
+          <li><a href="#agreement">Agreement</a></li>
+          <li><a href="#service">The app</a></li>
+          <li><a href="#license">License</a></li>
+          <li><a href="#purchase">Muryn Pro</a></li>
+          <li><a href="#privacy">Local data</a></li>
+          <li><a href="#safety">Responsible use</a></li>
+          <li><a href="#third-party">Third parties</a></li>
+          <li><a href="#availability">Availability</a></li>
+          <li><a href="#ownership">Ownership</a></li>
+          <li><a href="#warranty">Warranty</a></li>
+          <li><a href="#liability">Liability</a></li>
+          <li><a href="#apple">Apple terms</a></li>
+          <li><a href="#law">Governing law</a></li>
+          <li><a href="#changes">Changes</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ol>
+      </aside>
+
+      <article class="prose">
+        <section id="agreement">
+          <p class="section-label">01 · Agreement</p>
+          <h2>Using Muryn means accepting these terms.</h2>
+          <p>These Terms of Service ("Terms") are an agreement between you and PRIZM ("PRIZM," "we," or "us"), the provider of the Muryn iOS app ("Muryn" or the "App"). By downloading, installing, purchasing within, or using Muryn, you agree to these Terms. If you do not agree, do not use the App.</p>
+          <p>Your license to the App is also subject to Apple's <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener noreferrer">Standard Licensed Application End User License Agreement</a> ("Apple Standard EULA") and applicable App Store usage rules. These Terms supplement that agreement. Mandatory local law applies where it gives you rights that cannot be waived.</p>
+        </section>
+
+        <section id="service">
+          <p class="section-label">02 · The app</p>
+          <h2>Sound environments for Rest and Focus.</h2>
+          <p>Muryn combines bundled ambient-audio layers into environments for relaxation, sleep routines, study, reading, and focused work. It includes local playback, timers, fades, saved choices, and optional Focus routines. Core content is designed to work offline after installation.</p>
+          <div class="note"><p><strong>Muryn is a general wellness and productivity utility.</strong> It is not a medical device or healthcare service and does not provide medical advice, diagnosis, or treatment. It does not guarantee sleep, concentration, stress reduction, or any other outcome.</p></div>
+        </section>
+
+        <section id="license">
+          <p class="section-label">03 · License</p>
+          <h2>A limited right to use Muryn.</h2>
+          <p>Subject to these Terms and the Apple Standard EULA, PRIZM grants you a limited, non-exclusive, non-transferable, non-sublicensable, revocable license to use Muryn for personal, non-commercial purposes on Apple-branded products that you own or control, as permitted by Apple's usage rules.</p>
+          <p>You may not, except where applicable law expressly permits:</p>
+          <ul>
+            <li>copy, redistribute, rent, lease, sell, sublicense, or commercially exploit the App or its bundled audio, artwork, text, presets, or other content;</li>
+            <li>reverse engineer, decompile, disassemble, derive source code from, modify, or create derivative works of the App;</li>
+            <li>circumvent purchase verification, access controls, technical protections, or feature limits;</li>
+            <li>use the App in a way that violates law, infringes another person's rights, disrupts services, or introduces malicious code.</li>
+          </ul>
+        </section>
+
+        <section id="purchase">
+          <p class="section-label">04 · Muryn Pro</p>
+          <h2>One purchase. No subscription.</h2>
+          <p>Muryn offers useful free functionality and an optional <strong>Muryn Pro</strong> upgrade. Muryn Pro is a non-consumable, one-time lifetime purchase. It is not a recurring subscription and does not automatically renew.</p>
+          <div class="terms-grid">
+            <article><h3>Price</h3><p>The App Store shows the price and currency that apply to your storefront before you confirm.</p></article>
+            <article><h3>Payment</h3><p>Apple processes payment. PRIZM does not receive your payment-card details.</p></article>
+            <article><h3>Access</h3><p>A verified purchase unlocks the Pro features available for the supported Muryn app.</p></article>
+            <article><h3>Restore</h3><p>Use Restore Purchases with the Apple Account that made the purchase.</p></article>
+          </div>
+          <p>Purchase and restore operations require access to Apple and RevenueCat services. Previously verified access may remain available from cached entitlement information, but a new purchase cannot be completed offline.</p>
+          <p>"Lifetime" describes the duration of the non-consumable entitlement for Muryn while the App remains offered and technically supported; it is not a promise that every current device, operating-system version, or service will remain supported indefinitely. It does not guarantee unrelated future products or separately identified offerings.</p>
+          <h3>Refunds</h3>
+          <p>Apple controls App Store billing and refund decisions. Where eligible, request a refund through <a href="https://reportaproblem.apple.com/" target="_blank" rel="noopener noreferrer">reportaproblem.apple.com</a> or Apple Support. PRIZM cannot issue App Store refunds directly. Nothing here limits refund or warranty rights provided by mandatory law or the Apple Standard EULA.</p>
+        </section>
+
+        <section id="privacy">
+          <p class="section-label">05 · Local data and privacy</p>
+          <h2>Your sound activity is not an account.</h2>
+          <p>Muryn stores preferences, favorites, mixes, history, routines, and explicit Focus feedback locally on your device. There is no Muryn account, content-upload service, advertising, or cross-app tracking. You are responsible for maintaining access to your device and for any loss caused by deleting the App or its local data.</p>
+          <p>Optional purchase information is processed by Apple and RevenueCat as explained in the <a href="muryn-privacy-policy.html">Muryn Privacy Policy</a>, which forms part of these Terms.</p>
+        </section>
+
+        <section id="safety">
+          <p class="section-label">06 · Responsible use</p>
+          <h2>Listen carefully.</h2>
+          <ul>
+            <li>Choose a comfortable device and in-app volume. Prolonged exposure to loud audio may damage hearing.</li>
+            <li>Do not use Muryn when listening would make driving, cycling, operating machinery, or responding to alarms and surroundings unsafe.</li>
+            <li>Muryn's timers, fades, background playback, and route-change protections are conveniences, not safety systems or alarm replacements.</li>
+            <li>If sleep, stress, tinnitus, hearing, or concentration concerns persist, seek advice from an appropriately qualified professional.</li>
+          </ul>
+        </section>
+
+        <section id="third-party">
+          <p class="section-label">07 · Third-party services</p>
+          <h2>Apple and RevenueCat.</h2>
+          <p>Muryn depends on Apple for App Store distribution, StoreKit transactions, operating-system features, and related services. It uses RevenueCat for product offering retrieval, purchase verification, entitlement delivery, restoration, and aggregate purchase analytics. Your use of those services is also subject to their terms and privacy policies.</p>
+          <p>Third-party services may be unavailable, delayed, changed, or discontinued. PRIZM does not control those services and is not responsible for them beyond obligations that applicable law places on PRIZM.</p>
+        </section>
+
+        <section id="availability">
+          <p class="section-label">08 · Availability and updates</p>
+          <h2>The App may evolve.</h2>
+          <p>We may maintain, update, improve, remove, or reorganize features, environments, artwork, and compatibility over time. Updates may be required for security, purchase verification, platform compatibility, or continued use. We may discontinue the App or support for a device or operating-system version when reasonably necessary.</p>
+          <p>We do not promise uninterrupted or error-free operation. Offline core playback does not mean every function works without a network; purchases, restorations, App Store downloads, and some operating-system services require connectivity.</p>
+        </section>
+
+        <section id="ownership">
+          <p class="section-label">09 · Ownership</p>
+          <h2>Muryn is licensed, not sold.</h2>
+          <p>Muryn and its original software, audio arrangements, recordings, artwork, interface, copy, trademarks, and other materials are owned by PRIZM or its licensors and are protected by intellectual-property law. The purchase of Muryn Pro grants feature access; it does not transfer ownership of the App or its content.</p>
+          <p>Third-party names and marks, including Apple, App Store, StoreKit, and RevenueCat, belong to their respective owners. Their appearance does not imply sponsorship beyond the described service relationship.</p>
+        </section>
+
+        <section id="warranty">
+          <p class="section-label">10 · Warranty disclaimer</p>
+          <h2>Provided as available.</h2>
+          <p>To the maximum extent permitted by law, Muryn is provided "as is" and "as available," with all faults and without warranties of uninterrupted availability, error-free operation, fitness for a particular purpose, merchantability, non-infringement, or achievement of a particular Rest, Focus, wellness, or productivity result.</p>
+          <p>Some jurisdictions do not allow certain warranty exclusions. In those places, the exclusions apply only to the extent permitted, and your mandatory statutory rights remain unaffected.</p>
+        </section>
+
+        <section id="liability">
+          <p class="section-label">11 · Limitation of liability</p>
+          <h2>Limits that respect mandatory law.</h2>
+          <p>To the maximum extent permitted by law, PRIZM will not be liable for indirect, incidental, special, exemplary, or consequential loss arising from use of, or inability to use, Muryn—including loss of data, profits, opportunity, or business interruption—when such loss was not reasonably foreseeable or is outside PRIZM's control.</p>
+          <p>Where liability may lawfully be limited, PRIZM's aggregate liability relating to Muryn will not exceed the amount you paid for Muryn or Muryn Pro. This limitation does not apply to fraud, willful misconduct, liability that cannot legally be limited, or rights available under mandatory consumer law.</p>
+        </section>
+
+        <section id="apple">
+          <p class="section-label">12 · Apple-specific terms</p>
+          <h2>App Store acknowledgements.</h2>
+          <p>These Terms are between you and PRIZM, not Apple. PRIZM, not Apple, is responsible for Muryn and its content, maintenance, support, and claims relating to the App, subject to the Apple Standard EULA and applicable law.</p>
+          <p>If Muryn fails to conform to an applicable warranty, you may notify Apple, and Apple may refund the applicable purchase price as provided by the Apple Standard EULA and law. Apple has no other warranty obligation for Muryn. Apple and its subsidiaries are third-party beneficiaries of these Terms and may enforce the Apple-specific provisions after your acceptance.</p>
+          <p>You represent that you are not located in a country subject to a U.S. government embargo and are not listed on a U.S. government prohibited or restricted-party list, as required by Apple's minimum terms.</p>
+        </section>
+
+        <section id="law">
+          <p class="section-label">13 · Termination and governing law</p>
+          <h2>Fair rules across regions.</h2>
+          <p>You may stop using Muryn at any time by deleting the App. Your rights under these Terms end automatically if you materially violate them. Provisions that by their nature should survive—such as ownership, warranty, liability, and governing-law provisions—remain effective.</p>
+          <p>These Terms are governed by the laws of the Republic of Korea, without regard to conflict-of-law rules. Courts with jurisdiction under applicable law may hear disputes. If mandatory consumer law in your place of residence gives you different governing-law, forum, warranty, or cancellation rights, those rights control to the extent required.</p>
+        </section>
+
+        <section id="changes">
+          <p class="section-label">14 · Changes</p>
+          <h2>Changes will be visible.</h2>
+          <p>We may revise these Terms to reflect App, legal, or service-provider changes. The revised Terms will be posted at this URL with a new effective date. Where required, material changes will receive additional notice. Your continued use after revised Terms take effect means you accept them; if you do not agree, stop using the App.</p>
+          <p>If any provision is held unenforceable, it will be limited or removed only to the minimum extent necessary, and the remaining provisions will continue in effect. Failure to enforce a provision is not a waiver.</p>
+        </section>
+
+        <section id="contact">
+          <p class="section-label">15 · Contact</p>
+          <h2>Ask us about these terms.</h2>
+          <div class="contact-card">
+            <p>Contact PRIZM for questions about Muryn or these Terms.</p>
+            <a href="mailto:prizm_kr@hotmail.com">prizm_kr@hotmail.com</a>
+          </div>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer class="shell">
+    <p>Muryn · Focus deeply. Rest gently.</p>
+    <p>© 2026 PRIZM</p>
+  </footer>
+</body>
+</html>
