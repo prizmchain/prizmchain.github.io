@@ -1,8 +1,44 @@
 window.PRIZM_APP_CATALOG = {
   "artistId": 1839727056,
-  "generatedAt": "2026-08-30T08:20:45.021Z",
+  "generatedAt": "2026-08-31T08:40:58.070Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6759965167,
+      "slug": "puttlevel-green-slope",
+      "name": "PuttLevel: Green Slope",
+      "genre": "Sports",
+      "version": "1.1",
+      "description": "PuttLevel is a focused practice tool for reading a putting surface in two axes. Point the top of your iPhone toward the hole, place it on the surface, and read cross-slope, hole-line slope, total slope, downhill direction, and measurement stability. Calibrate the device before use, hold a stable reading, and record the result of each putt. PuttLevel Pro adds local practice records, make rate by distance, miss distribution, and recent practice trends. PuttLevel does not require an account and does not show ads. Sensor readings and practice records stay on the device. Apple processes purchases, and RevenueCat processes anonymous purchase history for validation, restore, and Pro entitlement access. PuttLevel is a practice aid, not a certified surveying instrument. Check local and competition rules before using it during a round.",
+      "releaseDate": "2026-08-31T06:07:02Z",
+      "url": "https://apps.apple.com/us/app/puttlevel-green-slope/id6759965167",
+      "icon": "assets/icons/6759965167.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/f6/5c/edf65c7c-73e8-b3bd-1d53-2c23adfcb8ec/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": 6761184037,
+      "slug": "islandmates-couple-pet",
+      "name": "IslandMates: Couple Pet",
+      "genre": "Lifestyle",
+      "version": "1.3.0",
+      "description": "IslandMates is a cooperative virtual pet for two people.\n\nConnect with your partner, welcome one shared character, and build a tiny island story through the things you both do. A choice made on one phone waits for the other. When both answers arrive, your pet reacts, its personality develops, and the island remembers.\n\nWHAT YOU CAN DO TOGETHER\n\n- Play a seven-day starter story made for two\n- Make separate choices and discover whether your answers match\n- Raise Mochi, Lumi, Flick, Dew, Pebble, or Nori\n- Discover character-specific moments and reactions\n- Feed, play with, and care for your shared pet\n- Send feelings and reply from your own phone\n- Grow your pet's personality and your shared island\n- Keep meaningful moments in your couple timeline\n- See your pet at a glance with supported Live Activities and Lock Screen views\n\nISLANDMATES+\n\nOne subscription unlocks Plus for both partners in the connected room.\n\n- Longer memory history and shareable weekly chapters\n- Every feeling and reply option\n- Premium accessories, colors, name tags, and island themes\n- Special character moments and delivery effects\n\nYour first shared chapter remains playable without a subscription. Plus is for couples who want their story, memories, and island to keep growing.\n\nSubscription prices and available plans are shown before purchase in the App Store. Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current period. You can manage or cancel in your Apple Account settings. A Restore Purchase option is available in the app.\n\nPrivacy Policy: https://prizmchain.github.io/islandmates-privacy-policy.html\nTerms of Use: https://prizmchain.github.io/islandmates-terms-of-service.html",
+      "releaseDate": "2026-08-30T23:30:32Z",
+      "url": "https://apps.apple.com/us/app/islandmates-couple-pet/id6761184037",
+      "icon": "assets/icons/6761184037.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/69/74/5e/69745e74-901d-4fe1-94ec-893dd530754f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": 6759237484,
+      "slug": "morf-body-transformation",
+      "name": "Morf: Body Transformation",
+      "genre": "Health & Fitness",
+      "version": "1.0.1",
+      "description": "Morf is the simplest way to document your body transformation journey. Take one photo a day, align it perfectly with our AI tools, and watch your progress come to life.\n\nSay goodbye to monthly fees and clouded photo albums. Your body, your data, your privacy.\n\nHOW IT WORKS\nOpen the app, take a photo, done. Your daily body photo is saved to a secure, private vault right on your device. Over time, your collection grows into a powerful visual record of your hard work.\n\nMORPH ANIMATION\nWatch your transformation unfold in a smooth cross-fade animation. Your photos blend together seamlessly, turning weeks and months of gym and diet efforts into a mesmerizing visual experience.\n\nBEFORE AND AFTER COMPARISON\nPlace any two photos side by side with an interactive split-screen view. Drag the divider left and right to reveal the exact difference between your starting point and where you are now.\n\nTIMELAPSE VIDEO EXPORT\nTurn your entire photo collection into a cinematic 4K timelapse video. Each photo transitions smoothly with a dynamic day-counter overlay. Export and flex your weight loss journey or muscle gain on Instagram, TikTok, or YouTube.\n\nGHOST OVERLAY\nLine up your body in the exact same position every time. A transparent outline of your previous photo appears on the camera screen with adjustable opacity, ensuring your pose matches perfectly.\n\nPRIVACY FIRST & FOREVER YOURS\nNo accounts required. No cloud uploads. All photos are stored locally on your device. Best of all? Morf offers a lifetime unlock. Pay once, own it forever.\n\n\nDownload Morf and start tracking your true change today.\n\nTerms of Use: https://prizmchain.github.io/morf-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/morf-privacy-policy.html",
+      "releaseDate": "2026-08-30T21:45:49Z",
+      "url": "https://apps.apple.com/us/app/morf-body-transformation/id6759237484",
+      "icon": "assets/icons/6759237484.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/34/cf/6d34cfb9-6aa6-9165-e356-08f5e1f2feeb/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6755321981,
       "slug": "recordingo",
@@ -86,18 +122,6 @@ window.PRIZM_APP_CATALOG = {
       "url": "https://apps.apple.com/us/app/planmark-room-scanner/id6782553911",
       "icon": "assets/icons/6782553911.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/25/ae/0325ae26-2367-065f-b277-671e1514ac43/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6761184037,
-      "slug": "islandmates-couple-pet",
-      "name": "IslandMates: Couple Pet",
-      "genre": "Lifestyle",
-      "version": "1.2.0",
-      "description": "IslandMates is a cooperative virtual pet for two people.\n\nConnect with your partner, welcome one shared character, and build a tiny island story through the things you both do. A choice made on one phone waits for the other. When both answers arrive, your pet reacts, its personality develops, and the island remembers.\n\nWHAT YOU CAN DO TOGETHER\n\n- Play a seven-day starter story made for two\n- Make separate choices and discover whether your answers match\n- Raise Mochi, Lumi, Flick, Dew, Pebble, or Nori\n- Discover character-specific moments and reactions\n- Feed, play with, and care for your shared pet\n- Send feelings and reply from your own phone\n- Grow your pet's personality and your shared island\n- Keep meaningful moments in your couple timeline\n- See your pet at a glance with supported Live Activities and Lock Screen views\n\nISLANDMATES+\n\nOne subscription unlocks Plus for both partners in the connected room.\n\n- Longer memory history and shareable weekly chapters\n- Every feeling and reply option\n- Premium accessories, colors, name tags, and island themes\n- Special character moments and delivery effects\n\nYour first shared chapter remains playable without a subscription. Plus is for couples who want their story, memories, and island to keep growing.\n\nSubscription prices and available plans are shown before purchase in the App Store. Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current period. You can manage or cancel in your Apple Account settings. A Restore Purchase option is available in the app.\n\nPrivacy Policy: https://prizmchain.github.io/islandmates-privacy-policy.html\nTerms of Use: https://prizmchain.github.io/islandmates-terms-of-service.html",
-      "releaseDate": "2026-08-23T22:03:35Z",
-      "url": "https://apps.apple.com/us/app/islandmates-couple-pet/id6761184037",
-      "icon": "assets/icons/6761184037.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/89/7a/f3/897af3c0-f093-30f7-0d20-4bea6122fa34/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6796924308,
@@ -292,18 +316,6 @@ window.PRIZM_APP_CATALOG = {
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/63/d2/fd63d2f9-2e0f-7e9f-cefd-282650088009/AppIcon-0-0-1x_U007emarketing-0-4-85-220.png/512x512bb.jpg"
     },
     {
-      "id": 6759965167,
-      "slug": "puttlevel-golf-break-reader",
-      "name": "PuttLevel: Golf Break Reader",
-      "genre": "Sports",
-      "version": "1.0",
-      "description": "STOP GUESSING. START SINKING.\n\nPuttLevel is a brutal, no-nonsense precision tool designed for reading the exact slope of the putting green. Lay your phone flat on the grass, and instantly get the exact degree of the break. \n\n[ FREE VERSION ]\nTest our brutal precision for free.\n- 100% Offline Leveler: Flawless attitude indicator UI.\n- Exact Degrees: Instantly read the raw slope angle (e.g., L 3.2°).\n- Camera Bump Calibration: Set your device's absolute ZERO for free.\n- Heavy Haptic Feedback: Feel the physical friction as the slope changes.\n\n[ PRO UNLOCK: ONE-TIME PAYMENT ]\nStop doing math on the green. \n- Unlock Cup Translations: Removes the blur and translates raw angles into actionable insights (e.g., \"LEFT 2.5 CUPS\").\n- Zero Subscriptions: Pay once ($12.99). Yours forever. We don't rent our tools.\n- Unlimited Offline Readings: No accounts, no logins, no cellular data needed.\n\nForget the expensive $99/yr monthly fees from other golf apps. Put the ultimate caddie in your pocket today.\n\n\nTerms of Use: https://prizmchain.github.io/puttlevel-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/puttlevel-privacy-policy.html",
-      "releaseDate": "2026-03-05T23:21:18Z",
-      "url": "https://apps.apple.com/us/app/puttlevel-golf-break-reader/id6759965167",
-      "icon": "assets/icons/6759965167.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e5/eb/87/e5eb8723-ed9a-72d8-1cc6-d2cf0a23547e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
       "id": 6759442275,
       "slug": "hotline-agent-alert",
       "name": "Hotline - Agent Alert",
@@ -314,18 +326,6 @@ window.PRIZM_APP_CATALOG = {
       "url": "https://apps.apple.com/us/app/hotline-agent-alert/id6759442275",
       "icon": "assets/icons/6759442275.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/ab/01/eeab01cf-6553-73f9-0b47-e676170472d4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6759237484,
-      "slug": "morf-body-transformation",
-      "name": "Morf: Body Transformation",
-      "genre": "Health & Fitness",
-      "version": "1.0",
-      "description": "Morf is the simplest way to document your body transformation journey. Take one photo a day, align it perfectly with our AI tools, and watch your progress come to life.\n\nSay goodbye to monthly fees and clouded photo albums. Your body, your data, your privacy.\n\nHOW IT WORKS\nOpen the app, take a photo, done. Your daily body photo is saved to a secure, private vault right on your device. Over time, your collection grows into a powerful visual record of your hard work.\n\nMORPH ANIMATION\nWatch your transformation unfold in a smooth cross-fade animation. Your photos blend together seamlessly, turning weeks and months of gym and diet efforts into a mesmerizing visual experience.\n\nBEFORE AND AFTER COMPARISON\nPlace any two photos side by side with an interactive split-screen view. Drag the divider left and right to reveal the exact difference between your starting point and where you are now.\n\nTIMELAPSE VIDEO EXPORT\nTurn your entire photo collection into a cinematic 4K timelapse video. Each photo transitions smoothly with a dynamic day-counter overlay. Export and flex your weight loss journey or muscle gain on Instagram, TikTok, or YouTube.\n\nGHOST OVERLAY\nLine up your body in the exact same position every time. A transparent outline of your previous photo appears on the camera screen with adjustable opacity, ensuring your pose matches perfectly.\n\nPRIVACY FIRST & FOREVER YOURS\nNo accounts required. No cloud uploads. All photos are stored locally on your device. Best of all? Morf offers a lifetime unlock. Pay once, own it forever.\n\n\nDownload Morf and start tracking your true change today.\n\nTerms of Use: https://prizmchain.github.io/morf-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/morf-privacy-policy.html",
-      "releaseDate": "2026-02-25T10:33:46Z",
-      "url": "https://apps.apple.com/us/app/morf-body-transformation/id6759237484",
-      "icon": "assets/icons/6759237484.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/48/68/a0/4868a0fd-82ad-274d-bc66-8163b9981ec4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6755945637,
