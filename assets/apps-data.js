@@ -1,8 +1,44 @@
 window.PRIZM_APP_CATALOG = {
   "artistId": 1839727056,
-  "generatedAt": "2026-08-31T08:40:58.070Z",
+  "generatedAt": "2026-09-01T07:51:12.479Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6761908470,
+      "slug": "vaultx-offline-password-vault",
+      "name": "VaultX Offline Password Vault",
+      "genre": "Productivity",
+      "version": "1.2.0",
+      "description": "VaultX is a private, offline-first credential vault for passwords, payment cards, recovery codes, secure notes, crypto wallet details, identity records, and other sensitive information.\n\nYour vault is encrypted on your device. VaultX does not require an account and does not operate a password-storage server. Optional iCloud sync keeps encrypted vault data available across your Apple devices.\n\nCORE FEATURES\n- AES-256-GCM encrypted local vault\n- Face ID and device authentication\n- Password and passphrase generator\n- iOS AutoFill extension for apps and Safari\n- Search, categories, and favorites\n- Encrypted backup and restore\n- Clipboard auto-clear\n\nPREMIUM — ONE-TIME PURCHASE\n- Unlimited credential records\n- TOTP authenticator codes\n- Decoy vault\n- Breach monitoring\n- Emergency recovery tools\n- Encrypted iCloud sync\n\nNo subscription. Your credentials stay under your control.",
+      "releaseDate": "2026-08-31T18:57:10Z",
+      "url": "https://apps.apple.com/us/app/vaultx-offline-password-vault/id6761908470",
+      "icon": "assets/icons/6761908470.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/05/c2/5905c257-ae11-9724-6496-d05570d774fc/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": 6757148842,
+      "slug": "inkwell-audio-sync-notes",
+      "name": "Inkwell: Audio Sync Notes",
+      "genre": "Productivity",
+      "version": "1.3.0",
+      "description": "Inkwell connects Apple Pencil handwriting and audio on one timeline.\n\n• Record audio while taking handwritten notes\n• Tap handwriting to play from that moment\n• Navigate multiple pages and recording segments\n• Share the writing process as a real MP4 time-lapse\n• Export single- or multi-page PDFs\n• Organize with folders, note locks, pens, and paper templates\n• Back up notes and recordings in one .inkwell file\n• One-time Pro purchase with no monthly subscription\n\nYour notes are stored on your device. You can now import PDFs, write on them with Apple Pencil, and replay audio from your handwriting.",
+      "releaseDate": "2026-08-31T18:22:44Z",
+      "url": "https://apps.apple.com/us/app/inkwell-audio-sync-notes/id6757148842",
+      "icon": "assets/icons/6757148842.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/31/21/ab3121aa-e841-1c35-3784-9441445a7b5c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": 6755321981,
+      "slug": "recordingo",
+      "name": "RecordinGo",
+      "genre": "Productivity",
+      "version": "1.6",
+      "description": "Stop scrubbing through long recordings to find one important moment.\n\nRecordinGo combines high-quality audio recording, on-device transcription, search, organization, and editing in one professional recorder. Search a transcript for any word, then jump directly to the moment it was spoken.\n\nKey features\n\n- High-quality WAV and background recording\n- On-device transcription for supported languages\n- Transcript search with timestamp navigation\n- Projects, bookmarks, and tags\n- Trim, cut, fades, and non-destructive editing\n- Face ID or Touch ID app lock\n- Recordings and app data stored on your device\n\nThe free tier includes recordings up to one hour and up to 10 projects.\n\nRecordinGo Pro is a one-time purchase that removes recording and project limits and adds AIFF and M4A, up to 96 kHz/24-bit audio, stereo recording with external audio interfaces, scheduled recording, voice activity detection, batch export, playback speed, and loop playback.\n\nThe optional FX Pack adds a 10-band EQ and compressor. A Pro + FX bundle is also available, with any discount calculated from current App Store prices.\n\nNo subscription. No ads. No account.\n\nSupport: prizm_kr@hotmail.com",
+      "releaseDate": "2026-08-31T16:45:59Z",
+      "url": "https://apps.apple.com/us/app/recordingo/id6755321981",
+      "icon": "assets/icons/6755321981.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/73/1d/dc731dae-f8d2-3252-6abf-5a8c2f450901/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6759965167,
       "slug": "puttlevel-green-slope",
@@ -40,18 +76,6 @@ window.PRIZM_APP_CATALOG = {
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/34/cf/6d34cfb9-6aa6-9165-e356-08f5e1f2feeb/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
-      "id": 6755321981,
-      "slug": "recordingo",
-      "name": "RecordinGo",
-      "genre": "Productivity",
-      "version": "1.5",
-      "description": "Stop scrubbing through long recordings to find one important moment.\n\nRecordinGo combines high-quality audio recording, on-device transcription, search, organization, and editing in one professional recorder. Search a transcript for any word, then jump directly to the moment it was spoken.\n\nKey features\n\n- High-quality WAV and background recording\n- On-device transcription for supported languages\n- Transcript search with timestamp navigation\n- Projects, bookmarks, and tags\n- Trim, cut, fades, and non-destructive editing\n- Face ID or Touch ID app lock\n- Recordings and app data stored on your device\n\nThe free tier includes recordings up to one hour and up to 10 projects.\n\nRecordinGo Pro is a one-time purchase that removes recording and project limits and adds AIFF and M4A, up to 96 kHz/24-bit audio, stereo recording with external audio interfaces, scheduled recording, voice activity detection, batch export, playback speed, and loop playback.\n\nThe optional FX Pack adds a 10-band EQ and compressor. A Pro + FX bundle is also available, with any discount calculated from current App Store prices.\n\nNo subscription. No ads. No account.\n\nSupport: prizm_kr@hotmail.com",
-      "releaseDate": "2026-08-29T16:10:31Z",
-      "url": "https://apps.apple.com/us/app/recordingo/id6755321981",
-      "icon": "assets/icons/6755321981.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/35/93/91/35939157-7226-ee73-4561-6b1d1d1666fc/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
       "id": 6791563807,
       "slug": "bloomway-color-paths",
       "name": "Bloomway: Color Paths",
@@ -76,18 +100,6 @@ window.PRIZM_APP_CATALOG = {
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e0/6a/fa/e06afaf8-8572-24f0-80f0-a6cc6ad68849/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
-      "id": 6757148842,
-      "slug": "inkwell-audio-sync-notes",
-      "name": "Inkwell: Audio Sync Notes",
-      "genre": "Productivity",
-      "version": "1.2.1",
-      "description": "Inkwell connects Apple Pencil handwriting and audio on one timeline.\n\n• Record audio while taking handwritten notes\n• Tap handwriting to play from that moment\n• Navigate multiple pages and recording segments\n• Share the writing process as a real MP4 time-lapse\n• Export single- or multi-page PDFs\n• Organize with folders, note locks, pens, and paper templates\n• Back up notes and recordings in one .inkwell file\n• One-time Pro purchase with no monthly subscription\n\nYour notes are stored on your device. PDF import and annotation are not features of this version.",
-      "releaseDate": "2026-08-26T07:35:03Z",
-      "url": "https://apps.apple.com/us/app/inkwell-audio-sync-notes/id6757148842",
-      "icon": "assets/icons/6757148842.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/80/08/f0/8008f0f5-11cd-a648-da3e-6eff9a3dc0ce/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
-    },
-    {
       "id": 6802110971,
       "slug": "signet",
       "name": "Signet.",
@@ -98,18 +110,6 @@ window.PRIZM_APP_CATALOG = {
       "url": "https://apps.apple.com/us/app/signet/id6802110971",
       "icon": "assets/icons/6802110971.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/cd/af/f9cdaf2d-2cea-f0f8-17d0-af8caedc63e4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6761908470,
-      "slug": "vaultx-offline-password-vault",
-      "name": "VaultX Offline Password Vault",
-      "genre": "Productivity",
-      "version": "1.1.0",
-      "description": "VaultX is a private, offline-first credential vault for passwords, payment cards, recovery codes, secure notes, crypto wallet details, identity records, and other sensitive information.\n\nYour vault is encrypted on your device. VaultX does not require an account and does not operate a password-storage server. Optional iCloud sync keeps encrypted vault data available across your Apple devices.\n\nCORE FEATURES\n- AES-256-GCM encrypted local vault\n- Face ID and device authentication\n- Password and passphrase generator\n- iOS AutoFill extension for apps and Safari\n- Search, categories, and favorites\n- Encrypted backup and restore\n- Clipboard auto-clear\n\nPREMIUM — ONE-TIME PURCHASE\n- Unlimited credential records\n- TOTP authenticator codes\n- Decoy vault\n- Breach monitoring\n- Emergency recovery tools\n- Encrypted iCloud sync\n\nNo subscription. Your credentials stay under your control.",
-      "releaseDate": "2026-08-25T19:13:08Z",
-      "url": "https://apps.apple.com/us/app/vaultx-offline-password-vault/id6761908470",
-      "icon": "assets/icons/6761908470.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1c/5e/3d/1c5e3d64-47e0-8519-efce-8ba06cb82502/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6782553911,
