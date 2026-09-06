@@ -1,8 +1,20 @@
 window.PRIZM_APP_CATALOG = {
   "artistId": 1839727056,
-  "generatedAt": "2026-09-01T07:51:12.479Z",
+  "generatedAt": "2026-09-06T07:09:48.086Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6752878581,
+      "slug": "kantanpdf",
+      "name": "KantanPDF",
+      "genre": "Utilities",
+      "version": "2.0.0",
+      "description": "Turn everyday photos into professional PDF reports. Choose a contact sheet, construction, before-and-after, property, vehicle, or insurance template; add captions and notes; include photo dates and locations; and customize the title, logo, footer, and page numbers. The original photo-and-scan PDF maker is still included with precise paper, margin, and layout controls. Everything is processed locally without uploading your documents. Free includes one lifetime PDF creation with up to 10 source photos; Premium is a one-time purchase for unlimited creation, every report template and grid, branding, and advanced PDF layouts.",
+      "releaseDate": "2026-09-05T16:08:09Z",
+      "url": "https://apps.apple.com/us/app/kantanpdf/id6752878581",
+      "icon": "assets/icons/6752878581.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/9e/d4/409ed475-0ca0-6411-27ef-1a9da834696d/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6761908470,
       "slug": "vaultx-offline-password-vault",
@@ -242,18 +254,6 @@ window.PRIZM_APP_CATALOG = {
       "url": "https://apps.apple.com/us/app/spill-anonymous-messages/id6760286374",
       "icon": "assets/icons/6760286374.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/37/fd/eb/37fdeb9a-b8ae-d7fc-18ea-a58ea21bad03/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6752878581,
-      "slug": "kantanpdf",
-      "name": "KantanPDF",
-      "genre": "Utilities",
-      "version": "1.2.0",
-      "description": "Turn photos and scanned documents into print-ready PDF files. Reorder pages, choose A4 or B5 paper, adjust margins and layout, preview the result, and save every PDF on your device. KantanPDF works locally without uploading your documents. Free includes one lifetime PDF creation with up to 10 pages; Premium is a one-time purchase for unlimited creation and advanced layouts.",
-      "releaseDate": "2026-08-09T19:57:25Z",
-      "url": "https://apps.apple.com/us/app/kantanpdf/id6752878581",
-      "icon": "assets/icons/6752878581.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/55/80/25558046-4b27-7a1e-4570-7578b83eaa4c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6787524719,
