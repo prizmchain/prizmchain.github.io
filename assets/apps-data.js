@@ -1,19 +1,31 @@
 window.PRIZM_APP_CATALOG = {
   "artistId": 1839727056,
-  "generatedAt": "2026-09-06T07:09:48.086Z",
+  "generatedAt": "2026-09-07T07:21:31.298Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6755726235,
+      "slug": "planned-daily-planner",
+      "name": "Planned - Daily Planner",
+      "genre": "Productivity",
+      "version": "2.0",
+      "description": "Turn a list of tasks into a realistic day. Planned combines to-dos, calendar events, and time blocking in one clear timeline.\n\nAUTOMATIC PLANNING WITHOUT THE BLACK BOX\nChoose your working hours and transition buffer. Planned proposes a deterministic schedule around your existing calendar, explains conflicts, and lets you review every block before applying it.\n\nCORE FEATURES\n- Automatic time blocking with review and undo\n- Daily timeline, weekly view, and monthly calendar\n- Tasks with deadlines, priorities, notes, and duration\n- Calendar-aware conflict detection\n- Live Activities and home-screen widgets\n- Shareable daily schedule images\n\nPlan the day you can actually finish—not an idealized list you will abandon.",
+      "releaseDate": "2026-09-06T22:37:46Z",
+      "url": "https://apps.apple.com/us/app/planned-daily-planner/id6755726235",
+      "icon": "assets/icons/6755726235.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/ad/20/23ad2055-0b3d-f444-948c-ca65daa07cd8/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6752878581,
       "slug": "kantanpdf",
       "name": "KantanPDF",
       "genre": "Utilities",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "description": "Turn everyday photos into professional PDF reports. Choose a contact sheet, construction, before-and-after, property, vehicle, or insurance template; add captions and notes; include photo dates and locations; and customize the title, logo, footer, and page numbers. The original photo-and-scan PDF maker is still included with precise paper, margin, and layout controls. Everything is processed locally without uploading your documents. Free includes one lifetime PDF creation with up to 10 source photos; Premium is a one-time purchase for unlimited creation, every report template and grid, branding, and advanced PDF layouts.",
-      "releaseDate": "2026-09-05T16:08:09Z",
+      "releaseDate": "2026-09-06T22:37:13Z",
       "url": "https://apps.apple.com/us/app/kantanpdf/id6752878581",
       "icon": "assets/icons/6752878581.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/40/9e/d4/409ed475-0ca0-6411-27ef-1a9da834696d/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f5/fd/be/f5fdbe95-b9a6-b10d-a90e-1600bd8ff29c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6761908470,
@@ -338,18 +350,6 @@ window.PRIZM_APP_CATALOG = {
       "url": "https://apps.apple.com/us/app/popspot-location-reminders/id6755945637",
       "icon": "assets/icons/6755945637.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/49/ab/95/49ab9545-de00-b994-9691-e1ee0f28c964/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6755726235,
-      "slug": "planned-daily-planner",
-      "name": "Planned - Daily Planner",
-      "genre": "Productivity",
-      "version": "1.1",
-      "description": "Your schedule, right on your Lock Screen.\n\nPlanned is the only planner with Live Activity - see your current task and upcoming schedule without even unlocking your phone.\n\n- Live Activity on Lock Screen: Always know what's next\n- Share your day as a beautiful image: Perfect for couples, teams, and friends\n- Time blocking + Todo in one app: No need for multiple apps\n\nLIVE ACTIVITY\nSee your current task and next schedule right on your Lock Screen. No need to open the app - your plan is always visible.\n\nSHARE YOUR SCHEDULE\nTurn your daily plan into a beautiful image and share it via KakaoTalk, iMessage, or any app. Perfect for sharing plans with your partner, team, or study group.\n\nTIME BLOCKING\nVisualize your day with intuitive time blocks. Drag and drop to schedule tasks, set durations, and see your entire day at a glance. Color-code activities by category for instant recognition.\n\nSMART TODO MANAGEMENT\nCreate tasks with priorities, due dates, and categories. Filter by status - pending, completed, or overdue. Never miss a deadline with smart notifications.\n\nMULTIPLE CALENDAR VIEWS\n- Daily Timeline: Hour-by-hour view of your schedule\n- Weekly View: Plan your entire week\n- Monthly Calendar: Get the big picture with monthly overview\n\nPRODUCTIVITY INSIGHTS (Premium)\nUnderstand your habits with detailed analytics. See your focus categories, peak productivity hours, and completion rates. Get actionable suggestions to improve your workflow.\n\nHOME SCREEN WIDGETS (Premium)\nAccess your schedule instantly with beautiful widgets. Available in small, medium, and large sizes. Multiple themes to match your style.\n\nWhether you are a student, professional, or anyone looking to organize their life better, Planned gives you the tools to plan your day, track your progress, and achieve your goals.\n\nDownload Planned today and start planning smarter.\n\n ---\n\n  FREE FEATURES\n  - Intuitive time blocking (up to 15 future blocks)\n  - Task management with priorities\n  - Daily, weekly, and monthly calendar views\n  - Up to 10 customizable categories\n  - Up to 5 recurring events\n  - Dark mode support\n  - Multiple languages supported\n\n  PREMIUM FEATURES (Subscription Required)\n  - Unlimited time blocks and recurring events\n  - Productivity statistics and insights\n  - Home screen widgets\n  - iCloud sync across devices\n  - Data export and import\n  - Premium fonts and themes\n  - Subtasks\n\n  SUBSCRIPTION OPTIONS\n  - Premium Monthly: $2.99/month\n  - Premium Yearly: $19.99/year\n  - Premium Lifetime: $14.99 (one-time purchase)\n\n  Payment will be charged to your Apple ID account. Subscriptions automatically renew unless cancelled at least 24 hours before the end of the current period. Manage subscriptions in Account Settings.\n\n  Terms of Use: https://prizmchain.github.io/planned-terms-of-service.html\n  Privacy Policy: https://prizmchain.github.io/planned-privacy-policy.html",
-      "releaseDate": "2025-12-12T21:06:58Z",
-      "url": "https://apps.apple.com/us/app/planned-daily-planner/id6755726235",
-      "icon": "assets/icons/6755726235.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/65/60/67/656067eb-f9eb-027d-3740-3def97e3110f/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6753330446,
