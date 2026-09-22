@@ -1,8 +1,20 @@
 window.PRIZM_APP_CATALOG = {
   "artistId": 1839727056,
-  "generatedAt": "2026-09-15T07:47:54.947Z",
+  "generatedAt": "2026-09-22T07:44:42.892Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6755726235,
+      "slug": "planned-daily-planner",
+      "name": "Planned - Daily Planner",
+      "genre": "Productivity",
+      "version": "2.1",
+      "description": "Turn a list of tasks into a realistic day. Planned combines to-dos, calendar events, and time blocking in one clear timeline.\n\nAUTOMATIC PLANNING WITHOUT THE BLACK BOX\nChoose your working hours and transition buffer. Planned proposes a deterministic schedule around your existing calendar, explains conflicts, and lets you review every block before applying it.\n\nCORE FEATURES\n- Automatic time blocking with review and undo\n- Daily timeline, weekly view, and monthly calendar\n- Tasks with deadlines, priorities, notes, and duration\n- Calendar-aware conflict detection\n- Live Activities and home-screen widgets\n- Shareable daily schedule images\n\nPlan the day you can actually finish—not an idealized list you will abandon.",
+      "releaseDate": "2026-09-21T20:31:11Z",
+      "url": "https://apps.apple.com/us/app/planned-daily-planner/id6755726235",
+      "icon": "assets/icons/6755726235.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/8e/89/718e8960-58db-6e9f-4a25-f2a1190efbe3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6752878581,
       "slug": "kantanpdf-photo-reports",
@@ -26,18 +38,6 @@ window.PRIZM_APP_CATALOG = {
       "url": "https://apps.apple.com/us/app/islandmates-couple-pet/id6761184037",
       "icon": "assets/icons/6761184037.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d7/a0/11/d7a011f3-4907-d457-e14d-50b71a13e8f2/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6755726235,
-      "slug": "planned-daily-planner",
-      "name": "Planned - Daily Planner",
-      "genre": "Productivity",
-      "version": "2.0",
-      "description": "Turn a list of tasks into a realistic day. Planned combines to-dos, calendar events, and time blocking in one clear timeline.\n\nAUTOMATIC PLANNING WITHOUT THE BLACK BOX\nChoose your working hours and transition buffer. Planned proposes a deterministic schedule around your existing calendar, explains conflicts, and lets you review every block before applying it.\n\nCORE FEATURES\n- Automatic time blocking with review and undo\n- Daily timeline, weekly view, and monthly calendar\n- Tasks with deadlines, priorities, notes, and duration\n- Calendar-aware conflict detection\n- Live Activities and home-screen widgets\n- Shareable daily schedule images\n\nPlan the day you can actually finish—not an idealized list you will abandon.",
-      "releaseDate": "2026-09-06T22:37:46Z",
-      "url": "https://apps.apple.com/us/app/planned-daily-planner/id6755726235",
-      "icon": "assets/icons/6755726235.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/23/ad/20/23ad2055-0b3d-f444-948c-ca65daa07cd8/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6761908470,
