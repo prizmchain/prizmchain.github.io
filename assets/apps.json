@@ -1,8 +1,20 @@
 {
   "artistId": 1839727056,
-  "generatedAt": "2026-09-23T07:47:30.748Z",
+  "generatedAt": "2026-09-25T07:52:45.710Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6807068781,
+      "slug": "tintable-coloring-book",
+      "name": "Tintable: Coloring Book",
+      "genre": "Graphics & Design",
+      "version": "1.0",
+      "description": "Color one closed area at a time, then zoom through a marked object to continue in a connected scene.\n\nEach world is a four-scene journey. Tap to fill regions, choose from the built-in palettes, and follow the portal when it opens. Undo, redo, erase, or reset whenever you need to. Finished artwork can be exported with the iOS share sheet.\n\nYour coloring progress stays on this device. The app has no account, advertising, or analytics.\n\nA subscription opens the full library and includes new worlds as they are released. Purchases and renewals are handled by Apple. You can manage or cancel the subscription in your App Store account settings.\n\nTintable Terms of Service:\nhttps://prizmchain.github.io/tintable-terms-of-service.html\n\nApple Standard EULA:\nhttps://www.apple.com/legal/internet-services/itunes/dev/stdeula/\n\nPrivacy Policy:\nhttps://prizmchain.github.io/tintable-privacy-policy.html",
+      "releaseDate": "2026-09-23T12:12:19Z",
+      "url": "https://apps.apple.com/us/app/tintable-coloring-book/id6807068781",
+      "icon": "assets/icons/6807068781.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/99/21/179921c9-c7be-ae6a-df2b-6eb45ea52e70/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6805845348,
       "slug": "muryn-immersive-soundscapes",
