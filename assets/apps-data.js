@@ -1,8 +1,32 @@
 window.PRIZM_APP_CATALOG = {
   "artistId": 1839727056,
-  "generatedAt": "2026-09-25T07:52:45.710Z",
+  "generatedAt": "2026-09-27T08:16:56.003Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6795316782,
+      "slug": "keeptoss-swipe-photo-cleaner",
+      "name": "KeepToss: Swipe Photo Cleaner",
+      "genre": "Photo & Video",
+      "version": "1.0.1",
+      "description": "Clean your photo library without turning it into another chore.\n\nKeepToss gives you one clear decision at a time: keep or toss. Review similar shots side by side, find exact duplicates, old screenshots, possible blur, and large videos. Nothing is removed until you review the list and confirm with iOS.\n\nFOCUSED PHOTO CLEANUP\n• Swipe through short, manageable review rounds\n• Compare similar shots and choose the keeper\n• Find exact duplicates and possible blurry photos\n• Review screenshots and save useful text\n• Find large videos and create smaller copies\n• Inspect every removal before confirming\n\nPRIVATE BY DESIGN\nPhoto analysis and text recognition run on your iPhone. Your photos are never uploaded, and no account is required.\n\nStart with 50 free reviews. Unlock unlimited cleanup with a one-time purchase. No subscription.\n\nTerms of Use: https://prizmchain.github.io/keeptoss-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/keeptoss-privacy-policy.html",
+      "releaseDate": "2026-09-26T20:58:44Z",
+      "url": "https://apps.apple.com/us/app/keeptoss-swipe-photo-cleaner/id6795316782",
+      "icon": "assets/icons/6795316782.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d4/c6/6f/d4c66f22-a773-fa87-eccd-65d2149ea792/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": 6780172538,
+      "slug": "lightprint-light-meter",
+      "name": "Lightprint: Light Meter",
+      "genre": "Photo & Video",
+      "version": "1.1.1",
+      "description": "Lightprint helps photographers and video creators save lighting setups they need to repeat before shooting with a mirrorless, film, cinema camera, or manual camera app.\n\nUse the live camera meter to estimate EV, exposure settings, Kelvin, tint, and estimated lux. Lock ISO, aperture, or shutter, then let Lightprint calculate the missing value. For video, store FPS and shutter angle in project presets and see an estimated ND stop guide.\n\nSave each setup as a Light Recipe with location, camera, lens, film stock or picture profile, notes, thumbnail, measured values, and recommended target settings. Use Match Score to compare a saved recipe against the live camera reading when you return to the same room, desk, cafe, studio, or product setup.\n\nLightprint includes reflected and diffuser-assisted reading modes, correction EV calibration, device-specific default correction, project presets, CSV export, and 4:5 or 9:16 recipe exports.\n\nFree users can measure light, estimate exposure and white balance, and save up to 5 light recipes. Lightprint Pro is a one-time lifetime unlock for unlimited recipes, Match Score, 4:5 and 9:16 PNG recipe exports, project presets, video notes, correction profiles, and CSV export.\n\nLightprint is built for repeatable lighting recipes, not legal lux certification, professional color science, CRI, TLCI, SSI, or flash metering.\n\nTerms of Use: https://prizmchain.github.io/lightprint-terms-of-service.html                                   \nPrivacy Policy: https://prizmchain.github.io/lightprint-privacy-policy.html",
+      "releaseDate": "2026-09-26T20:12:00Z",
+      "url": "https://apps.apple.com/us/app/lightprint-light-meter/id6780172538",
+      "icon": "assets/icons/6780172538.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d0/60/d2/d060d20b-e806-bc92-1a9c-c59237078257/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6807068781,
       "slug": "tintable-coloring-book",
@@ -208,18 +232,6 @@ window.PRIZM_APP_CATALOG = {
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/20/a6/e620a6d4-3108-09f7-2823-3c0ba47e8580/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
-      "id": 6780172538,
-      "slug": "lightprint-light-meter",
-      "name": "Lightprint: Light Meter",
-      "genre": "Photo & Video",
-      "version": "1.1.0",
-      "description": "Lightprint helps photographers and video creators save lighting setups they need to repeat before shooting with a mirrorless, film, cinema camera, or manual camera app.\n\nUse the live camera meter to estimate EV, exposure settings, Kelvin, tint, and estimated lux. Lock ISO, aperture, or shutter, then let Lightprint calculate the missing value. For video, store FPS and shutter angle in project presets and see an estimated ND stop guide.\n\nSave each setup as a Light Recipe with location, camera, lens, film stock or picture profile, notes, thumbnail, measured values, and recommended target settings. Use Match Score to compare a saved recipe against the live camera reading when you return to the same room, desk, cafe, studio, or product setup.\n\nLightprint includes reflected and diffuser-assisted reading modes, correction EV calibration, device-specific default correction, project presets, CSV export, and 4:5 or 9:16 recipe exports.\n\nFree users can measure light, estimate exposure and white balance, and save up to 5 light recipes. Lightprint Pro is a one-time lifetime unlock for unlimited recipes, Match Score, 4:5 and 9:16 PNG recipe exports, project presets, video notes, correction profiles, and CSV export.\n\nLightprint is built for repeatable lighting recipes, not legal lux certification, professional color science, CRI, TLCI, SSI, or flash metering.\n\nTerms of Use: https://prizmchain.github.io/lightprint-terms-of-service.html                                   \nPrivacy Policy: https://prizmchain.github.io/lightprint-privacy-policy.html",
-      "releaseDate": "2026-08-17T05:20:14Z",
-      "url": "https://apps.apple.com/us/app/lightprint-light-meter/id6780172538",
-      "icon": "assets/icons/6780172538.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b5/54/55/b5545509-a5d3-1e51-4359-debc21aa3e51/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
       "id": 6758996727,
       "slug": "digi-retro-film-camera",
       "name": "digi. - Retro Film Camera",
@@ -230,18 +242,6 @@ window.PRIZM_APP_CATALOG = {
       "url": "https://apps.apple.com/us/app/digi-retro-film-camera/id6758996727",
       "icon": "assets/icons/6758996727.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/e3/85/25e385d7-03c0-c694-274b-68beefc5c9e1/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6795316782,
-      "slug": "keeptoss-photo-cleaner",
-      "name": "KeepToss: Photo Cleaner",
-      "genre": "Photo & Video",
-      "version": "1.0",
-      "description": "Clean your photo library without turning it into another chore.\n\nKeepToss gives you one clear decision at a time: keep or toss. Review similar shots side by side, find exact duplicates, old screenshots, possible blur, and large videos. Nothing is removed until you review the list and confirm with iOS.\n\nFOCUSED PHOTO CLEANUP\n• Swipe through short, manageable review rounds\n• Compare similar shots and choose the keeper\n• Find exact duplicates and possible blurry photos\n• Review screenshots and save useful text\n• Find large videos and create smaller copies\n• Inspect every removal before confirming\n\nPRIVATE BY DESIGN\nPhoto analysis and text recognition run on your iPhone. Your photos are never uploaded, and no account is required.\n\nStart with 50 free reviews. Unlock unlimited cleanup with a one-time purchase. No subscription.\n\nTerms of Use: https://prizmchain.github.io/keeptoss-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/keeptoss-privacy-policy.html",
-      "releaseDate": "2026-08-15T06:48:12Z",
-      "url": "https://apps.apple.com/us/app/keeptoss-photo-cleaner/id6795316782",
-      "icon": "assets/icons/6795316782.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ca/d3/f6/cad3f6af-46b7-097e-4e02-d0c6bdd6ea34/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6782009574,
