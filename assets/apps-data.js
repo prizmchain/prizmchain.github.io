@@ -1,8 +1,20 @@
 window.PRIZM_APP_CATALOG = {
   "artistId": 1839727056,
-  "generatedAt": "2026-09-30T08:37:20.651Z",
+  "generatedAt": "2026-10-02T08:35:25.851Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6760953122,
+      "slug": "dayslip-daily-receipt-maker",
+      "name": "DaySlip: Daily Receipt Maker",
+      "genre": "Graphics & Design",
+      "version": "1.2.0",
+      "description": "Your day is worth more than a to-do list. Turn it into something beautiful.\n\n  DaySlip transforms your daily activities into a stunning thermal paper receipt - the kind you'd actually want to share. Log your coffees, workouts, Netflix binges, concerts, and\n  everything in between. Watch your day build up in real-time on a pixel-perfect receipt, then export and share it instantly.\n\n  HOW IT WORKS\n  - Tap to add activities: \"Americano, 2 cups\" or \"BTS Concert, 3 hrs\"\n  - Your receipt builds in real-time as you add items\n  - Hit PRINT RECEIPT to capture and share in one tap\n\n  MADE FOR INSTAGRAM\n  Every receipt is designed to look incredible on Instagram Stories. The thermal paper texture, dot-matrix typography, torn edges, and fake barcode - it's all there. Your followers\n  will ask \"what app is this?\"\n\n  PREMIUM THEMES\n  Go beyond classic white:\n  * Cyberpunk - Neon green on black. Glow effects. Main character energy.\n  * Vintage - Aged paper, sepia ink. Old soul aesthetic.\n  Unlock both with a single lifetime purchase. No subscriptions, ever.\n\n  FEATURES\n  - Real-time receipt preview as you type\n  - 15 unit types (cups, hrs, steps, songs, reps, and more)\n  - High-res PNG export for crisp sharing\n  - Native share sheet - Instagram, Messages, Save, anywhere\n  - Haptic feedback on every interaction\n  - Beautiful Space Mono typography\n  - Realistic torn paper edges & barcode\n  - Dark mode UI\n  - Works 100% offline - no account needed\n  - Supports English, Korean, Japanese, Chinese, German, French, Spanish\n\n  YOUR DAY, RECEIPTED.\n  Stop doomscrolling and start documenting. Whether it's a perfect self-care Sunday or a chaotic Monday, DaySlip turns it into art you'll want to keep - and share.\n\n  Download now. Your receipt is waiting.\n\n\n  Terms of Use: https://prizmchain.github.io/dayslip-terms-of-service.html                                   \n  Privacy Policy: https://prizmchain.github.io/dayslip-privacy-policy.html",
+      "releaseDate": "2026-10-02T06:02:32Z",
+      "url": "https://apps.apple.com/us/app/dayslip-daily-receipt-maker/id6760953122",
+      "icon": "assets/icons/6760953122.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/eb/f5/ad/ebf5ad8e-8787-3c9f-ea97-90fee345c115/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6805845348,
       "slug": "muryn-immersive-soundscapes",
@@ -314,18 +326,6 @@ window.PRIZM_APP_CATALOG = {
       "url": "https://apps.apple.com/us/app/pang-circuit-stack-10/id6794721171",
       "icon": "assets/icons/6794721171.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ac/a9/3b/aca93bf3-324e-525e-8a85-c2e5aa6ca8c6/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6760953122,
-      "slug": "dayslip-daily-receipt-maker",
-      "name": "DaySlip: Daily Receipt Maker",
-      "genre": "Graphics & Design",
-      "version": "1.1.0",
-      "description": "Your day is worth more than a to-do list. Turn it into something beautiful.\n\n  DaySlip transforms your daily activities into a stunning thermal paper receipt - the kind you'd actually want to share. Log your coffees, workouts, Netflix binges, concerts, and\n  everything in between. Watch your day build up in real-time on a pixel-perfect receipt, then export and share it instantly.\n\n  HOW IT WORKS\n  - Tap to add activities: \"Americano, 2 cups\" or \"BTS Concert, 3 hrs\"\n  - Your receipt builds in real-time as you add items\n  - Hit PRINT RECEIPT to capture and share in one tap\n\n  MADE FOR INSTAGRAM\n  Every receipt is designed to look incredible on Instagram Stories. The thermal paper texture, dot-matrix typography, torn edges, and fake barcode - it's all there. Your followers\n  will ask \"what app is this?\"\n\n  PREMIUM THEMES\n  Go beyond classic white:\n  * Cyberpunk - Neon green on black. Glow effects. Main character energy.\n  * Vintage - Aged paper, sepia ink. Old soul aesthetic.\n  Unlock both with a single lifetime purchase. No subscriptions, ever.\n\n  FEATURES\n  - Real-time receipt preview as you type\n  - 15 unit types (cups, hrs, steps, songs, reps, and more)\n  - High-res PNG export for crisp sharing\n  - Native share sheet - Instagram, Messages, Save, anywhere\n  - Haptic feedback on every interaction\n  - Beautiful Space Mono typography\n  - Realistic torn paper edges & barcode\n  - Dark mode UI\n  - Works 100% offline - no account needed\n  - Supports English, Korean, Japanese, Chinese, German, French, Spanish\n\n  YOUR DAY, RECEIPTED.\n  Stop doomscrolling and start documenting. Whether it's a perfect self-care Sunday or a chaotic Monday, DaySlip turns it into art you'll want to keep - and share.\n\n  Download now. Your receipt is waiting.\n\n\n  Terms of Use: https://prizmchain.github.io/dayslip-terms-of-service.html                                   \n  Privacy Policy: https://prizmchain.github.io/dayslip-privacy-policy.html",
-      "releaseDate": "2026-08-04T16:22:15Z",
-      "url": "https://apps.apple.com/us/app/dayslip-daily-receipt-maker/id6760953122",
-      "icon": "assets/icons/6760953122.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3a/92/49/3a924998-de28-3044-2940-df48f5bc1db0/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6756882811,
