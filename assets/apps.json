@@ -1,8 +1,20 @@
 {
   "artistId": 1839727056,
-  "generatedAt": "2026-10-04T08:29:13.127Z",
+  "generatedAt": "2026-10-05T09:08:59.185Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6802110971,
+      "slug": "signet-signature-maker",
+      "name": "Signet. Signature Maker",
+      "genre": "Graphics & Design",
+      "version": "1.1.0",
+      "description": "Create a reusable personal signature and sign received PDFs or images without uploading your documents. Open a file from Files or the iOS share sheet, place and resize your signature, then export a flattened copy.\n\nFREE\n• Create, preview, and practice signatures\n• Preview signature placement in a document\n\nUNLIMITED DOCUMENTS — ONE-TIME PURCHASE\n• Copy and share your reusable signature\n• Export signatures as PNG or SVG\n• Complete and export signed PDFs and images\n• No subscription or recurring charge\n\nAll document processing happens on your device. Signet. does not verify identity, create certificate-backed digital signatures, or guarantee legal validity.\n\nTerms of Use\nhttps://prizmchain.github.io/signet-terms-of-service.html\n\nPrivacy Policy\nhttps://prizmchain.github.io/signet-privacy-policy.html",
+      "releaseDate": "2026-10-04T12:54:41Z",
+      "url": "https://apps.apple.com/us/app/signet-signature-maker/id6802110971",
+      "icon": "assets/icons/6802110971.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/7e/3c/cf7e3c12-5a91-5ae7-c36d-af6889e797ae/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6760953122,
       "slug": "dayslip-daily-receipt-maker",
@@ -182,18 +194,6 @@
       "url": "https://apps.apple.com/us/app/bedside-audio/id6789324545",
       "icon": "assets/icons/6789324545.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e0/6a/fa/e06afaf8-8572-24f0-80f0-a6cc6ad68849/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6802110971,
-      "slug": "signet",
-      "name": "Signet.",
-      "genre": "Graphics & Design",
-      "version": "1.0.0",
-      "description": "Create a reusable personal signature and sign received PDFs or images without uploading your documents. Open a file from Files or the iOS share sheet, place and resize your signature, then export a flattened copy.\n\nFREE\n• Create, preview, and practice signatures\n• Preview signature placement in a document\n\nUNLIMITED DOCUMENTS — ONE-TIME PURCHASE\n• Copy and share your reusable signature\n• Export signatures as PNG or SVG\n• Complete and export signed PDFs and images\n• No subscription or recurring charge\n\nAll document processing happens on your device. Signet. does not verify identity, create certificate-backed digital signatures, or guarantee legal validity.\n\nTerms of Use\nhttps://prizmchain.github.io/signet-terms-of-service.html\n\nPrivacy Policy\nhttps://prizmchain.github.io/signet-privacy-policy.html",
-      "releaseDate": "2026-08-26T07:23:58Z",
-      "url": "https://apps.apple.com/us/app/signet/id6802110971",
-      "icon": "assets/icons/6802110971.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/f9/cd/af/f9cdaf2d-2cea-f0f8-17d0-af8caedc63e4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6782553911,
