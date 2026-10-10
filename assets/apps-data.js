@@ -1,8 +1,20 @@
 window.PRIZM_APP_CATALOG = {
   "artistId": 1839727056,
-  "generatedAt": "2026-10-06T09:01:55.486Z",
+  "generatedAt": "2026-10-10T08:32:43.983Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6814663847,
+      "slug": "foldtales-duo-wallpapers",
+      "name": "FoldTales: Duo Wallpapers",
+      "genre": "Graphics & Design",
+      "version": "1.0",
+      "description": "A scene outside. A surprise inside.\n\nFoldTales pairs original wallpaper artwork with a new scene to discover in the app. Created first for iPhone Duo, with individual scenes you can also use on other supported iPhones.\n\nExplore 40 themes across characters, nature, cities, stories, objects and optical illusions. Turn your screen into a tiny arcade, a pager or a retro TV—or find a wider world behind the first scene.\n\nPreview the reveal, choose an Outer or Inner image, then save your Lock Screen or Home Screen option to Photos. Each theme offers four image options; Home versions are quieter treatments of the matching artwork.\n\nOne purchase. No subscriptions, ads or account.\n\nApply saved images manually in iPhone Settings. iOS uses one Lock Screen wallpaper and one Home Screen wallpaper across Duo, not independently assigned images for each display. The reveal is an in-app preview; saved wallpapers are still images.\n\nSupport:\nhttps://prizmchain.github.io/foldtales/support/index.html\n\nPrivacy policy:\nhttps://prizmchain.github.io/foldtales/privacy/",
+      "releaseDate": "2026-10-09T20:13:26Z",
+      "url": "https://apps.apple.com/us/app/foldtales-duo-wallpapers/id6814663847",
+      "icon": "assets/icons/6814663847.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/43/ff/6d/43ff6d86-d66d-a33a-7588-b257b8d2dc49/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6802110971,
       "slug": "signet-signature-maker",
