@@ -1,8 +1,80 @@
 window.PRIZM_APP_CATALOG = {
   "artistId": 1839727056,
-  "generatedAt": "2026-10-10T08:32:43.983Z",
+  "generatedAt": "2026-10-11T08:57:05.624Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6759857012,
+      "slug": "wow-and-flutter-turntable-rpm",
+      "name": "Wow and Flutter Turntable RPM",
+      "genre": "Utilities",
+      "version": "1.2.0",
+      "description": "Are you sure your turntable is perfectly calibrated? Even high-end audio systems lose their true sound with a 0.1 RPM deviation. \n\nWow and Flutter is a professional-grade calibration tool designed for audiophiles. Simply place your phone on the platter. Using strictly the device's built-in gyroscope (no cameras, no vision AI, 100% offline), it measures your turntable's rotational speed and microscopic variations (Wow and Flutter) up to two decimal places. Experience the heavy brutalist analog VU meter interface and feel the haptic feedback when you hit the perfect 33.33 RPM.\n\n  FREE FEATURES:\n  - 33 & 45 RPM measurement\n  - Real-time VU meter with needle animation\n  - Wow & Flutter percentage display\n  - Haptic feedback at target lock\n  - 5 free measurement sessions\n\n  UNLOCK PRO ($6.99 one-time):\n  - Unlimited measurement sessions\n  - 16 & 78 RPM speed modes\n  - Real-time RPM time-series graph\n  - W&F quality grade badge (Excellent/Good/Fair/Poor)\n  - Save measurements & full history log\n  - RPM calibration offset tool\n\nTerms of Use: https://prizmchain.github.io/wnf-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/wnf-privacy-policy.html",
+      "releaseDate": "2026-10-10T20:00:24Z",
+      "url": "https://apps.apple.com/us/app/wow-and-flutter-turntable-rpm/id6759857012",
+      "icon": "assets/icons/6759857012.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/d6/8e/32d68e6e-a0f6-c178-4a82-9a9a3a62390e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": 6807068781,
+      "slug": "tintable-coloring-book",
+      "name": "Tintable: Coloring Book",
+      "genre": "Graphics & Design",
+      "version": "1.1.0",
+      "description": "Color one closed area at a time, then zoom through a marked object to continue in a connected scene.\n\nEach world is a four-scene journey. Tap to fill regions, choose from the built-in palettes, and follow the portal when it opens. Undo, redo, erase, or reset whenever you need to. Finished artwork can be exported with the iOS share sheet.\n\nYour coloring progress stays on this device. The app has no account, advertising, or analytics.\n\nA subscription opens the full library and includes new worlds as they are released. Purchases and renewals are handled by Apple. You can manage or cancel the subscription in your App Store account settings.\n\nTintable Terms of Service:\nhttps://prizmchain.github.io/tintable-terms-of-service.html\n\nApple Standard EULA:\nhttps://www.apple.com/legal/internet-services/itunes/dev/stdeula/\n\nPrivacy Policy:\nhttps://prizmchain.github.io/tintable-privacy-policy.html",
+      "releaseDate": "2026-10-10T20:00:13Z",
+      "url": "https://apps.apple.com/us/app/tintable-coloring-book/id6807068781",
+      "icon": "assets/icons/6807068781.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/0c/73/710c73e6-b5b9-26fc-3b1a-214ebc363605/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": 6761184037,
+      "slug": "islandmates-couple-pet",
+      "name": "IslandMates: Couple Pet",
+      "genre": "Lifestyle",
+      "version": "1.5.0",
+      "description": "One pet, one island, two people. IslandMates is a small shared space for you and your partner.\n\nChoose a character, send a note of up to 10 characters, and invite your partner with a code. Your first message and their first reply are free.\n\nTogether, you can care for your pet, share feelings, make story choices, remember anniversaries, and look back on your shared timeline and recaps. On supported devices, widgets and Live Activities keep your pet close. Dynamic Island features require a compatible iPhone.\n\nISLANDMATES PLUS\nKeep exchanging messages and growing your shared story with Plus. One subscription covers both partners connected to the same room. The app adapts to iPhone Duo and different window sizes.\n\nSubscriptions renew automatically unless canceled at least 24 hours before the current period ends. Manage or cancel in your Apple account settings. Prices are shown before purchase. Restore purchases in the app.\n\nPrivacy: https://prizmchain.github.io/islandmates-privacy-policy.html\nTerms: https://prizmchain.github.io/islandmates-terms-of-service.html",
+      "releaseDate": "2026-10-10T20:00:02Z",
+      "url": "https://apps.apple.com/us/app/islandmates-couple-pet/id6761184037",
+      "icon": "assets/icons/6761184037.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/5e/4c/fc5e4c8a-6b31-3250-6db6-3ab22866c5ce/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": 6760953122,
+      "slug": "dayslip-daily-receipt-maker",
+      "name": "DaySlip: Daily Receipt Maker",
+      "genre": "Graphics & Design",
+      "version": "1.4.0",
+      "description": "Keep your day as a receipt.\n\nRecord activities with quantities and units, or close the day with three short reflections. Start with editable study, together, travel and after-work examples. Save slips on this device, revisit your archive and see a seven-day summary.\n\nPreview and share a receipt image or a 9:16 story with a choice of backgrounds. Classic and Blueprint are free. PRO adds premium designs including Ticket, Botanical and Noir, custom titles, reusable routine templates and images without the DaySlip signature. One payment unlocks PRO for life; no subscription.\n\nNo account required. Your receipts stay on this device. Purchases and restoring PRO require an Apple account and a connection.\n\nTerms of Use: https://prizmchain.github.io/dayslip-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/dayslip-privacy-policy.html",
+      "releaseDate": "2026-10-10T19:59:49Z",
+      "url": "https://apps.apple.com/us/app/dayslip-daily-receipt-maker/id6760953122",
+      "icon": "assets/icons/6760953122.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/01/ea/4c/01ea4c3e-3e50-25f4-a5e8-57dc9ec8b7a4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": 6758237365,
+      "slug": "lookup-eye-contact-prompter",
+      "name": "LookUp: Eye Contact Prompter",
+      "genre": "Photo & Video",
+      "version": "1.2.0",
+      "description": "Stop memorizing scripts. Start creating.\n\nLookUp is the teleprompter app designed for content creators who want to deliver professional videos while maintaining natural eye contact with their audience.\n\nTHE PROBLEM\nReading scripts usually means looking away from the camera. Your viewers notice. They feel disconnected. Your content suffers.\n\nTHE SOLUTION\nLookUp places your script right below the camera lens. Read naturally while looking directly at your audience. It's like magic.\n\nKEY FEATURES\n\nScript Display\n• Script appears near the camera lens\n• Maintain perfect eye contact while reading\n• Your audience feels connected to you\n\nEasy Script Input\n• Paste text directly\n• Import from files\n• Voice-to-text input\n• Save scripts for later use\n\nRecording Made Simple\n• 3-second countdown timer\n• Auto-scrolling script\n• Intuitive controls\n• Record directly in the app\n\nPRO FEATURES\n• Adjustable scroll speed\n• Customizable text size\n• Multiple background styles: Blur, Dark, Light, Transparent\n\nPERFECT FOR\n• YouTube creators\n• TikTok and Instagram Reels\n• Online course instructors\n• Business presentations\n• Podcasters and interviewers\n• Anyone who records videos with scripts\n\nDownload LookUp now.\n\n  Terms of Use: https://prizmchain.github.io/lookup-terms-of-service.html\n  Privacy Policy: https://prizmchain.github.io/lookup-privacy-policy.htmlCreate content that connects. Create content that connects.",
+      "releaseDate": "2026-10-10T16:22:57Z",
+      "url": "https://apps.apple.com/us/app/lookup-eye-contact-prompter/id6758237365",
+      "icon": "assets/icons/6758237365.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a5/d6/2c/a5d62c78-8305-b655-991a-68bfc460af00/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": 6755726235,
+      "slug": "planned-daily-planner",
+      "name": "Planned - Daily Planner",
+      "genre": "Productivity",
+      "version": "2.2",
+      "description": "Turn a list of tasks into a realistic day. Planned combines to-dos, calendar events, and time blocking in one clear timeline.\n\nAUTOMATIC PLANNING WITHOUT THE BLACK BOX\nChoose your working hours and transition buffer. Planned proposes a deterministic schedule around your existing calendar, explains conflicts, and lets you review every block before applying it.\n\nCORE FEATURES\n- Automatic time blocking with review and undo\n- Daily timeline, weekly view, and monthly calendar\n- Tasks with deadlines, priorities, notes, and duration\n- Calendar-aware conflict detection\n- Live Activities and home-screen widgets\n- Shareable daily schedule images\n\nPlan the day you can actually finish—not an idealized list you will abandon.",
+      "releaseDate": "2026-10-10T15:17:30Z",
+      "url": "https://apps.apple.com/us/app/planned-daily-planner/id6755726235",
+      "icon": "assets/icons/6755726235.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/04/78/6e/04786e5d-6ad4-23c9-8916-b4939f2bb144/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6814663847,
       "slug": "foldtales-duo-wallpapers",
@@ -26,18 +98,6 @@ window.PRIZM_APP_CATALOG = {
       "url": "https://apps.apple.com/us/app/signet-signature-maker/id6802110971",
       "icon": "assets/icons/6802110971.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/7e/3c/cf7e3c12-5a91-5ae7-c36d-af6889e797ae/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6760953122,
-      "slug": "dayslip-daily-receipt-maker",
-      "name": "DaySlip: Daily Receipt Maker",
-      "genre": "Graphics & Design",
-      "version": "1.3.0",
-      "description": "Your day is worth more than a to-do list. Turn it into something beautiful.\n\n  DaySlip transforms your daily activities into a stunning thermal paper receipt - the kind you'd actually want to share. Log your coffees, workouts, Netflix binges, concerts, and\n  everything in between. Watch your day build up in real-time on a pixel-perfect receipt, then export and share it instantly.\n\n  HOW IT WORKS\n  - Tap to add activities: \"Americano, 2 cups\" or \"BTS Concert, 3 hrs\"\n  - Your receipt builds in real-time as you add items\n  - Hit PRINT RECEIPT to capture and share in one tap\n\n  MADE FOR INSTAGRAM\n  Every receipt is designed to look incredible on Instagram Stories. The thermal paper texture, dot-matrix typography, torn edges, and fake barcode - it's all there. Your followers\n  will ask \"what app is this?\"\n\n  PREMIUM THEMES\n  Go beyond classic white:\n  * Cyberpunk - Neon green on black. Glow effects. Main character energy.\n  * Vintage - Aged paper, sepia ink. Old soul aesthetic.\n  Unlock both with a single lifetime purchase. No subscriptions, ever.\n\n  FEATURES\n  - Real-time receipt preview as you type\n  - 15 unit types (cups, hrs, steps, songs, reps, and more)\n  - High-res PNG export for crisp sharing\n  - Native share sheet - Instagram, Messages, Save, anywhere\n  - Haptic feedback on every interaction\n  - Beautiful Space Mono typography\n  - Realistic torn paper edges & barcode\n  - Dark mode UI\n  - Works 100% offline - no account needed\n  - Supports English, Korean, Japanese, Chinese, German, French, Spanish\n\n  YOUR DAY, RECEIPTED.\n  Stop doomscrolling and start documenting. Whether it's a perfect self-care Sunday or a chaotic Monday, DaySlip turns it into art you'll want to keep - and share.\n\n  Download now. Your receipt is waiting.\n\n\n  Terms of Use: https://prizmchain.github.io/dayslip-terms-of-service.html                                   \n  Privacy Policy: https://prizmchain.github.io/dayslip-privacy-policy.html",
-      "releaseDate": "2026-10-03T21:48:06Z",
-      "url": "https://apps.apple.com/us/app/dayslip-daily-receipt-maker/id6760953122",
-      "icon": "assets/icons/6760953122.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/36/aa/70/36aa7082-79c5-3f2a-ee61-8f7346281b98/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6805845348,
@@ -76,30 +136,6 @@ window.PRIZM_APP_CATALOG = {
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/88/c1/78/88c178d2-f162-29cb-7be6-50b67318dec6/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
-      "id": 6807068781,
-      "slug": "tintable-coloring-book",
-      "name": "Tintable: Coloring Book",
-      "genre": "Graphics & Design",
-      "version": "1.0",
-      "description": "Color one closed area at a time, then zoom through a marked object to continue in a connected scene.\n\nEach world is a four-scene journey. Tap to fill regions, choose from the built-in palettes, and follow the portal when it opens. Undo, redo, erase, or reset whenever you need to. Finished artwork can be exported with the iOS share sheet.\n\nYour coloring progress stays on this device. The app has no account, advertising, or analytics.\n\nA subscription opens the full library and includes new worlds as they are released. Purchases and renewals are handled by Apple. You can manage or cancel the subscription in your App Store account settings.\n\nTintable Terms of Service:\nhttps://prizmchain.github.io/tintable-terms-of-service.html\n\nApple Standard EULA:\nhttps://www.apple.com/legal/internet-services/itunes/dev/stdeula/\n\nPrivacy Policy:\nhttps://prizmchain.github.io/tintable-privacy-policy.html",
-      "releaseDate": "2026-09-23T12:12:19Z",
-      "url": "https://apps.apple.com/us/app/tintable-coloring-book/id6807068781",
-      "icon": "assets/icons/6807068781.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/17/99/21/179921c9-c7be-ae6a-df2b-6eb45ea52e70/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6755726235,
-      "slug": "planned-daily-planner",
-      "name": "Planned - Daily Planner",
-      "genre": "Productivity",
-      "version": "2.1",
-      "description": "Turn a list of tasks into a realistic day. Planned combines to-dos, calendar events, and time blocking in one clear timeline.\n\nAUTOMATIC PLANNING WITHOUT THE BLACK BOX\nChoose your working hours and transition buffer. Planned proposes a deterministic schedule around your existing calendar, explains conflicts, and lets you review every block before applying it.\n\nCORE FEATURES\n- Automatic time blocking with review and undo\n- Daily timeline, weekly view, and monthly calendar\n- Tasks with deadlines, priorities, notes, and duration\n- Calendar-aware conflict detection\n- Live Activities and home-screen widgets\n- Shareable daily schedule images\n\nPlan the day you can actually finish—not an idealized list you will abandon.",
-      "releaseDate": "2026-09-21T20:31:11Z",
-      "url": "https://apps.apple.com/us/app/planned-daily-planner/id6755726235",
-      "icon": "assets/icons/6755726235.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/bb/f5/70/bbf57071-463c-2a9e-5d97-07424e5d35a9/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
       "id": 6752878581,
       "slug": "kantanpdf-photo-reports",
       "name": "KantanPDF - Photo Reports",
@@ -110,18 +146,6 @@ window.PRIZM_APP_CATALOG = {
       "url": "https://apps.apple.com/us/app/kantanpdf-photo-reports/id6752878581",
       "icon": "assets/icons/6752878581.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/88/bc/d888bc8c-bc4c-e4d7-6d33-819a879e386a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6761184037,
-      "slug": "islandmates-couple-pet",
-      "name": "IslandMates: Couple Pet",
-      "genre": "Lifestyle",
-      "version": "1.4.0",
-      "description": "IslandMates is a cooperative virtual pet for two people.\n\nConnect with your partner, welcome one shared character, and build a tiny island story through the things you both do. A choice made on one phone waits for the other. When both answers arrive, your pet reacts, its personality develops, and the island remembers.\n\nWHAT YOU CAN DO TOGETHER\n\n- Play a seven-day starter story made for two\n- Make separate choices and discover whether your answers match\n- Raise Mochi, Lumi, Flick, Dew, Pebble, or Nori\n- Discover character-specific moments and reactions\n- Feed, play with, and care for your shared pet\n- Send feelings and reply from your own phone\n- Grow your pet's personality and your shared island\n- Keep meaningful moments in your couple timeline\n- See your pet at a glance with supported Live Activities and Lock Screen views\n\nISLANDMATES+\n\nOne subscription unlocks Plus for both partners in the connected room.\n\n- Longer memory history and shareable weekly chapters\n- Every feeling and reply option\n- Premium accessories, colors, name tags, and island themes\n- Special character moments and delivery effects\n\nYour first shared chapter remains playable without a subscription. Plus is for couples who want their story, memories, and island to keep growing.\n\nSubscription prices and available plans are shown before purchase in the App Store. Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current period. You can manage or cancel in your Apple Account settings. A Restore Purchase option is available in the app.\n\nPrivacy Policy: https://prizmchain.github.io/islandmates-privacy-policy.html\nTerms of Use: https://prizmchain.github.io/islandmates-terms-of-service.html",
-      "releaseDate": "2026-09-08T00:20:17Z",
-      "url": "https://apps.apple.com/us/app/islandmates-couple-pet/id6761184037",
-      "icon": "assets/icons/6761184037.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d7/a0/11/d7a011f3-4907-d457-e14d-50b71a13e8f2/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6761908470,
@@ -232,18 +256,6 @@ window.PRIZM_APP_CATALOG = {
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/08/7e/28087e0a-9c6f-9615-75ce-9bffe6ad59ea/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
-      "id": 6759857012,
-      "slug": "wow-and-flutter-turntable-rpm",
-      "name": "Wow and Flutter Turntable RPM",
-      "genre": "Utilities",
-      "version": "1.1.0",
-      "description": "Are you sure your turntable is perfectly calibrated? Even high-end audio systems lose their true sound with a 0.1 RPM deviation. \n\nWow and Flutter is a professional-grade calibration tool designed for audiophiles. Simply place your phone on the platter. Using strictly the device's built-in gyroscope (no cameras, no vision AI, 100% offline), it measures your turntable's rotational speed and microscopic variations (Wow and Flutter) up to two decimal places. Experience the heavy brutalist analog VU meter interface and feel the haptic feedback when you hit the perfect 33.33 RPM.\n\n  FREE FEATURES:\n  - 33 & 45 RPM measurement\n  - Real-time VU meter with needle animation\n  - Wow & Flutter percentage display\n  - Haptic feedback at target lock\n  - 5 free measurement sessions\n\n  UNLOCK PRO ($6.99 one-time):\n  - Unlimited measurement sessions\n  - 16 & 78 RPM speed modes\n  - Real-time RPM time-series graph\n  - W&F quality grade badge (Excellent/Good/Fair/Poor)\n  - Save measurements & full history log\n  - RPM calibration offset tool\n\nTerms of Use: https://prizmchain.github.io/wnf-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/wnf-privacy-policy.html",
-      "releaseDate": "2026-08-20T04:45:37Z",
-      "url": "https://apps.apple.com/us/app/wow-and-flutter-turntable-rpm/id6759857012",
-      "icon": "assets/icons/6759857012.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/73/ef/5d/73ef5d74-00b9-7fdb-f377-13c055cfff7c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
       "id": 6761763674,
       "slug": "sitesnap-inspection-report",
       "name": "SiteSnap Inspection Report",
@@ -278,18 +290,6 @@ window.PRIZM_APP_CATALOG = {
       "url": "https://apps.apple.com/us/app/quietlog-noise-recorder/id6782009574",
       "icon": "assets/icons/6782009574.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3a/98/a2/3a98a2bb-438e-afc9-2ee1-795156004c1c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6758237365,
-      "slug": "lookup-eye-contact-prompter",
-      "name": "LookUp: Eye Contact Prompter",
-      "genre": "Photo & Video",
-      "version": "1.1.0",
-      "description": "Stop memorizing scripts. Start creating.\n\nLookUp is the teleprompter app designed for content creators who want to deliver professional videos while maintaining natural eye contact with their audience.\n\nTHE PROBLEM\nReading scripts usually means looking away from the camera. Your viewers notice. They feel disconnected. Your content suffers.\n\nTHE SOLUTION\nLookUp places your script right below the camera lens. Read naturally while looking directly at your audience. It's like magic.\n\nKEY FEATURES\n\nScript Display\n• Script appears near the camera lens\n• Maintain perfect eye contact while reading\n• Your audience feels connected to you\n\nEasy Script Input\n• Paste text directly\n• Import from files\n• Voice-to-text input\n• Save scripts for later use\n\nRecording Made Simple\n• 3-second countdown timer\n• Auto-scrolling script\n• Intuitive controls\n• Record directly in the app\n\nPRO FEATURES\n• Adjustable scroll speed\n• Customizable text size\n• Multiple background styles: Blur, Dark, Light, Transparent\n\nPERFECT FOR\n• YouTube creators\n• TikTok and Instagram Reels\n• Online course instructors\n• Business presentations\n• Podcasters and interviewers\n• Anyone who records videos with scripts\n\nDownload LookUp now.\n\n  Terms of Use: https://prizmchain.github.io/lookup-terms-of-service.html\n  Privacy Policy: https://prizmchain.github.io/lookup-privacy-policy.htmlCreate content that connects. Create content that connects.",
-      "releaseDate": "2026-08-11T15:07:29Z",
-      "url": "https://apps.apple.com/us/app/lookup-eye-contact-prompter/id6758237365",
-      "icon": "assets/icons/6758237365.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3c/7f/3b/3c7f3ba7-dad6-d571-89a5-dd5b2dee717d/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6756858201,
