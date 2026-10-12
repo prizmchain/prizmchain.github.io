@@ -1,8 +1,20 @@
 {
   "artistId": 1839727056,
-  "generatedAt": "2026-10-11T08:57:05.624Z",
+  "generatedAt": "2026-10-12T09:16:55.458Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6805845348,
+      "slug": "muryn-immersive-soundscapes",
+      "name": "Muryn: Immersive Soundscapes",
+      "genre": "Health & Fitness",
+      "version": "1.2.0",
+      "description": "Focus deeply. Rest gently.\n\nMuryn is one offline-first sound system for two parts of your day. Choose a structured atmosphere for focused work, or enter a place made for relaxation and sleep.\n\n40 PLACES, NOT PLAYLISTS\nExplore rain rooms, ocean edges, warm shelters, night journeys, forests, quiet cities, steady machines, distant weather, and small-hours spaces. Each place blends several of 28 original sound layers—from window rain and distant city hum to aircraft ventilation, waves, fireplaces, forests, and soft noise colors. Search and filters make the full library easy to navigate.\n\nREST IN A PLACE\nStart Rainy Bedroom, Night Flight, Ocean Cottage, or Deep Brown Noise in one tap. Preview any locked place for 60 seconds, save one free two-layer mix, set a gentle timer, lock your phone, and let the atmosphere continue in the background. Home and Lock Screen widgets provide a faster return.\n\nFOCUS WITH A VISIBLE WORK ARC\nChoose deep work, study, or reading; pick 25, 50, or 90 minutes; and start a Muryn atmosphere. Your session moves through Settle, Engage, Sustain, and Land without interrupting playback. See the current stage, the next sound change, and remaining time at a glance.\n\nMURYN PRO — YOURS FOREVER\nOne lifetime purchase unlocks every place and sound, custom mixes, custom Work Arcs, reusable Focus routines, accepted local adjustments, and advanced Rest timers. No subscription.\n\nPRIVATE BY DESIGN\nNo account. No ads or cross-app tracking. Focus outcomes, optional feedback, favorites, mixes, history, and preferences stay on your device. RevenueCat receives anonymous purchase history to validate Pro access and provide aggregate purchase analytics; Muryn does not send it your Focus or Rest activity. Suggested Work Arc adjustments are small and visible, and nothing changes unless you accept.\n\nMuryn is an ambient-audio utility for focus, comfort, and relaxation. It is not a medical device and does not diagnose or treat any condition.",
+      "releaseDate": "2026-10-12T03:53:51Z",
+      "url": "https://apps.apple.com/us/app/muryn-immersive-soundscapes/id6805845348",
+      "icon": "assets/icons/6805845348.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/97/3b/53973ba8-b033-4f2c-de44-fd066d3f4cce/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6759857012,
       "slug": "wow-and-flutter-turntable-rpm",
@@ -98,18 +110,6 @@
       "url": "https://apps.apple.com/us/app/signet-signature-maker/id6802110971",
       "icon": "assets/icons/6802110971.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/7e/3c/cf7e3c12-5a91-5ae7-c36d-af6889e797ae/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6805845348,
-      "slug": "muryn-immersive-soundscapes",
-      "name": "Muryn: Immersive Soundscapes",
-      "genre": "Health & Fitness",
-      "version": "1.1.0",
-      "description": "Focus deeply. Rest gently.\n\nMuryn is one offline-first sound system for two parts of your day. Choose a structured atmosphere for focused work, or enter a place made for relaxation and sleep.\n\n40 PLACES, NOT PLAYLISTS\nExplore rain rooms, ocean edges, warm shelters, night journeys, forests, quiet cities, steady machines, distant weather, and small-hours spaces. Each place blends several of 28 original sound layers—from window rain and distant city hum to aircraft ventilation, waves, fireplaces, forests, and soft noise colors. Search and filters make the full library easy to navigate.\n\nREST IN A PLACE\nStart Rainy Bedroom, Night Flight, Ocean Cottage, or Deep Brown Noise in one tap. Preview any locked place for 60 seconds, save one free two-layer mix, set a gentle timer, lock your phone, and let the atmosphere continue in the background. Home and Lock Screen widgets provide a faster return.\n\nFOCUS WITH A VISIBLE WORK ARC\nChoose deep work, study, or reading; pick 25, 50, or 90 minutes; and start a Muryn atmosphere. Your session moves through Settle, Engage, Sustain, and Land without interrupting playback. See the current stage, the next sound change, and remaining time at a glance.\n\nMURYN PRO — YOURS FOREVER\nOne lifetime purchase unlocks every place and sound, custom mixes, custom Work Arcs, reusable Focus routines, accepted local adjustments, and advanced Rest timers. No subscription.\n\nPRIVATE BY DESIGN\nNo account. No ads or cross-app tracking. Focus outcomes, optional feedback, favorites, mixes, history, and preferences stay on your device. RevenueCat receives anonymous purchase history to validate Pro access and provide aggregate purchase analytics; Muryn does not send it your Focus or Rest activity. Suggested Work Arc adjustments are small and visible, and nothing changes unless you accept.\n\nMuryn is an ambient-audio utility for focus, comfort, and relaxation. It is not a medical device and does not diagnose or treat any condition.",
-      "releaseDate": "2026-09-28T22:15:13Z",
-      "url": "https://apps.apple.com/us/app/muryn-immersive-soundscapes/id6805845348",
-      "icon": "assets/icons/6805845348.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/ea/47/93ea478f-ba30-d1cb-674e-b51662568e11/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6795316782,
