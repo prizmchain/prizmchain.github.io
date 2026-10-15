@@ -6,6 +6,7 @@ const expected = ['en-US', 'ko', 'ja', 'zh-Hans', 'zh-Hant', 'de-DE', 'fr-FR', '
 assert.deepEqual(Object.keys(metadata.localizations).sort(), expected.sort());
 assert.equal(metadata.appName, 'Yours in Time');
 assert.equal(metadata.bundleId, 'com.prizm.yoursintime');
+assert.equal(metadata.supportUrl, 'https://prizmchain.github.io/yoursintime-support.html');
 const terms = 'https://prizmchain.github.io/yoursintime-terms-of-service.html';
 const privacy = 'https://prizmchain.github.io/yoursintime-privacy-policy.html';
 assert.equal(metadata.policyUrls.termsOfUse, terms);
@@ -18,7 +19,7 @@ for (const [locale, copy] of Object.entries(metadata.localizations)) {
   const keywordBytes = Buffer.byteLength(copy.keywords, 'utf8');
   const description = [...copy.description].length;
   assert(promo > 0 && promo <= 170, `${locale}: promotional text`);
-  assert(keywords > 0 && keywords <= 100 && keywordBytes <= 100, `${locale}: keywords`);
+  assert.equal(keywords, 100, `${locale}: keyword capacity must be fully used`);
   assert(description <= 4000 && Buffer.byteLength(copy.description) <= 4000, `${locale}: description`);
   assert(copy.description.endsWith(footer), `${locale}: exact policy footer`);
   assert.equal(copy.description.split(terms).length - 1, 1);
@@ -40,4 +41,9 @@ for (const slug of ['terms-of-service', 'privacy-policy']) {
   assert(html.includes(`href="yoursintime-${counterpart}.html"`));
   await access(new URL(`yoursintime-${counterpart}.html`, root));
 }
+const support = await readFile(new URL('yoursintime-support.html', root), 'utf8');
+assert(support.includes('<title>Yours in Time — Support</title>'));
+assert(support.includes('mailto:prizm_kr@hotmail.com'));
+assert(support.includes('yoursintime-privacy-policy.html'));
+assert(support.includes('yoursintime-terms-of-service.html'));
 console.log(JSON.stringify({ passed: true, locales: summary.length, fields: summary.length * 3, summary }, null, 2));
