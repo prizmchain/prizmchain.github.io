@@ -1,0 +1,362 @@
+Yours in Time — App Store copy (10 locales)
+Prepared: 2026-10-16
+Status: Written, not applied to App Store Connect.
+
+=== en-US ===
+
+PROMOTIONAL TEXT
+See weekends, seasons and time with people in one calm view. Choose your assumptions, personalize your time portfolio and keep what matters on a widget.
+
+KEYWORDS
+life,planner,weekends,seasons,family,moments,milestones,timeline,chapters,widgets,calendar,offline
+
+DESCRIPTION
+See the time that matters.
+
+Yours in Time turns a horizon you choose into a personal time portfolio: weekends, summers, shared moments and life chapters. Not a prediction of how long anyone will live. A clearer way to see the time you want to make room for.
+
+Make it yours
+• View time in everyday units, from Saturday mornings to Christmases.
+• Create custom time assets with your own names, frequencies, icons and colors.
+• Edit your assumptions whenever your plans change.
+
+Time with people
+Add someone important, name the moments you share and choose a frequency and horizon. Compare what meeting more often could mean over the same period. These are estimates based on your inputs, not lifespan forecasts.
+
+Life chapters
+Place past and future chapters on one timeline, from university and early career to plans for retirement.
+
+Keep it in view
+Choose people, chapters or time assets for your widgets. Search for an item, preview your selection and change it when your priorities shift. Supported Home Screen and Lock Screen widgets keep meaningful time close.
+
+Private by design
+Core planning works offline. No app account, ads or AI. Entries are stored on your device; purchases are handled by Apple.
+
+Free use includes up to 3 people, 3 custom time assets and 8 chapters. An optional one-time Your Time Unlimited purchase removes these item limits. No subscription.
+
+Terms of Use: https://prizmchain.github.io/yoursintime-terms-of-service.html
+Privacy Policy: https://prizmchain.github.io/yoursintime-privacy-policy.html
+
+
+=== ko ===
+
+PROMOTIONAL TEXT
+주말, 계절, 소중한 사람과의 시간을 한눈에. 직접 정한 가정으로 나만의 시간 포트폴리오를 만들고, 위젯에 담을 항목을 자유롭게 바꿔보세요.
+
+KEYWORDS
+인생계획,시간관리,가족시간,주말,계절,위젯,타임라인,기념일,인생챕터
+
+DESCRIPTION
+소중한 시간을 눈앞에.
+
+Yours in Time은 직접 정한 시간 범위를 주말, 여름, 함께하는 순간, 인생 챕터로 보여줍니다. 누군가의 수명을 예측하는 앱이 아닙니다. 나에게 중요한 시간을 더 쉽게 보고 계획하는 시간 포트폴리오입니다.
+
+내 방식대로 설정
+• 토요일 아침부터 크리스마스까지, 익숙한 단위로 시간을 확인하세요.
+• 이름, 빈도, 아이콘, 색상을 골라 나만의 시간 자산을 만드세요.
+• 계획이 달라지면 가정도 언제든 바꿀 수 있어요.
+
+소중한 사람과의 시간
+중요한 사람을 추가하고, 함께하는 순간의 이름과 만나는 빈도, 바라볼 기간을 정하세요. 같은 기간에 조금 더 자주 만난다면 어떤 차이가 생길지 비교할 수 있습니다. 결과는 직접 입력한 가정에 따른 추정치이며 수명 예측이 아닙니다.
+
+인생을 챕터로
+대학 시절, 사회생활의 시작, 은퇴 계획까지. 과거와 미래의 챕터를 하나의 타임라인에 담으세요.
+
+위젯에도 내 선택을
+사람, 챕터, 시간 자산 중 위젯에 표시할 항목을 고르세요. 이름으로 검색하고 미리 확인한 뒤, 우선순위가 바뀌면 다시 설정할 수 있어요. 지원되는 홈 화면·잠금화면 위젯에서 중요한 시간을 가까이 두세요.
+
+개인정보를 위한 설계
+핵심 계획 기능은 오프라인으로 작동합니다. 앱 계정, 광고, AI 없이 이용하며 입력한 내용은 기기에 저장됩니다. 결제는 Apple이 처리합니다.
+
+무료로 사람 3명, 맞춤 시간 자산 3개, 챕터 8개까지 추가할 수 있습니다. 선택 사항인 Your Time 무제한을 한 번 구매하면 이 항목 수 제한이 해제됩니다. 구독이 아닙니다.
+
+Terms of Use: https://prizmchain.github.io/yoursintime-terms-of-service.html
+Privacy Policy: https://prizmchain.github.io/yoursintime-privacy-policy.html
+
+
+=== ja ===
+
+PROMOTIONAL TEXT
+週末、季節、大切な人と過ごす時間を、ひと目で。自分で選んだ前提から時間のポートフォリオを作り、ウィジェットに表示する項目も自由に選べます。
+
+KEYWORDS
+人生計画,時間管理,家族時間,記念日,週末,季節,ウィジェット,人生段階
+
+DESCRIPTION
+大切な時間を、目に見えるかたちに。
+
+Yours in Timeは、自分で選んだ期間を、週末、夏、一緒に過ごすひととき、人生のチャプターとして表示します。誰かの寿命を予測するアプリではありません。大切にしたい時間を見つめ、計画するための時間のポートフォリオです。
+
+自分らしく設定
+・土曜の朝からクリスマスまで、身近な単位で時間を確認。
+・名前、頻度、アイコン、色を選び、自分だけの時間資産を作成。
+・予定が変わったら、前提もいつでも変更できます。
+
+大切な人との時間
+大切な人を追加し、一緒に過ごす時間の名前、会う頻度、表示する期間を設定。同じ期間でもう少し頻繁に会えたら、どのような違いになるか比較できます。結果は入力した前提に基づく概算であり、寿命の予測ではありません。
+
+人生をチャプターに
+大学時代、仕事の始まり、退職後の計画など、過去と未来をひとつのタイムラインにまとめましょう。
+
+ウィジェットにも、自分の選択を
+人、チャプター、時間資産から表示する項目を選択。名前で検索してプレビューを確認し、優先したいことが変わったら選び直せます。対応するホーム画面・ロック画面ウィジェットで、大切な時間を身近に。
+
+プライバシーを大切に
+基本の計画機能はオフラインで使えます。アプリのアカウント、広告、AIはありません。入力内容は端末に保存され、購入はAppleが処理します。
+
+無料で3人、3つのカスタム時間資産、8つのチャプターを追加できます。任意の買い切りアップグレードYour Time Unlimitedで、この項目数の制限を解除できます。サブスクリプションではありません。
+
+Terms of Use: https://prizmchain.github.io/yoursintime-terms-of-service.html
+Privacy Policy: https://prizmchain.github.io/yoursintime-privacy-policy.html
+
+
+=== zh-Hans ===
+
+PROMOTIONAL TEXT
+把周末、季节和与重要的人共度的时光放在眼前。按照自己的设定创建时间组合，自由选择小组件展示的内容，让重要的时间更清晰。
+
+KEYWORDS
+人生规划,时间管理,家人,周末,季节,小组件,人生阶段,纪念日,相聚时光,倒数
+
+DESCRIPTION
+让重要的时间，看得见。
+
+Yours in Time 将你选定的时间范围，转化为周末、夏天、相聚的时刻和人生篇章。它不预测任何人的寿命，而是帮助你看清并规划那些值得留出空间的时间。
+
+按自己的方式设置
+• 从周六清晨到圣诞节，用熟悉的单位查看时间。
+• 自选名称、频率、图标和颜色，创建专属时间资产。
+• 计划有变化，设定也能随时调整。
+
+与重要的人的时间
+添加重要的人，为相聚的时刻命名，再设定见面频率和查看年限。比较在同一段时间内，多见几次会带来怎样的变化。所有结果都是基于你输入的假设进行的估算，不是寿命预测。
+
+用篇章记录人生
+大学时光、职业起步、退休计划……把过去和未来的人生篇章放在同一条时间线上。
+
+小组件也由你决定
+从人物、篇章和时间资产中选择要展示的内容。按名称搜索，预览选择结果，并在关注重点改变时重新设置。通过支持的主屏幕和锁定屏幕小组件，让重要的时间触手可及。
+
+为隐私而设计
+核心规划功能可离线使用。无需应用账户，没有广告，也不使用AI。输入内容保存在设备上，购买由Apple处理。
+
+免费版可添加3位人物、3项自定义时间资产和8个人生篇章。可选的一次性购买项目Your Time Unlimited可解除这些数量限制，并非订阅。
+
+Terms of Use: https://prizmchain.github.io/yoursintime-terms-of-service.html
+Privacy Policy: https://prizmchain.github.io/yoursintime-privacy-policy.html
+
+
+=== zh-Hant ===
+
+PROMOTIONAL TEXT
+把週末、季節與重要的人共度的時光放在眼前。依自己的設定建立時間組合，自由選擇小工具顯示的內容，讓重要的時間更清晰。
+
+KEYWORDS
+人生規劃,時間管理,家人,週末,季節,小工具,人生階段,紀念日,相聚時光,倒數
+
+DESCRIPTION
+讓重要的時間，看得見。
+
+Yours in Time 將你選定的時間範圍，轉化為週末、夏天、相聚的時刻與人生篇章。它不預測任何人的壽命，而是幫助你看清並規劃那些值得留出空間的時間。
+
+依自己的方式設定
+• 從週六清晨到聖誕節，用熟悉的單位查看時間。
+• 自選名稱、頻率、圖示與顏色，建立專屬時間資產。
+• 計畫有變化，設定也能隨時調整。
+
+與重要的人的時間
+加入重要的人，為相聚的時刻命名，再設定見面頻率與查看年限。比較在同一段時間內，多見幾次會帶來怎樣的差異。所有結果都是依你輸入的假設估算，並非壽命預測。
+
+用篇章記錄人生
+大學時光、職涯起步、退休計畫……把過去與未來的人生篇章放在同一條時間軸上。
+
+小工具也由你決定
+從人物、篇章與時間資產中選擇要顯示的內容。依名稱搜尋、預覽選擇結果，並在關注重點改變時重新設定。透過支援的主畫面與鎖定畫面小工具，讓重要的時間隨時在身邊。
+
+為隱私而設計
+核心規劃功能可離線使用。無須應用程式帳號，沒有廣告，也不使用AI。輸入內容儲存在裝置上，購買由Apple處理。
+
+免費版可加入3位人物、3項自訂時間資產與8個人生篇章。可選的一次性購買項目Your Time Unlimited可解除這些數量限制，並非訂閱。
+
+Terms of Use: https://prizmchain.github.io/yoursintime-terms-of-service.html
+Privacy Policy: https://prizmchain.github.io/yoursintime-privacy-policy.html
+
+
+=== de-DE ===
+
+PROMOTIONAL TEXT
+Wochenenden, Jahreszeiten und Zeit mit Menschen auf einen Blick. Gestalte dein Zeitportfolio nach eigenen Annahmen und wähle, was dein Widget zeigt.
+
+KEYWORDS
+lebensplanung,zeit,familie,wochenende,jahreszeiten,meilensteine,zeitleiste,widget,offline
+
+DESCRIPTION
+Mach wichtige Zeit sichtbar.
+
+Yours in Time verwandelt einen selbst gewählten Zeitraum in dein persönliches Zeitportfolio: Wochenenden, Sommer, gemeinsame Momente und Lebenskapitel. Keine Vorhersage der Lebenserwartung, sondern ein klarer Blick auf die Zeit, für die du Platz schaffen möchtest.
+
+Nach deinen Vorstellungen
+• Betrachte Zeit in vertrauten Einheiten, vom Samstagmorgen bis Weihnachten.
+• Erstelle eigene Zeitwerte mit individuellen Namen, Häufigkeiten, Symbolen und Farben.
+• Passe deine Annahmen an, wenn sich Pläne ändern.
+
+Zeit mit Menschen
+Füge wichtige Menschen hinzu und bestimme, wie ihr eure gemeinsamen Momente nennt, wie oft ihr euch seht und welchen Zeitraum du betrachten möchtest. Vergleiche, welchen Unterschied häufigere Treffen im selben Zeitraum machen könnten. Die Zahlen sind Schätzungen anhand deiner Eingaben, keine Lebensprognosen.
+
+Deine Lebenskapitel
+Studium, Berufseinstieg oder Pläne für den Ruhestand: Ordne vergangene und zukünftige Kapitel auf einer Zeitleiste.
+
+Auch im Widget deine Wahl
+Wähle Menschen, Kapitel oder Zeitwerte für deine Widgets. Suche nach Namen, prüfe die Vorschau und ändere deine Auswahl, wenn sich Prioritäten verschieben. Unterstützte Widgets für Home- und Sperrbildschirm halten wichtige Zeit im Blick.
+
+Privatsphäre im Mittelpunkt
+Die grundlegende Planung funktioniert offline. Kein App-Konto, keine Werbung, keine KI. Deine Einträge werden auf dem Gerät gespeichert; Käufe wickelt Apple ab.
+
+Kostenlos kannst du bis zu 3 Menschen, 3 eigene Zeitwerte und 8 Kapitel hinzufügen. Der optionale Einmalkauf Your Time Unlimited hebt diese Mengenbegrenzungen auf. Kein Abonnement.
+
+Terms of Use: https://prizmchain.github.io/yoursintime-terms-of-service.html
+Privacy Policy: https://prizmchain.github.io/yoursintime-privacy-policy.html
+
+
+=== fr-FR ===
+
+PROMOTIONAL TEXT
+Week-ends, saisons et moments partagés, en un regard. Créez votre portefeuille de temps selon vos propres hypothèses et choisissez ce que montre votre widget.
+
+KEYWORDS
+vie,temps,famille,weekend,saisons,moments,objectifs,chronologie,étapes,widgets,hors ligne
+
+DESCRIPTION
+Voyez le temps qui compte.
+
+Yours in Time transforme une période choisie en un portefeuille de temps personnel : week-ends, étés, moments partagés et chapitres de vie. Ce n'est pas une prédiction de l'espérance de vie, mais une façon plus claire de voir le temps auquel vous souhaitez faire une place.
+
+À votre façon
+• Retrouvez des unités familières, du samedi matin aux fêtes de Noël.
+• Créez vos propres éléments avec un nom, une fréquence, une icône et une couleur.
+• Modifiez vos hypothèses lorsque vos projets évoluent.
+
+Du temps avec vos proches
+Ajoutez une personne importante, nommez vos moments partagés et choisissez une fréquence de rencontre et une durée. Comparez ce que des rencontres plus fréquentes pourraient changer sur la même période. Les résultats sont des estimations fondées sur vos saisies, pas des prévisions de longévité.
+
+Les chapitres de votre vie
+Études, premiers pas professionnels, projets de retraite : réunissez vos chapitres passés et futurs sur une même frise chronologique.
+
+Vos choix, jusque dans les widgets
+Choisissez des personnes, des chapitres ou des éléments de temps à afficher. Recherchez un nom, vérifiez l'aperçu et changez votre sélection quand vos priorités évoluent. Les widgets compatibles pour l'écran d'accueil et l'écran verrouillé gardent l'essentiel à portée de regard.
+
+Pensé pour la confidentialité
+La planification de base fonctionne hors ligne. Sans compte dans l'app, publicité ni IA. Vos données sont enregistrées sur votre appareil ; les achats sont traités par Apple.
+
+La version gratuite permet d'ajouter 3 personnes, 3 éléments de temps personnalisés et 8 chapitres. L'achat unique facultatif Your Time Unlimited supprime ces limites de nombre. Sans abonnement.
+
+Terms of Use: https://prizmchain.github.io/yoursintime-terms-of-service.html
+Privacy Policy: https://prizmchain.github.io/yoursintime-privacy-policy.html
+
+
+=== es-ES ===
+
+PROMOTIONAL TEXT
+Fines de semana, estaciones y momentos compartidos, de un vistazo. Personaliza tu cartera de tiempo y elige qué quieres ver en tus widgets.
+
+KEYWORDS
+vida,tiempo,familia,fin de semana,estaciones,momentos,metas,cronología,etapas,widgets,sin conexión
+
+DESCRIPTION
+Haz visible el tiempo que importa.
+
+Yours in Time convierte el periodo que elijas en una cartera de tiempo personal: fines de semana, veranos, momentos compartidos y capítulos de vida. No predice cuánto vivirá nadie. Te ayuda a ver con más claridad el tiempo al que quieres hacer espacio.
+
+A tu manera
+• Consulta el tiempo en unidades cotidianas, desde mañanas de sábado hasta Navidades.
+• Crea tus propios elementos con nombres, frecuencias, iconos y colores.
+• Cambia tus supuestos cuando cambien tus planes.
+
+Tiempo con quienes importan
+Añade a una persona importante, pon nombre a los momentos que compartís y elige la frecuencia y el periodo. Compara qué diferencia podría haber si os vierais más a menudo durante ese mismo tiempo. Son estimaciones basadas en tus datos, no pronósticos de longevidad.
+
+Capítulos de vida
+Universidad, comienzos profesionales o planes de jubilación: reúne tus capítulos pasados y futuros en una línea de tiempo.
+
+También en tus widgets
+Elige personas, capítulos o elementos de tiempo para mostrar. Busca por nombre, revisa la vista previa y cambia la selección cuando cambien tus prioridades. Los widgets compatibles de las pantallas de inicio y de bloqueo mantienen a la vista el tiempo importante.
+
+Diseñada para la privacidad
+La planificación básica funciona sin conexión. Sin cuenta en la app, anuncios ni IA. Tus entradas se guardan en el dispositivo; Apple gestiona las compras.
+
+La versión gratuita permite añadir 3 personas, 3 elementos de tiempo personalizados y 8 capítulos. La compra única opcional Your Time Unlimited elimina esos límites de cantidad. No es una suscripción.
+
+Terms of Use: https://prizmchain.github.io/yoursintime-terms-of-service.html
+Privacy Policy: https://prizmchain.github.io/yoursintime-privacy-policy.html
+
+
+=== pt-BR ===
+
+PROMOTIONAL TEXT
+Fins de semana, estações e tempo com quem importa em uma só visão. Personalize seu portfólio de tempo e escolha o que aparece nos widgets.
+
+KEYWORDS
+vida,tempo,família,fim de semana,estações,momentos,metas,cronologia,capítulos,widgets,offline
+
+DESCRIPTION
+Veja o tempo que importa.
+
+O Yours in Time transforma o período que você escolhe em um portfólio de tempo pessoal: fins de semana, verões, momentos juntos e capítulos da vida. Não prevê quanto tempo alguém vai viver. É uma forma mais clara de enxergar o tempo para o qual você quer abrir espaço.
+
+Do seu jeito
+• Veja o tempo em unidades do dia a dia, das manhãs de sábado aos Natais.
+• Crie itens de tempo com seus próprios nomes, frequências, ícones e cores.
+• Mude suas premissas sempre que seus planos mudarem.
+
+Tempo com quem importa
+Adicione uma pessoa importante, dê um nome aos momentos que vocês compartilham e escolha uma frequência e um período. Compare a diferença que encontros mais frequentes poderiam fazer no mesmo intervalo. Os resultados são estimativas com base no que você informa, não previsões de longevidade.
+
+Capítulos da vida
+Faculdade, início da carreira ou planos de aposentadoria: reúna capítulos passados e futuros em uma linha do tempo.
+
+Suas escolhas nos widgets
+Escolha pessoas, capítulos ou itens de tempo para exibir. Pesquise pelo nome, confira a prévia e altere sua seleção quando as prioridades mudarem. Widgets compatíveis para as telas de Início e Bloqueio deixam o tempo importante sempre por perto.
+
+Privacidade desde o início
+O planejamento básico funciona offline. Sem conta no app, anúncios ou IA. Suas entradas ficam salvas no dispositivo; as compras são processadas pela Apple.
+
+A versão gratuita permite adicionar 3 pessoas, 3 itens de tempo personalizados e 8 capítulos. A compra única opcional Your Time Unlimited remove esses limites de quantidade. Não é uma assinatura.
+
+Terms of Use: https://prizmchain.github.io/yoursintime-terms-of-service.html
+Privacy Policy: https://prizmchain.github.io/yoursintime-privacy-policy.html
+
+
+=== it ===
+
+PROMOTIONAL TEXT
+Weekend, stagioni e tempo con le persone care, a colpo d'occhio. Personalizza il tuo portafoglio di tempo e scegli cosa mostrare nei widget.
+
+KEYWORDS
+vita,tempo,famiglia,weekend,stagioni,momenti,traguardi,cronologia,capitoli,widget,offline
+
+DESCRIPTION
+Rendi visibile il tempo che conta.
+
+Yours in Time trasforma un periodo scelto da te in un portafoglio di tempo personale: weekend, estati, momenti condivisi e capitoli di vita. Non prevede quanto vivrà una persona. Ti aiuta a vedere più chiaramente il tempo a cui vuoi dare spazio.
+
+A modo tuo
+• Guarda il tempo in unità quotidiane, dalle mattine del sabato ai Natali.
+• Crea elementi di tempo con nomi, frequenze, icone e colori personalizzati.
+• Modifica le tue ipotesi ogni volta che cambiano i programmi.
+
+Tempo con le persone care
+Aggiungi una persona importante, dai un nome ai momenti che condividete e scegli frequenza e periodo. Confronta quale differenza potrebbero fare incontri più frequenti nello stesso intervallo. Sono stime basate sui tuoi dati, non previsioni sulla durata della vita.
+
+Capitoli di vita
+Università, primi passi nel lavoro o progetti per la pensione: raccogli i capitoli passati e futuri in un'unica linea del tempo.
+
+Le tue scelte anche nei widget
+Scegli persone, capitoli o elementi di tempo da mostrare. Cerca per nome, controlla l'anteprima e cambia selezione quando cambiano le priorità. I widget compatibili per la schermata Home e la schermata di blocco tengono vicino il tempo importante.
+
+Progettata per la privacy
+La pianificazione di base funziona offline. Senza account nell'app, pubblicità o IA. I tuoi dati vengono salvati sul dispositivo; gli acquisti sono gestiti da Apple.
+
+La versione gratuita permette di aggiungere 3 persone, 3 elementi di tempo personalizzati e 8 capitoli. L'acquisto unico facoltativo Your Time Unlimited elimina questi limiti di quantità. Non è un abbonamento.
+
+Terms of Use: https://prizmchain.github.io/yoursintime-terms-of-service.html
+Privacy Policy: https://prizmchain.github.io/yoursintime-privacy-policy.html
