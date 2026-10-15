@@ -1,15 +1,25 @@
 Yours in Time — App Store copy (10 locales)
 Prepared: 2026-10-16
+Home Screen: Your Time
 Support URL: https://prizmchain.github.io/yoursintime-support.html
-Keywords: exactly 100 characters per locale.
+Categories: LIFESTYLE / PRODUCTIVITY
+Age rating (Apple-calculated): FOUR_PLUS
+Content rights: DOES_NOT_USE_THIRD_PARTY_CONTENT
+Name and subtitle: each at most 30 characters. Keywords: exactly 100 characters per locale.
 
 === en-US ===
+
+APP STORE NAME
+Yours in Time: Life Planner
+
+SUBTITLE
+Family Moments & Milestones
 
 PROMOTIONAL TEXT
 See weekends, seasons and time with people in one calm view. Choose your assumptions, personalize your time portfolio and keep what matters on a widget.
 
 KEYWORDS
-life,planning,weekends,seasons,family,moments,milestones,timeline,chapters,widgets,calendars,offline
+weekends,seasons,chapters,timeline,widgets,offline,visits,retirement,goals,summers,saturdays,parents
 
 DESCRIPTION
 See the time that matters.
@@ -38,14 +48,19 @@ Free use includes up to 3 people, 3 custom time assets and 8 chapters. An option
 Terms of Use: https://prizmchain.github.io/yoursintime-terms-of-service.html
 Privacy Policy: https://prizmchain.github.io/yoursintime-privacy-policy.html
 
-
 === ko ===
+
+APP STORE NAME
+Yours in Time: 인생 계획·시간 관리
+
+SUBTITLE
+가족과의 만남, 주말·계절·기념일 위젯
 
 PROMOTIONAL TEXT
 주말, 계절, 소중한 사람과의 시간을 한눈에. 직접 정한 가정으로 나만의 시간 포트폴리오를 만들고, 위젯에 담을 항목을 자유롭게 바꿔보세요.
 
 KEYWORDS
-인생계획,시간관리,가족시간,주말,계절,위젯,타임라인,기념일,인생챕터,남은시간,시간자산,부모님,가족모임,은퇴계획,인생목표,만남주기,함께할시간,미래계획,크리스마스,토요일아침,여름,자녀
+남은시간,시간자산,부모님,은퇴계획,인생목표,만남주기,함께할시간,미래계획,크리스마스,토요일아침,여름,자녀,배우자,친구,휴일,생일,삶의기록,시간계산,개인설정,소중한순간,타임라인,커리어
 
 DESCRIPTION
 소중한 시간을 눈앞에.
@@ -74,14 +89,19 @@ Yours in Time은 직접 정한 시간 범위를 주말, 여름, 함께하는 순
 Terms of Use: https://prizmchain.github.io/yoursintime-terms-of-service.html
 Privacy Policy: https://prizmchain.github.io/yoursintime-privacy-policy.html
 
-
 === ja ===
+
+APP STORE NAME
+Yours in Time: 人生計画と時間管理
+
+SUBTITLE
+家族との時間・週末・記念日ウィジェット
 
 PROMOTIONAL TEXT
 週末、季節、大切な人と過ごす時間を、ひと目で。自分で選んだ前提から時間のポートフォリオを作り、ウィジェットに表示する項目も自由に選べます。
 
 KEYWORDS
-人生計画,時間管理,家族時間,記念日,週末,季節,ウィジェット,人生段階,残り時間,週末計画,大切な人,人生の節目,ライフプラン,将来設計,家族の時間,会う回数,思い出,休日,夏休み,土曜の朝,子ども
+残り時間,人生の節目,ライフプラン,将来設計,会う回数,思い出,休日,夏休み,土曜の朝,クリスマス,引退計画,両親,子ども,パートナー,友達,時間資産,季節の数,振り返り,タイムライン,人生チャプター
 
 DESCRIPTION
 大切な時間を、目に見えるかたちに。
@@ -110,14 +130,19 @@ Yours in Timeは、自分で選んだ期間を、週末、夏、一緒に過ご�
 Terms of Use: https://prizmchain.github.io/yoursintime-terms-of-service.html
 Privacy Policy: https://prizmchain.github.io/yoursintime-privacy-policy.html
 
-
 === zh-Hans ===
+
+APP STORE NAME
+Yours in Time: 人生规划与时间管理
+
+SUBTITLE
+家人相聚次数、周末季节与纪念日小组件
 
 PROMOTIONAL TEXT
 把周末、季节和与重要的人共度的时光放在眼前。按照自己的设定创建时间组合，自由选择小组件展示的内容，让重要的时间更清晰。
 
 KEYWORDS
-人生规划,时间管理,家人,周末,季节,小组件,人生阶段,纪念日,相聚时光,倒数,剩余时间,时间资产,家庭时光,父母,孩子,伴侣,朋友,见面次数,相聚频率,退休规划,人生目标,未来计划,周六早晨,圣诞节
+剩余时间,时间资产,父母,孩子,伴侣,朋友,相聚频率,退休规划,人生目标,未来计划,周六早晨,圣诞节,夏天,春天,个人时间,自定义,重要时刻,时间可视化,人生时间线,回顾人生,日常规划,人生阶段,倒数
 
 DESCRIPTION
 让重要的时间，看得见。
@@ -146,14 +171,19 @@ Yours in Time 将你选定的时间范围，转化为周末、夏天、相聚的
 Terms of Use: https://prizmchain.github.io/yoursintime-terms-of-service.html
 Privacy Policy: https://prizmchain.github.io/yoursintime-privacy-policy.html
 
-
 === zh-Hant ===
+
+APP STORE NAME
+Yours in Time: 人生規劃與時間管理
+
+SUBTITLE
+家人相聚次數、週末季節與紀念日小工具
 
 PROMOTIONAL TEXT
 把週末、季節與重要的人共度的時光放在眼前。依自己的設定建立時間組合，自由選擇小工具顯示的內容，讓重要的時間更清晰。
 
 KEYWORDS
-人生規劃,時間管理,家人,週末,季節,小工具,人生階段,紀念日,相聚時光,倒數,剩餘時間,時間資產,家庭時光,父母,孩子,伴侶,朋友,見面次數,相聚頻率,退休規劃,人生目標,未來計畫,週六早晨,聖誕節
+剩餘時間,時間資產,父母,孩子,伴侶,朋友,相聚頻率,退休規劃,人生目標,未來計畫,週六早晨,聖誕節,夏天,春天,個人時間,自訂,重要時刻,時間視覺化,人生時間軸,回顧人生,日常規劃,倒數,假期,生日
 
 DESCRIPTION
 讓重要的時間，看得見。
@@ -182,14 +212,19 @@ Yours in Time 將你選定的時間範圍，轉化為週末、夏天、相聚的
 Terms of Use: https://prizmchain.github.io/yoursintime-terms-of-service.html
 Privacy Policy: https://prizmchain.github.io/yoursintime-privacy-policy.html
 
-
 === de-DE ===
+
+APP STORE NAME
+Yours in Time: Lebensplanung
+
+SUBTITLE
+Familienzeit & Meilensteine
 
 PROMOTIONAL TEXT
 Wochenenden, Jahreszeiten und Zeit mit Menschen auf einen Blick. Gestalte dein Zeitportfolio nach eigenen Annahmen und wähle, was dein Widget zeigt.
 
 KEYWORDS
-lebensplanung,zeit,familie,wochenende,jahreszeiten,meilensteine,zeitleiste,widget,offline,lebenszeit
+wochenende,jahreszeiten,zeitleiste,widget,offline,lebenszeit,besuche,ziele,ruhestand,kapitel,partner
 
 DESCRIPTION
 Mach wichtige Zeit sichtbar.
@@ -218,14 +253,19 @@ Kostenlos kannst du bis zu 3 Menschen, 3 eigene Zeitwerte und 8 Kapitel hinzufü
 Terms of Use: https://prizmchain.github.io/yoursintime-terms-of-service.html
 Privacy Policy: https://prizmchain.github.io/yoursintime-privacy-policy.html
 
-
 === fr-FR ===
+
+APP STORE NAME
+Yours in Time: Plan de vie
+
+SUBTITLE
+Moments en famille et widgets
 
 PROMOTIONAL TEXT
 Week-ends, saisons et moments partagés, en un regard. Créez votre portefeuille de temps selon vos propres hypothèses et choisissez ce que montre votre widget.
 
 KEYWORDS
-vie,temps,famille,weekend,saisons,moments,objectifs,chronologie,étapes,widgets,hors ligne,calendrier
+temps,weekend,saisons,objectifs,chronologie,étapes,hors ligne,calendrier,visites,chapitres,souvenirs
 
 DESCRIPTION
 Voyez le temps qui compte.
@@ -254,14 +294,19 @@ La version gratuite permet d'ajouter 3 personnes, 3 éléments de temps personna
 Terms of Use: https://prizmchain.github.io/yoursintime-terms-of-service.html
 Privacy Policy: https://prizmchain.github.io/yoursintime-privacy-policy.html
 
-
 === es-ES ===
+
+APP STORE NAME
+Yours in Time: Plan de vida
+
+SUBTITLE
+Familia, hitos y widgets
 
 PROMOTIONAL TEXT
 Fines de semana, estaciones y momentos compartidos, de un vistazo. Personaliza tu cartera de tiempo y elige qué quieres ver en tus widgets.
 
 KEYWORDS
-vida,tiempo,familia,fin de semana,estaciones,momentos,futuro,cronología,visitas,widgets,sin conexión
+tiempo,fin de semana,estaciones,futuro,cronología,visitas,sin conexión,metas,capítulos,padres,verano
 
 DESCRIPTION
 Haz visible el tiempo que importa.
@@ -290,14 +335,19 @@ La versión gratuita permite añadir 3 personas, 3 elementos de tiempo personali
 Terms of Use: https://prizmchain.github.io/yoursintime-terms-of-service.html
 Privacy Policy: https://prizmchain.github.io/yoursintime-privacy-policy.html
 
-
 === pt-BR ===
+
+APP STORE NAME
+Yours in Time: Plano de vida
+
+SUBTITLE
+Família, marcos e widgets
 
 PROMOTIONAL TEXT
 Fins de semana, estações e tempo com quem importa em uma só visão. Personalize seu portfólio de tempo e escolha o que aparece nos widgets.
 
 KEYWORDS
-vida,tempo,família,fim de semana,estações,momentos,metas,cronologia,capítulos,widgets,offline,visita
+tempo,fim de semana,estações,metas,cronologia,capítulos,offline,visita,aposentadoria,sábado,memórias
 
 DESCRIPTION
 Veja o tempo que importa.
@@ -326,14 +376,19 @@ A versão gratuita permite adicionar 3 pessoas, 3 itens de tempo personalizados 
 Terms of Use: https://prizmchain.github.io/yoursintime-terms-of-service.html
 Privacy Policy: https://prizmchain.github.io/yoursintime-privacy-policy.html
 
-
 === it ===
+
+APP STORE NAME
+Yours in Time: Piano di vita
+
+SUBTITLE
+Famiglia, traguardi e widget
 
 PROMOTIONAL TEXT
 Weekend, stagioni e tempo con le persone care, a colpo d'occhio. Personalizza il tuo portafoglio di tempo e scegli cosa mostrare nei widget.
 
 KEYWORDS
-vita,tempo,famiglia,weekend,stagioni,momenti,traguardi,cronologia,capitoli,widget,offline,calendario
+tempo,weekend,stagioni,momenti,cronologia,capitoli,offline,calendario,visite,pensione,estate,ricordi
 
 DESCRIPTION
 Rendi visibile il tempo che conta.

@@ -7,6 +7,11 @@ assert.deepEqual(Object.keys(metadata.localizations).sort(), expected.sort());
 assert.equal(metadata.appName, 'Yours in Time');
 assert.equal(metadata.bundleId, 'com.prizm.yoursintime');
 assert.equal(metadata.supportUrl, 'https://prizmchain.github.io/yoursintime-support.html');
+assert.equal(metadata.appInfo.primaryCategory, 'LIFESTYLE');
+assert.equal(metadata.appInfo.secondaryCategory, 'PRODUCTIVITY');
+assert.equal(metadata.appInfo.contentRightsDeclaration, 'DOES_NOT_USE_THIRD_PARTY_CONTENT');
+assert.equal(metadata.appInfo.calculatedAgeRating, 'FOUR_PLUS');
+const normalize = value => value.normalize('NFC').toLocaleLowerCase().replace(/[\s\p{P}]/gu, '');
 const terms = 'https://prizmchain.github.io/yoursintime-terms-of-service.html';
 const privacy = 'https://prizmchain.github.io/yoursintime-privacy-policy.html';
 assert.equal(metadata.policyUrls.termsOfUse, terms);
@@ -14,6 +19,9 @@ assert.equal(metadata.policyUrls.privacyPolicy, privacy);
 const footer = `Terms of Use: ${terms}\nPrivacy Policy: ${privacy}`;
 const summary = [];
 for (const [locale, copy] of Object.entries(metadata.localizations)) {
+  assert(copy.name.startsWith('Yours in Time: '));
+  assert([...copy.name].length <= 30, `${locale}: name limit`);
+  assert(copy.subtitle && [...copy.subtitle].length <= 30, `${locale}: subtitle limit`);
   const promo = [...copy.promotionalText].length;
   const keywords = [...copy.keywords].length;
   const keywordBytes = Buffer.byteLength(copy.keywords, 'utf8');
@@ -27,8 +35,9 @@ for (const [locale, copy] of Object.entries(metadata.localizations)) {
   const tokens = copy.keywords.split(',');
   assert(tokens.every(token => token && token === token.trim()), `${locale}: keyword formatting`);
   assert.equal(new Set(tokens.map(token => token.toLocaleLowerCase())).size, tokens.length);
+  assert(tokens.every(token => !normalize(`${copy.name} ${copy.subtitle}`).includes(normalize(token))), `${locale}: exact title/subtitle duplicate`);
   assert(!/dayslip|revenuecat|receipt|10 languages|10개 언어/i.test(JSON.stringify(copy)), `${locale}: unrelated claims`);
-  summary.push({ locale, promotionalCharacters: promo, keywordCharacters: keywords, keywordUtf8Bytes: keywordBytes, descriptionCharacters: description, identicalFooter: true });
+  summary.push({ locale, nameCharacters: [...copy.name].length, subtitleCharacters: [...copy.subtitle].length, promotionalCharacters: promo, keywordCharacters: keywords, keywordUtf8Bytes: keywordBytes, descriptionCharacters: description, identicalFooter: true });
 }
 for (const slug of ['terms-of-service', 'privacy-policy']) {
   const html = await readFile(new URL(`yoursintime-${slug}.html`, root), 'utf8');
@@ -46,4 +55,4 @@ assert(support.includes('<title>Yours in Time — Support</title>'));
 assert(support.includes('mailto:prizm_kr@hotmail.com'));
 assert(support.includes('yoursintime-privacy-policy.html'));
 assert(support.includes('yoursintime-terms-of-service.html'));
-console.log(JSON.stringify({ passed: true, locales: summary.length, fields: summary.length * 3, summary }, null, 2));
+console.log(JSON.stringify({ passed: true, locales: summary.length, fields: summary.length * 5, summary }, null, 2));
