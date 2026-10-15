@@ -1,0 +1,782 @@
+{
+  "en": {
+    "label": "English",
+    "privacyTitle": "Privacy Policy",
+    "termsTitle": "Terms of Use",
+    "updated": "Last updated: October 16, 2026",
+    "privacy": [
+      [
+        "Who we are",
+        "EchoTake is a music-practice app provided by Prizm. This policy covers the app and this policy page. Contact: prizm_kr@hotmail.com."
+      ],
+      [
+        "Practice data stays local",
+        "Imported audio and video, microphone recordings, lesson names, saved phrases, playback settings, waveforms and preferences are processed and stored on your device. EchoTake has no account system or developer-operated media server. We do not automatically upload your practice content, sell personal data, display ads or include third-party analytics, advertising or crash-reporting SDKs. Apple may separately provide diagnostics according to your device sharing settings."
+      ],
+      [
+        "Microphone and file access",
+        "Microphone permission is requested when you enable recording. Recording happens only during an explicitly started foreground session, with a visible indicator, and stops on interruption, inactivity or screen lock. Denying access leaves non-recording modes available. The system Photos picker provides only selected media; the app does not require broad photo-library or camera access. Files providers may download a cloud-only file that you choose."
+      ],
+      [
+        "Purchases and network exceptions",
+        "Apple processes purchases and restoration through StoreKit. The app verifies transaction information and stores a purchase-status cache on the device; it does not receive payment-card details. EchoTake does not use RevenueCat. Apple, chosen cloud-file providers and destinations you select for exports process information under their own policies. Apple privacy information: https://www.apple.com/legal/privacy/ ."
+      ],
+      [
+        "Retention, deletion and backup",
+        "Delete lessons and takes using app controls. Unkept temporary recordings are automatically pruned, with limits of five completed temporary takes and 200 MB, subject to active-file protection. Explicitly kept takes and imported originals are excluded from that cleanup. App removal normally removes the local app container, but exported copies, device backups and cloud-provider copies may remain. Manage those with the relevant provider. A manual library backup includes originals, phrases, settings and kept takes; it excludes temporary takes, rebuildable caches and purchase entitlements. Purchase restoration does not restore media files. Operating-system device backups may also include app data under your settings."
+      ],
+      [
+        "Optional support and diagnostics",
+        "Diagnostics are exported only when you request them. The report contains settings, entitlement state and storage totals, without lesson filenames, titles or media. If you email support, we receive your address, message and anything you attach. We use that information to handle the request and retain it as needed for support or legal obligations. Request access, correction or deletion by email; applicable legal rights remain available. We cannot retrieve or remotely delete practice files stored only on your device."
+      ],
+      [
+        "This website and international services",
+        "This page is hosted on GitHub Pages. GitHub may process technical request data, including IP addresses, under https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement . This page adds no analytics, advertising trackers or external fonts. Apple, GitHub, email and selected cloud providers may process information in other countries under their policies. This differs from the app’s local practice workflow."
+      ],
+      [
+        "Children and your choices",
+        "EchoTake is designed for music learners, primarily adults. We do not knowingly request children’s personal information or provide public profiles or in-app social sharing. Children should use recording, purchases and external sharing with appropriate guardian involvement. You can revoke microphone access in system settings, use non-recording modes and choose what to export. Contact us about information submitted by a child."
+      ],
+      [
+        "Changes and contact",
+        "We will publish policy changes here and update the date. Where applicable law requires additional notice or consent, we will provide it. For privacy questions or rights requests, email prizm_kr@hotmail.com."
+      ]
+    ],
+    "terms": [
+      [
+        "Agreement and license",
+        "These terms govern EchoTake, provided by Prizm. By using the app, you agree to these terms to the extent permitted by applicable law. If you disagree, stop using it. Apple’s Standard Licensed Application End User License Agreement also applies to the app license: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ . These terms do not replace that license or limit mandatory consumer rights."
+      ],
+      [
+        "What EchoTake provides",
+        "EchoTake supports practice with compatible local lesson audio and video: A–B phrases, playback adjustment, video zoom, automatic audio recording and sequential comparison. It does not provide music rights, streaming downloads, DRM removal, camera recording, pitch correction or performance scores. Practice is foreground-only. File, storage, device and audio-route limitations apply; compatibility with every format or Bluetooth device is not promised."
+      ],
+      [
+        "Free use and Lifetime",
+        "The free tier includes two imported lessons, two saved phrases per lesson and 1–3-round Lesson Mirror sessions, plus basic playback, audio transposition, video zoom, original take export and library backup. Bundled samples do not count toward lesson limits. Optional EchoTake Lifetime removes commercial lesson/phrase count limits and adds up to 20 rounds, step training, phrase sequences and processed export of user audio. Technical and storage limits still apply."
+      ],
+      [
+        "Purchases, restoration and refunds",
+        "Lifetime is a non-consumable, one-time purchase, not a subscription, with no automatic renewal. The App Store shows the local price before purchase. Restore a valid purchase using the same Apple Account through the app; availability is subject to Apple’s rules, purchase status and device compatibility. Apple handles payments and refund requests under its policies; statutory rights remain unaffected. Refunded or revoked transactions may remove paid access without deleting your media. Lifetime does not promise perpetual development, operating-system support or service availability."
+      ],
+      [
+        "Your content and recording responsibility",
+        "You retain your rights in your content; import does not transfer ownership of third-party works. Import, record, modify and share only content you have permission or another legal right to use. Obtain any consent required to record other people. You are responsible for exported files and selected sharing destinations. The app does not grant rights to redistribute lesson recordings or bundled materials beyond their applicable licenses."
+      ],
+      [
+        "Storage and safe use",
+        "Keep important takes and export backups. Unkept temporary takes are automatically cleaned up, with limits of five completed takes and 200 MB, subject to active-file protection. Explicitly kept takes and imported originals are excluded. Purchase restoration cannot recover files. Device loss, deletion, uninstalling or insufficient storage may cause data loss. Use reasonable listening levels. Do not unlawfully infringe rights, compromise the app or bypass paid access; any reverse-engineering restriction applies only to the extent allowed by law."
+      ],
+      [
+        "Availability, liability and law",
+        "EchoTake is provided as available, without a guarantee of uninterrupted operation or learning results. Warranties and liability are limited only to the extent permitted by law; no term excludes non-excludable rights or liability. South Korean law governs subject to mandatory protections of your country of residence. Courts competent under applicable law retain jurisdiction. Prizm owns the app’s software and branding; your content rights remain yours."
+      ],
+      [
+        "Changes, ending use and contact",
+        "You may stop using or uninstall the app at any time. We may update these terms here, change the displayed date and provide additional notice or consent where required by law. Changes do not remove accrued statutory rights. Privacy practices are explained in the linked Privacy Policy. For support or questions, email prizm_kr@hotmail.com."
+      ]
+    ]
+  },
+  "ko": {
+    "label": "한국어",
+    "privacyTitle": "개인정보처리방침",
+    "termsTitle": "이용약관",
+    "updated": "최종 수정: 2026년 10월 16일",
+    "privacy": [
+      [
+        "운영자와 적용 범위",
+        "EchoTake는 Prizm이 제공하는 음악 연습 앱입니다. 이 방침은 앱과 이 정책 페이지에 적용됩니다. 문의: prizm_kr@hotmail.com."
+      ],
+      [
+        "연습 자료의 로컬 처리",
+        "가져온 오디오·영상, 마이크 녹음, 레슨 이름, 저장 구간, 재생 설정, 파형 및 환경설정은 기기에서 처리·보관됩니다. EchoTake에는 회원가입이나 개발자 운영 미디어 서버가 없습니다. 연습 자료를 자동 업로드하거나 개인정보를 판매하지 않으며, 광고 및 외부 분석·광고·오류 보고 SDK를 사용하지 않습니다. Apple은 별도로 기기의 진단 공유 설정에 따라 진단 정보를 제공할 수 있습니다."
+      ],
+      [
+        "마이크와 파일 접근",
+        "녹음을 활성화할 때 마이크 권한을 요청합니다. 사용자가 직접 시작한 연습에서 앱이 활성화된 동안만 표시와 함께 녹음하며, 중단·비활성화·화면 잠금 시 멈춥니다. 권한을 거부해도 녹음 없는 모드를 사용할 수 있습니다. 시스템 사진 선택기는 선택한 자료만 전달하며, 전체 사진 보관함이나 카메라 접근을 요구하지 않습니다. 파일 제공자는 사용자가 선택한 클라우드 전용 파일을 다운로드할 수 있습니다."
+      ],
+      [
+        "구매와 네트워크 이용",
+        "Apple이 StoreKit을 통해 구매와 복원을 처리합니다. 앱은 거래 정보를 검증하고 구매 상태를 기기에 캐시하며, 결제 카드 정보를 받지 않습니다. RevenueCat은 사용하지 않습니다. Apple, 사용자가 선택한 클라우드 파일 제공자, 내보내기 대상은 각자의 정책에 따라 정보를 처리합니다. Apple 개인정보 안내: https://www.apple.com/legal/privacy/ ."
+      ],
+      [
+        "보관·삭제·백업",
+        "앱에서 레슨과 녹음을 삭제할 수 있습니다. 보관하지 않은 임시 녹음은 완료된 5개 및 200MB 한도로 자동 정리하되, 사용 중인 파일은 보호합니다. 명시적으로 보관한 녹음과 가져온 원본은 자동 정리 대상에서 제외됩니다. 앱을 삭제하면 일반적으로 앱의 로컬 저장소가 제거되지만, 내보낸 파일·기기 백업·클라우드 사본은 남을 수 있으므로 해당 서비스에서 관리하세요. 수동 백업에는 원본·구간·설정·보관한 녹음이 포함되고, 임시 녹음·재생성 가능한 캐시·구매 권한은 제외됩니다. 구매 복원은 파일을 복원하지 않습니다. 운영체제의 기기 백업에도 설정에 따라 앱 데이터가 포함될 수 있습니다."
+      ],
+      [
+        "선택적 지원과 진단",
+        "진단 보고서는 사용자가 요청할 때만 내보냅니다. 설정·구매 권한 상태·저장 용량 합계를 포함하며, 레슨 파일명·제목·미디어는 포함하지 않습니다. 지원 이메일을 보내면 발신 주소·메시지·직접 첨부한 자료를 받으며, 문의 처리와 법적 의무에 필요한 기간 보관합니다. 열람·정정·삭제 등 법에 따른 권리는 이메일로 요청할 수 있습니다. 기기에만 있는 연습 파일을 원격으로 조회하거나 삭제할 수는 없습니다."
+      ],
+      [
+        "웹사이트와 국외 서비스",
+        "이 페이지는 GitHub Pages에 게시됩니다. GitHub는 https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement 에 따라 IP 주소 등 기술적 접속 정보를 처리할 수 있습니다. 이 페이지에는 분석 도구·광고 추적기·외부 글꼴을 추가하지 않았습니다. Apple·GitHub·이메일·선택한 클라우드 제공자는 각 정책에 따라 다른 국가에서 정보를 처리할 수 있으며, 이는 앱의 로컬 연습 처리와 구별됩니다."
+      ],
+      [
+        "아동과 이용자 선택",
+        "EchoTake는 주로 성인 음악 학습자를 위한 앱입니다. 아동의 개인정보를 의도적으로 요청하지 않으며, 공개 프로필이나 앱 내 소셜 공유 기능이 없습니다. 아동의 녹음·구매·외부 공유에는 적절한 보호자 관여가 필요합니다. 시스템 설정에서 마이크 권한을 취소하거나 녹음 없는 모드를 이용하고 내보낼 자료를 선택할 수 있습니다. 아동이 제출한 정보에 대한 문의는 이메일로 보내주세요."
+      ],
+      [
+        "변경과 문의",
+        "변경 시 이 페이지와 수정일을 갱신하며, 법령이 요구하는 추가 고지나 동의를 제공합니다. 개인정보 또는 권리 행사 문의: prizm_kr@hotmail.com."
+      ]
+    ],
+    "terms": [
+      [
+        "동의와 사용권",
+        "이 약관은 Prizm이 제공하는 EchoTake에 적용됩니다. 관련 법령이 허용하는 범위에서 앱 이용으로 약관에 동의하게 되며, 동의하지 않으면 이용을 중단하세요. 앱 사용권에는 Apple 표준 최종 사용자 사용권 계약도 적용됩니다: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ . 이 약관은 해당 계약을 대체하거나 법적 소비자 권리를 제한하지 않습니다."
+      ],
+      [
+        "제공 기능",
+        "EchoTake는 호환되는 로컬 레슨 오디오·영상으로 구간반복, 재생 조절, 영상 확대, 자동 오디오 녹음, 순차 비교를 제공합니다. 음악 이용 권한, 스트리밍 다운로드, DRM 해제, 카메라 촬영, 음정 보정, 연주 점수는 제공하지 않습니다. 연습은 앱 활성 상태에서만 진행됩니다. 파일·저장 공간·기기·오디오 경로 제한이 적용되며, 모든 형식이나 Bluetooth 기기 호환성을 보장하지 않습니다."
+      ],
+      [
+        "무료 이용과 Lifetime",
+        "무료 범위는 가져온 레슨 2개, 레슨당 저장 구간 2개, 1–3라운드 Lesson Mirror와 기본 재생·오디오 이조·영상 확대·원본 녹음 내보내기·라이브러리 백업입니다. 기본 샘플은 레슨 한도에서 제외됩니다. 선택 구매인 EchoTake Lifetime은 레슨·구간 개수의 상업적 제한을 해제하고 최대 20라운드·단계 연습·구간 연속 연습·사용자 오디오 가공 내보내기를 제공합니다. 기술적·저장 공간 제한은 유지됩니다."
+      ],
+      [
+        "구매·복원·환불",
+        "Lifetime은 자동 갱신이나 구독이 없는 일회성 비소모성 구매입니다. 구매 전 App Store의 현지 가격을 확인할 수 있습니다. 동일한 Apple 계정으로 앱에서 유효한 구매를 복원할 수 있으며, Apple 규정·구매 상태·기기 호환성의 영향을 받습니다. 결제와 환불 요청은 Apple 정책에 따라 처리되고, 법적 권리는 유지됩니다. 환불·취소된 거래는 미디어를 삭제하지 않고 유료 권한을 해제할 수 있습니다. Lifetime은 영구적인 개발·운영체제 지원·서비스 제공을 보장하지 않습니다."
+      ],
+      [
+        "자료와 녹음 책임",
+        "사용자 자료에 대한 권리는 사용자에게 있으며, 가져오기로 제3자 저작물 소유권이 이전되지 않습니다. 허락이나 그 밖의 적법한 권한이 있는 자료만 가져오기·녹음·변경·공유하세요. 타인 녹음에 필요한 동의를 받고, 내보낸 파일과 공유 대상을 직접 관리하세요. 앱은 레슨 녹음이나 기본 자료를 해당 라이선스 범위를 넘어 재배포할 권한을 부여하지 않습니다."
+      ],
+      [
+        "저장과 안전한 이용",
+        "중요한 녹음은 보관하고 백업을 내보내세요. 보관하지 않은 임시 녹음은 완료된 5개 및 200MB 한도로 자동 정리하되 사용 중인 파일은 보호하며, 보관한 녹음과 가져온 원본은 제외합니다. 구매 복원으로 파일을 복구할 수 없습니다. 기기 분실·삭제·앱 제거·공간 부족으로 데이터가 손실될 수 있습니다. 적절한 청취 음량을 사용하세요. 불법적인 권리 침해·앱 훼손·유료 제한 우회는 금지되며, 역공학 제한은 법령이 허용하는 범위에서만 적용됩니다."
+      ],
+      [
+        "제공 상태·책임·준거법",
+        "앱은 제공 가능한 상태로 제공되며, 무중단 작동이나 학습 결과를 보장하지 않습니다. 보증·책임 제한은 법령이 허용하는 범위에서만 적용되며, 배제할 수 없는 권리나 책임은 제한하지 않습니다. 대한민국 법을 준거법으로 하되 거주국의 강행적 소비자 보호 규정을 존중하며, 관할은 관련 법령에 따릅니다. 앱 소프트웨어·브랜드는 Prizm 소유이며 사용자 자료의 권리는 유지됩니다."
+      ],
+      [
+        "변경·이용 종료·문의",
+        "언제든 이용을 중단하거나 앱을 삭제할 수 있습니다. 약관 변경은 이 페이지와 수정일에 반영하고 법령상 필요한 고지·동의를 제공합니다. 변경으로 이미 발생한 법적 권리를 제거하지 않습니다. 개인정보 처리는 연결된 개인정보처리방침을 확인하세요. 지원 및 문의: prizm_kr@hotmail.com."
+      ]
+    ]
+  },
+  "ja": {
+    "label": "日本語",
+    "privacyTitle": "プライバシーポリシー",
+    "termsTitle": "利用規約",
+    "updated": "最終更新：2026年10月16日",
+    "privacy": [
+      [
+        "運営者と対象",
+        "EchoTakeはPrizmが提供する音楽練習アプリです。本方針はアプリとこのページに適用されます。連絡先：prizm_kr@hotmail.com。"
+      ],
+      [
+        "練習データは端末内で処理",
+        "読み込んだ音声・動画、マイク録音、レッスン名、区間、再生設定、波形、環境設定は端末内で処理・保存します。アカウントや開発者運営のメディアサーバーはありません。練習内容の自動送信、個人データの販売、広告表示、外部の分析・広告・クラッシュ報告SDKの利用は行いません。Appleは端末の診断共有設定に従い、別途診断情報を提供する場合があります。"
+      ],
+      [
+        "マイクとファイル",
+        "録音を有効にするときにマイクの許可を求めます。明示的に開始した練習中、アプリがアクティブな間だけ表示付きで録音し、割り込み・非アクティブ化・画面ロックで停止します。拒否しても録音なしのモードを利用できます。システムの写真ピッカーは選択した項目のみを渡し、写真全体やカメラへのアクセスは不要です。ファイル提供元が選択したクラウド上のファイルをダウンロードする場合があります。"
+      ],
+      [
+        "購入と通信",
+        "購入・復元はAppleのStoreKitで処理します。アプリは取引情報を検証し、購入状態を端末内に保存します。カード情報は受け取りません。RevenueCatは利用しません。Apple、選択したクラウド提供元、書き出し先には各社の方針が適用されます。Apple： https://www.apple.com/legal/privacy/ 。"
+      ],
+      [
+        "保存・削除・バックアップ",
+        "アプリ内でレッスンやテイクを削除できます。未保存の一時録音は完了済み5件・200MBを上限に自動整理しますが、使用中のファイルは保護します。明示的に保存したテイクと読み込んだ原本は対象外です。アンインストールでは通常アプリ内データが削除されますが、書き出したファイル、端末バックアップ、クラウドのコピーは残る場合があり、各サービスで管理してください。手動バックアップには原本・区間・設定・保存したテイクを含み、一時録音・再生成可能なキャッシュ・購入権限を除きます。購入の復元では教材は戻りません。OSの端末バックアップにも設定によりアプリデータが含まれる場合があります。"
+      ],
+      [
+        "任意のサポートと診断",
+        "診断は要求した場合のみ書き出します。設定・購入状態・保存容量の合計を含み、教材ファイル名・タイトル・メディアは含みません。サポートへのメールでは送信元アドレス、本文、添付内容を受け取り、対応や法的義務に必要な期間保存します。法令に基づく開示・訂正・削除等はメールでご依頼ください。端末にしかない練習ファイルを遠隔取得・削除することはできません。"
+      ],
+      [
+        "ウェブサイトと国外のサービス",
+        "本ページはGitHub Pagesで公開しています。GitHubはIPアドレスなどの技術情報を https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement に基づき処理する場合があります。本ページに分析・広告トラッカー・外部フォントは追加していません。Apple、GitHub、メール、選択したクラウド提供元は各方針に従い他国で情報を処理する場合があります。これはアプリ内のローカル練習処理とは異なります。"
+      ],
+      [
+        "お子様と選択肢",
+        "主に成人の音楽学習者向けです。お子様の個人情報を意図的に求めず、公開プロフィールやアプリ内SNS共有はありません。お子様の録音・購入・外部共有には適切な保護者の関与が必要です。設定でマイク許可を取り消し、録音なしのモードや書き出す内容を選べます。お子様が送信した情報についてはご連絡ください。"
+      ],
+      [
+        "変更とお問い合わせ",
+        "変更は本ページと更新日に反映し、法令が求める追加通知や同意に対応します。プライバシーや権利に関するお問い合わせ：prizm_kr@hotmail.com。"
+      ]
+    ],
+    "terms": [
+      [
+        "同意とライセンス",
+        "本規約はPrizmのEchoTakeに適用されます。法令の許す範囲で、利用により同意したものとし、同意しない場合は利用を中止してください。アプリのライセンスにはApple標準使用許諾契約も適用されます： https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ 。本規約は同契約を置き換えず、強行的な消費者の権利を制限しません。"
+      ],
+      [
+        "提供機能",
+        "対応するローカル教材の音声・動画で区間リピート、再生調整、動画拡大、自動音声録音、順次比較を行います。音楽の利用権、ストリーミングのダウンロード、DRM解除、カメラ撮影、音程補正、採点は提供しません。練習はアプリ使用中のみです。ファイル・容量・端末・音声経路の制限があり、全形式やBluetooth機器への対応は保証しません。"
+      ],
+      [
+        "無料とLifetime",
+        "無料では自分のレッスン2件、各2区間、1〜3ラウンドのLesson Mirror、基本再生、音声の移調、動画拡大、元の録音の書き出し、バックアップが使えます。付属サンプルは件数に含みません。任意購入のEchoTake Lifetimeではレッスン・区間の商業的件数制限を解除し、最大20ラウンド、段階練習、区間連続練習、自分の音声の加工書き出しを利用できます。技術・容量の制限は残ります。"
+      ],
+      [
+        "購入・復元・返金",
+        "Lifetimeは一度きりの非消耗型購入で、定期購読や自動更新はありません。購入前にApp Storeの地域価格を表示します。同じApple Accountで有効な購入をアプリから復元できますが、Appleの規則、購入状態、互換性に従います。支払い・返金はAppleの方針に従い、法定の権利は維持されます。返金・取消しでは教材を削除せず有料権限を解除する場合があります。永続的な開発・OS対応・提供を約束するものではありません。"
+      ],
+      [
+        "教材と録音の責任",
+        "自分の内容の権利は保持され、読み込みによって第三者の著作物の所有権は移転しません。許諾等の適法な権利のある内容のみ読み込み・録音・変更・共有してください。他人の録音に必要な同意を得て、書き出したファイルと共有先を管理してください。教材や付属資料を各ライセンスを超えて再配布する権利は付与しません。"
+      ],
+      [
+        "保存と安全な利用",
+        "重要なテイクを保存し、バックアップを書き出してください。未保存の一時録音は完了済み5件・200MBを上限に自動整理し、使用中のファイル、保存したテイク、原本は保護します。購入の復元はファイルを復旧しません。紛失・削除・アンインストール・容量不足でデータを失う場合があります。適切な音量で利用してください。違法な権利侵害、アプリの侵害、有料制限の回避は禁止します。リバースエンジニアリングの制限は法令が認める範囲のみ適用します。"
+      ],
+      [
+        "提供状態・責任・準拠法",
+        "中断のない動作や学習成果を保証せず、提供可能な状態で提供します。保証・責任の制限は法令の範囲内であり、排除できない権利・責任を制限しません。韓国法を準拠法としますが、居住国の強行的な消費者保護を尊重し、管轄は適用法に従います。ソフトウェアとブランドはPrizmに属し、利用者の内容の権利は保持されます。"
+      ],
+      [
+        "変更・終了・連絡",
+        "いつでも利用を中止・削除できます。変更は本ページと更新日に反映し、必要な通知・同意を行います。既に生じた法定の権利は失われません。情報の取扱いはリンク先のプライバシーポリシーをご覧ください。お問い合わせ：prizm_kr@hotmail.com。"
+      ]
+    ]
+  },
+  "zh-Hans": {
+    "label": "简体中文",
+    "privacyTitle": "隐私政策",
+    "termsTitle": "使用条款",
+    "updated": "最后更新：2026年10月16日",
+    "privacy": [
+      [
+        "运营方与范围",
+        "EchoTake 是 Prizm 提供的音乐练习应用。本政策适用于应用和本页面。联系邮箱：prizm_kr@hotmail.com。"
+      ],
+      [
+        "练习资料在设备上处理",
+        "导入的音频和视频、麦克风录音、课程名称、片段、播放设置、波形和偏好设置均在设备上处理并保存。无需账户，也没有开发者运营的媒体服务器。我们不会自动上传练习内容、出售个人数据、展示广告或使用第三方分析、广告及崩溃报告 SDK。Apple 可能根据设备的诊断共享设置另行提供诊断信息。"
+      ],
+      [
+        "麦克风与文件",
+        "启用录音时会请求麦克风权限。仅在你主动开始的练习中、应用处于活跃状态时录音并显示指示；中断、退出活跃状态或锁屏时停止。拒绝权限仍可使用不录音的模式。系统照片选择器仅提供选定项目，无需完整照片库或摄像头权限。文件提供者可能下载你选中的云端文件。"
+      ],
+      [
+        "购买与网络例外",
+        "Apple 通过 StoreKit 处理购买和恢复购买。应用验证交易信息，并在设备上缓存购买状态，不接收银行卡信息。不使用 RevenueCat。Apple、选定的云文件提供者及导出目的地按各自政策处理信息。Apple 隐私说明： https://www.apple.com/legal/privacy/ 。"
+      ],
+      [
+        "保留、删除和备份",
+        "可在应用中删除课程和录音。未保留的临时录音按已完成 5 个及 200MB 上限自动清理，使用中的文件受保护。明确保留的录音与导入原件不在清理范围内。卸载通常会删除应用本地容器，但导出副本、设备备份或云端副本可能保留，应通过相关服务管理。手动备份包含原件、片段、设置和保留的录音，不含临时录音、可重建缓存和购买权益。恢复购买不恢复媒体文件。系统设备备份也可能按你的设置包含应用数据。"
+      ],
+      [
+        "自愿支持与诊断",
+        "仅在你请求时导出诊断，包含设置、购买权益状态及存储总量，不含课程文件名、标题或媒体。发送支持邮件后，我们会收到发件地址、正文和附件，用于处理请求，并按支持及法定义务所需期限保留。可通过邮件依法申请访问、更正或删除。我们无法远程读取或删除仅存于你设备的练习文件。"
+      ],
+      [
+        "网站与跨境服务",
+        "本页由 GitHub Pages 托管。GitHub 可能依据 https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement 处理 IP 地址等技术访问数据。本页未添加分析、广告追踪或外部字体。Apple、GitHub、邮件及选定的云服务商可能按各自政策在其他国家处理信息，这有别于应用内本地练习流程。"
+      ],
+      [
+        "儿童与选择权",
+        "应用主要面向成年音乐学习者，不主动索取儿童个人信息，无公开资料或应用内社交分享。儿童录音、购买及对外分享应由监护人适当参与。可在系统设置撤销麦克风权限、使用不录音模式并自行选择导出内容。如涉及儿童提交的信息，请联系我们。"
+      ],
+      [
+        "变更与联系",
+        "更新将公布于本页并修改日期，依法提供额外通知或取得同意。隐私问题及权利请求请联系 prizm_kr@hotmail.com。"
+      ]
+    ],
+    "terms": [
+      [
+        "同意与许可",
+        "本条款适用于 Prizm 提供的 EchoTake。在法律允许范围内，使用应用表示同意；不同意请停止使用。应用许可同时适用 Apple 标准最终用户许可协议： https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ 。本条款不替代该协议，也不限制法定消费者权利。"
+      ],
+      [
+        "提供的服务",
+        "应用针对兼容的本地课程音频和视频提供 A–B 循环、播放调整、视频放大、自动音频录制及依次对比。不提供音乐使用权、流媒体下载、DRM 移除、摄像录制、音高校正或评分。练习仅在前台进行，受文件、存储、设备及音频路径限制，不保证兼容所有格式或蓝牙设备。"
+      ],
+      [
+        "免费与 Lifetime",
+        "免费范围包括 2 个导入课程、每课 2 个片段、1–3 轮 Lesson Mirror、基本播放、音频移调、视频放大、原始录音导出及备份。内置示例不占课程限额。可选购买 EchoTake Lifetime 解除课程和片段数量的商业限制，并提供最多 20 轮、逐步提速、片段连续练习及用户音频加工导出。技术和存储限制仍然适用。"
+      ],
+      [
+        "购买、恢复及退款",
+        "Lifetime 是一次性非消耗型购买，无订阅或自动续费。购买前显示 App Store 当地价格。可通过相同 Apple 账户恢复有效购买，具体受 Apple 规则、购买状态及设备兼容性影响。付款及退款按 Apple 政策处理，法定权利不受影响。退款或撤销交易可能移除付费权益，但不删除媒体。Lifetime 不保证永久开发、系统支持或持续提供。"
+      ],
+      [
+        "内容与录音责任",
+        "你保留自己内容的权利，导入不转移第三方作品所有权。仅对有许可或其他合法使用权的内容进行导入、录制、修改和分享，并取得录制他人所需的同意。你负责导出文件及选择的分享目的地。应用不授予超出适用许可范围再分发课程或内置资料的权利。"
+      ],
+      [
+        "存储与安全使用",
+        "请保留重要录音并导出备份。未保留临时录音按已完成 5 个及 200MB 上限清理，使用中文件受保护；保留录音和导入原件不受此清理影响。恢复购买不能恢复文件。设备丢失、删除、卸载或空间不足可能造成数据丢失。请使用合理音量。禁止违法侵权、破坏应用或绕过付费限制；逆向工程限制仅在法律允许范围内适用。"
+      ],
+      [
+        "可用性、责任和法律",
+        "应用按可用状态提供，不保证不中断或特定学习成果。保证及责任限制仅在法律允许范围内适用，不排除不可排除的权利或责任。适用韩国法律，但尊重居住地强制消费者保护；管辖权依法确定。应用软件和品牌属于 Prizm，你的内容权利不变。"
+      ],
+      [
+        "变更、终止和联系",
+        "可随时停止使用或卸载。条款变更将公布于本页并更新日期，依法通知或取得同意，不剥夺已产生的法定权利。信息处理见所链接的隐私政策。支持与问题：prizm_kr@hotmail.com。"
+      ]
+    ]
+  },
+  "zh-Hant": {
+    "label": "繁體中文",
+    "privacyTitle": "隱私權政策",
+    "termsTitle": "使用條款",
+    "updated": "最後更新：2026年10月16日",
+    "privacy": [
+      [
+        "營運者與範圍",
+        "EchoTake 是 Prizm 提供的音樂練習 App。本政策適用於 App 與本頁面。聯絡信箱：prizm_kr@hotmail.com。"
+      ],
+      [
+        "練習資料在裝置上處理",
+        "匯入的音訊與影片、麥克風錄音、課程名稱、段落、播放設定、波形及偏好設定皆在裝置上處理與儲存。無需帳號，也沒有開發者營運的媒體伺服器。我們不會自動上傳練習內容、出售個人資料、顯示廣告或使用第三方分析、廣告及當機回報 SDK。Apple 可能依照裝置的診斷分享設定另行提供診斷資訊。"
+      ],
+      [
+        "麥克風與檔案",
+        "啟用錄音時會請求麥克風權限。僅在你主動開始的練習中、App 處於使用中時錄音並顯示指示；中斷、停止使用或鎖定螢幕時停止。拒絕權限仍能使用不錄音模式。系統照片選取器只提供選定項目，無需完整照片圖庫或相機權限。檔案提供者可能下載你選取的雲端檔案。"
+      ],
+      [
+        "購買與網路例外",
+        "Apple 透過 StoreKit 處理購買及回復購買。App 驗證交易資訊，並在裝置上快取購買狀態，不接收付款卡片資訊。不使用 RevenueCat。Apple、選定的雲端檔案提供者及匯出目的地依各自政策處理資訊。Apple 隱私說明： https://www.apple.com/legal/privacy/ 。"
+      ],
+      [
+        "保留、刪除與備份",
+        "可在 App 中刪除課程和錄音。未保留的暫存錄音會按已完成 5 個及 200MB 上限自動清理，使用中的檔案受保護。明確保留的錄音與匯入原件不在清理範圍內。移除 App 通常會刪除其本機儲存區，但匯出副本、裝置備份或雲端副本可能保留，應透過相關服務管理。手動備份包含原件、段落、設定及保留錄音，不含暫存錄音、可重建快取和購買權益。回復購買不會還原媒體檔案。系統裝置備份也可能依設定包含 App 資料。"
+      ],
+      [
+        "自願支援與診斷",
+        "只在你要求時匯出診斷，包含設定、購買權益狀態及儲存總量，不含課程檔名、標題或媒體。寄送支援郵件後，我們會收到寄件地址、本文與附件，用於處理請求，並依支援及法律義務所需期間保留。可透過郵件依法請求存取、更正或刪除。我們無法遠端讀取或刪除只存在你裝置上的練習檔案。"
+      ],
+      [
+        "網站與跨境服務",
+        "本頁由 GitHub Pages 託管。GitHub 可能依 https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement 處理 IP 位址等技術存取資料。本頁未加入分析、廣告追蹤或外部字型。Apple、GitHub、郵件與選定雲端提供者可能依各自政策在其他國家處理資訊，這與 App 的本機練習流程不同。"
+      ],
+      [
+        "兒童與選擇權",
+        "App 主要供成人音樂學習者使用，不主動索取兒童個人資料，無公開個人檔案或 App 內社群分享。兒童錄音、購買及對外分享應由監護人適當參與。可在系統設定撤銷麥克風權限、使用不錄音模式並自行選擇匯出內容。涉及兒童提交的資訊，請聯絡我們。"
+      ],
+      [
+        "變更與聯絡",
+        "更新會公布於本頁並修改日期，依法提供額外通知或取得同意。隱私問題及權利請求：prizm_kr@hotmail.com。"
+      ]
+    ],
+    "terms": [
+      [
+        "同意與授權",
+        "本條款適用於 Prizm 提供的 EchoTake。在法律允許範圍內，使用 App 表示同意；不同意請停止使用。App 授權亦適用 Apple 標準使用者授權合約： https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ 。本條款不取代該合約，也不限制法定消費者權利。"
+      ],
+      [
+        "提供服務",
+        "針對相容的本機課程音訊與影片提供 A–B 重播、播放調整、影片放大、自動音訊錄製及依序比較。不提供音樂使用權、串流下載、DRM 移除、相機錄製、音高校正或評分。練習僅在前景進行，受檔案、儲存、裝置與音訊路徑限制，不保證相容所有格式或藍牙裝置。"
+      ],
+      [
+        "免費與 Lifetime",
+        "免費範圍包含 2 個匯入課程、每課 2 個段落、1–3 回合 Lesson Mirror、基本播放、音訊移調、影片放大、原始錄音匯出及備份。內建範例不占課程額度。選購 EchoTake Lifetime 解除課程與段落數量的商業限制，並提供最多 20 回合、逐步加速、段落連續練習及使用者音訊加工匯出。技術與儲存限制仍適用。"
+      ],
+      [
+        "購買、回復與退款",
+        "Lifetime 為一次性非消耗型購買，無訂閱或自動續費。購買前顯示 App Store 當地價格。可用相同 Apple 帳號回復有效購買，仍受 Apple 規則、購買狀態及裝置相容性影響。付款與退款依 Apple 政策處理，法定權利不受影響。退款或撤銷交易可能移除付費權益，但不刪除媒體。Lifetime 不保證永久開發、系統支援或持續提供。"
+      ],
+      [
+        "內容與錄音責任",
+        "你保有自己內容的權利，匯入不會轉移第三方作品所有權。只對有授權或其他合法權利的內容進行匯入、錄製、修改與分享，並取得錄製他人所需的同意。你負責匯出檔案及選擇的分享目的地。App 不授予超出適用授權範圍再次散布課程或內建資料的權利。"
+      ],
+      [
+        "儲存與安全使用",
+        "請保留重要錄音並匯出備份。未保留暫存錄音按已完成 5 個及 200MB 上限清理，使用中檔案受保護；保留錄音和匯入原件不受此清理影響。回復購買不能還原檔案。裝置遺失、刪除、移除 App 或空間不足可能造成資料遺失。請使用合理音量。禁止違法侵權、破壞 App 或規避付費限制；還原工程限制僅在法律允許範圍內適用。"
+      ],
+      [
+        "可用性、責任與法律",
+        "App 依可用狀態提供，不保證不中斷或特定學習成果。保證及責任限制僅在法律允許範圍內適用，不排除不可排除的權利或責任。適用韓國法律，但尊重居住地強制消費者保護；管轄權依法確定。App 軟體與品牌屬於 Prizm，你的內容權利不變。"
+      ],
+      [
+        "變更、終止與聯絡",
+        "可隨時停止使用或移除 App。條款變更會公布於本頁並更新日期，依法通知或取得同意，不剝奪已產生的法定權利。資訊處理請見連結的隱私權政策。支援與問題：prizm_kr@hotmail.com。"
+      ]
+    ]
+  },
+  "de": {
+    "label": "Deutsch",
+    "privacyTitle": "Datenschutzerklärung",
+    "termsTitle": "Nutzungsbedingungen",
+    "updated": "Stand: 16. Oktober 2026",
+    "privacy": [
+      [
+        "Anbieter und Geltung",
+        "EchoTake ist eine Musikübungs-App von Prizm. Diese Erklärung gilt für die App und diese Seite. Kontakt: prizm_kr@hotmail.com."
+      ],
+      [
+        "Übungsdaten bleiben lokal",
+        "Importierte Audio- und Videodateien, Mikrofonaufnahmen, Lektionsnamen, Abschnitte, Wiedergabeeinstellungen, Wellenformen und Präferenzen werden auf deinem Gerät verarbeitet und gespeichert. Es gibt kein Konto und keinen vom Entwickler betriebenen Medienserver. Wir laden Übungsinhalte nicht automatisch hoch, verkaufen keine personenbezogenen Daten und verwenden weder Werbung noch externe Analyse-, Werbe- oder Absturzbericht-SDKs. Apple kann gemäß deinen Diagnosefreigaben gesondert Diagnosedaten bereitstellen."
+      ],
+      [
+        "Mikrofon und Dateien",
+        "Die Mikrofonfreigabe wird beim Aktivieren der Aufnahme angefragt. Aufnahmen erfolgen nur in ausdrücklich gestarteten Sitzungen bei aktiver App mit sichtbarer Anzeige und stoppen bei Unterbrechung, Inaktivität oder Sperre. Ohne Freigabe bleiben Modi ohne Aufnahme nutzbar. Die System-Fotoauswahl übergibt nur ausgewählte Medien; voller Foto- oder Kamerazugriff ist nicht erforderlich. Dateianbieter können ausgewählte Cloud-Dateien herunterladen."
+      ],
+      [
+        "Käufe und Netzwerk",
+        "Apple wickelt Käufe und Wiederherstellung über StoreKit ab. Die App prüft Transaktionsinformationen und speichert den Kaufstatus lokal; sie erhält keine Kartendaten. RevenueCat wird nicht verwendet. Für Apple, gewählte Cloud-Anbieter und Exportziele gelten deren Richtlinien. Apple: https://www.apple.com/legal/privacy/ ."
+      ],
+      [
+        "Speicherung, Löschung und Backup",
+        "Lektionen und Aufnahmen lassen sich in der App löschen. Nicht behaltene temporäre Aufnahmen werden auf höchstens fünf abgeschlossene Aufnahmen und 200 MB begrenzt; aktive Dateien sind geschützt. Behaltene Aufnahmen und importierte Originale sind davon ausgenommen. Deinstallieren entfernt normalerweise den lokalen App-Speicher, aber Exporte, Gerätebackups und Cloud-Kopien können bestehen bleiben und müssen dort verwaltet werden. Manuelle Backups enthalten Originale, Abschnitte, Einstellungen und behaltene Aufnahmen, jedoch keine temporären Aufnahmen, erneuerbaren Caches oder Kaufrechte. Kaufwiederherstellung stellt keine Medien wieder her. Betriebssystem-Backups können je nach Einstellung App-Daten enthalten."
+      ],
+      [
+        "Freiwilliger Support und Diagnose",
+        "Diagnosen werden nur auf Wunsch exportiert und enthalten Einstellungen, Kaufstatus und Speichersummen, jedoch keine Lektionsdateinamen, Titel oder Medien. Support-E-Mails übermitteln Absenderadresse, Nachricht und Anhänge. Wir nutzen sie zur Bearbeitung und speichern sie, soweit für Support oder gesetzliche Pflichten nötig. Gesetzliche Rechte auf Auskunft, Berichtigung oder Löschung kannst du per E-Mail geltend machen. Nur lokal gespeicherte Übungsdateien können wir nicht aus der Ferne abrufen oder löschen."
+      ],
+      [
+        "Website und internationale Dienste",
+        "Diese Seite liegt auf GitHub Pages. GitHub kann technische Zugriffsdaten einschließlich IP-Adressen gemäß https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement verarbeiten. Diese Seite ergänzt keine Analyse, Werbetracker oder externen Schriften. Apple, GitHub, E-Mail- und gewählte Cloud-Anbieter können Daten nach ihren Richtlinien in anderen Ländern verarbeiten. Das unterscheidet sich vom lokalen Üben in der App."
+      ],
+      [
+        "Kinder und Wahlmöglichkeiten",
+        "EchoTake richtet sich vorwiegend an erwachsene Musiklernende. Wir fordern wissentlich keine persönlichen Daten von Kindern an; öffentliche Profile und soziale In-App-Funktionen fehlen. Bei Aufnahmen, Käufen und externem Teilen durch Kinder sollten Erziehungsberechtigte angemessen beteiligt sein. Die Mikrofonfreigabe lässt sich in den Systemeinstellungen widerrufen. Du entscheidest über Aufnahmemodus und Exporte. Melde uns Informationen, die ein Kind eingesendet hat."
+      ],
+      [
+        "Änderungen und Kontakt",
+        "Änderungen veröffentlichen wir hier mit neuem Datum; gesetzlich erforderliche zusätzliche Hinweise oder Einwilligungen bleiben vorbehalten. Datenschutzfragen und Rechte: prizm_kr@hotmail.com."
+      ]
+    ],
+    "terms": [
+      [
+        "Vereinbarung und Lizenz",
+        "Diese Bedingungen gelten für EchoTake von Prizm. Soweit gesetzlich zulässig, stimmst du ihnen durch Nutzung zu; andernfalls nutze die App nicht weiter. Für die Lizenz gilt außerdem Apples Standard-Endnutzer-Lizenzvertrag: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ . Diese Bedingungen ersetzen ihn nicht und beschränken keine zwingenden Verbraucherrechte."
+      ],
+      [
+        "Leistung",
+        "EchoTake bietet A–B-Übung, Wiedergabeanpassung, Videozoom, automatische Audioaufnahme und nacheinander abgespielte Vergleiche mit kompatiblen lokalen Unterrichtsdateien. Musikrechte, Streaming-Downloads, DRM-Entfernung, Kameraaufnahme, Tonhöhenkorrektur und Leistungsnoten gehören nicht dazu. Übung läuft nur bei aktiver App. Datei-, Speicher-, Geräte- und Audiowegegrenzen gelten; nicht jedes Format oder Bluetooth-Gerät wird unterstützt."
+      ],
+      [
+        "Kostenlos und Lifetime",
+        "Kostenlos sind zwei importierte Lektionen mit je zwei Abschnitten, Lesson Mirror mit 1–3 Runden, Grundwiedergabe, Audio-Transposition, Videozoom, Originalaufnahme-Export und Backup. Beispiele zählen nicht zum Limit. Der optionale Kauf EchoTake Lifetime hebt kommerzielle Mengenlimits auf und ergänzt bis zu 20 Runden, Stufentraining, Abschnittsfolgen und bearbeiteten Export eigener Audioabschnitte. Technische und Speichergrenzen bleiben bestehen."
+      ],
+      [
+        "Kauf, Wiederherstellung und Erstattung",
+        "Lifetime ist ein einmaliger nicht verbrauchbarer Kauf ohne Abo oder automatische Verlängerung. Der regionale App-Store-Preis erscheint vor dem Kauf. Gültige Käufe lassen sich mit demselben Apple Account in der App wiederherstellen, abhängig von Apples Regeln, Kaufstatus und Kompatibilität. Apple bearbeitet Zahlungen und Erstattungen nach seinen Richtlinien; gesetzliche Rechte bleiben erhalten. Erstattete oder widerrufene Käufe können bezahlten Zugriff beenden, ohne Medien zu löschen. Lifetime verspricht keine ewige Entwicklung, Betriebssystemunterstützung oder Verfügbarkeit."
+      ],
+      [
+        "Inhalte und Aufnahmeverantwortung",
+        "Deine Inhaltsrechte bleiben bei dir; Import überträgt kein Eigentum an fremden Werken. Importiere, bearbeite, teile und zeichne nur Inhalte auf, für die du eine Erlaubnis oder andere gesetzliche Berechtigung hast. Hole erforderliche Einwilligungen aufgenommener Personen ein. Du verantwortest Exporte und gewählte Ziele. Die App räumt keine über bestehende Lizenzen hinausgehenden Weiterverbreitungsrechte an Unterrichts- oder Beispielmaterial ein."
+      ],
+      [
+        "Speicher und sichere Nutzung",
+        "Behalte wichtige Aufnahmen und exportiere Backups. Nicht behaltene temporäre Aufnahmen werden auf fünf abgeschlossene Aufnahmen und 200 MB begrenzt; aktive Dateien, behaltene Aufnahmen und Originale sind geschützt. Kaufwiederherstellung rettet keine Dateien. Verlust, Löschen, Deinstallation oder Speichermangel können Datenverlust verursachen. Nutze angemessene Lautstärke. Rechtswidrige Eingriffe, Verletzungen fremder Rechte und Umgehen bezahlten Zugangs sind untersagt; Beschränkungen von Reverse Engineering gelten nur im gesetzlich zulässigen Umfang."
+      ],
+      [
+        "Verfügbarkeit, Haftung und Recht",
+        "Die App wird nach Verfügbarkeit angeboten, ohne Garantie unterbrechungsfreier Funktion oder Lernerfolge. Gewährleistungs- und Haftungsbegrenzungen gelten nur soweit rechtlich zulässig; zwingende Rechte und Haftung bleiben unberührt. Es gilt südkoreanisches Recht unter Wahrung zwingenden Verbraucherschutzes deines Wohnsitzlands. Zuständigkeiten richten sich nach geltendem Recht. Software und Marke gehören Prizm, deine Inhaltsrechte bleiben bestehen."
+      ],
+      [
+        "Änderungen, Ende und Kontakt",
+        "Du kannst die Nutzung jederzeit beenden oder die App deinstallieren. Änderungen erscheinen hier mit aktualisiertem Datum und gegebenenfalls gesetzlich erforderlicher Mitteilung oder Zustimmung. Bereits entstandene gesetzliche Rechte entfallen nicht. Zur Datenverarbeitung siehe die verlinkte Datenschutzerklärung. Support: prizm_kr@hotmail.com."
+      ]
+    ]
+  },
+  "fr": {
+    "label": "Français",
+    "privacyTitle": "Politique de confidentialité",
+    "termsTitle": "Conditions d’utilisation",
+    "updated": "Mise à jour : 16 octobre 2026",
+    "privacy": [
+      [
+        "Responsable et portée",
+        "EchoTake est une application de pratique musicale proposée par Prizm. Cette politique couvre l’application et cette page. Contact : prizm_kr@hotmail.com."
+      ],
+      [
+        "Les données de pratique restent locales",
+        "Audio et vidéos importés, prises au microphone, noms des cours, passages, réglages, formes d’onde et préférences sont traités et conservés sur votre appareil. Il n’y a ni compte ni serveur de médias exploité par le développeur. Nous ne téléversons pas automatiquement vos contenus, ne vendons pas de données personnelles et n’intégrons ni publicité ni SDK tiers d’analyse, de publicité ou de rapports de plantage. Apple peut fournir séparément des diagnostics selon vos réglages de partage."
+      ],
+      [
+        "Microphone et fichiers",
+        "L’autorisation du microphone est demandée lors de l’activation de l’enregistrement. Celui-ci intervient uniquement dans une séance démarrée explicitement, avec l’app active et un indicateur visible ; il s’arrête lors d’une interruption, d’une inactivité ou du verrouillage. Le refus laisse les modes sans enregistrement disponibles. Le sélecteur système ne transmet que les médias choisis, sans accès global aux photos ou à la caméra. Un fournisseur de fichiers peut télécharger un fichier cloud sélectionné."
+      ],
+      [
+        "Achats et exceptions réseau",
+        "Apple traite achats et restauration via StoreKit. L’app vérifie les transactions et conserve un cache local du statut d’achat, sans recevoir vos données de carte. RevenueCat n’est pas utilisé. Apple, les fournisseurs cloud et les destinations d’export choisis appliquent leurs propres politiques. Apple : https://www.apple.com/legal/privacy/ ."
+      ],
+      [
+        "Conservation, suppression et sauvegarde",
+        "Supprimez cours et prises dans l’app. Les prises temporaires non conservées sont nettoyées automatiquement selon des limites de cinq prises terminées et 200 Mo, en protégeant les fichiers actifs. Prises conservées et originaux importés sont exclus. La désinstallation supprime normalement le stockage local de l’app, mais exports, sauvegardes de l’appareil et copies cloud peuvent subsister ; gérez-les auprès du service concerné. Une sauvegarde manuelle contient originaux, passages, réglages et prises conservées, mais pas les prises temporaires, caches recréables ni droits d’achat. Restaurer un achat ne restaure pas les médias. Les sauvegardes système peuvent inclure les données selon vos réglages."
+      ],
+      [
+        "Assistance et diagnostics facultatifs",
+        "Les diagnostics sont exportés sur demande uniquement : réglages, statut d’achat et totaux de stockage, sans noms de fichiers de cours, titres ni médias. Un courriel d’assistance nous transmet votre adresse, message et pièces jointes. Nous les utilisons pour répondre et les conservons selon les besoins de l’assistance ou les obligations légales. Exercez vos droits légaux d’accès, rectification ou suppression par courriel. Nous ne pouvons ni consulter ni supprimer à distance des fichiers restés uniquement sur votre appareil."
+      ],
+      [
+        "Site et services internationaux",
+        "Cette page est hébergée sur GitHub Pages. GitHub peut traiter des données techniques, dont l’adresse IP, selon https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement . Cette page n’ajoute ni analyse, traqueur publicitaire ni police externe. Apple, GitHub, la messagerie et les fournisseurs cloud choisis peuvent traiter des informations dans d’autres pays selon leurs politiques, contrairement à la pratique locale dans l’app."
+      ],
+      [
+        "Enfants et choix",
+        "EchoTake vise principalement les adultes apprenant la musique. Nous ne sollicitons pas sciemment de données personnelles d’enfants et ne proposons ni profils publics ni partage social intégré. Un accompagnement parental adapté est nécessaire pour l’enregistrement, les achats et le partage externe des enfants. Révoquez le microphone dans les réglages système, choisissez un mode sans enregistrement et décidez des exports. Contactez-nous au sujet d’informations envoyées par un enfant."
+      ],
+      [
+        "Modifications et contact",
+        "Nous publierons les modifications ici avec une nouvelle date et fournirons les avis ou consentements supplémentaires requis par la loi. Questions ou exercice des droits : prizm_kr@hotmail.com."
+      ]
+    ],
+    "terms": [
+      [
+        "Accord et licence",
+        "Ces conditions régissent EchoTake, proposé par Prizm. Dans la mesure permise par la loi, son utilisation vaut accord ; sinon, cessez de l’utiliser. La licence est également régie par le contrat standard Apple : https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ . Ces conditions ne le remplacent pas et ne limitent aucun droit impératif des consommateurs."
+      ],
+      [
+        "Service proposé",
+        "EchoTake permet boucles A–B, réglages de lecture, zoom vidéo, enregistrement audio automatique et comparaison successive sur des cours locaux compatibles. Il ne fournit ni droits musicaux, téléchargement de streaming, suppression de DRM, capture caméra, correction de hauteur ni notation. La pratique se déroule au premier plan. Des limites de fichiers, stockage, appareil et routage audio s’appliquent ; tous les formats ou appareils Bluetooth ne sont pas garantis."
+      ],
+      [
+        "Gratuit et Lifetime",
+        "L’offre gratuite comprend deux cours importés, deux passages par cours, Lesson Mirror de 1 à 3 tours, lecture de base, transposition audio, zoom vidéo, export des prises originales et sauvegarde. Les exemples ne comptent pas dans la limite. L’achat facultatif EchoTake Lifetime lève les limites commerciales de nombre et ajoute jusqu’à 20 tours, progression de vitesse, séquences de passages et export traité des passages audio personnels. Les limites techniques et de stockage restent applicables."
+      ],
+      [
+        "Achats, restauration et remboursements",
+        "Lifetime est un achat unique non consommable, sans abonnement ni renouvellement. Le prix local App Store s’affiche avant achat. Restaurez un achat valide avec le même compte Apple dans l’app, sous réserve des règles Apple, du statut de l’achat et de la compatibilité. Apple traite paiements et remboursements selon ses politiques, sans préjudice des droits légaux. Un achat remboursé ou révoqué peut supprimer l’accès payant sans effacer vos médias. Lifetime ne promet pas un développement, une compatibilité système ou une disponibilité perpétuels."
+      ],
+      [
+        "Contenus et responsabilité d’enregistrement",
+        "Vous conservez vos droits sur vos contenus ; l’import ne transfère pas la propriété d’œuvres tierces. Importez, enregistrez, modifiez et partagez uniquement avec autorisation ou autre droit légal. Obtenez les consentements requis pour enregistrer autrui. Vous êtes responsable des fichiers exportés et des destinations choisies. L’app n’accorde aucun droit de redistribution de cours ou d’exemples au-delà de leurs licences."
+      ],
+      [
+        "Stockage et usage sûr",
+        "Conservez les prises importantes et exportez des sauvegardes. Les prises temporaires non conservées sont limitées à cinq prises terminées et 200 Mo, avec protection des fichiers actifs ; prises conservées et originaux sont exclus du nettoyage. Restaurer un achat ne récupère pas les fichiers. Perte d’appareil, suppression, désinstallation ou manque d’espace peuvent entraîner des pertes. Utilisez un volume raisonnable. Atteintes illégales aux droits, compromission de l’app et contournement du paiement sont interdits ; toute restriction d’ingénierie inverse vaut seulement dans les limites légales."
+      ],
+      [
+        "Disponibilité, responsabilité et droit",
+        "L’app est fournie selon disponibilité, sans garantie d’absence d’interruption ni de résultats d’apprentissage. Les limitations de garantie et responsabilité s’appliquent uniquement dans la mesure légale, sans exclure les droits ou responsabilités impératifs. Le droit sud-coréen s’applique sous réserve des protections impératives du pays de résidence. Les juridictions compétentes restent celles prévues par la loi. Logiciel et marque appartiennent à Prizm ; vos droits sur vos contenus demeurent."
+      ],
+      [
+        "Modifications, arrêt et contact",
+        "Vous pouvez cesser l’utilisation ou désinstaller à tout moment. Les changements paraîtront ici avec une nouvelle date et les avis ou consentements légalement requis. Les droits légaux déjà acquis restent préservés. Pour les données, consultez la politique liée. Assistance : prizm_kr@hotmail.com."
+      ]
+    ]
+  },
+  "es": {
+    "label": "Español",
+    "privacyTitle": "Política de privacidad",
+    "termsTitle": "Términos de uso",
+    "updated": "Actualización: 16 de octubre de 2026",
+    "privacy": [
+      [
+        "Responsable y alcance",
+        "EchoTake es una app de práctica musical de Prizm. Esta política cubre la app y esta página. Contacto: prizm_kr@hotmail.com."
+      ],
+      [
+        "La práctica permanece en el dispositivo",
+        "Audio y vídeo importados, grabaciones, nombres de clases, fragmentos, ajustes de reproducción, formas de onda y preferencias se procesan y guardan en tu dispositivo. No hay cuentas ni servidor de medios del desarrollador. No subimos automáticamente tus contenidos, vendemos datos personales ni incluimos anuncios o SDK externos de analítica, publicidad o informes de fallos. Apple puede proporcionar diagnósticos por separado según tus ajustes de uso compartido."
+      ],
+      [
+        "Micrófono y archivos",
+        "Pedimos permiso del micrófono al activar la grabación. Solo grabamos en sesiones iniciadas explícitamente, con la app activa e indicador visible; la grabación se detiene ante interrupciones, inactividad o bloqueo. Si rechazas el permiso, quedan los modos sin grabación. El selector del sistema entrega solo lo elegido, sin acceso general a fotos o cámara. Un proveedor puede descargar el archivo de la nube que selecciones."
+      ],
+      [
+        "Compras y red",
+        "Apple procesa compras y restauración con StoreKit. La app verifica transacciones y guarda el estado de compra localmente, sin recibir datos de tarjeta. No usamos RevenueCat. Apple, proveedores de nube y destinos de exportación elegidos aplican sus políticas. Apple: https://www.apple.com/legal/privacy/ ."
+      ],
+      [
+        "Conservación, eliminación y copias",
+        "Puedes borrar clases y tomas en la app. Las tomas temporales no conservadas se limpian con límites de cinco tomas terminadas y 200 MB, protegiendo archivos activos. Las tomas conservadas y originales importados quedan fuera. Desinstalar suele eliminar el contenedor local, pero exportaciones, copias del dispositivo o de la nube pueden permanecer: gestiónalas con su proveedor. La copia manual incluye originales, fragmentos, ajustes y tomas conservadas; excluye tomas temporales, cachés regenerables y derechos de compra. Restaurar compras no restaura medios. Las copias del sistema pueden incluir datos según tus ajustes."
+      ],
+      [
+        "Soporte y diagnósticos opcionales",
+        "Los diagnósticos solo se exportan a petición e incluyen ajustes, estado de compra y totales de almacenamiento, sin nombres de archivos de clases, títulos ni medios. Al escribir a soporte recibimos tu dirección, mensaje y adjuntos, para atender la solicitud y conservarlos cuando sea necesario por soporte u obligaciones legales. Solicita por correo tus derechos legales de acceso, rectificación o eliminación. No podemos leer ni borrar remotamente archivos que solo estén en tu dispositivo."
+      ],
+      [
+        "Web y servicios internacionales",
+        "GitHub Pages aloja esta página. GitHub puede procesar datos técnicos, incluida la IP, según https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement . No añadimos analítica, rastreadores publicitarios ni fuentes externas. Apple, GitHub, el correo y los proveedores de nube elegidos pueden tratar información en otros países bajo sus políticas; esto difiere de la práctica local en la app."
+      ],
+      [
+        "Menores y opciones",
+        "EchoTake está dirigido principalmente a adultos que aprenden música. No solicitamos deliberadamente datos personales de menores ni ofrecemos perfiles públicos o funciones sociales internas. La grabación, compras y uso compartido externo por menores requieren participación adecuada de sus responsables. Puedes revocar el micrófono en los ajustes del sistema, practicar sin grabar y elegir qué exportar. Contáctanos sobre información enviada por un menor."
+      ],
+      [
+        "Cambios y contacto",
+        "Publicaremos los cambios aquí con una nueva fecha y daremos avisos o pediremos consentimiento adicional cuando la ley lo exija. Privacidad y derechos: prizm_kr@hotmail.com."
+      ]
+    ],
+    "terms": [
+      [
+        "Acuerdo y licencia",
+        "Estos términos rigen EchoTake, de Prizm. En la medida legalmente permitida, usarla implica aceptarlos; si no estás de acuerdo, deja de usarla. También se aplica la licencia estándar de Apple: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ . No sustituimos esa licencia ni limitamos derechos imperativos del consumidor."
+      ],
+      [
+        "Servicio",
+        "EchoTake ofrece fragmentos A–B, ajustes de reproducción, zoom de vídeo, grabación automática de audio y comparación secuencial con archivos de clase locales compatibles. No concede derechos musicales ni permite descargas de streaming, eliminación de DRM, grabación de cámara, corrección tonal o puntuaciones. La práctica funciona en primer plano. Hay límites de archivos, espacio, dispositivo y ruta de audio; no se garantiza todo formato o dispositivo Bluetooth."
+      ],
+      [
+        "Gratis y Lifetime",
+        "Gratis incluye dos clases importadas, dos fragmentos por clase, Lesson Mirror de 1–3 rondas, reproducción básica, transposición de audio, zoom, exportación de tomas originales y copias de seguridad. Los ejemplos no cuentan para el límite. EchoTake Lifetime es opcional, elimina límites comerciales de cantidad y añade hasta 20 rondas, aumento gradual de velocidad, secuencias y exportación procesada de audio propio. Persisten límites técnicos y de almacenamiento."
+      ],
+      [
+        "Compras, restauración y reembolsos",
+        "Lifetime es una compra única no consumible, sin suscripción ni renovación automática. El precio local del App Store se muestra antes de comprar. Restaura una compra válida con la misma cuenta de Apple en la app, según reglas de Apple, estado de compra y compatibilidad. Apple gestiona pagos y reembolsos según sus políticas; los derechos legales permanecen. Un reembolso o revocación puede retirar acceso de pago sin borrar medios. Lifetime no promete desarrollo, compatibilidad del sistema o disponibilidad perpetuos."
+      ],
+      [
+        "Contenido y grabación",
+        "Conservas tus derechos sobre tu contenido; importar no transfiere propiedad de obras ajenas. Importa, graba, modifica y comparte solo con permiso u otro derecho legal. Obtén el consentimiento necesario para grabar a otras personas. Eres responsable de exportaciones y destinos elegidos. La app no otorga derechos de redistribución de clases o muestras más allá de sus licencias."
+      ],
+      [
+        "Almacenamiento y uso seguro",
+        "Conserva tomas importantes y exporta copias. Las temporales no conservadas se limitan a cinco terminadas y 200 MB, protegiendo archivos activos; las conservadas y originales se excluyen. Restaurar compras no recupera archivos. Pérdida, borrado, desinstalación o falta de espacio pueden causar pérdida de datos. Usa un volumen razonable. Se prohíbe infringir derechos ilegalmente, comprometer la app o eludir pagos; las restricciones de ingeniería inversa rigen solo cuando lo permita la ley."
+      ],
+      [
+        "Disponibilidad, responsabilidad y ley",
+        "La app se ofrece según disponibilidad, sin garantizar funcionamiento ininterrumpido ni resultados de aprendizaje. Limitamos garantías y responsabilidad solo dentro de la ley, sin excluir derechos o responsabilidades irrenunciables. Rige la ley surcoreana respetando las protecciones imperativas del país de residencia; la jurisdicción será la prevista legalmente. El software y la marca son de Prizm; tus derechos sobre contenidos siguen siendo tuyos."
+      ],
+      [
+        "Cambios, cese y contacto",
+        "Puedes dejar de usar o desinstalar cuando quieras. Publicaremos cambios y fecha, con los avisos o consentimientos legalmente necesarios, sin quitar derechos legales ya adquiridos. Consulta la política de privacidad enlazada para el tratamiento de datos. Soporte: prizm_kr@hotmail.com."
+      ]
+    ]
+  },
+  "pt-BR": {
+    "label": "Português (Brasil)",
+    "privacyTitle": "Política de Privacidade",
+    "termsTitle": "Termos de Uso",
+    "updated": "Atualização: 16 de outubro de 2026",
+    "privacy": [
+      [
+        "Responsável e alcance",
+        "EchoTake é um app de prática musical da Prizm. Esta política cobre o app e esta página. Contato: prizm_kr@hotmail.com."
+      ],
+      [
+        "Dados de prática ficam locais",
+        "Áudios e vídeos importados, gravações, nomes de aulas, trechos, ajustes, formas de onda e preferências são processados e armazenados no dispositivo. Não há conta nem servidor de mídia operado pelo desenvolvedor. Não enviamos conteúdo automaticamente, vendemos dados pessoais ou usamos anúncios e SDKs externos de análise, publicidade ou relatórios de falhas. A Apple pode fornecer diagnósticos separadamente conforme seus ajustes de compartilhamento."
+      ],
+      [
+        "Microfone e arquivos",
+        "A permissão do microfone é solicitada ao ativar a gravação. Ela ocorre apenas em uma sessão iniciada explicitamente, com o app ativo e indicador visível, e para em interrupções, inatividade ou bloqueio. Negar permissão mantém os modos sem gravação. O seletor do sistema fornece só a mídia escolhida, sem exigir acesso amplo à fototeca ou câmera. Provedores podem baixar o arquivo da nuvem selecionado."
+      ],
+      [
+        "Compras e rede",
+        "A Apple processa compras e restauração pelo StoreKit. O app verifica transações e guarda o estado de compra localmente, sem receber dados de cartão. Não usamos RevenueCat. Apple, provedores de nuvem e destinos de exportação escolhidos aplicam suas próprias políticas. Apple: https://www.apple.com/legal/privacy/ ."
+      ],
+      [
+        "Retenção, exclusão e backup",
+        "Exclua aulas e gravações no app. Gravações temporárias não guardadas são limpas com limites de cinco concluídas e 200 MB, protegendo arquivos ativos. Gravações guardadas e originais importados ficam fora da limpeza. Desinstalar normalmente remove o armazenamento local do app, mas exportações, backups do dispositivo e cópias na nuvem podem permanecer; gerencie-os no serviço correspondente. O backup manual inclui originais, trechos, ajustes e gravações guardadas, mas não temporárias, caches recriáveis ou direitos de compra. Restaurar compras não recupera mídia. Backups do sistema podem incluir dados conforme seus ajustes."
+      ],
+      [
+        "Suporte e diagnósticos opcionais",
+        "Diagnósticos só são exportados a pedido e incluem ajustes, estado de compra e totais de armazenamento, sem nomes de arquivos de aulas, títulos ou mídia. Ao enviar e-mail, recebemos endereço, mensagem e anexos para atender à solicitação e guardamos pelo período necessário ao suporte ou às obrigações legais. Solicite por e-mail seus direitos legais de acesso, correção ou exclusão. Não podemos consultar ou excluir remotamente arquivos existentes apenas no dispositivo."
+      ],
+      [
+        "Site e serviços internacionais",
+        "Esta página usa GitHub Pages. O GitHub pode tratar dados técnicos, inclusive IP, conforme https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement . Não adicionamos análise, rastreadores publicitários ou fontes externas. Apple, GitHub, e-mail e provedores de nuvem escolhidos podem tratar dados em outros países segundo suas políticas, diferentemente da prática local no app."
+      ],
+      [
+        "Crianças e escolhas",
+        "O EchoTake se destina principalmente a adultos aprendendo música. Não solicitamos intencionalmente dados pessoais de crianças e não há perfis públicos ou compartilhamento social interno. Gravações, compras e compartilhamento externo por crianças devem ter participação adequada dos responsáveis. É possível revogar o microfone nos ajustes do sistema, praticar sem gravar e escolher o que exportar. Contate-nos sobre informações enviadas por uma criança."
+      ],
+      [
+        "Alterações e contato",
+        "Publicaremos alterações aqui com nova data, fornecendo avisos ou solicitando consentimento adicional quando exigido por lei. Privacidade e exercício de direitos: prizm_kr@hotmail.com."
+      ]
+    ],
+    "terms": [
+      [
+        "Acordo e licença",
+        "Estes termos regem o EchoTake, da Prizm. Nos limites da lei, usar o app significa concordar; caso contrário, pare de usá-lo. A licença padrão da Apple também se aplica: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ . Estes termos não a substituem nem limitam direitos obrigatórios do consumidor."
+      ],
+      [
+        "Serviço",
+        "O EchoTake oferece trechos A–B, ajustes de reprodução, zoom de vídeo, gravação automática de áudio e comparação sequencial de arquivos locais compatíveis. Não fornece direitos musicais, downloads de streaming, remoção de DRM, gravação de câmera, correção de afinação ou notas de desempenho. A prática funciona em primeiro plano. Há limites de arquivo, armazenamento, dispositivo e rota de áudio; não garantimos todos os formatos ou dispositivos Bluetooth."
+      ],
+      [
+        "Grátis e Lifetime",
+        "O plano grátis inclui duas aulas importadas, dois trechos por aula, Lesson Mirror de 1–3 rodadas, reprodução básica, transposição de áudio, zoom, exportação de gravações originais e backup. Amostras não contam no limite. O EchoTake Lifetime opcional remove limites comerciais de quantidade e adiciona até 20 rodadas, treino por etapas, sequências e exportação processada de áudio próprio. Limites técnicos e de armazenamento continuam válidos."
+      ],
+      [
+        "Compras, restauração e reembolso",
+        "Lifetime é uma compra única não consumível, sem assinatura nem renovação automática. O preço local da App Store aparece antes da compra. Restaure compras válidas com a mesma Conta Apple no app, conforme regras da Apple, estado da compra e compatibilidade. A Apple trata pagamentos e reembolsos segundo suas políticas, sem afetar direitos legais. Reembolso ou revogação pode remover acesso pago sem excluir mídia. Lifetime não promete desenvolvimento, suporte ao sistema ou disponibilidade perpétuos."
+      ],
+      [
+        "Conteúdo e gravação",
+        "Você mantém direitos sobre seu conteúdo; importar não transfere propriedade de obras de terceiros. Importe, grave, altere e compartilhe apenas com autorização ou outro direito legal. Obtenha os consentimentos exigidos para gravar outras pessoas. Você é responsável por arquivos exportados e destinos escolhidos. O app não concede redistribuição de aulas ou amostras além das licenças aplicáveis."
+      ],
+      [
+        "Armazenamento e uso seguro",
+        "Guarde gravações importantes e exporte backups. Temporárias não guardadas são limitadas a cinco concluídas e 200 MB, com proteção de arquivos ativos; guardadas e originais ficam fora da limpeza. Restaurar compras não recupera arquivos. Perda do dispositivo, exclusão, desinstalação ou falta de espaço podem causar perda de dados. Use volume adequado. É proibido infringir direitos ilegalmente, comprometer o app ou burlar acesso pago; restrições de engenharia reversa se aplicam apenas onde a lei permitir."
+      ],
+      [
+        "Disponibilidade, responsabilidade e lei",
+        "O app é fornecido conforme disponível, sem garantia de operação ininterrupta ou resultados de aprendizado. Limites de garantia e responsabilidade valem apenas no permitido por lei e não excluem direitos ou responsabilidades irrenunciáveis. Aplica-se a lei sul-coreana, respeitadas as proteções obrigatórias do país de residência; o foro segue a lei aplicável. Software e marca pertencem à Prizm; seus direitos de conteúdo permanecem."
+      ],
+      [
+        "Alterações, encerramento e contato",
+        "Você pode parar de usar ou desinstalar a qualquer momento. Alterações aparecem aqui com nova data e avisos ou consentimentos exigidos por lei, preservando direitos legais já adquiridos. Consulte a política de privacidade vinculada. Suporte: prizm_kr@hotmail.com."
+      ]
+    ]
+  },
+  "ru": {
+    "label": "Русский",
+    "privacyTitle": "Политика конфиденциальности",
+    "termsTitle": "Условия использования",
+    "updated": "Обновлено: 16 октября 2026 года",
+    "privacy": [
+      [
+        "Оператор и область действия",
+        "EchoTake — приложение для музыкальных занятий от Prizm. Политика относится к приложению и этой странице. Контакт: prizm_kr@hotmail.com."
+      ],
+      [
+        "Данные занятий остаются локальными",
+        "Импортированные аудио и видео, записи микрофона, названия уроков, фрагменты, настройки, волновые формы и предпочтения обрабатываются и хранятся на устройстве. Аккаунтов и медиасервера разработчика нет. Мы не загружаем материалы автоматически, не продаём персональные данные, не показываем рекламу и не используем сторонние SDK аналитики, рекламы или отчётов о сбоях. Apple может отдельно предоставлять диагностику согласно настройкам обмена данными устройства."
+      ],
+      [
+        "Микрофон и файлы",
+        "Доступ к микрофону запрашивается при включении записи. Она идёт только в явно запущенной сессии при активном приложении, с видимым индикатором, и прекращается при прерывании, неактивности или блокировке. Отказ сохраняет режимы без записи. Системный выбор фото передаёт только выбранные материалы; доступ ко всей медиатеке или камере не требуется. Файловый провайдер может загрузить выбранный облачный файл."
+      ],
+      [
+        "Покупки и сеть",
+        "Apple обрабатывает покупки и восстановление через StoreKit. Приложение проверяет транзакции и хранит статус покупки локально, не получая данные карты. RevenueCat не используется. Apple, выбранные облачные провайдеры и получатели экспорта действуют по своим политикам. Apple: https://www.apple.com/legal/privacy/ ."
+      ],
+      [
+        "Хранение, удаление и копии",
+        "Удаляйте уроки и дубли в приложении. Несохранённые временные записи очищаются с пределами пять завершённых дублей и 200 МБ, с защитой активных файлов. Сохранённые дубли и импортированные оригиналы исключены. Удаление приложения обычно удаляет локальный контейнер, но экспорты, резервные и облачные копии могут остаться: управляйте ими у соответствующего провайдера. Ручная копия включает оригиналы, фрагменты, настройки и сохранённые дубли, но не временные записи, восстанавливаемый кэш или права покупки. Восстановление покупки не возвращает медиа. Системные копии устройства могут включать данные согласно настройкам."
+      ],
+      [
+        "Добровольная поддержка и диагностика",
+        "Диагностика экспортируется только по запросу: настройки, статус покупки и объём хранилища, без имён файлов уроков, заголовков и медиа. Письмо в поддержку передаёт адрес отправителя, текст и вложения. Мы используем их для ответа и храним по необходимости поддержки или закона. Запросите законные права на доступ, исправление или удаление по почте. Мы не можем удалённо читать или удалять файлы, находящиеся только на вашем устройстве."
+      ],
+      [
+        "Сайт и международные сервисы",
+        "Страница размещена на GitHub Pages. GitHub может обрабатывать технические данные, включая IP, согласно https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement . Мы не добавляем аналитику, рекламные трекеры или внешние шрифты. Apple, GitHub, почта и выбранные облачные сервисы могут обрабатывать данные в других странах по своим политикам, в отличие от локальных занятий в приложении."
+      ],
+      [
+        "Дети и выбор пользователя",
+        "Приложение рассчитано преимущественно на взрослых учащихся. Мы намеренно не запрашиваем личные данные детей; публичных профилей и встроенных социальных функций нет. Для записи, покупок и внешней отправки детьми нужно надлежащее участие законного представителя. Доступ к микрофону можно отозвать в настройках системы, выбрать режим без записи и содержимое экспорта. Свяжитесь с нами по поводу информации, присланной ребёнком."
+      ],
+      [
+        "Изменения и связь",
+        "Изменения публикуются здесь с новой датой; дополнительные уведомления или согласие предоставляются, если требуются законом. Вопросы и реализация прав: prizm_kr@hotmail.com."
+      ]
+    ],
+    "terms": [
+      [
+        "Соглашение и лицензия",
+        "Условия относятся к EchoTake от Prizm. В пределах закона использование означает согласие; иначе прекратите пользоваться приложением. Также действует стандартная лицензия Apple: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/ . Эти условия не заменяют её и не ограничивают обязательные права потребителей."
+      ],
+      [
+        "Возможности",
+        "EchoTake предлагает фрагменты A–B, настройки воспроизведения, увеличение видео, автоматическую аудиозапись и последовательное сравнение с совместимыми локальными уроками. Не предоставляет музыкальные права, загрузку стриминга, снятие DRM, запись камерой, коррекцию тона или оценки. Занятия идут только при активном приложении. Есть ограничения файлов, памяти, устройства и аудиомаршрута; совместимость со всеми форматами и Bluetooth-устройствами не обещается."
+      ],
+      [
+        "Бесплатно и Lifetime",
+        "Бесплатно доступны два импортированных урока, два фрагмента в каждом, Lesson Mirror на 1–3 раунда, базовое воспроизведение, транспонирование аудио, увеличение видео, экспорт исходных дублей и резервная копия. Примеры не входят в лимит. Необязательный EchoTake Lifetime снимает коммерческие ограничения количества и добавляет до 20 раундов, пошаговое ускорение, последовательности фрагментов и обработанный экспорт своего аудио. Технические ограничения и объём памяти сохраняются."
+      ],
+      [
+        "Покупки, восстановление и возврат",
+        "Lifetime — разовая невозобновляемая покупка нерасходуемого типа, без подписки. Местная цена App Store показывается до покупки. Восстановите действующую покупку с тем же Аккаунтом Apple в приложении согласно правилам Apple, статусу покупки и совместимости. Apple обрабатывает платежи и возвраты по своим правилам, не затрагивая законных прав. Возврат или отзыв покупки может убрать платный доступ без удаления медиа. Lifetime не обещает вечную разработку, поддержку ОС или доступность."
+      ],
+      [
+        "Материалы и ответственность за запись",
+        "Вы сохраняете права на свои материалы; импорт не передаёт собственность на чужие произведения. Импортируйте, записывайте, изменяйте и отправляйте лишь с разрешением или иным законным правом. Получайте необходимые согласия на запись других людей. Вы отвечаете за экспорт и выбранных получателей. Приложение не даёт прав распространять уроки и примеры сверх их лицензий."
+      ],
+      [
+        "Хранение и безопасность",
+        "Сохраняйте важные дубли и экспортируйте резервные копии. Временные несохранённые записи ограничены пятью завершёнными и 200 МБ с защитой активных файлов; сохранённые дубли и оригиналы не очищаются. Восстановление покупки не возвращает файлы. Потеря устройства, удаление, деинсталляция или недостаток места могут привести к потере данных. Выбирайте разумную громкость. Незаконное нарушение прав, вмешательство в приложение и обход оплаты запрещены; ограничения обратной разработки действуют лишь в рамках закона."
+      ],
+      [
+        "Доступность, ответственность и право",
+        "Приложение предоставляется по доступности, без гарантии бесперебойности или результатов обучения. Ограничения гарантий и ответственности действуют лишь в пределах закона, не исключая неотчуждаемые права и ответственность. Применяется право Южной Кореи с соблюдением обязательной защиты потребителей страны проживания. Подсудность определяется применимым правом. ПО и бренд принадлежат Prizm; права на ваши материалы остаются у вас."
+      ],
+      [
+        "Изменения, прекращение и контакт",
+        "Можно прекратить использование или удалить приложение в любое время. Изменения публикуются здесь с новой датой и необходимым по закону уведомлением или согласием, без отмены уже возникших законных прав. Обработка данных описана в связанной политике. Поддержка: prizm_kr@hotmail.com."
+      ]
+    ]
+  }
+}
