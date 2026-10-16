@@ -1,8 +1,20 @@
 {
   "artistId": 1839727056,
-  "generatedAt": "2026-10-12T09:16:55.458Z",
+  "generatedAt": "2026-10-16T07:13:58.034Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6789324545,
+      "slug": "bedside-audio-snore-recorder",
+      "name": "Bedside Audio - Snore Recorder",
+      "genre": "Health & Fitness",
+      "version": "1.3",
+      "description": "Did you snore last night?\n\nBedside Audio turns an overnight recording into a focused morning review. Instead of searching through hours of audio, hear selected snore-like clips, see when they happened, and compare how your nights change over time.\n\nONE TAP AT BEDTIME\n• Place your iPhone beside the bed, start recording, and lock the screen.\n• Bedside Audio continues recording in the background.\n• In the morning, see detected clip count, snore time included in the score, relative peak level, and your nightly score.\n\nHEAR THE EVIDENCE\n• Replay selected clips directly from the timeline.\n• Jump to marked moments without scrubbing through a full-night file.\n• Review uncertain clips and correct sounds that were classified incorrectly.\n\nBUILD YOUR BASELINE\n• Compare nightly scores and snore load as your history grows.\n• Notice quieter and louder nights with a clear seven-night view.\n• Keep dated results available on your iPhone.\n\nPRIVATE BY DESIGN\n• No account required.\n• No automatic cloud upload.\n• Analysis, results, and selected replay clips stay on this iPhone unless you choose to share them.\n• Delete individual nights whenever you want.\n\nTry your first night free. Continue with one lifetime purchase. No subscription.\n\nBedside Audio is a wellness and awareness tool. It does not diagnose, monitor, or treat sleep apnea or any medical condition. Detection can vary with phone placement, room noise, and other people nearby.\n\nTerms of Use: https://prizmchain.github.io/bedside-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/bedside-privacy-policy.html",
+      "releaseDate": "2026-10-16T00:23:51Z",
+      "url": "https://apps.apple.com/us/app/bedside-audio-snore-recorder/id6789324545",
+      "icon": "assets/icons/6789324545.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/eb/60/bb/eb60bb61-b567-a865-6c9e-f5755250aed3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6805845348,
       "slug": "muryn-immersive-soundscapes",
@@ -218,18 +230,6 @@
       "url": "https://apps.apple.com/us/app/bloomway-color-paths/id6791563807",
       "icon": "assets/icons/6791563807.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/81/46/c0/8146c0fb-feed-50df-3014-35252d8033a3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6789324545,
-      "slug": "bedside-audio",
-      "name": "Bedside Audio",
-      "genre": "Health & Fitness",
-      "version": "1.2",
-      "description": "Did you snore last night?\n\nBedside Audio turns an overnight recording into a focused morning review. Instead of searching through hours of audio, hear selected snore-like clips, see when they happened, and compare how your nights change over time.\n\nONE TAP AT BEDTIME\n• Place your iPhone beside the bed, start recording, and lock the screen.\n• Bedside Audio continues recording in the background.\n• In the morning, see detected clip count, snore time included in the score, relative peak level, and your nightly score.\n\nHEAR THE EVIDENCE\n• Replay selected clips directly from the timeline.\n• Jump to marked moments without scrubbing through a full-night file.\n• Review uncertain clips and correct sounds that were classified incorrectly.\n\nBUILD YOUR BASELINE\n• Compare nightly scores and snore load as your history grows.\n• Notice quieter and louder nights with a clear seven-night view.\n• Keep dated results available on your iPhone.\n\nPRIVATE BY DESIGN\n• No account required.\n• No automatic cloud upload.\n• Analysis, results, and selected replay clips stay on this iPhone unless you choose to share them.\n• Delete individual nights whenever you want.\n\nTry your first night free. Continue with one lifetime purchase. No subscription.\n\nBedside Audio is a wellness and awareness tool. It does not diagnose, monitor, or treat sleep apnea or any medical condition. Detection can vary with phone placement, room noise, and other people nearby.\n\nTerms of Use: https://prizmchain.github.io/bedside-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/bedside-privacy-policy.html",
-      "releaseDate": "2026-08-26T09:47:29Z",
-      "url": "https://apps.apple.com/us/app/bedside-audio/id6789324545",
-      "icon": "assets/icons/6789324545.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e0/6a/fa/e06afaf8-8572-24f0-80f0-a6cc6ad68849/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6782553911,
