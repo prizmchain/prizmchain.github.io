@@ -1,8 +1,20 @@
 {
   "artistId": 1839727056,
-  "generatedAt": "2026-10-16T07:13:58.034Z",
+  "generatedAt": "2026-10-21T07:42:30.865Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6759237484,
+      "slug": "morf-body-transformation",
+      "name": "Morf: Body Transformation",
+      "genre": "Health & Fitness",
+      "version": "1.1.0",
+      "description": "Capture or import up to 2 progress photos for free, compare photos from the same angle, and preview Morph animations. Morf Pro unlocks additional photos, 1080p video and collage exports, and a personal check-in schedule with reminders and a calendar. Photos stay on your device; Morf does not upload your photos or use external usage analytics.\n\nAvailable as a yearly auto-renewing subscription or a one-time lifetime purchase. Regional prices and renewal terms are shown before purchase. Existing Pro purchases remain valid.\n\nWithout Pro, you can view and delete existing originals, back up and restore original photos with metadata, and turn off existing reminders. Backup files contain your original photos and are not encrypted; keep them somewhere private. Back up before uninstalling, which removes local app data.\n\nPrivacy: https://prizmchain.github.io/morf-privacy-policy.html\nTerms: https://prizmchain.github.io/morf-terms-of-service.html",
+      "releaseDate": "2026-10-20T08:31:14Z",
+      "url": "https://apps.apple.com/us/app/morf-body-transformation/id6759237484",
+      "icon": "assets/icons/6759237484.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/21/40/b4/2140b43d-089f-917a-939b-2215576b4643/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6789324545,
       "slug": "bedside-audio-snore-recorder",
@@ -208,18 +220,6 @@
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ed/f6/5c/edf65c7c-73e8-b3bd-1d53-2c23adfcb8ec/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
-      "id": 6759237484,
-      "slug": "morf-body-transformation",
-      "name": "Morf: Body Transformation",
-      "genre": "Health & Fitness",
-      "version": "1.0.1",
-      "description": "Morf is the simplest way to document your body transformation journey. Take one photo a day, align it perfectly with our AI tools, and watch your progress come to life.\n\nSay goodbye to monthly fees and clouded photo albums. Your body, your data, your privacy.\n\nHOW IT WORKS\nOpen the app, take a photo, done. Your daily body photo is saved to a secure, private vault right on your device. Over time, your collection grows into a powerful visual record of your hard work.\n\nMORPH ANIMATION\nWatch your transformation unfold in a smooth cross-fade animation. Your photos blend together seamlessly, turning weeks and months of gym and diet efforts into a mesmerizing visual experience.\n\nBEFORE AND AFTER COMPARISON\nPlace any two photos side by side with an interactive split-screen view. Drag the divider left and right to reveal the exact difference between your starting point and where you are now.\n\nTIMELAPSE VIDEO EXPORT\nTurn your entire photo collection into a cinematic 4K timelapse video. Each photo transitions smoothly with a dynamic day-counter overlay. Export and flex your weight loss journey or muscle gain on Instagram, TikTok, or YouTube.\n\nGHOST OVERLAY\nLine up your body in the exact same position every time. A transparent outline of your previous photo appears on the camera screen with adjustable opacity, ensuring your pose matches perfectly.\n\nPRIVACY FIRST & FOREVER YOURS\nNo accounts required. No cloud uploads. All photos are stored locally on your device. Best of all? Morf offers a lifetime unlock. Pay once, own it forever.\n\n\nDownload Morf and start tracking your true change today.\n\nTerms of Use: https://prizmchain.github.io/morf-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/morf-privacy-policy.html",
-      "releaseDate": "2026-08-30T21:45:49Z",
-      "url": "https://apps.apple.com/us/app/morf-body-transformation/id6759237484",
-      "icon": "assets/icons/6759237484.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/6d/34/cf/6d34cfb9-6aa6-9165-e356-08f5e1f2feeb/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
       "id": 6791563807,
       "slug": "bloomway-color-paths",
       "name": "Bloomway: Color Paths",
@@ -362,18 +362,6 @@
       "url": "https://apps.apple.com/us/app/later-screenshots-links/id6752585188",
       "icon": "assets/icons/6752585188.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/63/d2/fd63d2f9-2e0f-7e9f-cefd-282650088009/AppIcon-0-0-1x_U007emarketing-0-4-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6759442275,
-      "slug": "hotline-agent-alert",
-      "name": "Hotline - Agent Alert",
-      "genre": "Utilities",
-      "version": "1.0",
-      "description": "Hotline is a fail-safe monitor for AI agents and automated bots. If your bot stops sending heartbeats, Hotline detects the silence and fires a critical push notification straight to your phone.\n\nHOW IT WORKS\n\nAdd your bot's unique ID and configuration.\n\nHave your bot send periodic heartbeat pings to our secure endpoint.\n\nIf the bot goes silent, Hotline alerts you immediately via high-priority notification.\n\nKEY FEATURES\n\nActive Monitoring: Automatically detects when your bot stops responding.\n\nInstant Push Alerts: Critical notifications ensure you never miss a failure.\n\nEmergency Stop: One-tap command to send a stop signal to your bot.\n\nReal-Time Logs: View status, warning, and event logs in a live feed.\n\nSimple Integration: Connect any bot in minutes with a single HTTP POST request.\n\nPrivacy First: No personal data collected — we only use device tokens for routing alerts.\n\nBUILT FOR\n\nAI agent operators (Virtuals, AutoGPT, CrewAI, etc.)\n\nAutomated trading systems\n\nServer and daemon monitoring\n\nAny critical process that should never silently fail.\n\nHotline doesn't run your bot. It watches your bot — and tells you the second something goes wrong.\n\n\nTerms of Use: https://prizmchain.github.io/hotline-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/hotline-privacy-policy.html",
-      "releaseDate": "2026-02-25T14:57:34Z",
-      "url": "https://apps.apple.com/us/app/hotline-agent-alert/id6759442275",
-      "icon": "assets/icons/6759442275.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/ee/ab/01/eeab01cf-6553-73f9-0b47-e676170472d4/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6755945637,
