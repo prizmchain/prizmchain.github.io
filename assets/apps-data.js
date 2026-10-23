@@ -1,8 +1,20 @@
 window.PRIZM_APP_CATALOG = {
   "artistId": 1839727056,
-  "generatedAt": "2026-10-21T07:42:30.865Z",
+  "generatedAt": "2026-10-23T07:35:13.837Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6758996727,
+      "slug": "digi-retro-film-camera",
+      "name": "digi. - Retro Film Camera",
+      "genre": "Photo & Video",
+      "version": "1.2.0",
+      "description": "digi. -- Your Digital Film Camera\n\nShoot film, digitally. digi. brings back the tactile soul of 90s digital cameras. Industrial design, neon orange accents, and a shutter button that feels real.\n\nWe engineered 19 analog profiles and real film effects to turn your iPhone into a time machine.\n\nCORE FEATURES:\n\n19 Analog Filters: Carefully crafted color profiles inspired by iconic film stocks.\n\nClassic Series: Everyday film looks (inspired by Gold/ColorPlus).\n\nPro Series: Fine grain and perfect skin tones (inspired by Portra/Superia).\n\nMono Series: High contrast B&W (inspired by HP5/Tri-X).\n\nCine Series: Cinematic tungsten looks (inspired by 800T).\n\nReal Film Effects:\n\nDouble Exposure: Blend two photos into one dreamy, layered image.\n\nFilm Frames: 35mm, Medium Format, Polaroid, and Half Frame borders.\n\nTextures: Real Grain, Light Leaks, Dust, and Scratches.\n\nThe Feel:\n\nDate Stamp: Baked-in vintage date overlay ('98 style).\n\nManual Controls: Adjust Exposure (EV), Focus, and Zoom with haptic feedback.\n\nImport: Edit photos from your library with digi's engine.\n\nDESIGNED WITH INTENTION\n\nNo social feeds, no ads. Just a dark, industrial interface that respects your photography.\n\nDIGI. PRO (Lifetime Access)\n\nUnlock the full darkroom experience with a single purchase.\n\nUnlock all 19 filters\n\nUnlock Double Exposure Mode\n\nUnlock all Frames & Light Leaks\n\nPay once, own it forever ($2.99).\n\nTerms of Use: https://prizmchain.github.io/digi-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/digi-privacy-policy.html",
+      "releaseDate": "2026-10-22T13:29:25Z",
+      "url": "https://apps.apple.com/us/app/digi-retro-film-camera/id6758996727",
+      "icon": "assets/icons/6758996727.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/b5/af/44/b5af44a3-1e82-e90c-42e0-1c24e6274241/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6759237484,
       "slug": "morf-body-transformation",
@@ -266,18 +278,6 @@ window.PRIZM_APP_CATALOG = {
       "url": "https://apps.apple.com/us/app/sitesnap-inspection-report/id6761763674",
       "icon": "assets/icons/6761763674.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/20/a6/e620a6d4-3108-09f7-2823-3c0ba47e8580/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6758996727,
-      "slug": "digi-retro-film-camera",
-      "name": "digi. - Retro Film Camera",
-      "genre": "Photo & Video",
-      "version": "1.1.0",
-      "description": "digi. -- Your Digital Film Camera\n\nShoot film, digitally. digi. brings back the tactile soul of 90s digital cameras. Industrial design, neon orange accents, and a shutter button that feels real.\n\nWe engineered 19 analog profiles and real film effects to turn your iPhone into a time machine.\n\nCORE FEATURES:\n\n19 Analog Filters: Carefully crafted color profiles inspired by iconic film stocks.\n\nClassic Series: Everyday film looks (inspired by Gold/ColorPlus).\n\nPro Series: Fine grain and perfect skin tones (inspired by Portra/Superia).\n\nMono Series: High contrast B&W (inspired by HP5/Tri-X).\n\nCine Series: Cinematic tungsten looks (inspired by 800T).\n\nReal Film Effects:\n\nDouble Exposure: Blend two photos into one dreamy, layered image.\n\nFilm Frames: 35mm, Medium Format, Polaroid, and Half Frame borders.\n\nTextures: Real Grain, Light Leaks, Dust, and Scratches.\n\nThe Feel:\n\nDate Stamp: Baked-in vintage date overlay ('98 style).\n\nManual Controls: Adjust Exposure (EV), Focus, and Zoom with haptic feedback.\n\nImport: Edit photos from your library with digi's engine.\n\nDESIGNED WITH INTENTION\n\nNo social feeds, no ads. Just a dark, industrial interface that respects your photography.\n\nDIGI. PRO (Lifetime Access)\n\nUnlock the full darkroom experience with a single purchase.\n\nUnlock all 19 filters\n\nUnlock Double Exposure Mode\n\nUnlock all Frames & Light Leaks\n\nPay once, own it forever ($2.99).\n\nTerms of Use: https://prizmchain.github.io/digi-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/digi-privacy-policy.html",
-      "releaseDate": "2026-08-15T16:19:41Z",
-      "url": "https://apps.apple.com/us/app/digi-retro-film-camera/id6758996727",
-      "icon": "assets/icons/6758996727.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/25/e3/85/25e385d7-03c0-c694-274b-68beefc5c9e1/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6782009574,
