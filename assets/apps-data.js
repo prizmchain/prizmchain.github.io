@@ -1,8 +1,20 @@
 window.PRIZM_APP_CATALOG = {
   "artistId": 1839727056,
-  "generatedAt": "2026-10-23T07:35:13.837Z",
+  "generatedAt": "2026-10-25T07:37:24.677Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6807068781,
+      "slug": "tintable-coloring-book",
+      "name": "Tintable: Coloring Book",
+      "genre": "Graphics & Design",
+      "version": "1.2.0",
+      "description": "Color one closed area at a time, then zoom through a marked object to continue in a connected scene.\n\nEach world is a four-scene journey. Tap to fill regions, choose from the built-in palettes, and follow the portal when it opens. Undo, redo, erase, or reset whenever you need to. Finished artwork can be exported with the iOS share sheet.\n\nYour coloring progress stays on this device. The app has no account, advertising, or analytics.\n\nA subscription opens the full library and includes new worlds as they are released. Purchases and renewals are handled by Apple. You can manage or cancel the subscription in your App Store account settings.\n\nTintable Terms of Service:\nhttps://prizmchain.github.io/tintable-terms-of-service.html\n\nApple Standard EULA:\nhttps://www.apple.com/legal/internet-services/itunes/dev/stdeula/\n\nPrivacy Policy:\nhttps://prizmchain.github.io/tintable-privacy-policy.html",
+      "releaseDate": "2026-10-23T21:50:43Z",
+      "url": "https://apps.apple.com/us/app/tintable-coloring-book/id6807068781",
+      "icon": "assets/icons/6807068781.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/74/3c/aa/743caaa9-6204-be41-0885-34c4194fbe47/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6758996727,
       "slug": "digi-retro-film-camera",
@@ -62,18 +74,6 @@ window.PRIZM_APP_CATALOG = {
       "url": "https://apps.apple.com/us/app/wow-and-flutter-turntable-rpm/id6759857012",
       "icon": "assets/icons/6759857012.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/32/d6/8e/32d68e6e-a0f6-c178-4a82-9a9a3a62390e/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6807068781,
-      "slug": "tintable-coloring-book",
-      "name": "Tintable: Coloring Book",
-      "genre": "Graphics & Design",
-      "version": "1.1.0",
-      "description": "Color one closed area at a time, then zoom through a marked object to continue in a connected scene.\n\nEach world is a four-scene journey. Tap to fill regions, choose from the built-in palettes, and follow the portal when it opens. Undo, redo, erase, or reset whenever you need to. Finished artwork can be exported with the iOS share sheet.\n\nYour coloring progress stays on this device. The app has no account, advertising, or analytics.\n\nA subscription opens the full library and includes new worlds as they are released. Purchases and renewals are handled by Apple. You can manage or cancel the subscription in your App Store account settings.\n\nTintable Terms of Service:\nhttps://prizmchain.github.io/tintable-terms-of-service.html\n\nApple Standard EULA:\nhttps://www.apple.com/legal/internet-services/itunes/dev/stdeula/\n\nPrivacy Policy:\nhttps://prizmchain.github.io/tintable-privacy-policy.html",
-      "releaseDate": "2026-10-10T20:00:13Z",
-      "url": "https://apps.apple.com/us/app/tintable-coloring-book/id6807068781",
-      "icon": "assets/icons/6807068781.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/71/0c/73/710c73e6-b5b9-26fc-3b1a-214ebc363605/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6761184037,
