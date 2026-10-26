@@ -1,8 +1,32 @@
 window.PRIZM_APP_CATALOG = {
   "artistId": 1839727056,
-  "generatedAt": "2026-10-25T07:37:24.677Z",
+  "generatedAt": "2026-10-26T07:50:36.424Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6756858201,
+      "slug": "oncejournal-diary-notes",
+      "name": "OnceJournal - Diary & Notes",
+      "genre": "Lifestyle",
+      "version": "1.2",
+      "description": "Your Story, Beautifully Kept.\n\nEvery moment deserves to be remembered. OnceJournal transforms your daily thoughts into a beautiful collection of memories - simple enough for a quick note, powerful enough to capture your entire journey.\n\nWhether you're reflecting on your day, tracking your moods, or writing letters to your future self, OnceJournal makes journaling feel effortless and meaningful.\n\nFREE FEATURES\n\n - Unlimited journal entries with mood tracking\n - Daily writing prompts to inspire reflection\n - Tags to organize your thoughts\n - Entry Threads - see related memories woven together\n - Future Letters - write to your future self\n - Calendar and On This Day views\n - Beautiful statistics and writing insights\n - Favorites to mark special moments\n - Photos (up to 3 per entry)\n - 1 Journal\n - Basic Analog Mode fonts\n - Dark mode support\n - 7 languages supported\n\nPREMIUM - $7.99 (One-Time Purchase)\n\nUnlock the full OnceJournal experience:\n\n - Unlimited photos (up to 50 per entry)\n - Multiple journals - organize by theme or mood\n - Premium Analog Mode fonts and paper textures\n - PDF Export - turn your journal into a beautiful book\n - All future premium features included\n\nNo subscriptions. Pay once, own forever.\n\nTerms of Use: https://prizmchain.github.io/oncejournal-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/oncejournal-privacy-policy.html",
+      "releaseDate": "2026-10-25T22:05:28Z",
+      "url": "https://apps.apple.com/us/app/oncejournal-diary-notes/id6756858201",
+      "icon": "assets/icons/6756858201.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d3/e1/2c/d3e12c03-06bd-d453-1b53-95d0c8799728/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": 6782009574,
+      "slug": "quietlog-noise-recorder",
+      "name": "QuietLog Noise Recorder",
+      "genre": "Utilities",
+      "version": "1.2.0",
+      "description": "QuietLog helps you record noise the moment it becomes a problem.\n\nStart a session, set your dBA threshold, and let QuietLog track sound levels, mark over-limit events, and save clean audio clips for review.\n\nUse QuietLog for:\n• Neighbor noise and apartment noise\n• Late-night loud sounds\n• Home, office, dorm, hotel, and shared spaces\n• Keeping a clear noise log with time, peak dBA, duration, and audio\n\nWhat QuietLog does:\n• Measures live sound level in dBA\n• Marks events when noise crosses your threshold\n• Saves raw session audio and event clips\n• Builds a clean report you can review and share\n• Continues recording during an active session when you leave the app\n• Shows every recorded event in the report timeline\n\nQuietLog is built for stressful moments. Open it, start recording, and get a simple report instead of trying to explain what happened from memory.\n\nNote: QuietLog is designed for personal noise logging. Phone microphones are not professional calibrated sound meters, so readings may vary by device and environment.\n\nTerms of Use: https://prizmchain.github.io/quietlog-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/quietlog-privacy-policy.html",
+      "releaseDate": "2026-10-25T20:46:48Z",
+      "url": "https://apps.apple.com/us/app/quietlog-noise-recorder/id6782009574",
+      "icon": "assets/icons/6782009574.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/5d/b6/4f5db639-a339-7e6f-89f4-5a51b060802c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6807068781,
       "slug": "tintable-coloring-book",
@@ -278,30 +302,6 @@ window.PRIZM_APP_CATALOG = {
       "url": "https://apps.apple.com/us/app/sitesnap-inspection-report/id6761763674",
       "icon": "assets/icons/6761763674.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/20/a6/e620a6d4-3108-09f7-2823-3c0ba47e8580/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6782009574,
-      "slug": "quietlog-noise-recorder",
-      "name": "QuietLog Noise Recorder",
-      "genre": "Utilities",
-      "version": "1.1",
-      "description": "QuietLog helps you record noise the moment it becomes a problem.\n\nStart a session, set your dBA threshold, and let QuietLog track sound levels, mark over-limit events, and save clean audio clips for review.\n\nUse QuietLog for:\n• Neighbor noise and apartment noise\n• Late-night loud sounds\n• Home, office, dorm, hotel, and shared spaces\n• Keeping a clear noise log with time, peak dBA, duration, and audio\n\nWhat QuietLog does:\n• Measures live sound level in dBA\n• Marks events when noise crosses your threshold\n• Saves raw session audio and event clips\n• Builds a clean report you can review and share\n• Continues recording during an active session when you leave the app\n• Shows every recorded event in the report timeline\n\nQuietLog is built for stressful moments. Open it, start recording, and get a simple report instead of trying to explain what happened from memory.\n\nNote: QuietLog is designed for personal noise logging. Phone microphones are not professional calibrated sound meters, so readings may vary by device and environment.\n\nTerms of Use: https://prizmchain.github.io/quietlog-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/quietlog-privacy-policy.html",
-      "releaseDate": "2026-08-13T16:49:58Z",
-      "url": "https://apps.apple.com/us/app/quietlog-noise-recorder/id6782009574",
-      "icon": "assets/icons/6782009574.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/3a/98/a2/3a98a2bb-438e-afc9-2ee1-795156004c1c/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6756858201,
-      "slug": "oncejournal",
-      "name": "OnceJournal",
-      "genre": "Lifestyle",
-      "version": "1.1",
-      "description": "Your Story, Beautifully Kept.\n\nEvery moment deserves to be remembered. OnceJournal transforms your daily thoughts into a beautiful collection of memories - simple enough for a quick note, powerful enough to capture your entire journey.\n\nWhether you're reflecting on your day, tracking your moods, or writing letters to your future self, OnceJournal makes journaling feel effortless and meaningful.\n\nFREE FEATURES\n\n - Unlimited journal entries with mood tracking\n - Daily writing prompts to inspire reflection\n - Tags to organize your thoughts\n - Entry Threads - see related memories woven together\n - Future Letters - write to your future self\n - Calendar and On This Day views\n - Beautiful statistics and writing insights\n - Favorites to mark special moments\n - Photos (up to 3 per entry)\n - 1 Journal\n - Basic Analog Mode fonts\n - Dark mode support\n - 7 languages supported\n\nPREMIUM - $7.99 (One-Time Purchase)\n\nUnlock the full OnceJournal experience:\n\n - Unlimited photos (up to 50 per entry)\n - Multiple journals - organize by theme or mood\n - Premium Analog Mode fonts and paper textures\n - PDF Export - turn your journal into a beautiful book\n - All future premium features included\n\nNo subscriptions. Pay once, own forever.\n\nTerms of Use: https://prizmchain.github.io/oncejournal-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/oncejournal-privacy-policy.html",
-      "releaseDate": "2026-08-11T09:35:30Z",
-      "url": "https://apps.apple.com/us/app/oncejournal/id6756858201",
-      "icon": "assets/icons/6756858201.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/af/28/dc/af28dc44-1bdd-0b60-e18b-93a4f3492882/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6760286374,
