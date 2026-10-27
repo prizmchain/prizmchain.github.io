@@ -1,8 +1,20 @@
 {
   "artistId": 1839727056,
-  "generatedAt": "2026-10-26T07:50:36.424Z",
+  "generatedAt": "2026-10-27T07:55:29.153Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6760286374,
+      "slug": "spill-anonymous-messages",
+      "name": "Spill: Anonymous Messages",
+      "genre": "Social Networking",
+      "version": "1.2.0",
+      "description": "Share a link and receive anonymous messages. Friends can write to you in their browser without installing Spill or creating an account.\n\nCreate a username, share your link in a profile or Story, and read messages in your inbox. Write a reply and share the message and your answer as an image card.\n\nReceiving messages, link sharing, notifications, device-type hints, basic card themes, and total visit and message counts are free. You can report messages and block senders from the app.\n\nCreator PRO is an optional one-time purchase, with no subscription or recurring charge. It adds premium profile and reply-card themes, daily statistics, referral-source statistics, and extra hints about approximate location, network, and source. Hints depend on available device and network information and do not identify the sender. Your local price is shown before purchase. Existing purchases can be restored in the app.\n\nSupport: prizm_kr@hotmail.com\nPrivacy: https://prizmchain.github.io/spill-privacy-policy.html\nTerms: https://prizmchain.github.io/spill-terms-of-service.html",
+      "releaseDate": "2026-10-27T05:33:13Z",
+      "url": "https://apps.apple.com/us/app/spill-anonymous-messages/id6760286374",
+      "icon": "assets/icons/6760286374.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d7/0d/df/d70ddf71-a12e-dd08-c8ad-6386670f3629/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6756858201,
       "slug": "oncejournal-diary-notes",
@@ -302,18 +314,6 @@
       "url": "https://apps.apple.com/us/app/sitesnap-inspection-report/id6761763674",
       "icon": "assets/icons/6761763674.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/20/a6/e620a6d4-3108-09f7-2823-3c0ba47e8580/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6760286374,
-      "slug": "spill-anonymous-messages",
-      "name": "Spill: Anonymous Messages",
-      "genre": "Social Networking",
-      "version": "1.1.0",
-      "description": "Spill — Fun Q&A for your Instagram, TikTok, and Snapchat\n\n  Share your personal Spill link on social media. Friends and followers send you messages — you see hints about who sent them.\n\n  HOW IT WORKS\n  1. Create your username\n  2. Share your Spill link anywhere\n  3. Receive messages from friends and followers\n  4. Check sender hints to guess who wrote it\n\n  SENDER HINTS (PRO)\n  Spill PRO reveals details about each message sender:\n  - Device type (iPhone, Samsung, Pixel, etc.)\n  - Approximate location (city & country)\n  - Network/carrier info\n  - Which social platform they came from\n\n  FREE vs PRO\n  Free: Receive unlimited messages, share your link, push notifications\n  PRO: All free features plus sender device, location, network, and referral source hints\n\n  PRICING\n  Lifetime PRO: $19.99 one-time purchase — unlock all hints forever.\n\n  SAFETY FIRST\n  - Built-in content filter in 7 languages\n  - Block senders with one tap\n  - Report messages directly from the app\n  - Zero tolerance for objectionable content and abusive behavior\n  - All reports reviewed and acted on within 24 hours\n  - Messages stored securely on encrypted servers\n  - Contact us anytime: prizm_kr@hotmail.com\n\n  WORKS EVERYWHERE\n  Your Spill link works on any platform: Instagram Stories, TikTok bio, Snapchat, X (Twitter), Discord, WhatsApp, LINE, KakaoTalk, and more.\n\n  SUPPORTED LANGUAGES\n  English, Korean, Japanese, Chinese (Simplified), German, French, Spanish\n                                                                                                           \n                                                                                                           \n  Terms of Use: https://prizmchain.github.io/spill-terms-of-service.html                                   \n  Privacy Policy: https://prizmchain.github.io/spill-privacy-policy.html",
-      "releaseDate": "2026-08-11T06:17:08Z",
-      "url": "https://apps.apple.com/us/app/spill-anonymous-messages/id6760286374",
-      "icon": "assets/icons/6760286374.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/37/fd/eb/37fdeb9a-b8ae-d7fc-18ea-a58ea21bad03/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6787524719,
