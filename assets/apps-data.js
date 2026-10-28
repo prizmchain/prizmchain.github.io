@@ -1,8 +1,20 @@
 window.PRIZM_APP_CATALOG = {
   "artistId": 1839727056,
-  "generatedAt": "2026-10-27T07:55:29.153Z",
+  "generatedAt": "2026-10-28T08:37:15.898Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6761763674,
+      "slug": "sitesnap-inspection-report",
+      "name": "SiteSnap Inspection Report",
+      "genre": "Business",
+      "version": "1.3.0",
+      "description": "SiteSnap turns construction and property inspection photos into clear, professional PDF reports.\n\nRecord each issue with a photo, location, category, severity, status, assignee, and due date. Add circles, arrows, and text directly to photos so contractors and clients can see exactly what needs attention.\n\nBUILT FOR\n\n• Home buyers completing a pre-closing inspection\n• Professional home and property inspectors\n• Contractors and construction teams\n• Property managers and quality control teams\n• Anyone who needs organized evidence of repair issues\n\nKEY FEATURES\n\n• Create and manage unlimited inspection projects\n• Organize issues across 15 categories, including cracks, water damage, tile, paint, windows, and plumbing\n• Track severity and open or resolved status\n• Assign each issue and set a repair due date\n• Mark up photos with circles, arrows, and text\n• Generate and share professional PDF inspection reports\n• Add company and contact information to reports\n\nEXPLORE BEFORE PURCHASE\n\nOpen the included sample project to preview the workflow and PDF report format. The sample project contains example data and is not a free trial.\n\nSITESNAP PRO\n\nA one-time purchase unlocks full functionality. No subscription and no ads.\n\nPRIVACY\n\nInspection data stays on your device and is not sent to a server. No account is required.\n\nTerms of Service\nhttps://prizmchain.github.io/hajacheck-terms-of-service.html\n\nPrivacy Policy\nhttps://prizmchain.github.io/hajacheck-privacy-policy.html",
+      "releaseDate": "2026-10-27T21:58:41Z",
+      "url": "https://apps.apple.com/us/app/sitesnap-inspection-report/id6761763674",
+      "icon": "assets/icons/6761763674.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f9/68/55/f9685594-dd65-d4f6-9671-cc74c8874f79/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6760286374,
       "slug": "spill-anonymous-messages",
@@ -302,18 +314,6 @@ window.PRIZM_APP_CATALOG = {
       "url": "https://apps.apple.com/us/app/re-vector/id6796924308",
       "icon": "assets/icons/6796924308.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/28/08/7e/28087e0a-9c6f-9615-75ce-9bffe6ad59ea/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6761763674,
-      "slug": "sitesnap-inspection-report",
-      "name": "SiteSnap Inspection Report",
-      "genre": "Business",
-      "version": "1.2.0",
-      "description": "SiteSnap turns construction and property inspection photos into clear, professional PDF reports.\n\nRecord each issue with a photo, location, category, severity, status, assignee, and due date. Add circles, arrows, and text directly to photos so contractors and clients can see exactly what needs attention.\n\nBUILT FOR\n\n• Home buyers completing a pre-closing inspection\n• Professional home and property inspectors\n• Contractors and construction teams\n• Property managers and quality control teams\n• Anyone who needs organized evidence of repair issues\n\nKEY FEATURES\n\n• Create and manage unlimited inspection projects\n• Organize issues across 15 categories, including cracks, water damage, tile, paint, windows, and plumbing\n• Track severity and open or resolved status\n• Assign each issue and set a repair due date\n• Mark up photos with circles, arrows, and text\n• Generate and share professional PDF inspection reports\n• Add company and contact information to reports\n\nEXPLORE BEFORE PURCHASE\n\nOpen the included sample project to preview the workflow and PDF report format. The sample project contains example data and is not a free trial.\n\nSITESNAP PRO\n\nA one-time purchase unlocks full functionality. No subscription and no ads.\n\nPRIVACY\n\nInspection data stays on your device and is not sent to a server. No account is required.\n\nTerms of Service\nhttps://prizmchain.github.io/hajacheck-terms-of-service.html\n\nPrivacy Policy\nhttps://prizmchain.github.io/hajacheck-privacy-policy.html",
-      "releaseDate": "2026-08-18T20:37:49Z",
-      "url": "https://apps.apple.com/us/app/sitesnap-inspection-report/id6761763674",
-      "icon": "assets/icons/6761763674.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/e6/20/a6/e620a6d4-3108-09f7-2823-3c0ba47e8580/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6787524719,
