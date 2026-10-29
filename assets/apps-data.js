@@ -1,8 +1,32 @@
 window.PRIZM_APP_CATALOG = {
   "artistId": 1839727056,
-  "generatedAt": "2026-10-28T08:37:15.898Z",
+  "generatedAt": "2026-10-29T08:33:24.822Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6755945637,
+      "slug": "popspot-location-reminders",
+      "name": "PopSpot - Location Reminders",
+      "genre": "Productivity",
+      "version": "1.2.0",
+      "description": "Remember what you came for. Link a task to a place and use PopSpot for errands, shopping lists, and everyday plans.\n\nPlace reminders\nSave the grocery store, home, or office and connect the tasks you want to remember there. Set arrival or departure reminders and check each place’s monitoring status in the app. Location reminders require location and notification permissions; delivery depends on iOS and device conditions.\n\nA clear daily view\nCapture ideas in Inbox, see today’s tasks in Today, and plan ahead in Upcoming. Group related tasks into projects, add tags, set priorities, and break work into checklist items. Recurring tasks help with routines. Nearby shows place-linked tasks by distance.\n\nSmart Input\nWrite a task in your own words and review the detected date, time, and place before saving. Choose a saved place when a match needs confirmation, or keep your original text.\n\nFree and Pro\nThe free app includes up to 3 saved places, 5 projects, and 5 tags. Pro removes those saved-place, project, and tag limits and adds Smart Lists and voice input. Pro does not remove iOS location-monitoring limits.\n\nMade for your screen\nA refreshed onboarding flow, clearer task details, and layouts that adapt to iPhone Duo, landscape, and larger text help you find and manage your tasks.\n\nTerms of Use: https://prizmchain.github.io/cuesnow-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/cuesnow-privacy-policy.html",
+      "releaseDate": "2026-10-28T20:02:03Z",
+      "url": "https://apps.apple.com/us/app/popspot-location-reminders/id6755945637",
+      "icon": "assets/icons/6755945637.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d2/69/c7/d269c7b6-8682-c183-21bd-1fccc8843d06/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": 6795316782,
+      "slug": "keeptoss-swipe-photo-cleaner",
+      "name": "KeepToss: Swipe Photo Cleaner",
+      "genre": "Photo & Video",
+      "version": "1.1.0",
+      "description": "Clean your photo library without turning it into another chore.\n\nKeepToss gives you one clear decision at a time: keep or toss. Review similar shots side by side, find exact duplicates, old screenshots, possible blur, and large videos. Nothing is removed until you review the list and confirm with iOS.\n\nFOCUSED PHOTO CLEANUP\n• Swipe through short, manageable review rounds\n• Compare similar shots and choose the keeper\n• Find exact duplicates and possible blurry photos\n• Review screenshots and save useful text\n• Find large videos and create smaller copies\n• Inspect every removal before confirming\n\nPRIVATE BY DESIGN\nPhoto analysis and text recognition run on your iPhone. Your photos are never uploaded, and no account is required.\n\nStart with 50 free reviews. Unlock unlimited cleanup with a one-time purchase. No subscription.\n\nTerms of Use: https://prizmchain.github.io/keeptoss-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/keeptoss-privacy-policy.html",
+      "releaseDate": "2026-10-28T20:01:52Z",
+      "url": "https://apps.apple.com/us/app/keeptoss-swipe-photo-cleaner/id6795316782",
+      "icon": "assets/icons/6795316782.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a5/5d/bf/a55dbf24-8ea8-32fe-3675-f3c4407b40b0/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6761763674,
       "slug": "sitesnap-inspection-report",
@@ -196,18 +220,6 @@ window.PRIZM_APP_CATALOG = {
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cf/7e/3c/cf7e3c12-5a91-5ae7-c36d-af6889e797ae/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
-      "id": 6795316782,
-      "slug": "keeptoss-swipe-photo-cleaner",
-      "name": "KeepToss: Swipe Photo Cleaner",
-      "genre": "Photo & Video",
-      "version": "1.0.1",
-      "description": "Clean your photo library without turning it into another chore.\n\nKeepToss gives you one clear decision at a time: keep or toss. Review similar shots side by side, find exact duplicates, old screenshots, possible blur, and large videos. Nothing is removed until you review the list and confirm with iOS.\n\nFOCUSED PHOTO CLEANUP\n• Swipe through short, manageable review rounds\n• Compare similar shots and choose the keeper\n• Find exact duplicates and possible blurry photos\n• Review screenshots and save useful text\n• Find large videos and create smaller copies\n• Inspect every removal before confirming\n\nPRIVATE BY DESIGN\nPhoto analysis and text recognition run on your iPhone. Your photos are never uploaded, and no account is required.\n\nStart with 50 free reviews. Unlock unlimited cleanup with a one-time purchase. No subscription.\n\nTerms of Use: https://prizmchain.github.io/keeptoss-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/keeptoss-privacy-policy.html",
-      "releaseDate": "2026-09-26T20:58:44Z",
-      "url": "https://apps.apple.com/us/app/keeptoss-swipe-photo-cleaner/id6795316782",
-      "icon": "assets/icons/6795316782.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/f0/3b/13/f03b13d2-2be1-451f-7b78-36b4e74d8d85/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
       "id": 6780172538,
       "slug": "lightprint-light-meter",
       "name": "Lightprint: Light Meter",
@@ -362,18 +374,6 @@ window.PRIZM_APP_CATALOG = {
       "url": "https://apps.apple.com/us/app/later-screenshots-links/id6752585188",
       "icon": "assets/icons/6752585188.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/fd/63/d2/fd63d2f9-2e0f-7e9f-cefd-282650088009/AppIcon-0-0-1x_U007emarketing-0-4-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6755945637,
-      "slug": "popspot-location-reminders",
-      "name": "PopSpot - Location Reminders",
-      "genre": "Productivity",
-      "version": "1.1.2",
-      "description": "You arrive at the grocery store. You know you needed something. But what was it?\n\nWe have all been there. That frustrating moment when you get somewhere and your mind goes blank. You drive back home only to remember what it was.\n\nPopSpot fixes this.\n\n**HOW IT WORKS**\nSimply add a task and link it to a place. When you physically arrive at that location, your phone buzzes with exactly what you need to do. No more mental gymnastics. No more forgotten errands.\n\n**REAL EXAMPLES**\n• Link \"Buy milk\" to the grocery store. Notification pops up as you walk in.\n• Link \"Talk to boss about raise\" to the office. Reminded the moment you arrive at work.\n• Link \"Return shoes\" to the mall. Notified when you are near.\n• Link \"Pick up prescription\" to the pharmacy. Never miss it again.\n\n**SMART INPUT**\nType \"Buy milk at Costco\" and PopSpot automatically separates the task and the place for you.\n\n**NEARBY VIEW**\nSee your tasks sorted by distance from your current location. Grouped by: very near, walking distance, and 10-minute drive.\n\n**THE RIGHT TASK AT THE RIGHT PLACE**\nThis is not just another todo app. PopSpot understands that tasks belong to places. Your brain thinks in locations. So does PopSpot.\n\n**CAPTURE THOUGHTS INSTANTLY**\n• Today: What needs to happen now\n• Inbox: Quick capture, organize later\n• Upcoming: Scheduled tasks with dates\n• Anytime: No deadline, do when ready\n• Projects: Group related tasks\n• Tags: Your own organization system\n\n**FEATURES THAT MATTER**\n• Natural language: Type \"Get groceries tomorrow 3pm\" and watch the magic\n• Recurring tasks: Daily standup, weekly review, monthly bills\n• Checklists: Break big tasks into small wins\n• Priority flags: Know what is urgent at a glance\n\n**GO PRO**\n• Unlimited saved places (Free: 3 places)\n• Smart Lists: Auto-filtered views that update themselves\n• Advanced Insights: Detailed productivity analytics\n• iCloud Sync across all devices\n• Voice input for hands-free task capture\n\nYour brain is for having ideas, not holding them. Let PopSpot remember so you can focus on doing.\n\nDownload now. Forget forgetting.\n\nTerms of Use: https://prizmchain.github.io/cuesnow-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/cuesnow-privacy-policy.html",
-      "releaseDate": "2026-02-17T21:52:14Z",
-      "url": "https://apps.apple.com/us/app/popspot-location-reminders/id6755945637",
-      "icon": "assets/icons/6755945637.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/49/ab/95/49ab9545-de00-b994-9691-e1ee0f28c964/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6753330446,
