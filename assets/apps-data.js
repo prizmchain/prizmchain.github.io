@@ -1,8 +1,32 @@
 window.PRIZM_APP_CATALOG = {
   "artistId": 1839727056,
-  "generatedAt": "2026-10-30T08:41:49.753Z",
+  "generatedAt": "2026-11-01T09:18:56.431Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6782553911,
+      "slug": "planmark-room-scanner",
+      "name": "Planmark Room Scanner",
+      "genre": "Productivity",
+      "version": "1.1",
+      "description": "PLEASE CHECK BEFORE PURCHASING\nNew room scanning requires LiDAR. On iPhone Duo and other devices without LiDAR, buying Home or Pro or restoring a purchase will NOT enable new room scanning. Do not purchase to scan new rooms on these devices.\nYou can edit existing rooms or import .planmark files captured on a LiDAR device. Export features depend on your Home or Pro access.\n\nMeasure a room once. Keep a plan you can actually use.\n\nPlanmark turns a LiDAR-equipped iPhone Pro into a guided room-measurement workflow for moving, furniture planning, renovation and field documentation. Capture walls, doors and windows, review the dimensions, and keep both a clean 2D floor plan and the original 3D room scan.\n\nSEE THE RESULT BEFORE YOU BUY\n\nOpen the included sample project to inspect the 2D plan, 3D preview, wall measurements and PDF workflow. On a compatible LiDAR-equipped device, a one-time Home or Pro purchase unlocks new room scanning. Purchasing does not enable scanning on devices without LiDAR.\n\nSCAN AND UNDERSTAND YOUR SPACE\n\n• Guided LiDAR room capture\n• Automatic room outline with walls, doors and windows\n• 2D floor plan with measurements for every captured wall\n• Original 3D room scan you can rotate and inspect\n• Room area, perimeter and door/window count\n• Metric and imperial units\n• Saved projects for later review\n\nHOME: A CLEAN PLAN FOR YOUR OWN SPACE\n\nHome is designed for moving, checking furniture fit and preparing a renovation.\n\n• Room scanning and saved projects\n• Clean personal PDF without a watermark\n• Wall lengths, area and perimeter in one shareable document\n\nPRO: CLIENT-READY FIELD HANDOFF\n\nPro turns a measured room into a structured package for designers, remodelers, contractors and property professionals.\n\n• Client-ready PDF report package\n• Client, site, prepared-by and revision details\n• Measurement review table and door/window schedule\n• Takeoff summary CSV\n• SVG vector export and DXF beta export\n• Multi-room site package for a single handoff\n\nSIMPLE WORKFLOW\n\n1. Scan the room slowly with walls, corners and floor boundaries visible.\n2. Review the 2D plan and original 3D scan.\n3. Check important wall measurements.\n4. Save a personal PDF or prepare a client package.\n\nDEVICE REQUIREMENT\n\nNew room scanning requires a LiDAR-equipped iPhone Pro that supports Apple RoomPlan. iPhone Duo and other devices without LiDAR cannot scan new rooms, whether or not you have purchased Home or Pro.\n\nWithout LiDAR, you can explore the sample, open and edit existing rooms transferred through a device-data restore, or import .planmark files. Export features depend on your Home or Pro access. If you have no existing rooms or files to import, purchasing will not let you capture a new room and create its plan on this device.\n\nMeasurements depend on the environment and sensor capture. Verify critical dimensions before construction, fabrication or ordering materials.\n\nTerms of Service: https://prizmchain.github.io/planmark-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/planmark-privacy-policy.html",
+      "releaseDate": "2026-10-30T22:26:49Z",
+      "url": "https://apps.apple.com/us/app/planmark-room-scanner/id6782553911",
+      "icon": "assets/icons/6782553911.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/0f/e1/ed0fe11a-dec5-4cec-bfd0-6d70b921830b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": 6761184037,
+      "slug": "islandmates-couple-pet",
+      "name": "IslandMates: Couple Pet",
+      "genre": "Lifestyle",
+      "version": "1.5.1",
+      "description": "One pet, one island, two people. IslandMates is a small shared space for you and your partner.\n\nChoose a character, send a note of up to 10 characters, and invite your partner with a code. Your first message and their first reply are free.\n\nTogether, you can care for your pet, share feelings, make story choices, remember anniversaries, and look back on your shared timeline and recaps. On supported devices, widgets and Live Activities keep your pet close. Dynamic Island features require a compatible iPhone.\n\nCreating a room and inviting your partner are free.\n\nDYNAMIC ISLAND · LIVE ACTIVITIES\nOpening the app alone does not display a Live Activity. At least one of these conditions must apply:\n• Plus, including shared Plus in the same room: within 30 minutes of a billboard message change or an emotion being sent\n• Free first-message-and-reply trial: within 30 minutes of a billboard message change\n• Everyone: when your pet is hungry (fullness below 30)\nThe activity ends when recent messages and emotions pass their 30-minute window and your pet is not hungry. Dynamic Island requires a compatible iPhone and Live Activities enabled. Actual visibility and duration depend on iOS and device settings. Your pet is not always on display.\n\nISLANDMATES PLUS\nKeep exchanging messages and growing your shared story with Plus. One subscription covers both partners connected to the same room. The app adapts to iPhone Duo and different window sizes.\n\nSubscriptions renew automatically unless canceled at least 24 hours before the current period ends. Manage or cancel in your Apple account settings. Prices are shown before purchase. Restore purchases in the app.\n\nPrivacy: https://prizmchain.github.io/islandmates-privacy-policy.html\nTerms: https://prizmchain.github.io/islandmates-terms-of-service.html",
+      "releaseDate": "2026-10-30T16:00:10Z",
+      "url": "https://apps.apple.com/us/app/islandmates-couple-pet/id6761184037",
+      "icon": "assets/icons/6761184037.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/b4/0e/db/b40edb92-926f-b2c3-dca7-2e763e84f5d5/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6752585188,
       "slug": "later-screenshots-links",
@@ -160,18 +184,6 @@ window.PRIZM_APP_CATALOG = {
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/97/3b/53973ba8-b033-4f2c-de44-fd066d3f4cce/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
     },
     {
-      "id": 6761184037,
-      "slug": "islandmates-couple-pet",
-      "name": "IslandMates: Couple Pet",
-      "genre": "Lifestyle",
-      "version": "1.5.0",
-      "description": "One pet, one island, two people. IslandMates is a small shared space for you and your partner.\n\nChoose a character, send a note of up to 10 characters, and invite your partner with a code. Your first message and their first reply are free.\n\nTogether, you can care for your pet, share feelings, make story choices, remember anniversaries, and look back on your shared timeline and recaps. On supported devices, widgets and Live Activities keep your pet close. Dynamic Island features require a compatible iPhone.\n\nISLANDMATES PLUS\nKeep exchanging messages and growing your shared story with Plus. One subscription covers both partners connected to the same room. The app adapts to iPhone Duo and different window sizes.\n\nSubscriptions renew automatically unless canceled at least 24 hours before the current period ends. Manage or cancel in your Apple account settings. Prices are shown before purchase. Restore purchases in the app.\n\nPrivacy: https://prizmchain.github.io/islandmates-privacy-policy.html\nTerms: https://prizmchain.github.io/islandmates-terms-of-service.html",
-      "releaseDate": "2026-10-10T20:00:02Z",
-      "url": "https://apps.apple.com/us/app/islandmates-couple-pet/id6761184037",
-      "icon": "assets/icons/6761184037.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/fc/5e/4c/fc5e4c8a-6b31-3250-6db6-3ab22866c5ce/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
       "id": 6760953122,
       "slug": "dayslip-daily-receipt-maker",
       "name": "DaySlip: Daily Receipt Maker",
@@ -314,18 +326,6 @@ window.PRIZM_APP_CATALOG = {
       "url": "https://apps.apple.com/us/app/bloomway-color-paths/id6791563807",
       "icon": "assets/icons/6791563807.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/81/46/c0/8146c0fb-feed-50df-3014-35252d8033a3/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6782553911,
-      "slug": "planmark-room-scanner",
-      "name": "Planmark Room Scanner",
-      "genre": "Productivity",
-      "version": "1.0",
-      "description": "Measure a room once. Keep a plan you can actually use.\n\nPlanmark turns a LiDAR-equipped iPhone Pro or iPad Pro into a guided room-measurement workflow for moving, furniture planning, renovation and field documentation. Capture walls, doors and windows, review the dimensions, and keep both a clean 2D floor plan and the original 3D room scan.\n\nSEE THE RESULT BEFORE YOU BUY\n\nOpen the included sample project to inspect the 2D plan, 3D preview, wall measurements and PDF workflow. New room scanning unlocks through a one-time Home or Pro purchase.\n\nSCAN AND UNDERSTAND YOUR SPACE\n\n• Guided LiDAR room capture\n• Automatic room outline with walls, doors and windows\n• 2D floor plan with measurements for every captured wall\n• Original 3D room scan you can rotate and inspect\n• Room area, perimeter and door/window count\n• Metric and imperial units\n• Saved projects for later review\n\nHOME: A CLEAN PLAN FOR YOUR OWN SPACE\n\nHome is designed for moving, checking furniture fit and preparing a renovation.\n\n• Room scanning and saved projects\n• Clean personal PDF without a watermark\n• Wall lengths, area and perimeter in one shareable document\n\nPRO: CLIENT-READY FIELD HANDOFF\n\nPro turns a measured room into a structured package for designers, remodelers, contractors and property professionals.\n\n• Client-ready PDF report package\n• Client, site, prepared-by and revision details\n• Measurement review table and door/window schedule\n• Takeoff summary CSV\n• SVG vector export and DXF beta export\n• Multi-room site package for a single handoff\n\nSIMPLE WORKFLOW\n\n1. Scan the room slowly with walls, corners and floor boundaries visible.\n2. Review the 2D plan and original 3D scan.\n3. Check important wall measurements.\n4. Save a personal PDF or prepare a client package.\n\nDEVICE REQUIREMENT\n\nNew room scanning requires a LiDAR-equipped iPhone Pro or iPad Pro that supports Apple RoomPlan. On devices without LiDAR, you can explore the sample result but cannot capture a new room or purchase a scanning unlock.\n\nMeasurements depend on the environment and sensor capture. Verify critical dimensions before construction, fabrication or ordering materials.\n\nTerms of Service: https://prizmchain.github.io/planmark-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/planmark-privacy-policy.html",
-      "releaseDate": "2026-08-24T07:41:46Z",
-      "url": "https://apps.apple.com/us/app/planmark-room-scanner/id6782553911",
-      "icon": "assets/icons/6782553911.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/03/25/ae/0325ae26-2367-065f-b277-671e1514ac43/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6796924308,
