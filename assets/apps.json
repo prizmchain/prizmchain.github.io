@@ -1,8 +1,32 @@
 {
   "artistId": 1839727056,
-  "generatedAt": "2026-11-01T09:18:56.431Z",
+  "generatedAt": "2026-11-04T09:20:28.200Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6822031715,
+      "slug": "takealign-audio-video-sync",
+      "name": "TakeAlign: Audio Video Sync",
+      "genre": "Photo & Video",
+      "version": "1.0",
+      "description": "Your video. The sound you recorded for it.\n\nTakeAlign syncs a camera video with a separate audio recording of the same moment. Match an external microphone or recorder track to your footage, compare the sound, and save a new video with the recording in time.\n\nMADE FOR SEPARATELY RECORDED SOUND\nInterviews, filmed podcasts, lessons and performances: keep the video you shot and use the sound you recorded separately.\n\nFROM TWO FILES TO ONE FINISHED VIDEO\n• Import a video from Photos or Files and a recording from Files.\n• Analyze shared sound to find a suggested time offset.\n• Switch between camera sound and the separate recording while previewing. Check the alignment and fine-tune the timing manually.\n• Save a new MOV to Photos or Files, then share it through the iOS share sheet.\n\nTRY IT BEFORE CHOOSING FILES\nOpen the built-in sample to hear the difference. Sample playback leaves your own project and free save untouched.\n\nONE FREE SAVE. NO SUBSCRIPTION.\nSave your first full-length, watermark-free result for free. A one-time Lifetime purchase unlocks further supported exports. No account required.\n\nYOUR FILES STAY YOURS\nMedia is processed on your device; TakeAlign does not upload it to a developer server. Your original files remain unchanged.\n\nSupports compatible MOV/MP4 videos from 30 seconds to 10 minutes and WAV/M4A recordings. Compatibility is checked in the app. Automatic alignment needs recognizable sound in both recordings. TakeAlign adjusts a fixed time difference; it does not correct gradual recording drift.\n\nTerms of Use: https://prizmchain.github.io/takealign-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/takealign-privacy-policy.html",
+      "releaseDate": "2026-11-03T16:02:44Z",
+      "url": "https://apps.apple.com/us/app/takealign-audio-video-sync/id6822031715",
+      "icon": "assets/icons/6822031715.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/4c/69/1b/4c691b6b-b7bb-5ef0-b89e-827817a3373d/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": 6818370754,
+      "slug": "duo-fight-2-player-games",
+      "name": "Duo Fight - 2 Player Games",
+      "genre": "Games",
+      "version": "1.0",
+      "description": "Turn one screen into a table for two. Play disc soccer, mini curling, air hockey and disc knockout with a friend on the same device.\n\nChoose side-by-side or face-to-face seating, practice against a computer opponent, and carry your rivalry across matches. Soccer rewards angles and positioning. Curling tests precise shots. Hockey demands quick reactions. Knockout challenges you to push your opponent's discs off the board.\n\nPlay offline without creating an account. Choose classic rules or try optional variations including bank shots, a center bumper and heavy curling stones.\n\nSupport & Terms of Service: https://prizmchain.github.io/duo-fight-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/duo-fight-privacy-policy.html",
+      "releaseDate": "2026-11-02T19:07:36Z",
+      "url": "https://apps.apple.com/us/app/duo-fight-2-player-games/id6818370754",
+      "icon": "assets/icons/6818370754.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/d4/e8/efd4e89e-c3cf-2afa-7d7b-2b10369c3797/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6782553911,
       "slug": "planmark-room-scanner",
