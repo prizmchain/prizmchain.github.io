@@ -1,8 +1,20 @@
 window.PRIZM_APP_CATALOG = {
   "artistId": 1839727056,
-  "generatedAt": "2026-11-04T09:20:28.200Z",
+  "generatedAt": "2026-11-08T09:03:12.272Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6755321981,
+      "slug": "recordingo-audio-notes",
+      "name": "RecordinGo: Audio Notes",
+      "genre": "Productivity",
+      "version": "1.7.0",
+      "description": "Find the words you need in an interview recording, then share the original audio and text.\n\nRecordinGo transcribes recordings and imported audio on your device. Search a transcript, listen to the matching passage, correct its text, and create a quote.\n\n- Import M4A, WAV, AIFF, and MP3 from Files\n- On-device transcription and word search for supported languages\n- Listen to matching passages and correct transcript sentences\n- Share an audio clip (.m4a) and timestamped text (.txt) together\n- Organize important passages with bookmarks, tags, and saved quotes\n- Try search and quoting with short Korean and English samples\n\nThe free tier includes recordings up to one hour, up to 10 projects, and three quote file exports in total. Samples do not use your free export allowance.\n\nRecordinGo Pro is a one-time purchase. It removes the free recording-time and project-count caps and includes quote file exports without a count limit. It also includes tools such as AIFF and M4A recording, playback speed, and loop playback.\n\nThe optional, separate FX Pack adds a 10-band EQ and compressor. A Bundle includes Pro and FX Pack. See the app for current App Store pricing.\n\nTranscription supports up to 60 minutes per file, including with Pro. Keep the app open while transcribing. Availability can depend on your device, iOS version, and language.\n\nNo subscription. No ads. No account.\nSupport: prizm_kr@hotmail.com\n\nTerms of Service: https://prizmchain.github.io/recordingo-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/recordingo-privacy-policy.html",
+      "releaseDate": "2026-11-07T20:07:35Z",
+      "url": "https://apps.apple.com/us/app/recordingo-audio-notes/id6755321981",
+      "icon": "assets/icons/6755321981.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d4/69/d5/d469d540-b619-9069-694a-c0b9a398e206/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6822031715,
       "slug": "takealign-audio-video-sync",
@@ -314,18 +326,6 @@ window.PRIZM_APP_CATALOG = {
       "url": "https://apps.apple.com/us/app/inkwell-audio-sync-notes/id6757148842",
       "icon": "assets/icons/6757148842.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/31/21/ab3121aa-e841-1c35-3784-9441445a7b5c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6755321981,
-      "slug": "recordingo",
-      "name": "RecordinGo",
-      "genre": "Productivity",
-      "version": "1.6",
-      "description": "Stop scrubbing through long recordings to find one important moment.\n\nRecordinGo combines high-quality audio recording, on-device transcription, search, organization, and editing in one professional recorder. Search a transcript for any word, then jump directly to the moment it was spoken.\n\nKey features\n\n- High-quality WAV and background recording\n- On-device transcription for supported languages\n- Transcript search with timestamp navigation\n- Projects, bookmarks, and tags\n- Trim, cut, fades, and non-destructive editing\n- Face ID or Touch ID app lock\n- Recordings and app data stored on your device\n\nThe free tier includes recordings up to one hour and up to 10 projects.\n\nRecordinGo Pro is a one-time purchase that removes recording and project limits and adds AIFF and M4A, up to 96 kHz/24-bit audio, stereo recording with external audio interfaces, scheduled recording, voice activity detection, batch export, playback speed, and loop playback.\n\nThe optional FX Pack adds a 10-band EQ and compressor. A Pro + FX bundle is also available, with any discount calculated from current App Store prices.\n\nNo subscription. No ads. No account.\n\nSupport: prizm_kr@hotmail.com",
-      "releaseDate": "2026-08-31T16:45:59Z",
-      "url": "https://apps.apple.com/us/app/recordingo/id6755321981",
-      "icon": "assets/icons/6755321981.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/dc/73/1d/dc731dae-f8d2-3252-6abf-5a8c2f450901/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6759965167,
