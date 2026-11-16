@@ -1,8 +1,32 @@
 window.PRIZM_APP_CATALOG = {
   "artistId": 1839727056,
-  "generatedAt": "2026-11-08T09:03:12.272Z",
+  "generatedAt": "2026-11-16T09:49:10.418Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6761908470,
+      "slug": "vaultx-offline-password-vault",
+      "name": "VaultX Offline Password Vault",
+      "genre": "Productivity",
+      "version": "1.2.1",
+      "description": "VaultX is a private, offline-first credential vault for passwords, payment cards, recovery codes, secure notes, crypto wallet details, identity records, and other sensitive information.\n\nYour vault is encrypted on your device. VaultX does not require an account and does not operate a password-storage server. Optional iCloud sync keeps encrypted vault data available across your Apple devices.\n\nCORE FEATURES\n- AES-256-GCM encrypted local vault\n- Face ID and device authentication\n- Password and passphrase generator\n- iOS AutoFill extension for apps and Safari\n- Search, categories, and favorites\n- Encrypted backup and restore\n- Clipboard auto-clear\n\nPREMIUM — ONE-TIME PURCHASE\n- Unlimited credential records\n- TOTP authenticator codes\n- Decoy vault\n- Breach monitoring\n- Emergency recovery tools\n- Encrypted iCloud sync\n\nNo subscription. Your credentials stay under your control.\n\nPrivacy Policy\nhttps://prizmchain.github.io/vaultx-privacy-policy.html\n\nTerms of Service\nhttps://prizmchain.github.io/vaultx-terms-of-service.html",
+      "releaseDate": "2026-11-15T23:09:15Z",
+      "url": "https://apps.apple.com/us/app/vaultx-offline-password-vault/id6761908470",
+      "icon": "assets/icons/6761908470.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/8b/59/3e8b59cf-9c49-1aba-6785-bc86e907b4bf/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": 6757148842,
+      "slug": "inkwell-audio-sync-notes",
+      "name": "Inkwell: Audio Sync Notes",
+      "genre": "Productivity",
+      "version": "1.3.1",
+      "description": "Inkwell connects Apple Pencil handwriting and audio on one timeline.\n\n• Record audio while taking handwritten notes\n• Tap handwriting to play from that moment\n• Navigate multiple pages and recording segments\n• Share the writing process as a real MP4 time-lapse\n• Export single- or multi-page PDFs\n• Organize with folders, note locks, pens, and paper templates\n• Back up notes and recordings in one .inkwell file\n• One-time Pro purchase with no monthly subscription\n\nYour notes are stored on your device. You can now import PDFs, write on them with Apple Pencil, and replay audio from your handwriting.\n\nTerms of Service\nhttps://prizmchain.github.io/inkwell-terms-of-service.html\n\nPrivacy Policy\nhttps://prizmchain.github.io/inkwell-privacy-policy.html",
+      "releaseDate": "2026-11-15T23:02:27Z",
+      "url": "https://apps.apple.com/us/app/inkwell-audio-sync-notes/id6757148842",
+      "icon": "assets/icons/6757148842.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/7a/56/77/7a567731-a026-be56-be24-d10479e0e664/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6755321981,
       "slug": "recordingo-audio-notes",
@@ -302,30 +326,6 @@ window.PRIZM_APP_CATALOG = {
       "url": "https://apps.apple.com/us/app/kantanpdf-photo-reports/id6752878581",
       "icon": "assets/icons/6752878581.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/d8/88/bc/d888bc8c-bc4c-e4d7-6d33-819a879e386a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6761908470,
-      "slug": "vaultx-offline-password-vault",
-      "name": "VaultX Offline Password Vault",
-      "genre": "Productivity",
-      "version": "1.2.0",
-      "description": "VaultX is a private, offline-first credential vault for passwords, payment cards, recovery codes, secure notes, crypto wallet details, identity records, and other sensitive information.\n\nYour vault is encrypted on your device. VaultX does not require an account and does not operate a password-storage server. Optional iCloud sync keeps encrypted vault data available across your Apple devices.\n\nCORE FEATURES\n- AES-256-GCM encrypted local vault\n- Face ID and device authentication\n- Password and passphrase generator\n- iOS AutoFill extension for apps and Safari\n- Search, categories, and favorites\n- Encrypted backup and restore\n- Clipboard auto-clear\n\nPREMIUM — ONE-TIME PURCHASE\n- Unlimited credential records\n- TOTP authenticator codes\n- Decoy vault\n- Breach monitoring\n- Emergency recovery tools\n- Encrypted iCloud sync\n\nNo subscription. Your credentials stay under your control.",
-      "releaseDate": "2026-08-31T18:57:10Z",
-      "url": "https://apps.apple.com/us/app/vaultx-offline-password-vault/id6761908470",
-      "icon": "assets/icons/6761908470.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/59/05/c2/5905c257-ae11-9724-6496-d05570d774fc/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6757148842,
-      "slug": "inkwell-audio-sync-notes",
-      "name": "Inkwell: Audio Sync Notes",
-      "genre": "Productivity",
-      "version": "1.3.0",
-      "description": "Inkwell connects Apple Pencil handwriting and audio on one timeline.\n\n• Record audio while taking handwritten notes\n• Tap handwriting to play from that moment\n• Navigate multiple pages and recording segments\n• Share the writing process as a real MP4 time-lapse\n• Export single- or multi-page PDFs\n• Organize with folders, note locks, pens, and paper templates\n• Back up notes and recordings in one .inkwell file\n• One-time Pro purchase with no monthly subscription\n\nYour notes are stored on your device. You can now import PDFs, write on them with Apple Pencil, and replay audio from your handwriting.",
-      "releaseDate": "2026-08-31T18:22:44Z",
-      "url": "https://apps.apple.com/us/app/inkwell-audio-sync-notes/id6757148842",
-      "icon": "assets/icons/6757148842.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/31/21/ab3121aa-e841-1c35-3784-9441445a7b5c/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6759965167,
