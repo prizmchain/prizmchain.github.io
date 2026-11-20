@@ -1,6 +1,6 @@
 {
   "artistId": 1839727056,
-  "generatedAt": "2026-11-16T09:49:10.418Z",
+  "generatedAt": "2026-11-20T10:05:04.047Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
     {
@@ -8,12 +8,12 @@
       "slug": "vaultx-offline-password-vault",
       "name": "VaultX Offline Password Vault",
       "genre": "Productivity",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "description": "VaultX is a private, offline-first credential vault for passwords, payment cards, recovery codes, secure notes, crypto wallet details, identity records, and other sensitive information.\n\nYour vault is encrypted on your device. VaultX does not require an account and does not operate a password-storage server. Optional iCloud sync keeps encrypted vault data available across your Apple devices.\n\nCORE FEATURES\n- AES-256-GCM encrypted local vault\n- Face ID and device authentication\n- Password and passphrase generator\n- iOS AutoFill extension for apps and Safari\n- Search, categories, and favorites\n- Encrypted backup and restore\n- Clipboard auto-clear\n\nPREMIUM — ONE-TIME PURCHASE\n- Unlimited credential records\n- TOTP authenticator codes\n- Decoy vault\n- Breach monitoring\n- Emergency recovery tools\n- Encrypted iCloud sync\n\nNo subscription. Your credentials stay under your control.\n\nPrivacy Policy\nhttps://prizmchain.github.io/vaultx-privacy-policy.html\n\nTerms of Service\nhttps://prizmchain.github.io/vaultx-terms-of-service.html",
-      "releaseDate": "2026-11-15T23:09:15Z",
+      "releaseDate": "2026-11-19T19:13:26Z",
       "url": "https://apps.apple.com/us/app/vaultx-offline-password-vault/id6761908470",
       "icon": "assets/icons/6761908470.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/3e/8b/59/3e8b59cf-9c49-1aba-6785-bc86e907b4bf/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/84/9e/53849e5b-f9c4-7f72-5d00-1862e29912fe/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6757148842,
