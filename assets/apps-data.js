@@ -1,8 +1,20 @@
 window.PRIZM_APP_CATALOG = {
   "artistId": 1839727056,
-  "generatedAt": "2026-11-20T10:05:04.047Z",
+  "generatedAt": "2026-11-22T09:49:55.396Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6799021632,
+      "slug": "bb-break-bread",
+      "name": "BB - Break Bread",
+      "genre": "Lifestyle",
+      "version": "1.0.0",
+      "description": "Break Bread connects daily Scripture, private reflection, and prayer with a Christian community.\n\nStart with the passage for your local day. Leave one private line or join that day's Scripture conversation. Share prayer requests anonymously, pray for others, and use report or block controls when needed.\n\nAI-assisted faith counsel helps organize spiritual questions toward prayer with clear safety boundaries. It does not replace pastoral, medical, mental-health, legal, or emergency support.\n\nThe Weekly Prayer Companion pairs you with one person for seven days, without profile browsing, photos, contact exchange, or open-ended chat.\n\nCore Scripture, community, prayer, safety, and crisis features are free. Optional Supporter access funds the service and unlocks extended counsel, the full original music library, and additional active seven-day programs.\n\nTerms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "releaseDate": "2026-11-21T13:36:36Z",
+      "url": "https://apps.apple.com/us/app/bb-break-bread/id6799021632",
+      "icon": "assets/icons/6799021632.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/fb/48/1afb48f5-3c29-b3c5-0104-9a650480a748/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6761908470,
       "slug": "vaultx-offline-password-vault",
