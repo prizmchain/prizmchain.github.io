@@ -1,8 +1,32 @@
 window.PRIZM_APP_CATALOG = {
   "artistId": 1839727056,
-  "generatedAt": "2026-11-22T09:49:55.396Z",
+  "generatedAt": "2026-11-23T10:50:18.000Z",
   "source": "https://itunes.apple.com/lookup?id=1839727056&entity=software&country=us&limit=200",
   "apps": [
+    {
+      "id": 6782553911,
+      "slug": "planmark-room-scanner",
+      "name": "Planmark Room Scanner",
+      "genre": "Productivity",
+      "version": "1.2",
+      "description": "PLEASE CHECK BEFORE PURCHASING\nNew room scanning requires LiDAR. On iPhone Duo and other devices without LiDAR, buying Home or Pro or restoring a purchase will NOT enable new room scanning. Do not purchase to scan new rooms on these devices.\nYou can edit existing rooms or import .planmark files captured on a LiDAR device. Export features depend on your Home or Pro access.\n\nMeasure a room once. Keep a plan you can actually use.\n\nPlanmark turns a LiDAR-equipped iPhone Pro into a guided room-measurement workflow for moving, furniture planning, renovation and field documentation. Capture walls, doors and windows, review the dimensions, and keep both a clean 2D floor plan and the original 3D room scan.\n\nSEE THE RESULT BEFORE YOU BUY\n\nOpen the included sample project to inspect the 2D plan, 3D preview, wall measurements and PDF workflow. On a compatible LiDAR-equipped device, a one-time Home or Pro purchase unlocks new room scanning. Purchasing does not enable scanning on devices without LiDAR.\n\nSCAN AND UNDERSTAND YOUR SPACE\n\n• Guided LiDAR room capture\n• Automatic room outline with walls, doors and windows\n• 2D floor plan with measurements for every captured wall\n• Original 3D room scan you can rotate and inspect\n• Room area, perimeter and door/window count\n• Metric and imperial units\n• Saved projects for later review\n\nHOME: A CLEAN PLAN FOR YOUR OWN SPACE\n\nHome is designed for moving, checking furniture fit and preparing a renovation.\n\n• Room scanning and saved projects\n• Clean personal PDF without a watermark\n• Wall lengths, area and perimeter in one shareable document\n\nPRO: CLIENT-READY FIELD HANDOFF\n\nPro turns a measured room into a structured package for designers, remodelers, contractors and property professionals.\n\n• Client-ready PDF report package\n• Client, site, prepared-by and revision details\n• Measurement review table and door/window schedule\n• Takeoff summary CSV\n• SVG vector export and DXF beta export\n• Multi-room site package for a single handoff\n• Saved estimates with your own unit rates, material waste allowance and extra costs\n• Estimate PDF and CSV exports\n\nPrices are entered by you, not supplied automatically. Home and Pro have the same scanning accuracy; Pro adds professional documents and estimates.\n\nNow available in 12 languages, including Traditional Chinese, Brazilian Portuguese, Italian, Vietnamese and Polish.\n\nSIMPLE WORKFLOW\n\n1. Scan the room slowly with walls, corners and floor boundaries visible.\n2. Review the 2D plan and original 3D scan.\n3. Check important wall measurements.\n4. Save a personal PDF or prepare a client package.\n\nDEVICE REQUIREMENT\n\nNew room scanning requires a LiDAR-equipped iPhone Pro that supports Apple RoomPlan. iPhone Duo and other devices without LiDAR cannot scan new rooms, whether or not you have purchased Home or Pro.\n\nWithout LiDAR, you can explore the sample, open and edit existing rooms transferred through a device-data restore, or import .planmark files. Export features depend on your Home or Pro access. If you have no existing rooms or files to import, purchasing will not let you capture a new room and create its plan on this device.\n\nMeasurements depend on the environment and sensor capture. Verify critical dimensions before construction, fabrication or ordering materials.\n\nTerms of Service: https://prizmchain.github.io/planmark-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/planmark-privacy-policy.html",
+      "releaseDate": "2026-11-23T06:18:01Z",
+      "url": "https://apps.apple.com/us/app/planmark-room-scanner/id6782553911",
+      "icon": "assets/icons/6782553911.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/86/8a/a0/868aa081-0a5c-ad31-fa61-909a209108ae/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
+    {
+      "id": 6761908470,
+      "slug": "vaultx-offline-password-vault",
+      "name": "VaultX Offline Password Vault",
+      "genre": "Productivity",
+      "version": "1.3.0",
+      "description": "VaultX is a private, offline-first credential vault for passwords, payment cards, recovery codes, secure notes, crypto wallet details, identity records, and other sensitive information.\n\nYour vault is encrypted on your device. VaultX does not require an account and does not operate a password-storage server. Optional iCloud sync keeps encrypted vault data available across your Apple devices.\n\nCORE FEATURES\n- AES-256-GCM encrypted local vault\n- Face ID and device authentication\n- Password and passphrase generator\n- iOS AutoFill extension for apps and Safari\n- Search, categories, and favorites\n- Encrypted backup and restore\n- Clipboard auto-clear\n\nPREMIUM — ONE-TIME PURCHASE\n- Unlimited credential records\n- TOTP authenticator codes\n- Decoy vault\n- Breach monitoring\n- Emergency recovery tools\n- Encrypted iCloud sync\n\nNo subscription. Your credentials stay under your control.\n\nPrivacy Policy\nhttps://prizmchain.github.io/vaultx-privacy-policy.html\n\nTerms of Service\nhttps://prizmchain.github.io/vaultx-terms-of-service.html",
+      "releaseDate": "2026-11-22T21:07:40Z",
+      "url": "https://apps.apple.com/us/app/vaultx-offline-password-vault/id6761908470",
+      "icon": "assets/icons/6761908470.jpg",
+      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/80/ef/9d80eff7-b721-4f74-c413-d04be78e1eda/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
+    },
     {
       "id": 6799021632,
       "slug": "bb-break-bread",
@@ -14,18 +38,6 @@ window.PRIZM_APP_CATALOG = {
       "url": "https://apps.apple.com/us/app/bb-break-bread/id6799021632",
       "icon": "assets/icons/6799021632.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/fb/48/1afb48f5-3c29-b3c5-0104-9a650480a748/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6761908470,
-      "slug": "vaultx-offline-password-vault",
-      "name": "VaultX Offline Password Vault",
-      "genre": "Productivity",
-      "version": "1.2.2",
-      "description": "VaultX is a private, offline-first credential vault for passwords, payment cards, recovery codes, secure notes, crypto wallet details, identity records, and other sensitive information.\n\nYour vault is encrypted on your device. VaultX does not require an account and does not operate a password-storage server. Optional iCloud sync keeps encrypted vault data available across your Apple devices.\n\nCORE FEATURES\n- AES-256-GCM encrypted local vault\n- Face ID and device authentication\n- Password and passphrase generator\n- iOS AutoFill extension for apps and Safari\n- Search, categories, and favorites\n- Encrypted backup and restore\n- Clipboard auto-clear\n\nPREMIUM — ONE-TIME PURCHASE\n- Unlimited credential records\n- TOTP authenticator codes\n- Decoy vault\n- Breach monitoring\n- Emergency recovery tools\n- Encrypted iCloud sync\n\nNo subscription. Your credentials stay under your control.\n\nPrivacy Policy\nhttps://prizmchain.github.io/vaultx-privacy-policy.html\n\nTerms of Service\nhttps://prizmchain.github.io/vaultx-terms-of-service.html",
-      "releaseDate": "2026-11-19T19:13:26Z",
-      "url": "https://apps.apple.com/us/app/vaultx-offline-password-vault/id6761908470",
-      "icon": "assets/icons/6761908470.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/53/84/9e/53849e5b-f9c4-7f72-5d00-1862e29912fe/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6757148842,
@@ -74,18 +86,6 @@ window.PRIZM_APP_CATALOG = {
       "url": "https://apps.apple.com/us/app/duo-fight-2-player-games/id6818370754",
       "icon": "assets/icons/6818370754.jpg",
       "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ef/d4/e8/efd4e89e-c3cf-2afa-7d7b-2b10369c3797/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
-    },
-    {
-      "id": 6782553911,
-      "slug": "planmark-room-scanner",
-      "name": "Planmark Room Scanner",
-      "genre": "Productivity",
-      "version": "1.1",
-      "description": "PLEASE CHECK BEFORE PURCHASING\nNew room scanning requires LiDAR. On iPhone Duo and other devices without LiDAR, buying Home or Pro or restoring a purchase will NOT enable new room scanning. Do not purchase to scan new rooms on these devices.\nYou can edit existing rooms or import .planmark files captured on a LiDAR device. Export features depend on your Home or Pro access.\n\nMeasure a room once. Keep a plan you can actually use.\n\nPlanmark turns a LiDAR-equipped iPhone Pro into a guided room-measurement workflow for moving, furniture planning, renovation and field documentation. Capture walls, doors and windows, review the dimensions, and keep both a clean 2D floor plan and the original 3D room scan.\n\nSEE THE RESULT BEFORE YOU BUY\n\nOpen the included sample project to inspect the 2D plan, 3D preview, wall measurements and PDF workflow. On a compatible LiDAR-equipped device, a one-time Home or Pro purchase unlocks new room scanning. Purchasing does not enable scanning on devices without LiDAR.\n\nSCAN AND UNDERSTAND YOUR SPACE\n\n• Guided LiDAR room capture\n• Automatic room outline with walls, doors and windows\n• 2D floor plan with measurements for every captured wall\n• Original 3D room scan you can rotate and inspect\n• Room area, perimeter and door/window count\n• Metric and imperial units\n• Saved projects for later review\n\nHOME: A CLEAN PLAN FOR YOUR OWN SPACE\n\nHome is designed for moving, checking furniture fit and preparing a renovation.\n\n• Room scanning and saved projects\n• Clean personal PDF without a watermark\n• Wall lengths, area and perimeter in one shareable document\n\nPRO: CLIENT-READY FIELD HANDOFF\n\nPro turns a measured room into a structured package for designers, remodelers, contractors and property professionals.\n\n• Client-ready PDF report package\n• Client, site, prepared-by and revision details\n• Measurement review table and door/window schedule\n• Takeoff summary CSV\n• SVG vector export and DXF beta export\n• Multi-room site package for a single handoff\n\nSIMPLE WORKFLOW\n\n1. Scan the room slowly with walls, corners and floor boundaries visible.\n2. Review the 2D plan and original 3D scan.\n3. Check important wall measurements.\n4. Save a personal PDF or prepare a client package.\n\nDEVICE REQUIREMENT\n\nNew room scanning requires a LiDAR-equipped iPhone Pro that supports Apple RoomPlan. iPhone Duo and other devices without LiDAR cannot scan new rooms, whether or not you have purchased Home or Pro.\n\nWithout LiDAR, you can explore the sample, open and edit existing rooms transferred through a device-data restore, or import .planmark files. Export features depend on your Home or Pro access. If you have no existing rooms or files to import, purchasing will not let you capture a new room and create its plan on this device.\n\nMeasurements depend on the environment and sensor capture. Verify critical dimensions before construction, fabrication or ordering materials.\n\nTerms of Service: https://prizmchain.github.io/planmark-terms-of-service.html\nPrivacy Policy: https://prizmchain.github.io/planmark-privacy-policy.html",
-      "releaseDate": "2026-10-30T22:26:49Z",
-      "url": "https://apps.apple.com/us/app/planmark-room-scanner/id6782553911",
-      "icon": "assets/icons/6782553911.jpg",
-      "iconSource": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ed/0f/e1/ed0fe11a-dec5-4cec-bfd0-6d70b921830b/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg"
     },
     {
       "id": 6761184037,
