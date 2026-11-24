@@ -1,0 +1,188 @@
+{
+  "app": "LavaGoal",
+  "version": "1.0",
+  "build": "7",
+  "appId": "6831425540",
+  "bundleId": "com.prizm.lavagoal",
+  "sourceFingerprint": "8bbf613f394c3d19f6ec838ba04809ca9d90273b6711e304d685d80bfea4fbcb",
+  "recording": {
+    "device": "iPhone 17",
+    "os": "27.2.1",
+    "distribution": "TestFlight",
+    "singleDevice": true,
+    "durationSeconds": 90,
+    "normalSpeed": true,
+    "edits": [
+      "trimmed excerpts",
+      "orientation correction",
+      "captions outside the game image"
+    ],
+    "audio": "Source has no audio track.",
+    "twoDeviceVideoIncluded": false
+  },
+  "verification": {
+    "physicalFunctionScenariosPassed": 11,
+    "unitTestsPassed": 38,
+    "recordingScenarioPassed": 1,
+    "appStoreProcessing": "VALID"
+  },
+  "catalogIdentity": {
+    "exactBundleEntries": 1,
+    "relatedNameEntries": 1,
+    "scope": "App catalog metadata identity/name inspection."
+  },
+  "product": {
+    "interfaceLanguages": 19,
+    "storeLocalizations": 18,
+    "excludedTerritories": [
+      "CHN",
+      "VNM"
+    ],
+    "loginRequired": false,
+    "iap": false,
+    "subscriptions": false,
+    "advertising": false,
+    "backendRequired": false
+  },
+  "shippingAssets": {
+    "externalVehicleModels": 0,
+    "dracoDecoders": 0,
+    "artwork": "Generated for this project; procedural project vehicles used as the icon reference."
+  },
+  "implementationFileHashes": {
+    "src/soccer/vehicles.js": "3764be94fb6b8473df38599cb9ffa09579e623eb0849506183ad5b0661a732a7",
+    "src/soccer/physics.js": "398d626494cca1185d5f6a65b0754510f012c32aa1111965003dcee27ace116f",
+    "src/soccer/court-experience.js": "42f35c2a3a59d7916cd0b945da2e14c819a8002ca96d246352ab8eaa3bb1a2b5",
+    "src/soccer/setup-ui.js": "58a263eccdd1d0290cc211539d997c65165eec51890d8179cc9bb39f066b91aa",
+    "src/soccer/career.js": "97e463877299282b874a9bcc8af4217cbfa4be9ec6e391c189da9aff4c6f92bf",
+    "src/soccer/multiplayer.js": "2b308086e5ef40eee0e4416f955805f12ca17fa6ca53f9c32a5bdfe04fd5be95"
+  },
+  "dependencies": [
+    {
+      "name": "Three.js",
+      "version": "0.180.0",
+      "license": "MIT"
+    },
+    {
+      "name": "Capacitor",
+      "version": "7.6.10",
+      "license": "MIT"
+    },
+    {
+      "name": "Barlow / Barlow Condensed",
+      "license": "SIL OFL 1.1"
+    }
+  ],
+  "chapters": [
+    {
+      "name": "intro",
+      "start": 0,
+      "end": 4,
+      "title": "LavaGoal",
+      "subtitle": "Choose a panel. Preview its path. Play your court."
+    },
+    {
+      "name": "garage",
+      "start": 4,
+      "end": 12,
+      "title": "Start with your court.",
+      "subtitle": "My court > Free play opens an untimed setup."
+    },
+    {
+      "name": "high",
+      "start": 12,
+      "end": 20,
+      "title": "Same position. High bounce.",
+      "subtitle": "Repeatable physical trial with Middle selected."
+    },
+    {
+      "name": "low",
+      "start": 20,
+      "end": 27,
+      "title": "Change only the angle.",
+      "subtitle": "Middle remains selected. Compare Low bounce."
+    },
+    {
+      "name": "defend",
+      "start": 27,
+      "end": 31.4,
+      "title": "Move the panel to Defend.",
+      "subtitle": "Position changes the court you will play on."
+    },
+    {
+      "name": "attack",
+      "start": 31.4,
+      "end": 37.4,
+      "title": "Move the panel to Attack.",
+      "subtitle": "Three positions and two angles are available."
+    },
+    {
+      "name": "practice",
+      "start": 37.4,
+      "end": 49.4,
+      "title": "Drive, double-jump, boost.",
+      "subtitle": "Actual input in untimed practice on the selected court."
+    },
+    {
+      "name": "challenge",
+      "start": 49.4,
+      "end": 60.4,
+      "title": "Apply it in High hoop.",
+      "subtitle": "A playable challenge, followed by its actual completion."
+    },
+    {
+      "name": "career",
+      "start": 60.4,
+      "end": 66.2,
+      "title": "Nine rivals across three cups.",
+      "subtitle": "Win matches to unlock the next rival."
+    },
+    {
+      "name": "rewards",
+      "start": 66.2,
+      "end": 71.2,
+      "title": "Earn colours and patterns.",
+      "subtitle": "Gameplay requirements are shown. No extra purchase."
+    },
+    {
+      "name": "match",
+      "start": 71.2,
+      "end": 77.2,
+      "title": "Play a match on your court.",
+      "subtitle": "Normal gameplay from the installed release build."
+    },
+    {
+      "name": "replay",
+      "start": 77.2,
+      "end": 83.2,
+      "title": "See the scoring play again.",
+      "subtitle": "Actual goal replay from this court."
+    },
+    {
+      "name": "outro",
+      "start": 83.2,
+      "end": 90.0,
+      "title": "Try the mechanic yourself.",
+      "subtitle": "English > My court > Free play. No account required."
+    }
+  ],
+  "reviewSubmissionSent": false,
+  "files": {
+    "lavagoal-review-guide.pdf": {
+      "bytes": 632559,
+      "sha256": "38a5fcb5935deda43db738fc6b0b9655c41627c9eac0e7404c27a5b477259e2f"
+    },
+    "lavagoal-review-demo.mp4": {
+      "bytes": 6368990,
+      "sha256": "58efc160481e883265c67f65593e9d2d076a9b5afbf8e4c82053c29c8d70e214"
+    },
+    "captions.vtt": {
+      "bytes": 1389,
+      "sha256": "576a4a5cd8a61cf76736e7b855e5332b01bbf2e3ef04a8e2afb83ed39c63e664"
+    },
+    "chapters.json": {
+      "bytes": 2241,
+      "sha256": "ce9ad4652549ed58dd7a3c74f2a2c951953bc7f765156ceffd7ecad391e6abcb"
+    }
+  }
+}

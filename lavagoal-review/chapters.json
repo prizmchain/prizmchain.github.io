@@ -1,0 +1,93 @@
+[
+  {
+    "name": "intro",
+    "start": 0,
+    "end": 4,
+    "title": "LavaGoal",
+    "subtitle": "Choose a panel. Preview its path. Play your court."
+  },
+  {
+    "name": "garage",
+    "start": 4,
+    "end": 12,
+    "title": "Start with your court.",
+    "subtitle": "My court > Free play opens an untimed setup."
+  },
+  {
+    "name": "high",
+    "start": 12,
+    "end": 20,
+    "title": "Same position. High bounce.",
+    "subtitle": "Repeatable physical trial with Middle selected."
+  },
+  {
+    "name": "low",
+    "start": 20,
+    "end": 27,
+    "title": "Change only the angle.",
+    "subtitle": "Middle remains selected. Compare Low bounce."
+  },
+  {
+    "name": "defend",
+    "start": 27,
+    "end": 31.4,
+    "title": "Move the panel to Defend.",
+    "subtitle": "Position changes the court you will play on."
+  },
+  {
+    "name": "attack",
+    "start": 31.4,
+    "end": 37.4,
+    "title": "Move the panel to Attack.",
+    "subtitle": "Three positions and two angles are available."
+  },
+  {
+    "name": "practice",
+    "start": 37.4,
+    "end": 49.4,
+    "title": "Drive, double-jump, boost.",
+    "subtitle": "Actual input in untimed practice on the selected court."
+  },
+  {
+    "name": "challenge",
+    "start": 49.4,
+    "end": 60.4,
+    "title": "Apply it in High hoop.",
+    "subtitle": "A playable challenge, followed by its actual completion."
+  },
+  {
+    "name": "career",
+    "start": 60.4,
+    "end": 66.2,
+    "title": "Nine rivals across three cups.",
+    "subtitle": "Win matches to unlock the next rival."
+  },
+  {
+    "name": "rewards",
+    "start": 66.2,
+    "end": 71.2,
+    "title": "Earn colours and patterns.",
+    "subtitle": "Gameplay requirements are shown. No extra purchase."
+  },
+  {
+    "name": "match",
+    "start": 71.2,
+    "end": 77.2,
+    "title": "Play a match on your court.",
+    "subtitle": "Normal gameplay from the installed release build."
+  },
+  {
+    "name": "replay",
+    "start": 77.2,
+    "end": 83.2,
+    "title": "See the scoring play again.",
+    "subtitle": "Actual goal replay from this court."
+  },
+  {
+    "name": "outro",
+    "start": 83.2,
+    "end": 90.0,
+    "title": "Try the mechanic yourself.",
+    "subtitle": "English > My court > Free play. No account required."
+  }
+]
