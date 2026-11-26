@@ -19,7 +19,7 @@ for kind,slug in [('privacy','privacy-policy'),('terms','terms-of-service')]:
   import re
   paragraphs=re.sub(r'https://[^\s<>]+',lambda m:f'<a href="{m[0]}">{m[0]}</a>',paragraphs)
   paragraphs=paragraphs.replace('prizm_kr@hotmail.com','<a href="mailto:prizm_kr@hotmail.com">prizm_kr@hotmail.com</a>')
-  sections.append(f'<section id="{locale}" lang="{locale}"><h2>{html.escape(v[kind+"Title"])} — {html.escape(v["label"])}</h2><p class="updated">{html.escape(v["updated"])}</p>{paragraphs}<p><a href="echotake-{otherSlug}.html#{locale}">{html.escape(v[other+"Title"])}</a> · <a href="#top">↑ EchoTake</a></p></section>')
+  sections.append(f'<section id="{locale}" lang="{locale}"><h2>{html.escape(v[kind+"Title"])} — {html.escape(v["label"])}</h2><p class="updated">{html.escape(v.get(kind+"Updated",v["updated"]))}</p>{paragraphs}<p><a href="echotake-{otherSlug}.html#{locale}">{html.escape(v[other+"Title"])}</a> · <a href="#top">↑ EchoTake</a></p></section>')
  output=f'<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>EchoTake — {title}</title><meta name="description" content="{title} for EchoTake by Prizm. Available in ten languages."><style>{css}</style></head><body><main id="top"><header><p>PRIZM · EchoTake</p><h1>{title}</h1><nav aria-label="Language">{nav}</nav></header>'+''.join(sections)+'<footer>EchoTake © 2026 Prizm · <a href="mailto:prizm_kr@hotmail.com">prizm_kr@hotmail.com</a></footer></main></body></html>\n'
  # CJK punctuation is not part of a URL; move it outside the generated anchors.
  output=re.sub(r'(<a href="[^\"]*?)([。；，]+)(">[^<]*?)(?:[。；，]+)(</a>)',r'\1\3\4\2',output)

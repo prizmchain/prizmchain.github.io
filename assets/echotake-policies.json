@@ -11,7 +11,7 @@
       ],
       [
         "Practice data stays local",
-        "Imported audio and video, microphone recordings, lesson names, saved phrases, playback settings, waveforms and preferences are processed and stored on your device. EchoTake has no account system or developer-operated media server. We do not automatically upload your practice content, sell personal data, display ads or include third-party analytics, advertising or crash-reporting SDKs. Apple may separately provide diagnostics according to your device sharing settings."
+        "Imported audio and video, microphone recordings, lesson names, saved phrases, playback settings, waveforms and preferences are processed and stored on your device. EchoTake has no account system or developer-operated media server. We do not automatically upload your practice content, sell personal data, display ads or include advertising, standalone app-usage analytics or third-party crash-reporting SDKs. Apple may separately provide diagnostics according to your device sharing settings. Purchase-related processing by RevenueCat is described in section 4."
       ],
       [
         "Microphone and file access",
@@ -19,7 +19,7 @@
       ],
       [
         "Purchases and network exceptions",
-        "Apple processes purchases and restoration through StoreKit. The app verifies transaction information and stores a purchase-status cache on the device; it does not receive payment-card details. EchoTake does not use RevenueCat. Apple, chosen cloud-file providers and destinations you select for exports process information under their own policies. Apple privacy information: https://www.apple.com/legal/privacy/ ."
+        "Apple processes payments through StoreKit. EchoTake uses RevenueCat to validate purchases, restore access and manage the optional Lifetime entitlement. Purchase history, transaction or receipt information, an anonymous app user ID and basic technical context such as app version, platform and locale may be sent to RevenueCat for app functionality, fraud prevention and purchase reporting. EchoTake does not send lesson files, microphone recordings, names, email addresses or payment-card details to RevenueCat. Automatic device-identifier collection and SDK diagnostics are disabled in the app configuration. Purchase services require network access; selected cloud-file providers and export destinations also process information under their own policies. RevenueCat handles purchase-related data under its privacy policy, separately from the local media library. Apple privacy: https://www.apple.com/legal/privacy/ . RevenueCat privacy: https://www.revenuecat.com/privacy ."
       ],
       [
         "Retention, deletion and backup",
@@ -75,7 +75,8 @@
         "Changes, ending use and contact",
         "You may stop using or uninstall the app at any time. We may update these terms here, change the displayed date and provide additional notice or consent where required by law. Changes do not remove accrued statutory rights. Privacy practices are explained in the linked Privacy Policy. For support or questions, email prizm_kr@hotmail.com."
       ]
-    ]
+    ],
+    "privacyUpdated": "Last updated: November 26, 2026"
   },
   "ko": {
     "label": "한국어",
@@ -89,7 +90,7 @@
       ],
       [
         "연습 자료의 로컬 처리",
-        "가져온 오디오·영상, 마이크 녹음, 레슨 이름, 저장 구간, 재생 설정, 파형 및 환경설정은 기기에서 처리·보관됩니다. EchoTake에는 회원가입이나 개발자 운영 미디어 서버가 없습니다. 연습 자료를 자동 업로드하거나 개인정보를 판매하지 않으며, 광고 및 외부 분석·광고·오류 보고 SDK를 사용하지 않습니다. Apple은 별도로 기기의 진단 공유 설정에 따라 진단 정보를 제공할 수 있습니다."
+        "가져온 오디오·영상, 마이크 녹음, 레슨 이름, 저장 구간, 재생 설정, 파형 및 환경설정은 기기에서 처리·보관됩니다. EchoTake에는 회원가입이나 개발자 운영 미디어 서버가 없습니다. 연습 자료를 자동 업로드하거나 개인정보를 판매하지 않으며, 광고 및 광고 SDK, 별도 앱 이용 분석 SDK 또는 외부 오류 보고 SDK를 사용하지 않습니다. Apple은 별도로 기기의 진단 공유 설정에 따라 진단 정보를 제공할 수 있습니다. RevenueCat의 구매 관련 정보 처리는 제4항에 설명합니다."
       ],
       [
         "마이크와 파일 접근",
@@ -97,7 +98,7 @@
       ],
       [
         "구매와 네트워크 이용",
-        "Apple이 StoreKit을 통해 구매와 복원을 처리합니다. 앱은 거래 정보를 검증하고 구매 상태를 기기에 캐시하며, 결제 카드 정보를 받지 않습니다. RevenueCat은 사용하지 않습니다. Apple, 사용자가 선택한 클라우드 파일 제공자, 내보내기 대상은 각자의 정책에 따라 정보를 처리합니다. Apple 개인정보 안내: https://www.apple.com/legal/privacy/ ."
+        "결제는 Apple이 StoreKit을 통해 처리합니다. EchoTake는 구매 검증, 구매 복원 및 선택 사항인 Lifetime 이용 권한 관리에 RevenueCat을 사용합니다. 앱 기능 제공, 부정 구매 방지 및 구매 현황 집계를 위해 구매 내역, 거래·영수증 정보, 익명 앱 사용자 ID, 앱 버전·플랫폼·로캘 등의 기본 기술 정보가 RevenueCat에 전송될 수 있습니다. EchoTake는 레슨 파일, 마이크 녹음, 이름, 이메일 주소 또는 결제 카드 정보를 RevenueCat에 보내지 않습니다. 앱 설정에서 자동 기기 식별자 수집과 SDK 진단은 비활성화되어 있습니다. 구매 서비스에는 네트워크 연결이 필요하며, 선택한 클라우드 파일 제공자와 내보내기 대상도 각자의 정책에 따라 정보를 처리합니다. RevenueCat은 로컬 미디어 보관함과 별도로 자사 개인정보처리방침에 따라 구매 관련 데이터를 처리합니다. Apple 개인정보 안내: https://www.apple.com/legal/privacy/ . RevenueCat 개인정보처리방침: https://www.revenuecat.com/privacy ."
       ],
       [
         "보관·삭제·백업",
@@ -153,7 +154,8 @@
         "변경·이용 종료·문의",
         "언제든 이용을 중단하거나 앱을 삭제할 수 있습니다. 약관 변경은 이 페이지와 수정일에 반영하고 법령상 필요한 고지·동의를 제공합니다. 변경으로 이미 발생한 법적 권리를 제거하지 않습니다. 개인정보 처리는 연결된 개인정보처리방침을 확인하세요. 지원 및 문의: prizm_kr@hotmail.com."
       ]
-    ]
+    ],
+    "privacyUpdated": "최종 수정: 2026년 11월 26일"
   },
   "ja": {
     "label": "日本語",
@@ -167,7 +169,7 @@
       ],
       [
         "練習データは端末内で処理",
-        "読み込んだ音声・動画、マイク録音、レッスン名、区間、再生設定、波形、環境設定は端末内で処理・保存します。アカウントや開発者運営のメディアサーバーはありません。練習内容の自動送信、個人データの販売、広告表示、外部の分析・広告・クラッシュ報告SDKの利用は行いません。Appleは端末の診断共有設定に従い、別途診断情報を提供する場合があります。"
+        "読み込んだ音声・動画、マイク録音、レッスン名、区間、再生設定、波形、環境設定は端末内で処理・保存します。アカウントや開発者運営のメディアサーバーはありません。練習内容の自動送信、個人データの販売、広告表示、広告SDK、独立したアプリ利用分析SDK、外部のクラッシュ報告SDKの利用は行いません。Appleは端末の診断共有設定に従い、別途診断情報を提供する場合があります。 RevenueCatによる購入関連情報の処理は第4項に記載しています。"
       ],
       [
         "マイクとファイル",
@@ -175,7 +177,7 @@
       ],
       [
         "購入と通信",
-        "購入・復元はAppleのStoreKitで処理します。アプリは取引情報を検証し、購入状態を端末内に保存します。カード情報は受け取りません。RevenueCatは利用しません。Apple、選択したクラウド提供元、書き出し先には各社の方針が適用されます。Apple： https://www.apple.com/legal/privacy/ 。"
+        "支払いはAppleがStoreKitを通じて処理します。EchoTakeは、購入の検証、購入の復元、任意のLifetime利用権の管理にRevenueCatを使用します。アプリ機能の提供、不正購入の防止、購入状況の集計のため、購入履歴、取引・レシート情報、匿名のアプリユーザーID、アプリのバージョン・プラットフォーム・ロケールなどの基本的な技術情報がRevenueCatに送信される場合があります。EchoTakeは教材ファイル、マイク録音、氏名、メールアドレス、決済カード情報をRevenueCatに送信しません。アプリ設定では、端末識別子の自動収集とSDK診断を無効にしています。購入サービスには通信が必要です。選択したクラウドファイル提供者や書き出し先も、それぞれのポリシーに従って情報を処理します。RevenueCatは端末内のメディアライブラリとは別に、自社のプライバシーポリシーに基づいて購入関連データを処理します。Apple: https://www.apple.com/legal/privacy/ 。RevenueCat: https://www.revenuecat.com/privacy 。"
       ],
       [
         "保存・削除・バックアップ",
@@ -231,7 +233,8 @@
         "変更・終了・連絡",
         "いつでも利用を中止・削除できます。変更は本ページと更新日に反映し、必要な通知・同意を行います。既に生じた法定の権利は失われません。情報の取扱いはリンク先のプライバシーポリシーをご覧ください。お問い合わせ：prizm_kr@hotmail.com。"
       ]
-    ]
+    ],
+    "privacyUpdated": "最終更新：2026年11月26日"
   },
   "zh-Hans": {
     "label": "简体中文",
@@ -245,7 +248,7 @@
       ],
       [
         "练习资料在设备上处理",
-        "导入的音频和视频、麦克风录音、课程名称、片段、播放设置、波形和偏好设置均在设备上处理并保存。无需账户，也没有开发者运营的媒体服务器。我们不会自动上传练习内容、出售个人数据、展示广告或使用第三方分析、广告及崩溃报告 SDK。Apple 可能根据设备的诊断共享设置另行提供诊断信息。"
+        "导入的音频和视频、麦克风录音、课程名称、片段、播放设置、波形和偏好设置均在设备上处理并保存。无需账户，也没有开发者运营的媒体服务器。我们不会自动上传练习内容、出售个人数据、展示广告或使用广告 SDK、独立的应用使用分析 SDK 或第三方崩溃报告 SDK。Apple 可能根据设备的诊断共享设置另行提供诊断信息。 RevenueCat对购买相关信息的处理见第4节。"
       ],
       [
         "麦克风与文件",
@@ -253,7 +256,7 @@
       ],
       [
         "购买与网络例外",
-        "Apple 通过 StoreKit 处理购买和恢复购买。应用验证交易信息，并在设备上缓存购买状态，不接收银行卡信息。不使用 RevenueCat。Apple、选定的云文件提供者及导出目的地按各自政策处理信息。Apple 隐私说明： https://www.apple.com/legal/privacy/ 。"
+        "付款由Apple通过StoreKit处理。EchoTake使用RevenueCat验证购买、恢复购买权限，并管理可选的Lifetime使用权限。为提供应用功能、防止欺诈和汇总购买情况，购买记录、交易或收据信息、匿名应用用户ID，以及应用版本、平台、区域设置等基本技术信息可能会发送至RevenueCat。EchoTake不会向RevenueCat发送课程文件、麦克风录音、姓名、电子邮件地址或支付卡信息。应用配置已关闭自动设备标识符收集和SDK诊断。购买服务需要网络连接；您选择的云端文件提供商和导出目标也会根据各自的政策处理信息。RevenueCat依据其隐私政策处理购买相关数据，这与设备上的本地媒体资料库分开。Apple隐私信息：https://www.apple.com/legal/privacy/ 。RevenueCat隐私政策：https://www.revenuecat.com/privacy 。"
       ],
       [
         "保留、删除和备份",
@@ -309,7 +312,8 @@
         "变更、终止和联系",
         "可随时停止使用或卸载。条款变更将公布于本页并更新日期，依法通知或取得同意，不剥夺已产生的法定权利。信息处理见所链接的隐私政策。支持与问题：prizm_kr@hotmail.com。"
       ]
-    ]
+    ],
+    "privacyUpdated": "最后更新：2026年11月26日"
   },
   "zh-Hant": {
     "label": "繁體中文",
@@ -323,7 +327,7 @@
       ],
       [
         "練習資料在裝置上處理",
-        "匯入的音訊與影片、麥克風錄音、課程名稱、段落、播放設定、波形及偏好設定皆在裝置上處理與儲存。無需帳號，也沒有開發者營運的媒體伺服器。我們不會自動上傳練習內容、出售個人資料、顯示廣告或使用第三方分析、廣告及當機回報 SDK。Apple 可能依照裝置的診斷分享設定另行提供診斷資訊。"
+        "匯入的音訊與影片、麥克風錄音、課程名稱、段落、播放設定、波形及偏好設定皆在裝置上處理與儲存。無需帳號，也沒有開發者營運的媒體伺服器。我們不會自動上傳練習內容、出售個人資料、顯示廣告或使用廣告 SDK、獨立的 App 使用分析 SDK 或第三方當機回報 SDK。Apple 可能依照裝置的診斷分享設定另行提供診斷資訊。 RevenueCat對購買相關資訊的處理請見第4節。"
       ],
       [
         "麥克風與檔案",
@@ -331,7 +335,7 @@
       ],
       [
         "購買與網路例外",
-        "Apple 透過 StoreKit 處理購買及回復購買。App 驗證交易資訊，並在裝置上快取購買狀態，不接收付款卡片資訊。不使用 RevenueCat。Apple、選定的雲端檔案提供者及匯出目的地依各自政策處理資訊。Apple 隱私說明： https://www.apple.com/legal/privacy/ 。"
+        "付款由Apple透過StoreKit處理。EchoTake使用RevenueCat驗證購買、回復購買權限，並管理選購的Lifetime使用權限。為提供App功能、防止詐欺及彙整購買情況，購買紀錄、交易或收據資訊、匿名App使用者ID，以及App版本、平台、地區設定等基本技術資訊可能會傳送至RevenueCat。EchoTake不會向RevenueCat傳送課程檔案、麥克風錄音、姓名、電子郵件地址或付款卡片資訊。App設定已關閉自動裝置識別碼收集和SDK診斷。購買服務需要網路連線；您選擇的雲端檔案供應商及匯出目的地也會依各自的政策處理資訊。RevenueCat依其隱私權政策處理購買相關資料，這與裝置上的本機媒體資料庫分開。Apple隱私權資訊：https://www.apple.com/legal/privacy/ 。RevenueCat隱私權政策：https://www.revenuecat.com/privacy 。"
       ],
       [
         "保留、刪除與備份",
@@ -387,7 +391,8 @@
         "變更、終止與聯絡",
         "可隨時停止使用或移除 App。條款變更會公布於本頁並更新日期，依法通知或取得同意，不剝奪已產生的法定權利。資訊處理請見連結的隱私權政策。支援與問題：prizm_kr@hotmail.com。"
       ]
-    ]
+    ],
+    "privacyUpdated": "最後更新：2026年11月26日"
   },
   "de": {
     "label": "Deutsch",
@@ -401,7 +406,7 @@
       ],
       [
         "Übungsdaten bleiben lokal",
-        "Importierte Audio- und Videodateien, Mikrofonaufnahmen, Lektionsnamen, Abschnitte, Wiedergabeeinstellungen, Wellenformen und Präferenzen werden auf deinem Gerät verarbeitet und gespeichert. Es gibt kein Konto und keinen vom Entwickler betriebenen Medienserver. Wir laden Übungsinhalte nicht automatisch hoch, verkaufen keine personenbezogenen Daten und verwenden weder Werbung noch externe Analyse-, Werbe- oder Absturzbericht-SDKs. Apple kann gemäß deinen Diagnosefreigaben gesondert Diagnosedaten bereitstellen."
+        "Importierte Audio- und Videodateien, Mikrofonaufnahmen, Lektionsnamen, Abschnitte, Wiedergabeeinstellungen, Wellenformen und Präferenzen werden auf deinem Gerät verarbeitet und gespeichert. Es gibt kein Konto und keinen vom Entwickler betriebenen Medienserver. Wir laden Übungsinhalte nicht automatisch hoch, verkaufen keine personenbezogenen Daten und verwenden weder Werbung noch Werbe-SDKs, eigenständige SDKs zur App-Nutzungsanalyse oder externe Absturzbericht-SDKs. Apple kann gemäß deinen Diagnosefreigaben gesondert Diagnosedaten bereitstellen. Die kaufbezogene Verarbeitung durch RevenueCat ist in Abschnitt 4 beschrieben."
       ],
       [
         "Mikrofon und Dateien",
@@ -409,7 +414,7 @@
       ],
       [
         "Käufe und Netzwerk",
-        "Apple wickelt Käufe und Wiederherstellung über StoreKit ab. Die App prüft Transaktionsinformationen und speichert den Kaufstatus lokal; sie erhält keine Kartendaten. RevenueCat wird nicht verwendet. Für Apple, gewählte Cloud-Anbieter und Exportziele gelten deren Richtlinien. Apple: https://www.apple.com/legal/privacy/ ."
+        "Apple verarbeitet Zahlungen über StoreKit. EchoTake nutzt RevenueCat zur Kaufprüfung, Wiederherstellung und Verwaltung der optionalen Lifetime-Berechtigung. Für App-Funktionen, Betrugsprävention und Kaufberichte können Kaufverlauf, Transaktions- oder Beleginformationen, eine anonyme App-Nutzer-ID sowie grundlegende technische Angaben wie App-Version, Plattform und Gebietsschema an RevenueCat übermittelt werden. EchoTake sendet keine Lektionsdateien, Mikrofonaufnahmen, Namen, E-Mail-Adressen oder Zahlungskartendaten an RevenueCat. Die automatische Erfassung von Gerätekennungen und SDK-Diagnosedaten ist in der App-Konfiguration deaktiviert. Kaufdienste benötigen eine Netzwerkverbindung. Gewählte Cloud-Dateianbieter und Exportziele verarbeiten Informationen ebenfalls nach ihren eigenen Richtlinien. RevenueCat verarbeitet kaufbezogene Daten nach seiner Datenschutzerklärung, getrennt von der lokalen Medienbibliothek. Apple: https://www.apple.com/legal/privacy/ . RevenueCat: https://www.revenuecat.com/privacy ."
       ],
       [
         "Speicherung, Löschung und Backup",
@@ -465,7 +470,8 @@
         "Änderungen, Ende und Kontakt",
         "Du kannst die Nutzung jederzeit beenden oder die App deinstallieren. Änderungen erscheinen hier mit aktualisiertem Datum und gegebenenfalls gesetzlich erforderlicher Mitteilung oder Zustimmung. Bereits entstandene gesetzliche Rechte entfallen nicht. Zur Datenverarbeitung siehe die verlinkte Datenschutzerklärung. Support: prizm_kr@hotmail.com."
       ]
-    ]
+    ],
+    "privacyUpdated": "Stand: 26. November 2026"
   },
   "fr": {
     "label": "Français",
@@ -479,7 +485,7 @@
       ],
       [
         "Les données de pratique restent locales",
-        "Audio et vidéos importés, prises au microphone, noms des cours, passages, réglages, formes d’onde et préférences sont traités et conservés sur votre appareil. Il n’y a ni compte ni serveur de médias exploité par le développeur. Nous ne téléversons pas automatiquement vos contenus, ne vendons pas de données personnelles et n’intégrons ni publicité ni SDK tiers d’analyse, de publicité ou de rapports de plantage. Apple peut fournir séparément des diagnostics selon vos réglages de partage."
+        "Audio et vidéos importés, prises au microphone, noms des cours, passages, réglages, formes d’onde et préférences sont traités et conservés sur votre appareil. Il n’y a ni compte ni serveur de médias exploité par le développeur. Nous ne téléversons pas automatiquement vos contenus, ne vendons pas de données personnelles et n’intégrons ni publicité ni SDK publicitaires, SDK autonomes d’analyse de l’utilisation de l’app ou SDK tiers de rapports de plantage. Apple peut fournir séparément des diagnostics selon vos réglages de partage. Le traitement des données d’achat par RevenueCat est décrit à la section 4."
       ],
       [
         "Microphone et fichiers",
@@ -487,7 +493,7 @@
       ],
       [
         "Achats et exceptions réseau",
-        "Apple traite achats et restauration via StoreKit. L’app vérifie les transactions et conserve un cache local du statut d’achat, sans recevoir vos données de carte. RevenueCat n’est pas utilisé. Apple, les fournisseurs cloud et les destinations d’export choisis appliquent leurs propres politiques. Apple : https://www.apple.com/legal/privacy/ ."
+        "Apple traite les paiements via StoreKit. EchoTake utilise RevenueCat pour vérifier les achats, restaurer l’accès et gérer le déverrouillage Lifetime facultatif. L’historique des achats, les informations de transaction ou de reçu, un identifiant utilisateur anonyme de l’app et des informations techniques de base comme la version, la plateforme et les paramètres régionaux peuvent être transmis à RevenueCat pour les fonctionnalités de l’app, la prévention de la fraude et les rapports d’achat. EchoTake ne transmet à RevenueCat ni fichiers de cours, ni enregistrements du microphone, ni noms, adresses e-mail ou données de carte bancaire. La collecte automatique d’identifiants d’appareil et les diagnostics du SDK sont désactivés dans la configuration de l’app. Les services d’achat nécessitent un accès réseau ; les fournisseurs de fichiers cloud et les destinations d’exportation choisis traitent aussi les informations selon leurs propres politiques. RevenueCat traite les données d’achat conformément à sa politique de confidentialité, séparément de la bibliothèque locale. Apple : https://www.apple.com/legal/privacy/ . RevenueCat : https://www.revenuecat.com/privacy ."
       ],
       [
         "Conservation, suppression et sauvegarde",
@@ -543,7 +549,8 @@
         "Modifications, arrêt et contact",
         "Vous pouvez cesser l’utilisation ou désinstaller à tout moment. Les changements paraîtront ici avec une nouvelle date et les avis ou consentements légalement requis. Les droits légaux déjà acquis restent préservés. Pour les données, consultez la politique liée. Assistance : prizm_kr@hotmail.com."
       ]
-    ]
+    ],
+    "privacyUpdated": "Mise à jour : 26 novembre 2026"
   },
   "es": {
     "label": "Español",
@@ -557,7 +564,7 @@
       ],
       [
         "La práctica permanece en el dispositivo",
-        "Audio y vídeo importados, grabaciones, nombres de clases, fragmentos, ajustes de reproducción, formas de onda y preferencias se procesan y guardan en tu dispositivo. No hay cuentas ni servidor de medios del desarrollador. No subimos automáticamente tus contenidos, vendemos datos personales ni incluimos anuncios o SDK externos de analítica, publicidad o informes de fallos. Apple puede proporcionar diagnósticos por separado según tus ajustes de uso compartido."
+        "Audio y vídeo importados, grabaciones, nombres de clases, fragmentos, ajustes de reproducción, formas de onda y preferencias se procesan y guardan en tu dispositivo. No hay cuentas ni servidor de medios del desarrollador. No subimos automáticamente tus contenidos, vendemos datos personales ni incluimos anuncios o SDK de publicidad, SDK independientes de análisis del uso de la app o SDK externos de informes de fallos. Apple puede proporcionar diagnósticos por separado según tus ajustes de uso compartido. El tratamiento de datos de compra por RevenueCat se describe en la sección 4."
       ],
       [
         "Micrófono y archivos",
@@ -565,7 +572,7 @@
       ],
       [
         "Compras y red",
-        "Apple procesa compras y restauración con StoreKit. La app verifica transacciones y guarda el estado de compra localmente, sin recibir datos de tarjeta. No usamos RevenueCat. Apple, proveedores de nube y destinos de exportación elegidos aplican sus políticas. Apple: https://www.apple.com/legal/privacy/ ."
+        "Apple procesa los pagos mediante StoreKit. EchoTake utiliza RevenueCat para validar compras, restaurar el acceso y gestionar el desbloqueo Lifetime opcional. El historial de compras, la información de transacciones o recibos, un ID de usuario anónimo de la app y datos técnicos básicos como la versión, la plataforma y la configuración regional pueden enviarse a RevenueCat para las funciones de la app, la prevención del fraude y los informes de compras. EchoTake no envía a RevenueCat archivos de lecciones, grabaciones del micrófono, nombres, direcciones de correo ni datos de tarjetas de pago. La recopilación automática de identificadores del dispositivo y los diagnósticos del SDK están desactivados en la configuración de la app. Los servicios de compra requieren conexión a la red; los proveedores de archivos en la nube y destinos de exportación seleccionados también procesan información según sus propias políticas. RevenueCat trata los datos de compra conforme a su política de privacidad, separados de la biblioteca local. Apple: https://www.apple.com/legal/privacy/ . RevenueCat: https://www.revenuecat.com/privacy ."
       ],
       [
         "Conservación, eliminación y copias",
@@ -621,7 +628,8 @@
         "Cambios, cese y contacto",
         "Puedes dejar de usar o desinstalar cuando quieras. Publicaremos cambios y fecha, con los avisos o consentimientos legalmente necesarios, sin quitar derechos legales ya adquiridos. Consulta la política de privacidad enlazada para el tratamiento de datos. Soporte: prizm_kr@hotmail.com."
       ]
-    ]
+    ],
+    "privacyUpdated": "Actualización: 26 de noviembre de 2026"
   },
   "pt-BR": {
     "label": "Português (Brasil)",
@@ -635,7 +643,7 @@
       ],
       [
         "Dados de prática ficam locais",
-        "Áudios e vídeos importados, gravações, nomes de aulas, trechos, ajustes, formas de onda e preferências são processados e armazenados no dispositivo. Não há conta nem servidor de mídia operado pelo desenvolvedor. Não enviamos conteúdo automaticamente, vendemos dados pessoais ou usamos anúncios e SDKs externos de análise, publicidade ou relatórios de falhas. A Apple pode fornecer diagnósticos separadamente conforme seus ajustes de compartilhamento."
+        "Áudios e vídeos importados, gravações, nomes de aulas, trechos, ajustes, formas de onda e preferências são processados e armazenados no dispositivo. Não há conta nem servidor de mídia operado pelo desenvolvedor. Não enviamos conteúdo automaticamente, vendemos dados pessoais ou usamos anúncios e SDKs de publicidade, SDKs independentes de análise de uso do app ou SDKs externos de relatórios de falhas. A Apple pode fornecer diagnósticos separadamente conforme seus ajustes de compartilhamento. O tratamento de dados de compras pelo RevenueCat é descrito na seção 4."
       ],
       [
         "Microfone e arquivos",
@@ -643,7 +651,7 @@
       ],
       [
         "Compras e rede",
-        "A Apple processa compras e restauração pelo StoreKit. O app verifica transações e guarda o estado de compra localmente, sem receber dados de cartão. Não usamos RevenueCat. Apple, provedores de nuvem e destinos de exportação escolhidos aplicam suas próprias políticas. Apple: https://www.apple.com/legal/privacy/ ."
+        "A Apple processa pagamentos pelo StoreKit. O EchoTake usa o RevenueCat para validar compras, restaurar o acesso e gerenciar o desbloqueio Lifetime opcional. O histórico de compras, informações de transações ou recibos, um ID de usuário anônimo do app e dados técnicos básicos, como versão, plataforma e configuração regional, podem ser enviados ao RevenueCat para funcionalidades do app, prevenção de fraude e relatórios de compras. O EchoTake não envia arquivos de aulas, gravações do microfone, nomes, endereços de e-mail ou dados de cartões de pagamento ao RevenueCat. A coleta automática de identificadores de dispositivo e os diagnósticos do SDK estão desativados na configuração do app. Os serviços de compra exigem acesso à rede; os provedores de arquivos em nuvem e destinos de exportação escolhidos também processam informações conforme suas próprias políticas. O RevenueCat trata dados de compras segundo sua política de privacidade, separadamente da biblioteca local. Apple: https://www.apple.com/legal/privacy/ . RevenueCat: https://www.revenuecat.com/privacy ."
       ],
       [
         "Retenção, exclusão e backup",
@@ -699,7 +707,8 @@
         "Alterações, encerramento e contato",
         "Você pode parar de usar ou desinstalar a qualquer momento. Alterações aparecem aqui com nova data e avisos ou consentimentos exigidos por lei, preservando direitos legais já adquiridos. Consulte a política de privacidade vinculada. Suporte: prizm_kr@hotmail.com."
       ]
-    ]
+    ],
+    "privacyUpdated": "Atualização: 26 de novembro de 2026"
   },
   "ru": {
     "label": "Русский",
@@ -713,7 +722,7 @@
       ],
       [
         "Данные занятий остаются локальными",
-        "Импортированные аудио и видео, записи микрофона, названия уроков, фрагменты, настройки, волновые формы и предпочтения обрабатываются и хранятся на устройстве. Аккаунтов и медиасервера разработчика нет. Мы не загружаем материалы автоматически, не продаём персональные данные, не показываем рекламу и не используем сторонние SDK аналитики, рекламы или отчётов о сбоях. Apple может отдельно предоставлять диагностику согласно настройкам обмена данными устройства."
+        "Импортированные аудио и видео, записи микрофона, названия уроков, фрагменты, настройки, волновые формы и предпочтения обрабатываются и хранятся на устройстве. Аккаунтов и медиасервера разработчика нет. Мы не загружаем материалы автоматически, не продаём персональные данные, не показываем рекламу и не используем рекламные SDK, отдельные SDK аналитики использования приложения или сторонние SDK отчётов о сбоях. Apple может отдельно предоставлять диагностику согласно настройкам обмена данными устройства. Обработка данных о покупках сервисом RevenueCat описана в разделе 4."
       ],
       [
         "Микрофон и файлы",
@@ -721,7 +730,7 @@
       ],
       [
         "Покупки и сеть",
-        "Apple обрабатывает покупки и восстановление через StoreKit. Приложение проверяет транзакции и хранит статус покупки локально, не получая данные карты. RevenueCat не используется. Apple, выбранные облачные провайдеры и получатели экспорта действуют по своим политикам. Apple: https://www.apple.com/legal/privacy/ ."
+        "Apple обрабатывает платежи через StoreKit. EchoTake использует RevenueCat для проверки покупок, восстановления доступа и управления необязательной покупкой Lifetime. История покупок, сведения о транзакциях или чеках, анонимный идентификатор пользователя приложения и базовые технические сведения, например версия приложения, платформа и региональные настройки, могут передаваться RevenueCat для работы функций приложения, предотвращения мошенничества и отчётов о покупках. EchoTake не передаёт RevenueCat файлы уроков, записи микрофона, имена, адреса электронной почты или данные платёжных карт. В конфигурации приложения отключены автоматический сбор идентификаторов устройства и диагностика SDK. Сервисам покупок требуется доступ к сети; выбранные облачные файловые сервисы и получатели экспорта также обрабатывают информацию по собственным правилам. RevenueCat обрабатывает данные о покупках по своей политике конфиденциальности отдельно от локальной медиатеки. Apple: https://www.apple.com/legal/privacy/ . RevenueCat: https://www.revenuecat.com/privacy ."
       ],
       [
         "Хранение, удаление и копии",
@@ -777,6 +786,7 @@
         "Изменения, прекращение и контакт",
         "Можно прекратить использование или удалить приложение в любое время. Изменения публикуются здесь с новой датой и необходимым по закону уведомлением или согласием, без отмены уже возникших законных прав. Обработка данных описана в связанной политике. Поддержка: prizm_kr@hotmail.com."
       ]
-    ]
+    ],
+    "privacyUpdated": "Обновлено: 26 ноября 2026 года"
   }
 }
